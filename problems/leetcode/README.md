@@ -16,7 +16,7 @@ This repository contains detailed explanations and solution strategies for selec
 | leetcode-1038.md     | BST to Greater Sum Tree               |
 | leetcode-2197.md     | Replace Non-Coprime Numbers in Array  |
 | Leetcode-976.md      | Largest Perimeter Triangle            |
-
+| Leetcode-1039.md     | Minimum Score Triangulation of Polygon |
 ---
 
 ## 📌 Highlights
