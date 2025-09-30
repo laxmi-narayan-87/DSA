@@ -17,6 +17,7 @@ This repository contains detailed explanations and solution strategies for selec
 | leetcode-2197.md     | Replace Non-Coprime Numbers in Array  |
 | Leetcode-976.md      | Largest Perimeter Triangle            |
 | Leetcode-1039.md     | Minimum Score Triangulation of Polygon |
+| Leetcode-2221.md     | Find Triangular Sum of an Array        |
 ---
 
 ## 📌 Highlights
