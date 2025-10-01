@@ -18,6 +18,7 @@ This repository contains detailed explanations and solution strategies for selec
 | Leetcode-976.md      | Largest Perimeter Triangle            |
 | Leetcode-1039.md     | Minimum Score Triangulation of Polygon |
 | Leetcode-2221.md     | Find Triangular Sum of an Array        |
+|LeetCode-1518.md      | Water Bottles                          |
 ---
 
 ## 📌 Highlights
