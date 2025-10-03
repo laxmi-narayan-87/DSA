@@ -19,6 +19,8 @@ This repository contains detailed explanations and solution strategies for selec
 | Leetcode-1039.md     | Minimum Score Triangulation of Polygon |
 | Leetcode-2221.md     | Find Triangular Sum of an Array        |
 |LeetCode-1518.md      | Water Bottles                          |
+| Leetcode-3100.md     | Water Bottles II                       |
+|Leetcode-407.md       | Trapping Rain Water II                 |
 ---
 
 ## 📌 Highlights
