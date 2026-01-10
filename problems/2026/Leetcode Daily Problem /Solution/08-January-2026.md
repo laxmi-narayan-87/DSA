@@ -6,7 +6,7 @@ Given two arrays `nums1` and `nums2`, return the **maximum dot product** between
 
 **Problem Link:** [LeetCode 1458 - Max Dot Product of Two Subsequences](https://leetcode.com/problems/max-dot-product-of-two-subsequences/)
 
-**Related:** [January 2026 Daily Problem](https://github.com/laxmi-narayan-87/DSA/blob/main/problems/2026/Leetcode%20Daily%20Problem%20/Question/8-January-2026.md)
+**Related:** [January 2026 Daily Problem](https://github.com/laxmi-narayan-87/DSA/blob/main/problems/2026/Leetcode%20Daily%20Problem%20/Question/08-January-2026.md)
 
 ---
 
