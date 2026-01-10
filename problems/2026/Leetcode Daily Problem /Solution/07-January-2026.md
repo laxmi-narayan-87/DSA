@@ -6,7 +6,7 @@ Given the `root` of a binary tree, split the tree into two subtrees by removing 
 
 **Problem Link:** [LeetCode 1339 - Maximum Product of Splitted Binary Tree](https://leetcode.com/problems/maximum-product-of-splitted-binary-tree/)
 
-**Related:** [January 2026 Daily Problem](https://github.com/laxmi-narayan-87/DSA/blob/main/problems/2026/Leetcode%20Daily%20Problem%20/Question/7-January-2026.md)
+**Related:** [January 2026 Daily Problem](https://github.com/laxmi-narayan-87/DSA/blob/main/problems/2026/Leetcode%20Daily%20Problem%20/Question/07-January-2026.md)
 
 ---
 
