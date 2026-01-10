@@ -6,7 +6,7 @@ Given an integer array `nums`, return the **sum of divisors** of the integers in
 
 **Problem Link:** [LeetCode 1390 - Four Divisors](https://leetcode.com/problems/four-divisors/)
 
-**Related:** [January 2026 Daily Problem](https://github.com/laxmi-narayan-87/DSA/blob/main/problems/2026/Leetcode%20Daily%20Problem%20/Question/4-January-2026.md)
+**Related:** [January 2026 Daily Problem](https://github.com/laxmi-narayan-87/DSA/blob/main/problems/2026/Leetcode%20Daily%20Problem%20/Question/04-January-2026.md)
 
 ---
 
