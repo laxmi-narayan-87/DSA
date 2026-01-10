@@ -6,7 +6,7 @@ You are given an `n × n` integer matrix. You can perform the following operatio
 
 **Problem Link:** [LeetCode 1975 - Maximum Matrix Sum](https://leetcode.com/problems/maximum-matrix-sum/)
 
-**Related:** [January 2026 Daily Problem](https://github.com/laxmi-narayan-87/DSA/blob/main/problems/2026/Leetcode%20Daily%20Problem%20/Question/5-January-2026.md)
+**Related:** [January 2026 Daily Problem](https://github.com/laxmi-narayan-87/DSA/blob/main/problems/2026/Leetcode%20Daily%20Problem%20/Question/05-January-2026.md)
 
 ---
 
