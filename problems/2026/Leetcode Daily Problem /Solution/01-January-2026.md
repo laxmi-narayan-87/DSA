@@ -6,7 +6,7 @@ Given a large integer represented as an array of digits, increment it by one and
 
 **Problem Link:** [LeetCode 66 - Plus One](https://leetcode.com/problems/plus-one/)
 
-**Related:** [January 2026 Daily Problem](https://github.com/laxmi-narayan-87/DSA/blob/main/problems/2026/Leetcode%20Daily%20Problem%20/Question/1-January-2026.md)
+**Related:** [January 2026 Daily Problem](https://github.com/laxmi-narayan-87/DSA/blob/main/problems/2026/Leetcode%20Daily%20Problem%20/Question/01-January-2026.md)
 
 ---
 
