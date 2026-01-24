@@ -1,48 +1,48 @@
-# 1877. Minimize Maximum Pair Sum in Array
+# 3510. Minimum Pair Removal to Sort Array II
 
-**Difficulty:** Medium
+**Difficulty:** Hard
 
 ## Problem Description
 
-The pair sum of a pair (a,b) is equal to a + b. The maximum pair sum is the largest pair sum in a list of pairs.
+Given an array `nums`, you can perform the following operation any number of times:
 
-For example, if we have pairs (1,5), (2,3), and (4,4), the maximum pair sum would be max(1+5, 2+3, 4+4) = max(6, 5, 8) = 8.
+- Select the adjacent pair with the minimum sum in `nums`. If multiple such pairs exist, choose the leftmost one.
+- Replace the pair with their sum.
 
-Given an array `nums` of even length `n`, pair up the elements of `nums` into `n / 2` pairs such that:
+Return the minimum number of operations needed to make the array non-decreasing.
 
-- Each element of `nums` is in exactly one pair, and
-- The maximum pair sum is minimized.
-
-Return the minimized maximum pair sum after optimally pairing up the elements.
+An array is said to be non-decreasing if each element is greater than or equal to its previous element (if it exists).
 
 ## Examples
 
 ### Example 1:
 ```
-Input: nums = [3,5,2,3]
-Output: 7
-Explanation: The elements can be paired up into pairs (3,3) and (5,2).
-The maximum pair sum is max(3+3, 5+2) = max(6, 7) = 7.
+Input: nums = [5,2,3,1]
+Output: 2
+
+Explanation:
+- The pair (3,1) has the minimum sum of 4. After replacement, nums = [5,2,4].
+- The pair (2,4) has the minimum sum of 6. After replacement, nums = [5,6].
+- The array nums became non-decreasing in two operations.
 ```
 
 ### Example 2:
 ```
-Input: nums = [3,5,4,2,4,6]
-Output: 8
-Explanation: The elements can be paired up into pairs (3,5), (4,4), and (6,2).
-The maximum pair sum is max(3+5, 4+4, 6+2) = max(8, 8, 8) = 8.
+Input: nums = [1,2,2]
+Output: 0
+
+Explanation:
+The array nums is already sorted.
 ```
 
 ## Constraints
 
-- `n == nums.length`
-- `2 <= n <= 10^5`
-- `n` is even
-- `1 <= nums[i] <= 10^5`
+- `1 <= nums.length <= 10^5`
+- `-10^9 <= nums[i] <= 10^9`
 
 ## Topics
 
 - Array
-- Two Pointers
 - Greedy
-- Sorting
+- Heap (Priority Queue)
+- Simulation
