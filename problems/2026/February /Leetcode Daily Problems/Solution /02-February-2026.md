@@ -6,7 +6,7 @@ Find the minimum sum of costs when dividing array `nums` into `k` disjoint conti
 
 **Problem Link:** [LeetCode 3013 - Divide an Array Into Subarrays With Minimum Cost II](https://leetcode.com/problems/divide-an-array-into-subarrays-with-minimum-cost-ii/)
 
-**Related:** [February 2026 Daily Problem](https://github.com/laxmi-narayan-87/DSA/blob/main/problems/2026/February%20/Leetcode%20Daily%20Problems/Question/2-February-2026.md)
+**Related:** [February 2026 Daily Problem](https://github.com/laxmi-narayan-87/DSA/blob/main/problems/2026/February%20/Leetcode%20Daily%20Problems/Question/02-February-2026.md)
 
 ---
 
