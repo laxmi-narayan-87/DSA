@@ -6,7 +6,7 @@ Find the minimum sum of costs when dividing array `nums` into 3 disjoint contigu
 
 **Problem Link:** [LeetCode 3010 - Divide an Array Into Subarrays With Minimum Cost I](https://leetcode.com/problems/divide-an-array-into-subarrays-with-minimum-cost-i/)
 
-**Related:** [February 2026 Daily Problem](https://github.com/laxmi-narayan-87/DSA/blob/main/problems/2026/February%20/Leetcode%20Daily%20Problems/Question/1-February-2026.md)
+**Related:** [February 2026 Daily Problem](https://github.com/laxmi-narayan-87/DSA/blob/main/problems/2026/February%20/Leetcode%20Daily%20Problems/Question/01-February-2026.md)
 
 ---
 
