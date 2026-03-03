@@ -176,4 +176,8 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [1545-find-kth-bit-in-nth-binary-string](https://github.com/laxmi-narayan-87/DSA/tree/main/1545-find-kth-bit-in-nth-binary-string/) | Medium |
+## Database
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0595-big-countries](https://github.com/laxmi-narayan-87/DSA/tree/main/MySQL/Easy/0595-big-countries/) | Easy |
 <!---LeetCode Topics End-->
