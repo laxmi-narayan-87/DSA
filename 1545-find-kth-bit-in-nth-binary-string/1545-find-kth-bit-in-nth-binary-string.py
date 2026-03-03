@@ -1,12 +1,12 @@
 class Solution:
     def findKthBit(self, n: int, k: int) -> str:
-        def reverse_and_inverse(s):
-            s.reverse()
-            s = [1 if c == 0 else 0 for c in s]
-            return s
-        res = [0]
-        for i in range(1, n):
-            res = res + [1] + reverse_and_inverse(res)
-            if len(res) > k - 1:
-                return str(res[k - 1])
-        return str(res[k - 1])
+        if n == 1:
+            return "0"
+        mid = 1 << (n - 1)
+        if k == mid:
+            return "1"
+        if k < mid:
+            return self.findKthBit(n - 1, k)
+        mirrored = (1 << n) - k
+        bit = self.findKthBit(n - 1, mirrored)
+        return "1" if bit == "0" else "0"
