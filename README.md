@@ -161,6 +161,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 | [0014-longest-common-prefix](https://github.com/laxmi-narayan-87/DSA/tree/main/0014-longest-common-prefix/) | Easy |
 | [1582-special-positions-in-a-binary-matrix](https://github.com/laxmi-narayan-87/DSA/tree/main/Python3/Easy/1582-special-positions-in-a-binary-matrix/) | Easy |
 | [1980-find-unique-binary-string](https://github.com/laxmi-narayan-87/DSA/tree/main/Python3/Medium/1980-find-unique-binary-string/) | Medium |
+| [3354-make-array-elements-equal-to-zero](https://github.com/laxmi-narayan-87/DSA/tree/main/Python3/Easy/3354-make-array-elements-equal-to-zero/) | Easy |
 ## String
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -179,6 +180,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [1545-find-kth-bit-in-nth-binary-string](https://github.com/laxmi-narayan-87/DSA/tree/main/1545-find-kth-bit-in-nth-binary-string/) | Medium |
+| [3354-make-array-elements-equal-to-zero](https://github.com/laxmi-narayan-87/DSA/tree/main/Python3/Easy/3354-make-array-elements-equal-to-zero/) | Easy |
 ## Database
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -195,4 +197,8 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [1980-find-unique-binary-string](https://github.com/laxmi-narayan-87/DSA/tree/main/Python3/Medium/1980-find-unique-binary-string/) | Medium |
+## Prefix Sum
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [3354-make-array-elements-equal-to-zero](https://github.com/laxmi-narayan-87/DSA/tree/main/Python3/Easy/3354-make-array-elements-equal-to-zero/) | Easy |
 <!---LeetCode Topics End-->
