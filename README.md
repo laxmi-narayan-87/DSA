@@ -201,4 +201,8 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [3354-make-array-elements-equal-to-zero](https://github.com/laxmi-narayan-87/DSA/tree/main/Python3/Easy/3354-make-array-elements-equal-to-zero/) | Easy |
+## Bit Manipulation
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [1009-complement-of-base-10-integer](https://github.com/laxmi-narayan-87/DSA/tree/main/Python3/Easy/1009-complement-of-base-10-integer/) | Easy |
 <!---LeetCode Topics End-->
