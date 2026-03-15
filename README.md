@@ -210,4 +210,16 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 | ------- | ------- |
 | [1009-complement-of-base-10-integer](https://github.com/laxmi-narayan-87/DSA/tree/main/Python3/Easy/1009-complement-of-base-10-integer/) | Easy |
 | [1018-binary-prefix-divisible-by-5](https://github.com/laxmi-narayan-87/DSA/tree/main/Python3/Easy/1018-binary-prefix-divisible-by-5/) | Easy |
+## Math
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [1622-fancy-sequence](https://github.com/laxmi-narayan-87/DSA/tree/main/Python3/Hard/1622-fancy-sequence/) | Hard |
+## Design
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [1622-fancy-sequence](https://github.com/laxmi-narayan-87/DSA/tree/main/Python3/Hard/1622-fancy-sequence/) | Hard |
+## Segment Tree
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [1622-fancy-sequence](https://github.com/laxmi-narayan-87/DSA/tree/main/Python3/Hard/1622-fancy-sequence/) | Hard |
 <!---LeetCode Topics End-->
