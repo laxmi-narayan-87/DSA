@@ -159,6 +159,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0014-longest-common-prefix](https://github.com/laxmi-narayan-87/DSA/tree/main/0014-longest-common-prefix/) | Easy |
+| [0054-spiral-matrix](https://github.com/laxmi-narayan-87/DSA/tree/main/Python3/Medium/0054-spiral-matrix/) | Medium |
 | [1018-binary-prefix-divisible-by-5](https://github.com/laxmi-narayan-87/DSA/tree/main/Python3/Easy/1018-binary-prefix-divisible-by-5/) | Easy |
 | [1582-special-positions-in-a-binary-matrix](https://github.com/laxmi-narayan-87/DSA/tree/main/Python3/Easy/1582-special-positions-in-a-binary-matrix/) | Easy |
 | [1886-determine-whether-matrix-can-be-obtained-by-rotation](https://github.com/laxmi-narayan-87/DSA/tree/main/Python3/Easy/1886-determine-whether-matrix-can-be-obtained-by-rotation/) | Easy |
@@ -186,6 +187,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ## Simulation
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0054-spiral-matrix](https://github.com/laxmi-narayan-87/DSA/tree/main/Python3/Medium/0054-spiral-matrix/) | Medium |
 | [1545-find-kth-bit-in-nth-binary-string](https://github.com/laxmi-narayan-87/DSA/tree/main/1545-find-kth-bit-in-nth-binary-string/) | Medium |
 | [3354-make-array-elements-equal-to-zero](https://github.com/laxmi-narayan-87/DSA/tree/main/Python3/Easy/3354-make-array-elements-equal-to-zero/) | Easy |
 ## Database
@@ -195,6 +197,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ## Matrix
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0054-spiral-matrix](https://github.com/laxmi-narayan-87/DSA/tree/main/Python3/Medium/0054-spiral-matrix/) | Medium |
 | [1582-special-positions-in-a-binary-matrix](https://github.com/laxmi-narayan-87/DSA/tree/main/Python3/Easy/1582-special-positions-in-a-binary-matrix/) | Easy |
 | [1886-determine-whether-matrix-can-be-obtained-by-rotation](https://github.com/laxmi-narayan-87/DSA/tree/main/Python3/Easy/1886-determine-whether-matrix-can-be-obtained-by-rotation/) | Easy |
 ## Hash Table
