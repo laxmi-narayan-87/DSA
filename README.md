@@ -231,4 +231,16 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [1622-fancy-sequence](https://github.com/laxmi-narayan-87/DSA/tree/main/Python3/Hard/1622-fancy-sequence/) | Hard |
+## Two Pointers
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [3722-lexicographically-smallest-string-after-reverse](https://github.com/laxmi-narayan-87/DSA/tree/main/Python3/Medium/3722-lexicographically-smallest-string-after-reverse/) | Medium |
+## Binary Search
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [3722-lexicographically-smallest-string-after-reverse](https://github.com/laxmi-narayan-87/DSA/tree/main/Python3/Medium/3722-lexicographically-smallest-string-after-reverse/) | Medium |
+## Enumeration
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [3722-lexicographically-smallest-string-after-reverse](https://github.com/laxmi-narayan-87/DSA/tree/main/Python3/Medium/3722-lexicographically-smallest-string-after-reverse/) | Medium |
 <!---LeetCode Topics End-->
