@@ -226,6 +226,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 | ------- | ------- |
 | [0050-powx-n](https://github.com/laxmi-narayan-87/DSA/tree/main/Python3/Medium/0050-powx-n/) | Medium |
 | [1622-fancy-sequence](https://github.com/laxmi-narayan-87/DSA/tree/main/Python3/Hard/1622-fancy-sequence/) | Hard |
+| [2525-categorize-box-according-to-criteria](https://github.com/laxmi-narayan-87/DSA/tree/main/Python3/Easy/2525-categorize-box-according-to-criteria/) | Easy |
 ## Design
 | Problem Name | Difficulty |
 | ------- | ------- |
