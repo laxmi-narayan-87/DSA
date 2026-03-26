@@ -168,6 +168,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 | [3349-adjacent-increasing-subarrays-detection-i](https://github.com/laxmi-narayan-87/DSA/tree/main/Python3/Easy/3349-adjacent-increasing-subarrays-detection-i/) | Easy |
 | [3354-make-array-elements-equal-to-zero](https://github.com/laxmi-narayan-87/DSA/tree/main/Python3/Easy/3354-make-array-elements-equal-to-zero/) | Easy |
 | [3546-equal-sum-grid-partition-i](https://github.com/laxmi-narayan-87/DSA/tree/main/Python3/Medium/3546-equal-sum-grid-partition-i/) | Medium |
+| [3548-equal-sum-grid-partition-ii](https://github.com/laxmi-narayan-87/DSA/tree/main/Python3/Hard/3548-equal-sum-grid-partition-ii/) | Hard |
 ## String
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -204,10 +205,12 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 | [1886-determine-whether-matrix-can-be-obtained-by-rotation](https://github.com/laxmi-narayan-87/DSA/tree/main/Python3/Easy/1886-determine-whether-matrix-can-be-obtained-by-rotation/) | Easy |
 | [2906-construct-product-matrix](https://github.com/laxmi-narayan-87/DSA/tree/main/Python3/Medium/2906-construct-product-matrix/) | Medium |
 | [3546-equal-sum-grid-partition-i](https://github.com/laxmi-narayan-87/DSA/tree/main/Python3/Medium/3546-equal-sum-grid-partition-i/) | Medium |
+| [3548-equal-sum-grid-partition-ii](https://github.com/laxmi-narayan-87/DSA/tree/main/Python3/Hard/3548-equal-sum-grid-partition-ii/) | Hard |
 ## Hash Table
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [1980-find-unique-binary-string](https://github.com/laxmi-narayan-87/DSA/tree/main/Python3/Medium/1980-find-unique-binary-string/) | Medium |
+| [3548-equal-sum-grid-partition-ii](https://github.com/laxmi-narayan-87/DSA/tree/main/Python3/Hard/3548-equal-sum-grid-partition-ii/) | Hard |
 ## Backtracking
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -219,6 +222,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 | [2906-construct-product-matrix](https://github.com/laxmi-narayan-87/DSA/tree/main/Python3/Medium/2906-construct-product-matrix/) | Medium |
 | [3354-make-array-elements-equal-to-zero](https://github.com/laxmi-narayan-87/DSA/tree/main/Python3/Easy/3354-make-array-elements-equal-to-zero/) | Easy |
 | [3546-equal-sum-grid-partition-i](https://github.com/laxmi-narayan-87/DSA/tree/main/Python3/Medium/3546-equal-sum-grid-partition-i/) | Medium |
+| [3548-equal-sum-grid-partition-ii](https://github.com/laxmi-narayan-87/DSA/tree/main/Python3/Hard/3548-equal-sum-grid-partition-ii/) | Hard |
 ## Bit Manipulation
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -250,5 +254,6 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [3546-equal-sum-grid-partition-i](https://github.com/laxmi-narayan-87/DSA/tree/main/Python3/Medium/3546-equal-sum-grid-partition-i/) | Medium |
+| [3548-equal-sum-grid-partition-ii](https://github.com/laxmi-narayan-87/DSA/tree/main/Python3/Hard/3548-equal-sum-grid-partition-ii/) | Hard |
 | [3722-lexicographically-smallest-string-after-reverse](https://github.com/laxmi-narayan-87/DSA/tree/main/Python3/Medium/3722-lexicographically-smallest-string-after-reverse/) | Medium |
 <!---LeetCode Topics End-->
