@@ -179,6 +179,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 | [1758-minimum-changes-to-make-alternating-binary-string](https://github.com/laxmi-narayan-87/DSA/tree/main/Python3/Easy/1758-minimum-changes-to-make-alternating-binary-string/) | Easy |
 | [1784-check-if-binary-string-has-at-most-one-segment-of-ones](https://github.com/laxmi-narayan-87/DSA/tree/main/Python3/Easy/1784-check-if-binary-string-has-at-most-one-segment-of-ones/) | Easy |
 | [1980-find-unique-binary-string](https://github.com/laxmi-narayan-87/DSA/tree/main/Python3/Medium/1980-find-unique-binary-string/) | Medium |
+| [2839-check-if-strings-can-be-made-equal-with-operations-i](https://github.com/laxmi-narayan-87/DSA/tree/main/Python3/Easy/2839-check-if-strings-can-be-made-equal-with-operations-i/) | Easy |
 ## Trie
 | Problem Name | Difficulty |
 | ------- | ------- |
