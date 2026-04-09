@@ -200,6 +200,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ## Database
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0584-find-customer-referee](https://github.com/laxmi-narayan-87/DSA/tree/main/MySQL/Easy/0584-find-customer-referee/) | Easy |
 | [0595-big-countries](https://github.com/laxmi-narayan-87/DSA/tree/main/MySQL/Easy/0595-big-countries/) | Easy |
 | [1757-recyclable-and-low-fat-products](https://github.com/laxmi-narayan-87/DSA/tree/main/MySQL/Easy/1757-recyclable-and-low-fat-products/) | Easy |
 ## Matrix
