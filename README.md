@@ -164,6 +164,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 | [1582-special-positions-in-a-binary-matrix](https://github.com/laxmi-narayan-87/DSA/tree/main/Python3/Easy/1582-special-positions-in-a-binary-matrix/) | Easy |
 | [1886-determine-whether-matrix-can-be-obtained-by-rotation](https://github.com/laxmi-narayan-87/DSA/tree/main/Python3/Easy/1886-determine-whether-matrix-can-be-obtained-by-rotation/) | Easy |
 | [1980-find-unique-binary-string](https://github.com/laxmi-narayan-87/DSA/tree/main/Python3/Medium/1980-find-unique-binary-string/) | Medium |
+| [2149-rearrange-array-elements-by-sign](https://github.com/laxmi-narayan-87/DSA/tree/main/Python3/Medium/2149-rearrange-array-elements-by-sign/) | Medium |
 | [2906-construct-product-matrix](https://github.com/laxmi-narayan-87/DSA/tree/main/Python3/Medium/2906-construct-product-matrix/) | Medium |
 | [2946-matrix-similarity-after-cyclic-shifts](https://github.com/laxmi-narayan-87/DSA/tree/main/Python3/Easy/2946-matrix-similarity-after-cyclic-shifts/) | Easy |
 | [3349-adjacent-increasing-subarrays-detection-i](https://github.com/laxmi-narayan-87/DSA/tree/main/Python3/Easy/3349-adjacent-increasing-subarrays-detection-i/) | Easy |
@@ -195,6 +196,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 | ------- | ------- |
 | [0054-spiral-matrix](https://github.com/laxmi-narayan-87/DSA/tree/main/Python3/Medium/0054-spiral-matrix/) | Medium |
 | [1545-find-kth-bit-in-nth-binary-string](https://github.com/laxmi-narayan-87/DSA/tree/main/1545-find-kth-bit-in-nth-binary-string/) | Medium |
+| [2149-rearrange-array-elements-by-sign](https://github.com/laxmi-narayan-87/DSA/tree/main/Python3/Medium/2149-rearrange-array-elements-by-sign/) | Medium |
 | [2946-matrix-similarity-after-cyclic-shifts](https://github.com/laxmi-narayan-87/DSA/tree/main/Python3/Easy/2946-matrix-similarity-after-cyclic-shifts/) | Easy |
 | [3354-make-array-elements-equal-to-zero](https://github.com/laxmi-narayan-87/DSA/tree/main/Python3/Easy/3354-make-array-elements-equal-to-zero/) | Easy |
 ## Database
@@ -259,6 +261,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ## Two Pointers
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [2149-rearrange-array-elements-by-sign](https://github.com/laxmi-narayan-87/DSA/tree/main/Python3/Medium/2149-rearrange-array-elements-by-sign/) | Medium |
 | [3722-lexicographically-smallest-string-after-reverse](https://github.com/laxmi-narayan-87/DSA/tree/main/Python3/Medium/3722-lexicographically-smallest-string-after-reverse/) | Medium |
 ## Binary Search
 | Problem Name | Difficulty |
