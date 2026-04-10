@@ -246,6 +246,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0050-powx-n](https://github.com/laxmi-narayan-87/DSA/tree/main/Python3/Medium/0050-powx-n/) | Medium |
+| [0367-valid-perfect-square](https://github.com/laxmi-narayan-87/DSA/tree/main/Python3/Easy/0367-valid-perfect-square/) | Easy |
 | [0445-add-two-numbers-ii](https://github.com/laxmi-narayan-87/DSA/tree/main/Python3/Medium/0445-add-two-numbers-ii/) | Medium |
 | [1622-fancy-sequence](https://github.com/laxmi-narayan-87/DSA/tree/main/Python3/Hard/1622-fancy-sequence/) | Hard |
 | [2525-categorize-box-according-to-criteria](https://github.com/laxmi-narayan-87/DSA/tree/main/Python3/Easy/2525-categorize-box-according-to-criteria/) | Easy |
@@ -266,6 +267,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ## Binary Search
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0367-valid-perfect-square](https://github.com/laxmi-narayan-87/DSA/tree/main/Python3/Easy/0367-valid-perfect-square/) | Easy |
 | [3722-lexicographically-smallest-string-after-reverse](https://github.com/laxmi-narayan-87/DSA/tree/main/Python3/Medium/3722-lexicographically-smallest-string-after-reverse/) | Medium |
 ## Enumeration
 | Problem Name | Difficulty |
