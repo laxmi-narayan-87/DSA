@@ -209,6 +209,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 | [1148-article-views-i](https://github.com/laxmi-narayan-87/DSA/tree/main/MySQL/Easy/1148-article-views-i/) | Easy |
 | [1378-replace-employee-id-with-the-unique-identifier](https://github.com/laxmi-narayan-87/DSA/tree/main/MySQL/Easy/1378-replace-employee-id-with-the-unique-identifier/) | Easy |
 | [1581-customer-who-visited-but-did-not-make-any-transactions](https://github.com/laxmi-narayan-87/DSA/tree/main/MySQL/Easy/1581-customer-who-visited-but-did-not-make-any-transactions/) | Easy |
+| [1661-average-time-of-process-per-machine](https://github.com/laxmi-narayan-87/DSA/tree/main/MySQL/Easy/1661-average-time-of-process-per-machine/) | Easy |
 | [1683-invalid-tweets](https://github.com/laxmi-narayan-87/DSA/tree/main/MySQL/Easy/1683-invalid-tweets/) | Easy |
 | [1757-recyclable-and-low-fat-products](https://github.com/laxmi-narayan-87/DSA/tree/main/MySQL/Easy/1757-recyclable-and-low-fat-products/) | Easy |
 ## Matrix
