@@ -203,6 +203,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0197-rising-temperature](https://github.com/laxmi-narayan-87/DSA/tree/main/MySQL/Easy/0197-rising-temperature/) | Easy |
+| [0570-managers-with-at-least-5-direct-reports](https://github.com/laxmi-narayan-87/DSA/tree/main/MySQL/Medium/0570-managers-with-at-least-5-direct-reports/) | Medium |
 | [0577-employee-bonus](https://github.com/laxmi-narayan-87/DSA/tree/main/MySQL/Easy/0577-employee-bonus/) | Easy |
 | [0584-find-customer-referee](https://github.com/laxmi-narayan-87/DSA/tree/main/MySQL/Easy/0584-find-customer-referee/) | Easy |
 | [0595-big-countries](https://github.com/laxmi-narayan-87/DSA/tree/main/MySQL/Easy/0595-big-countries/) | Easy |
