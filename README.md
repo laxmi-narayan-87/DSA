@@ -207,6 +207,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 | [0577-employee-bonus](https://github.com/laxmi-narayan-87/DSA/tree/main/MySQL/Easy/0577-employee-bonus/) | Easy |
 | [0584-find-customer-referee](https://github.com/laxmi-narayan-87/DSA/tree/main/MySQL/Easy/0584-find-customer-referee/) | Easy |
 | [0595-big-countries](https://github.com/laxmi-narayan-87/DSA/tree/main/MySQL/Easy/0595-big-countries/) | Easy |
+| [0620-not-boring-movies](https://github.com/laxmi-narayan-87/DSA/tree/main/MySQL/Easy/0620-not-boring-movies/) | Easy |
 | [1068-product-sales-analysis-i](https://github.com/laxmi-narayan-87/DSA/tree/main/MySQL/Easy/1068-product-sales-analysis-i/) | Easy |
 | [1148-article-views-i](https://github.com/laxmi-narayan-87/DSA/tree/main/MySQL/Easy/1148-article-views-i/) | Easy |
 | [1280-students-and-examinations](https://github.com/laxmi-narayan-87/DSA/tree/main/MySQL/Easy/1280-students-and-examinations/) | Easy |
