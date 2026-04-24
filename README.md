@@ -210,6 +210,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 | [0620-not-boring-movies](https://github.com/laxmi-narayan-87/DSA/tree/main/MySQL/Easy/0620-not-boring-movies/) | Easy |
 | [1068-product-sales-analysis-i](https://github.com/laxmi-narayan-87/DSA/tree/main/MySQL/Easy/1068-product-sales-analysis-i/) | Easy |
 | [1148-article-views-i](https://github.com/laxmi-narayan-87/DSA/tree/main/MySQL/Easy/1148-article-views-i/) | Easy |
+| [1251-average-selling-price](https://github.com/laxmi-narayan-87/DSA/tree/main/MySQL/Easy/1251-average-selling-price/) | Easy |
 | [1280-students-and-examinations](https://github.com/laxmi-narayan-87/DSA/tree/main/MySQL/Easy/1280-students-and-examinations/) | Easy |
 | [1378-replace-employee-id-with-the-unique-identifier](https://github.com/laxmi-narayan-87/DSA/tree/main/MySQL/Easy/1378-replace-employee-id-with-the-unique-identifier/) | Easy |
 | [1581-customer-who-visited-but-did-not-make-any-transactions](https://github.com/laxmi-narayan-87/DSA/tree/main/MySQL/Easy/1581-customer-who-visited-but-did-not-make-any-transactions/) | Easy |
