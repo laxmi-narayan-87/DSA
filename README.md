@@ -160,6 +160,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 | ------- | ------- |
 | [0014-longest-common-prefix](https://github.com/laxmi-narayan-87/DSA/tree/main/0014-longest-common-prefix/) | Easy |
 | [0054-spiral-matrix](https://github.com/laxmi-narayan-87/DSA/tree/main/Python3/Medium/0054-spiral-matrix/) | Medium |
+| [0073-set-matrix-zeroes](https://github.com/laxmi-narayan-87/DSA/tree/main/Python3/Medium/0073-set-matrix-zeroes/) | Medium |
 | [1018-binary-prefix-divisible-by-5](https://github.com/laxmi-narayan-87/DSA/tree/main/Python3/Easy/1018-binary-prefix-divisible-by-5/) | Easy |
 | [1582-special-positions-in-a-binary-matrix](https://github.com/laxmi-narayan-87/DSA/tree/main/Python3/Easy/1582-special-positions-in-a-binary-matrix/) | Easy |
 | [1886-determine-whether-matrix-can-be-obtained-by-rotation](https://github.com/laxmi-narayan-87/DSA/tree/main/Python3/Easy/1886-determine-whether-matrix-can-be-obtained-by-rotation/) | Easy |
@@ -222,6 +223,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0054-spiral-matrix](https://github.com/laxmi-narayan-87/DSA/tree/main/Python3/Medium/0054-spiral-matrix/) | Medium |
+| [0073-set-matrix-zeroes](https://github.com/laxmi-narayan-87/DSA/tree/main/Python3/Medium/0073-set-matrix-zeroes/) | Medium |
 | [1582-special-positions-in-a-binary-matrix](https://github.com/laxmi-narayan-87/DSA/tree/main/Python3/Easy/1582-special-positions-in-a-binary-matrix/) | Easy |
 | [1886-determine-whether-matrix-can-be-obtained-by-rotation](https://github.com/laxmi-narayan-87/DSA/tree/main/Python3/Easy/1886-determine-whether-matrix-can-be-obtained-by-rotation/) | Easy |
 | [2906-construct-product-matrix](https://github.com/laxmi-narayan-87/DSA/tree/main/Python3/Medium/2906-construct-product-matrix/) | Medium |
@@ -231,6 +233,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ## Hash Table
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0073-set-matrix-zeroes](https://github.com/laxmi-narayan-87/DSA/tree/main/Python3/Medium/0073-set-matrix-zeroes/) | Medium |
 | [1980-find-unique-binary-string](https://github.com/laxmi-narayan-87/DSA/tree/main/Python3/Medium/1980-find-unique-binary-string/) | Medium |
 | [3548-equal-sum-grid-partition-ii](https://github.com/laxmi-narayan-87/DSA/tree/main/Python3/Hard/3548-equal-sum-grid-partition-ii/) | Hard |
 ## Backtracking
