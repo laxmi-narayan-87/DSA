@@ -159,6 +159,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0014-longest-common-prefix](https://github.com/laxmi-narayan-87/DSA/tree/main/0014-longest-common-prefix/) | Easy |
+| [0031-next-permutation](https://github.com/laxmi-narayan-87/DSA/tree/main/Python3/Medium/0031-next-permutation/) | Medium |
 | [0054-spiral-matrix](https://github.com/laxmi-narayan-87/DSA/tree/main/Python3/Medium/0054-spiral-matrix/) | Medium |
 | [0073-set-matrix-zeroes](https://github.com/laxmi-narayan-87/DSA/tree/main/Python3/Medium/0073-set-matrix-zeroes/) | Medium |
 | [1018-binary-prefix-divisible-by-5](https://github.com/laxmi-narayan-87/DSA/tree/main/Python3/Easy/1018-binary-prefix-divisible-by-5/) | Easy |
@@ -273,6 +274,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ## Two Pointers
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0031-next-permutation](https://github.com/laxmi-narayan-87/DSA/tree/main/Python3/Medium/0031-next-permutation/) | Medium |
 | [2149-rearrange-array-elements-by-sign](https://github.com/laxmi-narayan-87/DSA/tree/main/Python3/Medium/2149-rearrange-array-elements-by-sign/) | Medium |
 | [3722-lexicographically-smallest-string-after-reverse](https://github.com/laxmi-narayan-87/DSA/tree/main/Python3/Medium/3722-lexicographically-smallest-string-after-reverse/) | Medium |
 ## Binary Search
