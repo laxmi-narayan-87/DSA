@@ -160,6 +160,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 | ------- | ------- |
 | [0014-longest-common-prefix](https://github.com/laxmi-narayan-87/DSA/tree/main/0014-longest-common-prefix/) | Easy |
 | [0031-next-permutation](https://github.com/laxmi-narayan-87/DSA/tree/main/Python3/Medium/0031-next-permutation/) | Medium |
+| [0048-rotate-image](https://github.com/laxmi-narayan-87/DSA/tree/main/Python3/Medium/0048-rotate-image/) | Medium |
 | [0054-spiral-matrix](https://github.com/laxmi-narayan-87/DSA/tree/main/Python3/Medium/0054-spiral-matrix/) | Medium |
 | [0073-set-matrix-zeroes](https://github.com/laxmi-narayan-87/DSA/tree/main/Python3/Medium/0073-set-matrix-zeroes/) | Medium |
 | [1018-binary-prefix-divisible-by-5](https://github.com/laxmi-narayan-87/DSA/tree/main/Python3/Easy/1018-binary-prefix-divisible-by-5/) | Easy |
@@ -223,6 +224,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ## Matrix
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0048-rotate-image](https://github.com/laxmi-narayan-87/DSA/tree/main/Python3/Medium/0048-rotate-image/) | Medium |
 | [0054-spiral-matrix](https://github.com/laxmi-narayan-87/DSA/tree/main/Python3/Medium/0054-spiral-matrix/) | Medium |
 | [0073-set-matrix-zeroes](https://github.com/laxmi-narayan-87/DSA/tree/main/Python3/Medium/0073-set-matrix-zeroes/) | Medium |
 | [1582-special-positions-in-a-binary-matrix](https://github.com/laxmi-narayan-87/DSA/tree/main/Python3/Easy/1582-special-positions-in-a-binary-matrix/) | Easy |
@@ -257,6 +259,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ## Math
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0048-rotate-image](https://github.com/laxmi-narayan-87/DSA/tree/main/Python3/Medium/0048-rotate-image/) | Medium |
 | [0050-powx-n](https://github.com/laxmi-narayan-87/DSA/tree/main/Python3/Medium/0050-powx-n/) | Medium |
 | [0367-valid-perfect-square](https://github.com/laxmi-narayan-87/DSA/tree/main/Python3/Easy/0367-valid-perfect-square/) | Easy |
 | [0445-add-two-numbers-ii](https://github.com/laxmi-narayan-87/DSA/tree/main/Python3/Medium/0445-add-two-numbers-ii/) | Medium |
