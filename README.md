@@ -163,6 +163,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 | [0048-rotate-image](https://github.com/laxmi-narayan-87/DSA/tree/main/Python3/Medium/0048-rotate-image/) | Medium |
 | [0054-spiral-matrix](https://github.com/laxmi-narayan-87/DSA/tree/main/Python3/Medium/0054-spiral-matrix/) | Medium |
 | [0073-set-matrix-zeroes](https://github.com/laxmi-narayan-87/DSA/tree/main/Python3/Medium/0073-set-matrix-zeroes/) | Medium |
+| [0074-search-a-2d-matrix](https://github.com/laxmi-narayan-87/DSA/tree/main/Python3/Medium/0074-search-a-2d-matrix/) | Medium |
 | [0287-find-the-duplicate-number](https://github.com/laxmi-narayan-87/DSA/tree/main/Python3/Medium/0287-find-the-duplicate-number/) | Medium |
 | [1018-binary-prefix-divisible-by-5](https://github.com/laxmi-narayan-87/DSA/tree/main/Python3/Easy/1018-binary-prefix-divisible-by-5/) | Easy |
 | [1582-special-positions-in-a-binary-matrix](https://github.com/laxmi-narayan-87/DSA/tree/main/Python3/Easy/1582-special-positions-in-a-binary-matrix/) | Easy |
@@ -229,6 +230,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 | [0048-rotate-image](https://github.com/laxmi-narayan-87/DSA/tree/main/Python3/Medium/0048-rotate-image/) | Medium |
 | [0054-spiral-matrix](https://github.com/laxmi-narayan-87/DSA/tree/main/Python3/Medium/0054-spiral-matrix/) | Medium |
 | [0073-set-matrix-zeroes](https://github.com/laxmi-narayan-87/DSA/tree/main/Python3/Medium/0073-set-matrix-zeroes/) | Medium |
+| [0074-search-a-2d-matrix](https://github.com/laxmi-narayan-87/DSA/tree/main/Python3/Medium/0074-search-a-2d-matrix/) | Medium |
 | [1582-special-positions-in-a-binary-matrix](https://github.com/laxmi-narayan-87/DSA/tree/main/Python3/Easy/1582-special-positions-in-a-binary-matrix/) | Easy |
 | [1886-determine-whether-matrix-can-be-obtained-by-rotation](https://github.com/laxmi-narayan-87/DSA/tree/main/Python3/Easy/1886-determine-whether-matrix-can-be-obtained-by-rotation/) | Easy |
 | [2906-construct-product-matrix](https://github.com/laxmi-narayan-87/DSA/tree/main/Python3/Medium/2906-construct-product-matrix/) | Medium |
@@ -290,6 +292,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ## Binary Search
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0074-search-a-2d-matrix](https://github.com/laxmi-narayan-87/DSA/tree/main/Python3/Medium/0074-search-a-2d-matrix/) | Medium |
 | [0287-find-the-duplicate-number](https://github.com/laxmi-narayan-87/DSA/tree/main/Python3/Medium/0287-find-the-duplicate-number/) | Medium |
 | [0367-valid-perfect-square](https://github.com/laxmi-narayan-87/DSA/tree/main/Python3/Easy/0367-valid-perfect-square/) | Easy |
 | [3722-lexicographically-smallest-string-after-reverse](https://github.com/laxmi-narayan-87/DSA/tree/main/Python3/Medium/3722-lexicographically-smallest-string-after-reverse/) | Medium |
