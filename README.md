@@ -165,6 +165,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 | [0054-spiral-matrix](https://github.com/laxmi-narayan-87/DSA/tree/main/Python3/Medium/0054-spiral-matrix/) | Medium |
 | [0073-set-matrix-zeroes](https://github.com/laxmi-narayan-87/DSA/tree/main/Python3/Medium/0073-set-matrix-zeroes/) | Medium |
 | [0074-search-a-2d-matrix](https://github.com/laxmi-narayan-87/DSA/tree/main/Python3/Medium/0074-search-a-2d-matrix/) | Medium |
+| [0128-longest-consecutive-sequence](https://github.com/laxmi-narayan-87/DSA/tree/main/Python3/Medium/0128-longest-consecutive-sequence/) | Medium |
 | [0287-find-the-duplicate-number](https://github.com/laxmi-narayan-87/DSA/tree/main/Python3/Medium/0287-find-the-duplicate-number/) | Medium |
 | [1018-binary-prefix-divisible-by-5](https://github.com/laxmi-narayan-87/DSA/tree/main/Python3/Easy/1018-binary-prefix-divisible-by-5/) | Easy |
 | [1582-special-positions-in-a-binary-matrix](https://github.com/laxmi-narayan-87/DSA/tree/main/Python3/Easy/1582-special-positions-in-a-binary-matrix/) | Easy |
@@ -244,6 +245,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 | ------- | ------- |
 | [0001-two-sum](https://github.com/laxmi-narayan-87/DSA/tree/main/Python3/Easy/0001-two-sum/) | Easy |
 | [0073-set-matrix-zeroes](https://github.com/laxmi-narayan-87/DSA/tree/main/Python3/Medium/0073-set-matrix-zeroes/) | Medium |
+| [0128-longest-consecutive-sequence](https://github.com/laxmi-narayan-87/DSA/tree/main/Python3/Medium/0128-longest-consecutive-sequence/) | Medium |
 | [1980-find-unique-binary-string](https://github.com/laxmi-narayan-87/DSA/tree/main/Python3/Medium/1980-find-unique-binary-string/) | Medium |
 | [2965-find-missing-and-repeated-values](https://github.com/laxmi-narayan-87/DSA/tree/main/Python3/Easy/2965-find-missing-and-repeated-values/) | Easy |
 | [3548-equal-sum-grid-partition-ii](https://github.com/laxmi-narayan-87/DSA/tree/main/Python3/Hard/3548-equal-sum-grid-partition-ii/) | Hard |
@@ -313,4 +315,8 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0445-add-two-numbers-ii](https://github.com/laxmi-narayan-87/DSA/tree/main/Python3/Medium/0445-add-two-numbers-ii/) | Medium |
+## Union-Find
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0128-longest-consecutive-sequence](https://github.com/laxmi-narayan-87/DSA/tree/main/Python3/Medium/0128-longest-consecutive-sequence/) | Medium |
 <!---LeetCode Topics End-->
