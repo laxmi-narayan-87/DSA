@@ -167,6 +167,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 | [0074-search-a-2d-matrix](https://github.com/laxmi-narayan-87/DSA/tree/main/Python3/Medium/0074-search-a-2d-matrix/) | Medium |
 | [0128-longest-consecutive-sequence](https://github.com/laxmi-narayan-87/DSA/tree/main/Python3/Medium/0128-longest-consecutive-sequence/) | Medium |
 | [0287-find-the-duplicate-number](https://github.com/laxmi-narayan-87/DSA/tree/main/Python3/Medium/0287-find-the-duplicate-number/) | Medium |
+| [0560-subarray-sum-equals-k](https://github.com/laxmi-narayan-87/DSA/tree/main/C++/Medium/0560-subarray-sum-equals-k/) | Medium |
 | [1018-binary-prefix-divisible-by-5](https://github.com/laxmi-narayan-87/DSA/tree/main/Python3/Easy/1018-binary-prefix-divisible-by-5/) | Easy |
 | [1582-special-positions-in-a-binary-matrix](https://github.com/laxmi-narayan-87/DSA/tree/main/Python3/Easy/1582-special-positions-in-a-binary-matrix/) | Easy |
 | [1886-determine-whether-matrix-can-be-obtained-by-rotation](https://github.com/laxmi-narayan-87/DSA/tree/main/Python3/Easy/1886-determine-whether-matrix-can-be-obtained-by-rotation/) | Easy |
@@ -246,6 +247,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 | [0001-two-sum](https://github.com/laxmi-narayan-87/DSA/tree/main/Python3/Easy/0001-two-sum/) | Easy |
 | [0073-set-matrix-zeroes](https://github.com/laxmi-narayan-87/DSA/tree/main/Python3/Medium/0073-set-matrix-zeroes/) | Medium |
 | [0128-longest-consecutive-sequence](https://github.com/laxmi-narayan-87/DSA/tree/main/Python3/Medium/0128-longest-consecutive-sequence/) | Medium |
+| [0560-subarray-sum-equals-k](https://github.com/laxmi-narayan-87/DSA/tree/main/C++/Medium/0560-subarray-sum-equals-k/) | Medium |
 | [1980-find-unique-binary-string](https://github.com/laxmi-narayan-87/DSA/tree/main/Python3/Medium/1980-find-unique-binary-string/) | Medium |
 | [2965-find-missing-and-repeated-values](https://github.com/laxmi-narayan-87/DSA/tree/main/Python3/Easy/2965-find-missing-and-repeated-values/) | Easy |
 | [3548-equal-sum-grid-partition-ii](https://github.com/laxmi-narayan-87/DSA/tree/main/Python3/Hard/3548-equal-sum-grid-partition-ii/) | Hard |
@@ -257,6 +259,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ## Prefix Sum
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0560-subarray-sum-equals-k](https://github.com/laxmi-narayan-87/DSA/tree/main/C++/Medium/0560-subarray-sum-equals-k/) | Medium |
 | [2906-construct-product-matrix](https://github.com/laxmi-narayan-87/DSA/tree/main/Python3/Medium/2906-construct-product-matrix/) | Medium |
 | [3354-make-array-elements-equal-to-zero](https://github.com/laxmi-narayan-87/DSA/tree/main/Python3/Easy/3354-make-array-elements-equal-to-zero/) | Easy |
 | [3546-equal-sum-grid-partition-i](https://github.com/laxmi-narayan-87/DSA/tree/main/Python3/Medium/3546-equal-sum-grid-partition-i/) | Medium |
