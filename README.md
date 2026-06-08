@@ -183,6 +183,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ## String
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0003-longest-substring-without-repeating-characters](https://github.com/laxmi-narayan-87/DSA/tree/main/Python3/Medium/0003-longest-substring-without-repeating-characters/) | Medium |
 | [0014-longest-common-prefix](https://github.com/laxmi-narayan-87/DSA/tree/main/0014-longest-common-prefix/) | Easy |
 | [1415-the-k-th-lexicographical-string-of-all-happy-strings-of-length-n](https://github.com/laxmi-narayan-87/DSA/tree/main/Python3/Medium/1415-the-k-th-lexicographical-string-of-all-happy-strings-of-length-n/) | Medium |
 | [1545-find-kth-bit-in-nth-binary-string](https://github.com/laxmi-narayan-87/DSA/tree/main/1545-find-kth-bit-in-nth-binary-string/) | Medium |
@@ -245,6 +246,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0001-two-sum](https://github.com/laxmi-narayan-87/DSA/tree/main/Python3/Easy/0001-two-sum/) | Easy |
+| [0003-longest-substring-without-repeating-characters](https://github.com/laxmi-narayan-87/DSA/tree/main/Python3/Medium/0003-longest-substring-without-repeating-characters/) | Medium |
 | [0073-set-matrix-zeroes](https://github.com/laxmi-narayan-87/DSA/tree/main/Python3/Medium/0073-set-matrix-zeroes/) | Medium |
 | [0128-longest-consecutive-sequence](https://github.com/laxmi-narayan-87/DSA/tree/main/Python3/Medium/0128-longest-consecutive-sequence/) | Medium |
 | [0560-subarray-sum-equals-k](https://github.com/laxmi-narayan-87/DSA/tree/main/C++/Medium/0560-subarray-sum-equals-k/) | Medium |
@@ -322,4 +324,8 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0128-longest-consecutive-sequence](https://github.com/laxmi-narayan-87/DSA/tree/main/Python3/Medium/0128-longest-consecutive-sequence/) | Medium |
+## Sliding Window
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0003-longest-substring-without-repeating-characters](https://github.com/laxmi-narayan-87/DSA/tree/main/Python3/Medium/0003-longest-substring-without-repeating-characters/) | Medium |
 <!---LeetCode Topics End-->
