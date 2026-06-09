@@ -296,6 +296,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 | ------- | ------- |
 | [0031-next-permutation](https://github.com/laxmi-narayan-87/DSA/tree/main/Python3/Medium/0031-next-permutation/) | Medium |
 | [0287-find-the-duplicate-number](https://github.com/laxmi-narayan-87/DSA/tree/main/Python3/Medium/0287-find-the-duplicate-number/) | Medium |
+| [0876-middle-of-the-linked-list](https://github.com/laxmi-narayan-87/DSA/tree/main/Python3/Easy/0876-middle-of-the-linked-list/) | Easy |
 | [2149-rearrange-array-elements-by-sign](https://github.com/laxmi-narayan-87/DSA/tree/main/Python3/Medium/2149-rearrange-array-elements-by-sign/) | Medium |
 | [3722-lexicographically-smallest-string-after-reverse](https://github.com/laxmi-narayan-87/DSA/tree/main/Python3/Medium/3722-lexicographically-smallest-string-after-reverse/) | Medium |
 ## Binary Search
@@ -316,6 +317,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 | ------- | ------- |
 | [0206-reverse-linked-list](https://github.com/laxmi-narayan-87/DSA/tree/main/Python3/Easy/0206-reverse-linked-list/) | Easy |
 | [0445-add-two-numbers-ii](https://github.com/laxmi-narayan-87/DSA/tree/main/Python3/Medium/0445-add-two-numbers-ii/) | Medium |
+| [0876-middle-of-the-linked-list](https://github.com/laxmi-narayan-87/DSA/tree/main/Python3/Easy/0876-middle-of-the-linked-list/) | Easy |
 ## Stack
 | Problem Name | Difficulty |
 | ------- | ------- |
