@@ -321,6 +321,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 | [0002-add-two-numbers](https://github.com/laxmi-narayan-87/DSA/tree/main/Python3/Medium/0002-add-two-numbers/) | Medium |
 | [0019-remove-nth-node-from-end-of-list](https://github.com/laxmi-narayan-87/DSA/tree/main/Python3/Medium/0019-remove-nth-node-from-end-of-list/) | Medium |
 | [0206-reverse-linked-list](https://github.com/laxmi-narayan-87/DSA/tree/main/Python3/Easy/0206-reverse-linked-list/) | Easy |
+| [0237-delete-node-in-a-linked-list](https://github.com/laxmi-narayan-87/DSA/tree/main/Python3/Medium/0237-delete-node-in-a-linked-list/) | Medium |
 | [0445-add-two-numbers-ii](https://github.com/laxmi-narayan-87/DSA/tree/main/Python3/Medium/0445-add-two-numbers-ii/) | Medium |
 | [0876-middle-of-the-linked-list](https://github.com/laxmi-narayan-87/DSA/tree/main/Python3/Easy/0876-middle-of-the-linked-list/) | Easy |
 ## Stack
