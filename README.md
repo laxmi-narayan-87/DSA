@@ -198,6 +198,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ## Recursion
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0002-add-two-numbers](https://github.com/laxmi-narayan-87/DSA/tree/main/Python3/Medium/0002-add-two-numbers/) | Medium |
 | [0050-powx-n](https://github.com/laxmi-narayan-87/DSA/tree/main/Python3/Medium/0050-powx-n/) | Medium |
 | [0206-reverse-linked-list](https://github.com/laxmi-narayan-87/DSA/tree/main/Python3/Easy/0206-reverse-linked-list/) | Easy |
 | [1545-find-kth-bit-in-nth-binary-string](https://github.com/laxmi-narayan-87/DSA/tree/main/1545-find-kth-bit-in-nth-binary-string/) | Medium |
@@ -275,6 +276,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ## Math
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0002-add-two-numbers](https://github.com/laxmi-narayan-87/DSA/tree/main/Python3/Medium/0002-add-two-numbers/) | Medium |
 | [0048-rotate-image](https://github.com/laxmi-narayan-87/DSA/tree/main/Python3/Medium/0048-rotate-image/) | Medium |
 | [0050-powx-n](https://github.com/laxmi-narayan-87/DSA/tree/main/Python3/Medium/0050-powx-n/) | Medium |
 | [0367-valid-perfect-square](https://github.com/laxmi-narayan-87/DSA/tree/main/Python3/Easy/0367-valid-perfect-square/) | Easy |
@@ -316,6 +318,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ## Linked List
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0002-add-two-numbers](https://github.com/laxmi-narayan-87/DSA/tree/main/Python3/Medium/0002-add-two-numbers/) | Medium |
 | [0019-remove-nth-node-from-end-of-list](https://github.com/laxmi-narayan-87/DSA/tree/main/Python3/Medium/0019-remove-nth-node-from-end-of-list/) | Medium |
 | [0206-reverse-linked-list](https://github.com/laxmi-narayan-87/DSA/tree/main/Python3/Easy/0206-reverse-linked-list/) | Easy |
 | [0445-add-two-numbers-ii](https://github.com/laxmi-narayan-87/DSA/tree/main/Python3/Medium/0445-add-two-numbers-ii/) | Medium |
