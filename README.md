@@ -252,6 +252,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 | [0073-set-matrix-zeroes](https://github.com/laxmi-narayan-87/DSA/tree/main/Python3/Medium/0073-set-matrix-zeroes/) | Medium |
 | [0128-longest-consecutive-sequence](https://github.com/laxmi-narayan-87/DSA/tree/main/Python3/Medium/0128-longest-consecutive-sequence/) | Medium |
 | [0141-linked-list-cycle](https://github.com/laxmi-narayan-87/DSA/tree/main/C++/Easy/0141-linked-list-cycle/) | Easy |
+| [0142-linked-list-cycle-ii](https://github.com/laxmi-narayan-87/DSA/tree/main/Python3/Medium/0142-linked-list-cycle-ii/) | Medium |
 | [0160-intersection-of-two-linked-lists](https://github.com/laxmi-narayan-87/DSA/tree/main/Python3/Easy/0160-intersection-of-two-linked-lists/) | Easy |
 | [0560-subarray-sum-equals-k](https://github.com/laxmi-narayan-87/DSA/tree/main/C++/Medium/0560-subarray-sum-equals-k/) | Medium |
 | [1980-find-unique-binary-string](https://github.com/laxmi-narayan-87/DSA/tree/main/Python3/Medium/1980-find-unique-binary-string/) | Medium |
@@ -302,6 +303,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 | [0019-remove-nth-node-from-end-of-list](https://github.com/laxmi-narayan-87/DSA/tree/main/Python3/Medium/0019-remove-nth-node-from-end-of-list/) | Medium |
 | [0031-next-permutation](https://github.com/laxmi-narayan-87/DSA/tree/main/Python3/Medium/0031-next-permutation/) | Medium |
 | [0141-linked-list-cycle](https://github.com/laxmi-narayan-87/DSA/tree/main/C++/Easy/0141-linked-list-cycle/) | Easy |
+| [0142-linked-list-cycle-ii](https://github.com/laxmi-narayan-87/DSA/tree/main/Python3/Medium/0142-linked-list-cycle-ii/) | Medium |
 | [0160-intersection-of-two-linked-lists](https://github.com/laxmi-narayan-87/DSA/tree/main/Python3/Easy/0160-intersection-of-two-linked-lists/) | Easy |
 | [0287-find-the-duplicate-number](https://github.com/laxmi-narayan-87/DSA/tree/main/Python3/Medium/0287-find-the-duplicate-number/) | Medium |
 | [0876-middle-of-the-linked-list](https://github.com/laxmi-narayan-87/DSA/tree/main/Python3/Easy/0876-middle-of-the-linked-list/) | Easy |
@@ -327,6 +329,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 | [0019-remove-nth-node-from-end-of-list](https://github.com/laxmi-narayan-87/DSA/tree/main/Python3/Medium/0019-remove-nth-node-from-end-of-list/) | Medium |
 | [0025-reverse-nodes-in-k-group](https://github.com/laxmi-narayan-87/DSA/tree/main/Python3/Hard/0025-reverse-nodes-in-k-group/) | Hard |
 | [0141-linked-list-cycle](https://github.com/laxmi-narayan-87/DSA/tree/main/C++/Easy/0141-linked-list-cycle/) | Easy |
+| [0142-linked-list-cycle-ii](https://github.com/laxmi-narayan-87/DSA/tree/main/Python3/Medium/0142-linked-list-cycle-ii/) | Medium |
 | [0160-intersection-of-two-linked-lists](https://github.com/laxmi-narayan-87/DSA/tree/main/Python3/Easy/0160-intersection-of-two-linked-lists/) | Easy |
 | [0206-reverse-linked-list](https://github.com/laxmi-narayan-87/DSA/tree/main/Python3/Easy/0206-reverse-linked-list/) | Easy |
 | [0237-delete-node-in-a-linked-list](https://github.com/laxmi-narayan-87/DSA/tree/main/Python3/Medium/0237-delete-node-in-a-linked-list/) | Medium |
