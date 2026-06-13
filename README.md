@@ -252,6 +252,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 | [0003-longest-substring-without-repeating-characters](https://github.com/laxmi-narayan-87/DSA/tree/main/Python3/Medium/0003-longest-substring-without-repeating-characters/) | Medium |
 | [0073-set-matrix-zeroes](https://github.com/laxmi-narayan-87/DSA/tree/main/Python3/Medium/0073-set-matrix-zeroes/) | Medium |
 | [0128-longest-consecutive-sequence](https://github.com/laxmi-narayan-87/DSA/tree/main/Python3/Medium/0128-longest-consecutive-sequence/) | Medium |
+| [0138-copy-list-with-random-pointer](https://github.com/laxmi-narayan-87/DSA/tree/main/Python3/Medium/0138-copy-list-with-random-pointer/) | Medium |
 | [0141-linked-list-cycle](https://github.com/laxmi-narayan-87/DSA/tree/main/C++/Easy/0141-linked-list-cycle/) | Easy |
 | [0142-linked-list-cycle-ii](https://github.com/laxmi-narayan-87/DSA/tree/main/Python3/Medium/0142-linked-list-cycle-ii/) | Medium |
 | [0160-intersection-of-two-linked-lists](https://github.com/laxmi-narayan-87/DSA/tree/main/Python3/Easy/0160-intersection-of-two-linked-lists/) | Easy |
@@ -332,6 +333,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 | [0019-remove-nth-node-from-end-of-list](https://github.com/laxmi-narayan-87/DSA/tree/main/Python3/Medium/0019-remove-nth-node-from-end-of-list/) | Medium |
 | [0025-reverse-nodes-in-k-group](https://github.com/laxmi-narayan-87/DSA/tree/main/Python3/Hard/0025-reverse-nodes-in-k-group/) | Hard |
 | [0061-rotate-list](https://github.com/laxmi-narayan-87/DSA/tree/main/Python3/Medium/0061-rotate-list/) | Medium |
+| [0138-copy-list-with-random-pointer](https://github.com/laxmi-narayan-87/DSA/tree/main/Python3/Medium/0138-copy-list-with-random-pointer/) | Medium |
 | [0141-linked-list-cycle](https://github.com/laxmi-narayan-87/DSA/tree/main/C++/Easy/0141-linked-list-cycle/) | Easy |
 | [0142-linked-list-cycle-ii](https://github.com/laxmi-narayan-87/DSA/tree/main/Python3/Medium/0142-linked-list-cycle-ii/) | Medium |
 | [0160-intersection-of-two-linked-lists](https://github.com/laxmi-narayan-87/DSA/tree/main/Python3/Easy/0160-intersection-of-two-linked-lists/) | Easy |
