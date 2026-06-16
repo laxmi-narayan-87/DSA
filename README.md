@@ -166,6 +166,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 | [0054-spiral-matrix](https://github.com/laxmi-narayan-87/DSA/tree/main/Python3/Medium/0054-spiral-matrix/) | Medium |
 | [0073-set-matrix-zeroes](https://github.com/laxmi-narayan-87/DSA/tree/main/Python3/Medium/0073-set-matrix-zeroes/) | Medium |
 | [0074-search-a-2d-matrix](https://github.com/laxmi-narayan-87/DSA/tree/main/Python3/Medium/0074-search-a-2d-matrix/) | Medium |
+| [0090-subsets-ii](https://github.com/laxmi-narayan-87/DSA/tree/main/Python3/Medium/0090-subsets-ii/) | Medium |
 | [0128-longest-consecutive-sequence](https://github.com/laxmi-narayan-87/DSA/tree/main/Python3/Medium/0128-longest-consecutive-sequence/) | Medium |
 | [0287-find-the-duplicate-number](https://github.com/laxmi-narayan-87/DSA/tree/main/Python3/Medium/0287-find-the-duplicate-number/) | Medium |
 | [0485-max-consecutive-ones](https://github.com/laxmi-narayan-87/DSA/tree/main/Python3/Easy/0485-max-consecutive-ones/) | Easy |
@@ -265,6 +266,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ## Backtracking
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0090-subsets-ii](https://github.com/laxmi-narayan-87/DSA/tree/main/Python3/Medium/0090-subsets-ii/) | Medium |
 | [1415-the-k-th-lexicographical-string-of-all-happy-strings-of-length-n](https://github.com/laxmi-narayan-87/DSA/tree/main/Python3/Medium/1415-the-k-th-lexicographical-string-of-all-happy-strings-of-length-n/) | Medium |
 | [1980-find-unique-binary-string](https://github.com/laxmi-narayan-87/DSA/tree/main/Python3/Medium/1980-find-unique-binary-string/) | Medium |
 ## Prefix Sum
@@ -278,6 +280,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ## Bit Manipulation
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0090-subsets-ii](https://github.com/laxmi-narayan-87/DSA/tree/main/Python3/Medium/0090-subsets-ii/) | Medium |
 | [0287-find-the-duplicate-number](https://github.com/laxmi-narayan-87/DSA/tree/main/Python3/Medium/0287-find-the-duplicate-number/) | Medium |
 | [1009-complement-of-base-10-integer](https://github.com/laxmi-narayan-87/DSA/tree/main/Python3/Easy/1009-complement-of-base-10-integer/) | Easy |
 | [1018-binary-prefix-divisible-by-5](https://github.com/laxmi-narayan-87/DSA/tree/main/Python3/Easy/1018-binary-prefix-divisible-by-5/) | Easy |
