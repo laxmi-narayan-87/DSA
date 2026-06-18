@@ -162,6 +162,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 | [0014-longest-common-prefix](https://github.com/laxmi-narayan-87/DSA/tree/main/0014-longest-common-prefix/) | Easy |
 | [0026-remove-duplicates-from-sorted-array](https://github.com/laxmi-narayan-87/DSA/tree/main/Python3/Easy/0026-remove-duplicates-from-sorted-array/) | Easy |
 | [0031-next-permutation](https://github.com/laxmi-narayan-87/DSA/tree/main/Python3/Medium/0031-next-permutation/) | Medium |
+| [0037-sudoku-solver](https://github.com/laxmi-narayan-87/DSA/tree/main/Python3/Hard/0037-sudoku-solver/) | Hard |
 | [0039-combination-sum](https://github.com/laxmi-narayan-87/DSA/tree/main/Python3/Medium/0039-combination-sum/) | Medium |
 | [0040-combination-sum-ii](https://github.com/laxmi-narayan-87/DSA/tree/main/Python3/Medium/0040-combination-sum-ii/) | Medium |
 | [0048-rotate-image](https://github.com/laxmi-narayan-87/DSA/tree/main/Python3/Medium/0048-rotate-image/) | Medium |
@@ -240,6 +241,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ## Matrix
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0037-sudoku-solver](https://github.com/laxmi-narayan-87/DSA/tree/main/Python3/Hard/0037-sudoku-solver/) | Hard |
 | [0048-rotate-image](https://github.com/laxmi-narayan-87/DSA/tree/main/Python3/Medium/0048-rotate-image/) | Medium |
 | [0054-spiral-matrix](https://github.com/laxmi-narayan-87/DSA/tree/main/Python3/Medium/0054-spiral-matrix/) | Medium |
 | [0073-set-matrix-zeroes](https://github.com/laxmi-narayan-87/DSA/tree/main/Python3/Medium/0073-set-matrix-zeroes/) | Medium |
@@ -256,6 +258,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 | ------- | ------- |
 | [0001-two-sum](https://github.com/laxmi-narayan-87/DSA/tree/main/Python3/Easy/0001-two-sum/) | Easy |
 | [0003-longest-substring-without-repeating-characters](https://github.com/laxmi-narayan-87/DSA/tree/main/Python3/Medium/0003-longest-substring-without-repeating-characters/) | Medium |
+| [0037-sudoku-solver](https://github.com/laxmi-narayan-87/DSA/tree/main/Python3/Hard/0037-sudoku-solver/) | Hard |
 | [0073-set-matrix-zeroes](https://github.com/laxmi-narayan-87/DSA/tree/main/Python3/Medium/0073-set-matrix-zeroes/) | Medium |
 | [0128-longest-consecutive-sequence](https://github.com/laxmi-narayan-87/DSA/tree/main/Python3/Medium/0128-longest-consecutive-sequence/) | Medium |
 | [0138-copy-list-with-random-pointer](https://github.com/laxmi-narayan-87/DSA/tree/main/Python3/Medium/0138-copy-list-with-random-pointer/) | Medium |
@@ -269,6 +272,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ## Backtracking
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0037-sudoku-solver](https://github.com/laxmi-narayan-87/DSA/tree/main/Python3/Hard/0037-sudoku-solver/) | Hard |
 | [0039-combination-sum](https://github.com/laxmi-narayan-87/DSA/tree/main/Python3/Medium/0039-combination-sum/) | Medium |
 | [0040-combination-sum-ii](https://github.com/laxmi-narayan-87/DSA/tree/main/Python3/Medium/0040-combination-sum-ii/) | Medium |
 | [0090-subsets-ii](https://github.com/laxmi-narayan-87/DSA/tree/main/Python3/Medium/0090-subsets-ii/) | Medium |
