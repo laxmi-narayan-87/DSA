@@ -192,6 +192,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 | ------- | ------- |
 | [0003-longest-substring-without-repeating-characters](https://github.com/laxmi-narayan-87/DSA/tree/main/Python3/Medium/0003-longest-substring-without-repeating-characters/) | Medium |
 | [0014-longest-common-prefix](https://github.com/laxmi-narayan-87/DSA/tree/main/0014-longest-common-prefix/) | Easy |
+| [0567-permutation-in-string](https://github.com/laxmi-narayan-87/DSA/tree/main/Python3/Medium/0567-permutation-in-string/) | Medium |
 | [1415-the-k-th-lexicographical-string-of-all-happy-strings-of-length-n](https://github.com/laxmi-narayan-87/DSA/tree/main/Python3/Medium/1415-the-k-th-lexicographical-string-of-all-happy-strings-of-length-n/) | Medium |
 | [1545-find-kth-bit-in-nth-binary-string](https://github.com/laxmi-narayan-87/DSA/tree/main/1545-find-kth-bit-in-nth-binary-string/) | Medium |
 | [1758-minimum-changes-to-make-alternating-binary-string](https://github.com/laxmi-narayan-87/DSA/tree/main/Python3/Easy/1758-minimum-changes-to-make-alternating-binary-string/) | Easy |
@@ -267,6 +268,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 | [0142-linked-list-cycle-ii](https://github.com/laxmi-narayan-87/DSA/tree/main/Python3/Medium/0142-linked-list-cycle-ii/) | Medium |
 | [0160-intersection-of-two-linked-lists](https://github.com/laxmi-narayan-87/DSA/tree/main/Python3/Easy/0160-intersection-of-two-linked-lists/) | Easy |
 | [0560-subarray-sum-equals-k](https://github.com/laxmi-narayan-87/DSA/tree/main/C++/Medium/0560-subarray-sum-equals-k/) | Medium |
+| [0567-permutation-in-string](https://github.com/laxmi-narayan-87/DSA/tree/main/Python3/Medium/0567-permutation-in-string/) | Medium |
 | [1980-find-unique-binary-string](https://github.com/laxmi-narayan-87/DSA/tree/main/Python3/Medium/1980-find-unique-binary-string/) | Medium |
 | [2965-find-missing-and-repeated-values](https://github.com/laxmi-narayan-87/DSA/tree/main/Python3/Easy/2965-find-missing-and-repeated-values/) | Easy |
 | [3548-equal-sum-grid-partition-ii](https://github.com/laxmi-narayan-87/DSA/tree/main/Python3/Hard/3548-equal-sum-grid-partition-ii/) | Hard |
@@ -328,6 +330,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 | [0160-intersection-of-two-linked-lists](https://github.com/laxmi-narayan-87/DSA/tree/main/Python3/Easy/0160-intersection-of-two-linked-lists/) | Easy |
 | [0234-palindrome-linked-list](https://github.com/laxmi-narayan-87/DSA/tree/main/Python3/Easy/0234-palindrome-linked-list/) | Easy |
 | [0287-find-the-duplicate-number](https://github.com/laxmi-narayan-87/DSA/tree/main/Python3/Medium/0287-find-the-duplicate-number/) | Medium |
+| [0567-permutation-in-string](https://github.com/laxmi-narayan-87/DSA/tree/main/Python3/Medium/0567-permutation-in-string/) | Medium |
 | [0876-middle-of-the-linked-list](https://github.com/laxmi-narayan-87/DSA/tree/main/Python3/Easy/0876-middle-of-the-linked-list/) | Easy |
 | [2149-rearrange-array-elements-by-sign](https://github.com/laxmi-narayan-87/DSA/tree/main/Python3/Medium/2149-rearrange-array-elements-by-sign/) | Medium |
 | [3722-lexicographically-smallest-string-after-reverse](https://github.com/laxmi-narayan-87/DSA/tree/main/Python3/Medium/3722-lexicographically-smallest-string-after-reverse/) | Medium |
@@ -373,4 +376,5 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0003-longest-substring-without-repeating-characters](https://github.com/laxmi-narayan-87/DSA/tree/main/Python3/Medium/0003-longest-substring-without-repeating-characters/) | Medium |
+| [0567-permutation-in-string](https://github.com/laxmi-narayan-87/DSA/tree/main/Python3/Medium/0567-permutation-in-string/) | Medium |
 <!---LeetCode Topics End-->
