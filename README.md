@@ -162,6 +162,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 | [0014-longest-common-prefix](https://github.com/laxmi-narayan-87/DSA/tree/main/0014-longest-common-prefix/) | Easy |
 | [0026-remove-duplicates-from-sorted-array](https://github.com/laxmi-narayan-87/DSA/tree/main/Python3/Easy/0026-remove-duplicates-from-sorted-array/) | Easy |
 | [0031-next-permutation](https://github.com/laxmi-narayan-87/DSA/tree/main/Python3/Medium/0031-next-permutation/) | Medium |
+| [0033-search-in-rotated-sorted-array](https://github.com/laxmi-narayan-87/DSA/tree/main/Python3/Medium/0033-search-in-rotated-sorted-array/) | Medium |
 | [0037-sudoku-solver](https://github.com/laxmi-narayan-87/DSA/tree/main/Python3/Hard/0037-sudoku-solver/) | Hard |
 | [0039-combination-sum](https://github.com/laxmi-narayan-87/DSA/tree/main/Python3/Medium/0039-combination-sum/) | Medium |
 | [0040-combination-sum-ii](https://github.com/laxmi-narayan-87/DSA/tree/main/Python3/Medium/0040-combination-sum-ii/) | Medium |
@@ -337,6 +338,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ## Binary Search
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0033-search-in-rotated-sorted-array](https://github.com/laxmi-narayan-87/DSA/tree/main/Python3/Medium/0033-search-in-rotated-sorted-array/) | Medium |
 | [0074-search-a-2d-matrix](https://github.com/laxmi-narayan-87/DSA/tree/main/Python3/Medium/0074-search-a-2d-matrix/) | Medium |
 | [0287-find-the-duplicate-number](https://github.com/laxmi-narayan-87/DSA/tree/main/Python3/Medium/0287-find-the-duplicate-number/) | Medium |
 | [0367-valid-perfect-square](https://github.com/laxmi-narayan-87/DSA/tree/main/Python3/Easy/0367-valid-perfect-square/) | Easy |
