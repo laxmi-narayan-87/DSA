@@ -315,6 +315,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ## Design
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0703-kth-largest-element-in-a-stream](https://github.com/laxmi-narayan-87/DSA/tree/main/Python3/Easy/0703-kth-largest-element-in-a-stream/) | Easy |
 | [1622-fancy-sequence](https://github.com/laxmi-narayan-87/DSA/tree/main/Python3/Hard/1622-fancy-sequence/) | Hard |
 ## Segment Tree
 | Problem Name | Difficulty |
@@ -381,4 +382,24 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 | ------- | ------- |
 | [0003-longest-substring-without-repeating-characters](https://github.com/laxmi-narayan-87/DSA/tree/main/Python3/Medium/0003-longest-substring-without-repeating-characters/) | Medium |
 | [0567-permutation-in-string](https://github.com/laxmi-narayan-87/DSA/tree/main/Python3/Medium/0567-permutation-in-string/) | Medium |
+## Tree
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0703-kth-largest-element-in-a-stream](https://github.com/laxmi-narayan-87/DSA/tree/main/Python3/Easy/0703-kth-largest-element-in-a-stream/) | Easy |
+## Binary Search Tree
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0703-kth-largest-element-in-a-stream](https://github.com/laxmi-narayan-87/DSA/tree/main/Python3/Easy/0703-kth-largest-element-in-a-stream/) | Easy |
+## Heap (Priority Queue)
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0703-kth-largest-element-in-a-stream](https://github.com/laxmi-narayan-87/DSA/tree/main/Python3/Easy/0703-kth-largest-element-in-a-stream/) | Easy |
+## Binary Tree
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0703-kth-largest-element-in-a-stream](https://github.com/laxmi-narayan-87/DSA/tree/main/Python3/Easy/0703-kth-largest-element-in-a-stream/) | Easy |
+## Data Stream
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0703-kth-largest-element-in-a-stream](https://github.com/laxmi-narayan-87/DSA/tree/main/Python3/Easy/0703-kth-largest-element-in-a-stream/) | Easy |
 <!---LeetCode Topics End-->
