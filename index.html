@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>DSA - LeetCode Solutions</title>
+<style>
+  :root {
+    --easy: #00b8a3;
+    --medium: #ffc01e;
+    --hard: #ff375f;
+    --bg: #0d1117;
+    --card: #161b22;
+    --border: #30363d;
+    --text: #e6edf3;
+    --muted: #8b949e;
+  }
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    background: var(--bg);
+    color: var(--text);
+    line-height: 1.6;
+    padding: 20px;
+  }
+  .container { max-width: 1100px; margin: 0 auto; }
+
+  /* Header */
+  .header {
+    text-align: center;
+    padding: 40px 0 30px;
+    border-bottom: 1px solid var(--border);
+    margin-bottom: 30px;
+  }
+  .header h1 { font-size: 2.2rem; font-weight: 700; }
+  .header h1 span { color: var(--medium); }
+  .header p { color: var(--muted); margin-top: 8px; font-size: 1.05rem; }
+  .header .links { margin-top: 16px; display: flex; gap: 16px; justify-content: center; flex-wrap: wrap; }
+  .header .links a {
+    color: #58a6ff;
+    text-decoration: none;
+    font-size: .9rem;
+    padding: 6px 16px;
+    border: 1px solid var(--border);
+    border-radius: 6px;
+    transition: .2s;
+  }
+  .header .links a:hover { background: #1f2937; border-color: #58a6ff; }
+
+  /* Stats */
+  .stats {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 16px;
+    margin-bottom: 30px;
+  }
+  .stat-card {
+    background: var(--card);
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    padding: 20px;
+    text-align: center;
+  }
+  .stat-card .num { font-size: 2rem; font-weight: 700; display: block; }
+  .stat-card .label { color: var(--muted); font-size: .85rem; margin-top: 4px; }
+  .stat-card.easy .num { color: var(--easy); }
+  .stat-card.medium .num { color: var(--medium); }
+  .stat-card.hard .num { color: var(--hard); }
+  .stat-card.total { border-color: #58a6ff; }
+  .stat-card.total .num { color: #58a6ff; }
+
+  /* Search */
+  .search-bar {
+    display: flex;
+    gap: 12px;
+    margin-bottom: 24px;
+    flex-wrap: wrap;
+  }
+  .search-bar input {
+    flex: 1;
+    min-width: 200px;
+    padding: 10px 16px;
+    background: var(--card);
+    border: 1px solid var(--border);
+    border-radius: 6px;
+    color: var(--text);
+    font-size: .95rem;
+    outline: none;
+    transition: .2s;
+  }
+  .search-bar input:focus { border-color: #58a6ff; }
+  .search-bar input::placeholder { color: var(--muted); }
+  .filter-btns { display: flex; gap: 8px; flex-wrap: wrap; }
+  .filter-btns button {
+    padding: 8px 18px;
+    border: 1px solid var(--border);
+    border-radius: 6px;
+    background: var(--card);
+    color: var(--text);
+    cursor: pointer;
+    font-size: .85rem;
+    transition: .15s;
+  }
+  .filter-btns button:hover { background: #1f2937; }
+  .filter-btns button.active { border-color: #fff; }
+  .filter-btns button.easy-active { border-color: var(--easy); color: var(--easy); }
+  .filter-btns button.medium-active { border-color: var(--medium); color: var(--medium); }
+  .filter-btns button.hard-active { border-color: var(--hard); color: var(--hard); }
+
+  /* Language tabs */
+  .lang-tabs {
+    display: flex;
+    gap: 4px;
+    margin-bottom: 20px;
+    border-bottom: 1px solid var(--border);
+  }
+  .lang-tabs button {
+    padding: 10px 24px;
+    background: none;
+    border: none;
+    border-bottom: 2px solid transparent;
+    color: var(--muted);
+    cursor: pointer;
+    font-size: .95rem;
+    font-weight: 600;
+    transition: .15s;
+  }
+  .lang-tabs button:hover { color: var(--text); }
+  .lang-tabs button.active { color: #58a6ff; border-bottom-color: #58a6ff; }
+
+  /* Category section */
+  .category { margin-bottom: 24px; }
+  .category-header {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    padding: 12px 16px;
+    background: var(--card);
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    cursor: pointer;
+    user-select: none;
+    transition: .15s;
+  }
+  .category-header:hover { background: #1c2128; }
+  .category-header .arrow { transition: transform .2s; font-size: .75rem; color: var(--muted); }
+  .category-header.open .arrow { transform: rotate(90deg); }
+  .category-header .badge {
+    margin-left: auto;
+    font-size: .75rem;
+    padding: 2px 10px;
+    border-radius: 10px;
+    font-weight: 600;
+  }
+  .badge.easy { background: rgba(0,184,163,.15); color: var(--easy); }
+  .badge.medium { background: rgba(255,192,30,.15); color: var(--medium); }
+  .badge.hard { background: rgba(255,55,95,.15); color: var(--hard); }
+
+  .problem-list {
+    display: none;
+    list-style: none;
+    margin-top: 4px;
+  }
+  .problem-list.open { display: block; }
+  .problem-list li { }
+  .problem-list li a {
+    display: block;
+    padding: 8px 16px 8px 28px;
+    color: var(--text);
+    text-decoration: none;
+    font-size: .9rem;
+    border-radius: 4px;
+    transition: .1s;
+  }
+  .problem-list li a:hover { background: #1c2128; color: #58a6ff; }
+
+  .empty-state {
+    text-align: center;
+    padding: 40px;
+    color: var(--muted);
+  }
+
+  /* Mobile */
+  @media (max-width: 600px) {
+    .header h1 { font-size: 1.5rem; }
+    .stats { grid-template-columns: repeat(2, 1fr); }
+    .lang-tabs button { padding: 8px 14px; font-size: .85rem; }
+  }
+</style>
+</head>
+<body>
+<div class="container">
+
+<div class="header">
+  <h1><span>DSA</span> LeetCode Solutions</h1>
+  <p>115 problems · 135 solutions · Python · C++ · MySQL</p>
+  <div class="links">
+    <a href="https://github.com/laxmi-narayan-87/DSA" target="_blank">GitHub Repo</a>
+    <a href="./algorithms/">Algorithms</a>
+    <a href="./data-structures/">Data Structures</a>
+    <a href="./problems/2026/">Daily Notes</a>
+  </div>
+</div>
+
+<div class="stats" id="stats"></div>
+
+<div class="search-bar">
+  <input type="text" id="search" placeholder="Search problem..." oninput="render()">
+  <div class="filter-btns">
+    <button class="active" onclick="setDifficulty('all')" id="f-all">All</button>
+    <button onclick="setDifficulty('easy')" id="f-easy" class="easy-active">Easy</button>
+    <button onclick="setDifficulty('medium')" id="f-medium" class="medium-active">Medium</button>
+    <button onclick="setDifficulty('hard')" id="f-hard" class="hard-active">Hard</button>
+  </div>
+</div>
+
+<div class="lang-tabs" id="langTabs"></div>
+<div id="content"></div>
+
+</div>
+
+<script>
+const DATA = {
+  Python3: {
+    Easy: [
+      "0001-two-sum","0014-longest-common-prefix","0026-remove-duplicates-from-sorted-array","0088-merge-sorted-array","0118-pascals-triangle","0121-best-time-to-buy-and-sell-stock","0160-intersection-of-two-linked-lists","0169-majority-element","0206-reverse-linked-list","0234-palindrome-linked-list","0367-valid-perfect-square","0455-assign-cookies","0485-max-consecutive-ones","0703-kth-largest-element-in-a-stream","0860-lemonade-change","0876-middle-of-the-linked-list","1009-complement-of-base-10-integer","1018-binary-prefix-divisible-by-5","1582-special-positions-in-a-binary-matrix","1758-minimum-changes-to-make-alternating-binary-string","1784-check-if-binary-string-has-at-most-one-segment-of-ones","1886-determine-whether-matrix-can-be-obtained-by-rotation","2525-categorize-box-according-to-criteria","2839-check-if-strings-can-be-made-equal-with-operations-i","2877-create-a-dataframe-from-list","2878-get-the-size-of-a-dataframe","2879-display-the-first-three-rows","2880-select-data","2881-create-a-new-column","2882-drop-duplicate-rows","2884-modify-columns","2885-rename-columns","2886-change-data-type","2887-fill-missing-data","2946-matrix-similarity-after-cyclic-shifts","2965-find-missing-and-repeated-values","3349-adjacent-increasing-subarrays-detection-i","3354-make-array-elements-equal-to-zero","3856-trim-trailing-vowels"
+    ],
+    Medium: [
+      "0002-add-two-numbers","0003-longest-substring-without-repeating-characters","0005-longest-palindromic-substring","0015-3sum","0019-remove-nth-node-from-end-of-list","0031-next-permutation","0033-search-in-rotated-sorted-array","0039-combination-sum","0040-combination-sum-ii","0048-rotate-image","0050-powx-n","0053-maximum-subarray","0054-spiral-matrix","0056-merge-intervals","0061-rotate-list","0064-minimum-path-sum","0073-set-matrix-zeroes","0074-search-a-2d-matrix","0075-sort-colors","0090-subsets-ii","0128-longest-consecutive-sequence","0131-palindrome-partitioning","0138-copy-list-with-random-pointer","0139-word-break","0142-linked-list-cycle-ii","0237-delete-node-in-a-linked-list","0287-find-the-duplicate-number","0322-coin-change","0416-partition-equal-subset-sum","0445-add-two-numbers-ii","0540-single-element-in-a-sorted-array","0567-permutation-in-string","1415-the-k-th-lexicographical-string-of-all-happy-strings-of-length-n","1545-find-kth-bit-in-nth-binary-string","1689-partitioning-into-minimum-number-of-deci-binary-numbers","1727-largest-submatrix-with-rearrangements","1878-get-biggest-three-rhombus-sums-in-a-grid","1980-find-unique-binary-string","2149-rearrange-array-elements-by-sign","2840-check-if-strings-can-be-made-equal-with-operations-ii","2906-construct-product-matrix","3129-find-all-possible-stable-binary-arrays-i","3296-minimum-number-of-seconds-to-make-mountain-height-zero","3546-equal-sum-grid-partition-i","3722-lexicographically-smallest-string-after-reverse"
+    ],
+    Hard: [
+      "0004-median-of-two-sorted-arrays","0025-reverse-nodes-in-k-group","0037-sudoku-solver","0042-trapping-rain-water","0051-n-queens","0060-permutation-sequence","1622-fancy-sequence","2573-find-the-string-with-lcp","2751-robot-collisions","3130-find-all-possible-stable-binary-arrays-ii","3474-lexicographically-smallest-generated-string","3548-equal-sum-grid-partition-ii","3600-maximize-spanning-tree-stability-with-upgrades"
+    ]
+  },
+  Cpp: {
+    Easy: ["0141-linked-list-cycle"],
+    Medium: ["0560-subarray-sum-equals-k"]
+  },
+  MySQL: {
+    Easy: ["0197-rising-temperature","0577-employee-bonus","0584-find-customer-referee","0595-big-countries","0620-not-boring-movies","1068-product-sales-analysis-i","1148-article-views-i","1251-average-selling-price","1280-students-and-examinations","1378-replace-employee-id-with-the-unique-identifier","1581-customer-who-visited-but-did-not-make-any-transactions","1661-average-time-of-process-per-machine","1683-invalid-tweets","1757-recyclable-and-low-fat-products"],
+    Medium: ["0570-managers-with-at-least-5-direct-reports","1934-confirmation-rate"]
+  }
+};
+
+const LANG_MAP = { Python3: 'Python3', Cpp: 'C++', MySQL: 'MySQL' };
+const SLUG_MAP = { Python3: 'Python3', Cpp: 'C++', MySQL: 'MySQL' };
+
+let currentLang = 'Python3';
+let currentDiff = 'all';
+let searchQuery = '';
+
+function setDifficulty(d) {
+  currentDiff = d;
+  document.querySelectorAll('.filter-btns button').forEach(b => b.classList.remove('active'));
+  document.getElementById('f-' + d).classList.add('active');
+  render();
+}
+
+function switchLang(lang) {
+  currentLang = lang;
+  document.querySelectorAll('.lang-tabs button').forEach(b => b.classList.remove('active'));
+  document.getElementById('tab-' + lang).classList.add('active');
+  render();
+}
+
+function countProblems() {
+  const c = { Easy: 0, Medium: 0, Hard: 0, files: 0, unique: 0 };
+  for (const lang of Object.keys(DATA)) {
+    for (const diff of ['Easy','Medium','Hard']) {
+      c[diff] += (DATA[lang][diff] || []).length;
+      c.unique += (DATA[lang][diff] || []).length;
+    }
+  }
+  c.files = 135;
+  return c;
+}
+
+function renderStats() {
+  const c = countProblems();
+  const el = document.getElementById('stats');
+  el.innerHTML = `
+    <div class="stat-card easy"><span class="num">${c.Easy}</span><div class="label">Easy</div></div>
+    <div class="stat-card medium"><span class="num">${c.Medium}</span><div class="label">Medium</div></div>
+    <div class="stat-card hard"><span class="num">${c.Hard}</span><div class="label">Hard</div></div>
+    <div class="stat-card total"><span class="num">${c.unique}</span><div class="label">Unique Problems</div></div>
+    <div class="stat-card"><span class="num">135</span><div class="label">Solution Files</div></div>
+  `;
+}
+
+function renderTabs() {
+  const el = document.getElementById('langTabs');
+  el.innerHTML = Object.keys(DATA).map(l =>
+    `<button id="tab-${l}" class="${l === currentLang ? 'active' : ''}" onclick="switchLang('${l}')">${LANG_MAP[l]}</button>`
+  ).join('');
+}
+
+function render() {
+  searchQuery = document.getElementById('search').value.toLowerCase().trim();
+  const langData = DATA[currentLang];
+  const el = document.getElementById('content');
+  const diffs = ['Easy','Medium','Hard'];
+  let hasAny = false;
+  let html = '';
+
+  for (const diff of diffs) {
+    const problems = langData[diff] || [];
+    let filtered = problems;
+    if (currentDiff !== 'all') filtered = problems;
+    if (searchQuery) filtered = filtered.filter(p => p.includes(searchQuery));
+    if (currentDiff !== 'all' && currentDiff !== diff.toLowerCase()) filtered = [];
+
+    if (filtered.length === 0 && currentDiff === 'all' && !searchQuery) filtered = problems;
+
+    const visible = filtered.length > 0;
+    if (visible) hasAny = true;
+
+    html += `<div class="category">
+      <div class="category-header open" onclick="this.classList.toggle('open'); this.nextElementSibling.classList.toggle('open')">
+        <span class="arrow">&#9654;</span>
+        <strong>${diff}</strong>
+        <span class="badge ${diff.toLowerCase()}">${problems.length}</span>
+        ${searchQuery || currentDiff !== 'all' ? `<span style="color:var(--muted);font-size:.8rem;margin-left:8px">${filtered.length} shown</span>` : ''}
+      </div>
+      <ul class="problem-list open">${filtered.map(p =>
+        `<li><a href="./problems/${SLUG_MAP[currentLang]}/${diff}/${p}/" target="_blank">${p}</a></li>`
+      ).join('')}</ul>
+    </div>`;
+  }
+
+  el.innerHTML = hasAny ? html : '<div class="empty-state">No problems match your search.</div>';
+}
+
+renderStats();
+renderTabs();
+render();
+</script>
+</body>
+</html>
