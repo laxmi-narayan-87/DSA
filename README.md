@@ -1,405 +1,138 @@
-# Data Structures and Algorithms (DSA) 📚
+# Data Structures and Algorithms (DSA)
 
-Welcome to the comprehensive Data Structures and Algorithms repository! This resource is designed to help you master fundamental computer science concepts through structured learning, practice problems, and well-documented solutions.
+LeetCode solutions and reference material for data structures and algorithms.
 
-## 🎯 Repository Overview
+## Structure
 
-This repository serves as a complete guide for learning and practicing Data Structures and Algorithms. Whether you're preparing for technical interviews, improving your problem-solving skills, or studying computer science fundamentals, you'll find organized content to support your learning journey.
+```
+DSA/
+├── problems/         # All LeetCode content
+│   ├── Python3/      #   Solutions by language & difficulty
+│   ├── C++/
+│   ├── MySQL/
+│   ├── 2026/         #   Daily challenge notes
+│   └── leetcode/     #   Individual problem writeups
+├── algorithms/       # Algorithm explainers (sorting, etc.)
+└── data-structures/  # DS explainers (trees, arrays, etc.)
+```
 
-## 📖 Table of Contents
+Each problem is organized as `problems/<Language>/<Difficulty>/<problem-slug>/`. Multiple solution files in a problem folder represent different approaches or attempts.
 
-- [Getting Started](#getting-started)
-- [Data Structures](#data-structures)
-- [Algorithms](#algorithms)
-- [Problem Categories](#problem-categories)
-- [Languages Supported](#languages-supported)
-- [Learning Resources](#learning-resources)
-- [Contributing](#contributing)
-- [License](#license)
+## Stats
 
-## 🚀 Getting Started
+| Language | Easy | Medium | Hard | Solution Files | Unique Problems |
+|----------|------|--------|------|---------------|-----------------|
+| Python   | 44   | 52     | 14   | 110           | 97              |
+| C++      | 1    | 1      | -    | 2             | 2               |
+| MySQL    | 19   | 4      | -    | 23            | 16              |
+| **Total** | **64** | **57** | **14** | **135** | **115** |
 
-### Prerequisites
-- Basic programming knowledge in at least one language
-- Understanding of basic mathematical concepts
-- Willingness to practice regularly
+## problems/Python3/
 
-### How to Use This Repository
-1. **Start with Fundamentals**: Begin with basic data structures if you're new to DSA
-2. **Practice Regularly**: Consistency is key to mastering algorithms
-3. **Understand Before Memorizing**: Focus on understanding the logic rather than memorizing solutions
-4. **Implement in Your Preferred Language**: Practice in the language you're most comfortable with
+### Easy (40)
 
-## 🏗️ Data Structures
+```
+0001-two-sum                           0118-pascals-triangle
+0014-longest-common-prefix             0121-best-time-to-buy-and-sell-stock
+0026-remove-duplicates-from-sorted-array
+0048-rotate-image                      0160-intersection-of-two-linked-lists
+0088-merge-sorted-array                0169-majority-element
+0206-reverse-linked-list               0234-palindrome-linked-list
+0367-valid-perfect-square              0455-assign-cookies
+0485-max-consecutive-ones              0703-kth-largest-element-in-a-stream
+0860-lemonade-change                   0876-middle-of-the-linked-list
+1009-complement-of-base-10-integer     1018-binary-prefix-divisible-by-5
+1582-special-positions-in-a-binary-matrix
+1758-minimum-changes-to-make-alternating-binary-string
+1784-check-if-binary-string-has-at-most-one-segment-of-ones
+1886-determine-whether-matrix-can-be-obtained-by-rotation
+2525-categorize-box-according-to-criteria
+2839-check-if-strings-can-be-made-equal-with-operations-i
+2877-create-a-dataframe-from-list      2878-get-the-size-of-a-dataframe
+2879-display-the-first-three-rows      2880-select-data
+2881-create-a-new-column               2882-drop-duplicate-rows
+2884-modify-columns                    2885-rename-columns
+2886-change-data-type                  2887-fill-missing-data
+2946-matrix-similarity-after-cyclic-shifts
+2965-find-missing-and-repeated-values
+3349-adjacent-increasing-subarrays-detection-i
+3354-make-array-elements-equal-to-zero
+3856-trim-trailing-vowels
+```
 
-### Linear Data Structures
-- **Arrays**: Static and dynamic arrays, operations, and applications
-- **Linked Lists**: Singly, doubly, and circular linked lists
-- **Stacks**: LIFO operations, applications, and implementations
-- **Queues**: FIFO operations, circular queues, priority queues, and deques
+### Medium (46)
 
-### Non-Linear Data Structures
-- **Trees**: Binary trees, binary search trees, AVL trees, and tree traversals
-- **Heaps**: Min heap, max heap, and heap operations
-- **Graphs**: Directed and undirected graphs, representations, and traversals
-- **Hash Tables**: Hash functions, collision resolution, and applications
+```
+0002-add-two-numbers                   0003-longest-substring-without-repeating-characters
+0005-longest-palindromic-substring     0015-3sum
+0019-remove-nth-node-from-end-of-list  0031-next-permutation
+0033-search-in-rotated-sorted-array    0039-combination-sum
+0040-combination-sum-ii                0048-rotate-image
+0050-powx-n                            0053-maximum-subarray
+0054-spiral-matrix                     0056-merge-intervals
+0061-rotate-list                       0064-minimum-path-sum
+0073-set-matrix-zeroes                 0074-search-a-2d-matrix
+0075-sort-colors                       0090-subsets-ii
+0128-longest-consecutive-sequence      0131-palindrome-partitioning
+0138-copy-list-with-random-pointer     0139-word-break
+0142-linked-list-cycle-ii              0237-delete-node-in-a-linked-list
+0287-find-the-duplicate-number         0322-coin-change
+0416-partition-equal-subset-sum        0445-add-two-numbers-ii
+0540-single-element-in-a-sorted-array  0567-permutation-in-string
+1415-the-k-th-lexicographical-string-of-all-happy-strings-of-length-n
+1545-find-kth-bit-in-nth-binary-string
+1689-partitioning-into-minimum-number-of-deci-binary-numbers
+1727-largest-submatrix-with-rearrangements
+1878-get-biggest-three-rhombus-sums-in-a-grid
+1980-find-unique-binary-string         2149-rearrange-array-elements-by-sign
+2840-check-if-strings-can-be-made-equal-with-operations-ii
+2906-construct-product-matrix          3129-find-all-possible-stable-binary-arrays-i
+3296-minimum-number-of-seconds-to-make-mountain-height-zero
+3546-equal-sum-grid-partition-i        3722-lexicographically-smallest-string-after-reverse
+```
 
-### Advanced Data Structures
-- **Tries**: Prefix trees and string processing
-- **Segment Trees**: Range queries and updates
-- **Disjoint Set Union (DSU)**: Union-find operations
-- **Fenwick Trees**: Binary indexed trees for prefix sums
+### Hard (14)
 
-## ⚡ Algorithms
+```
+0004-median-of-two-sorted-arrays       0025-reverse-nodes-in-k-group
+0037-sudoku-solver                     0042-trapping-rain-water
+0051-n-queens                          0060-permutation-sequence
+1622-fancy-sequence                    2573-find-the-string-with-lcp
+2751-robot-collisions                  3130-find-all-possible-stable-binary-arrays-ii
+3474-lexicographically-smallest-generated-string
+3548-equal-sum-grid-partition-ii
+3600-maximize-spanning-tree-stability-with-upgrades
+```
 
-### Sorting Algorithms
-- Bubble Sort, Selection Sort, Insertion Sort
-- Merge Sort, Quick Sort, Heap Sort
-- Counting Sort, Radix Sort, Bucket Sort
+## problems/C++/
 
-### Searching Algorithms
-- Linear Search, Binary Search
-- Depth-First Search (DFS), Breadth-First Search (BFS)
-- Ternary Search, Exponential Search
+```
+Easy/   0141-linked-list-cycle
+Medium/ 0560-subarray-sum-equals-k
+```
 
-### Graph Algorithms
-- Dijkstra's Algorithm, Bellman-Ford Algorithm
-- Floyd-Warshall Algorithm, Kruskal's Algorithm
-- Prim's Algorithm, Topological Sorting
+## problems/MySQL/
 
-### Dynamic Programming
-- Memoization and Tabulation
-- Classic DP problems (Fibonacci, Knapsack, LCS, LIS)
-- Advanced DP techniques
+```
+Easy/   0197-rising-temperature         0577-employee-bonus
+        0584-find-customer-referee      0595-big-countries
+        0620-not-boring-movies          1068-product-sales-analysis-i
+        1148-article-views-i            1251-average-selling-price
+        1280-students-and-examinations  1378-replace-employee-id-with-the-unique-identifier
+        1581-customer-who-visited-but-did-not-make-any-transactions
+        1661-average-time-of-process-per-machine
+        1683-invalid-tweets             1757-recyclable-and-low-fat-products
+Medium/ 0570-managers-with-at-least-5-direct-reports
+        1934-confirmation-rate
+```
 
-### Greedy Algorithms
-- Activity Selection, Fractional Knapsack
-- Huffman Coding, Job Scheduling
+## Reference
 
-### Divide and Conquer
-- Merge Sort, Quick Sort
-- Binary Search, Fast Exponentiation
+- `algorithms/` - Sorting explainers (Bubble, Merge, Quick, Heap, Counting, Shell, etc.)
+- `data-structures/` - DS explainers (B-Tree, Red-Black Tree, Skip List, Arrays)
+- `problems/2026/` - LeetCode daily challenge notes (Jan/Feb 2026)
+- `problems/leetcode/` - Individual problem writeups
 
-## 🎯 Problem Categories
+## License
 
-### Difficulty Levels
-- **Beginner**: Basic implementation and understanding
-- **Intermediate**: Problem-solving with multiple approaches
-- **Advanced**: Complex algorithms and optimization
-
-### Problem Types
-- **Array Problems**: Two pointers, sliding window, prefix sums
-- **String Problems**: Pattern matching, palindromes, subsequences
-- **Tree Problems**: Traversals, lowest common ancestor, diameter
-- **Graph Problems**: Shortest path, minimum spanning tree, cycles
-- **DP Problems**: Optimization, counting, decision problems
-
-## 💻 Languages Supported
-
-This repository provides solutions and implementations in multiple programming languages:
-- **Python**: Clean and readable implementations
-- **Java**: Object-oriented approach with detailed comments
-- **C++**: Efficient implementations for competitive programming
-- **JavaScript**: Modern ES6+ syntax for web developers
-
-## 📚 Learning Resources
-
-### Books
-- "Introduction to Algorithms" by Cormen, Leiserson, Rivest, and Stein
-- "Data Structures and Algorithms Made Easy" by Narasimha Karumanchi
-- "Cracking the Coding Interview" by Gayle Laakmann McDowell
-
-### Online Platforms
-- [LeetCode](https://leetcode.com/) - Extensive problem collection
-- [HackerRank](https://hackerrank.com/) - Skill-based challenges
-- [GeeksforGeeks](https://geeksforgeeks.org/) - Tutorials and explanations
-- [Codeforces](https://codeforces.com/) - Competitive programming contests
-
-### Video Resources
-- MIT OpenCourseWare: Introduction to Algorithms
-- Stanford CS161: Design and Analysis of Algorithms
-- YouTube channels: Abdul Bari, Jenny's Lectures
-
-## 🤝 Contributing
-
-We welcome contributions from the community! Here's how you can help:
-
-1. **Fork the repository**
-2. **Create a feature branch**: `git checkout -b feature/new-algorithm`
-3. **Add your implementation** with proper documentation
-4. **Include test cases** and complexity analysis
-5. **Submit a pull request** with a clear description
-
-### Contribution Guidelines
-- Follow consistent coding style
-- Include time and space complexity analysis
-- Add comments explaining the algorithm logic
-- Provide multiple test cases
-- Update documentation if needed
-
-## 📄 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-## 🌟 Acknowledgments
-
-- Thanks to all contributors who help improve this repository
-- Inspired by the broader computer science education community
-- Special thanks to online platforms that make learning accessible
-
----
-
-**Happy Coding! 🚀**
-
-*Remember: The best way to learn algorithms is by implementing them yourself. Start with simple problems and gradually work your way up to more complex challenges.*
-
-<!---LeetCode Topics Start-->
-# LeetCode Topics
-## Array
-| Problem Name | Difficulty |
-| ------- | ------- |
-| [0001-two-sum](https://github.com/laxmi-narayan-87/DSA/tree/main/Python3/Easy/0001-two-sum/) | Easy |
-| [0014-longest-common-prefix](https://github.com/laxmi-narayan-87/DSA/tree/main/0014-longest-common-prefix/) | Easy |
-| [0026-remove-duplicates-from-sorted-array](https://github.com/laxmi-narayan-87/DSA/tree/main/Python3/Easy/0026-remove-duplicates-from-sorted-array/) | Easy |
-| [0031-next-permutation](https://github.com/laxmi-narayan-87/DSA/tree/main/Python3/Medium/0031-next-permutation/) | Medium |
-| [0033-search-in-rotated-sorted-array](https://github.com/laxmi-narayan-87/DSA/tree/main/Python3/Medium/0033-search-in-rotated-sorted-array/) | Medium |
-| [0037-sudoku-solver](https://github.com/laxmi-narayan-87/DSA/tree/main/Python3/Hard/0037-sudoku-solver/) | Hard |
-| [0039-combination-sum](https://github.com/laxmi-narayan-87/DSA/tree/main/Python3/Medium/0039-combination-sum/) | Medium |
-| [0040-combination-sum-ii](https://github.com/laxmi-narayan-87/DSA/tree/main/Python3/Medium/0040-combination-sum-ii/) | Medium |
-| [0048-rotate-image](https://github.com/laxmi-narayan-87/DSA/tree/main/Python3/Medium/0048-rotate-image/) | Medium |
-| [0051-n-queens](https://github.com/laxmi-narayan-87/DSA/tree/main/Python3/Hard/0051-n-queens/) | Hard |
-| [0054-spiral-matrix](https://github.com/laxmi-narayan-87/DSA/tree/main/Python3/Medium/0054-spiral-matrix/) | Medium |
-| [0073-set-matrix-zeroes](https://github.com/laxmi-narayan-87/DSA/tree/main/Python3/Medium/0073-set-matrix-zeroes/) | Medium |
-| [0074-search-a-2d-matrix](https://github.com/laxmi-narayan-87/DSA/tree/main/Python3/Medium/0074-search-a-2d-matrix/) | Medium |
-| [0090-subsets-ii](https://github.com/laxmi-narayan-87/DSA/tree/main/Python3/Medium/0090-subsets-ii/) | Medium |
-| [0128-longest-consecutive-sequence](https://github.com/laxmi-narayan-87/DSA/tree/main/Python3/Medium/0128-longest-consecutive-sequence/) | Medium |
-| [0287-find-the-duplicate-number](https://github.com/laxmi-narayan-87/DSA/tree/main/Python3/Medium/0287-find-the-duplicate-number/) | Medium |
-| [0485-max-consecutive-ones](https://github.com/laxmi-narayan-87/DSA/tree/main/Python3/Easy/0485-max-consecutive-ones/) | Easy |
-| [0540-single-element-in-a-sorted-array](https://github.com/laxmi-narayan-87/DSA/tree/main/Python3/Medium/0540-single-element-in-a-sorted-array/) | Medium |
-| [0560-subarray-sum-equals-k](https://github.com/laxmi-narayan-87/DSA/tree/main/C++/Medium/0560-subarray-sum-equals-k/) | Medium |
-| [1018-binary-prefix-divisible-by-5](https://github.com/laxmi-narayan-87/DSA/tree/main/Python3/Easy/1018-binary-prefix-divisible-by-5/) | Easy |
-| [1582-special-positions-in-a-binary-matrix](https://github.com/laxmi-narayan-87/DSA/tree/main/Python3/Easy/1582-special-positions-in-a-binary-matrix/) | Easy |
-| [1886-determine-whether-matrix-can-be-obtained-by-rotation](https://github.com/laxmi-narayan-87/DSA/tree/main/Python3/Easy/1886-determine-whether-matrix-can-be-obtained-by-rotation/) | Easy |
-| [1980-find-unique-binary-string](https://github.com/laxmi-narayan-87/DSA/tree/main/Python3/Medium/1980-find-unique-binary-string/) | Medium |
-| [2149-rearrange-array-elements-by-sign](https://github.com/laxmi-narayan-87/DSA/tree/main/Python3/Medium/2149-rearrange-array-elements-by-sign/) | Medium |
-| [2906-construct-product-matrix](https://github.com/laxmi-narayan-87/DSA/tree/main/Python3/Medium/2906-construct-product-matrix/) | Medium |
-| [2946-matrix-similarity-after-cyclic-shifts](https://github.com/laxmi-narayan-87/DSA/tree/main/Python3/Easy/2946-matrix-similarity-after-cyclic-shifts/) | Easy |
-| [2965-find-missing-and-repeated-values](https://github.com/laxmi-narayan-87/DSA/tree/main/Python3/Easy/2965-find-missing-and-repeated-values/) | Easy |
-| [3349-adjacent-increasing-subarrays-detection-i](https://github.com/laxmi-narayan-87/DSA/tree/main/Python3/Easy/3349-adjacent-increasing-subarrays-detection-i/) | Easy |
-| [3354-make-array-elements-equal-to-zero](https://github.com/laxmi-narayan-87/DSA/tree/main/Python3/Easy/3354-make-array-elements-equal-to-zero/) | Easy |
-| [3546-equal-sum-grid-partition-i](https://github.com/laxmi-narayan-87/DSA/tree/main/Python3/Medium/3546-equal-sum-grid-partition-i/) | Medium |
-| [3548-equal-sum-grid-partition-ii](https://github.com/laxmi-narayan-87/DSA/tree/main/Python3/Hard/3548-equal-sum-grid-partition-ii/) | Hard |
-## String
-| Problem Name | Difficulty |
-| ------- | ------- |
-| [0003-longest-substring-without-repeating-characters](https://github.com/laxmi-narayan-87/DSA/tree/main/Python3/Medium/0003-longest-substring-without-repeating-characters/) | Medium |
-| [0014-longest-common-prefix](https://github.com/laxmi-narayan-87/DSA/tree/main/0014-longest-common-prefix/) | Easy |
-| [0567-permutation-in-string](https://github.com/laxmi-narayan-87/DSA/tree/main/Python3/Medium/0567-permutation-in-string/) | Medium |
-| [1415-the-k-th-lexicographical-string-of-all-happy-strings-of-length-n](https://github.com/laxmi-narayan-87/DSA/tree/main/Python3/Medium/1415-the-k-th-lexicographical-string-of-all-happy-strings-of-length-n/) | Medium |
-| [1545-find-kth-bit-in-nth-binary-string](https://github.com/laxmi-narayan-87/DSA/tree/main/1545-find-kth-bit-in-nth-binary-string/) | Medium |
-| [1758-minimum-changes-to-make-alternating-binary-string](https://github.com/laxmi-narayan-87/DSA/tree/main/Python3/Easy/1758-minimum-changes-to-make-alternating-binary-string/) | Easy |
-| [1784-check-if-binary-string-has-at-most-one-segment-of-ones](https://github.com/laxmi-narayan-87/DSA/tree/main/Python3/Easy/1784-check-if-binary-string-has-at-most-one-segment-of-ones/) | Easy |
-| [1980-find-unique-binary-string](https://github.com/laxmi-narayan-87/DSA/tree/main/Python3/Medium/1980-find-unique-binary-string/) | Medium |
-| [2839-check-if-strings-can-be-made-equal-with-operations-i](https://github.com/laxmi-narayan-87/DSA/tree/main/Python3/Easy/2839-check-if-strings-can-be-made-equal-with-operations-i/) | Easy |
-## Trie
-| Problem Name | Difficulty |
-| ------- | ------- |
-| [0014-longest-common-prefix](https://github.com/laxmi-narayan-87/DSA/tree/main/0014-longest-common-prefix/) | Easy |
-## Recursion
-| Problem Name | Difficulty |
-| ------- | ------- |
-| [0002-add-two-numbers](https://github.com/laxmi-narayan-87/DSA/tree/main/Python3/Medium/0002-add-two-numbers/) | Medium |
-| [0025-reverse-nodes-in-k-group](https://github.com/laxmi-narayan-87/DSA/tree/main/Python3/Hard/0025-reverse-nodes-in-k-group/) | Hard |
-| [0050-powx-n](https://github.com/laxmi-narayan-87/DSA/tree/main/Python3/Medium/0050-powx-n/) | Medium |
-| [0060-permutation-sequence](https://github.com/laxmi-narayan-87/DSA/tree/main/Python3/Hard/0060-permutation-sequence/) | Hard |
-| [0206-reverse-linked-list](https://github.com/laxmi-narayan-87/DSA/tree/main/Python3/Easy/0206-reverse-linked-list/) | Easy |
-| [0234-palindrome-linked-list](https://github.com/laxmi-narayan-87/DSA/tree/main/Python3/Easy/0234-palindrome-linked-list/) | Easy |
-| [1545-find-kth-bit-in-nth-binary-string](https://github.com/laxmi-narayan-87/DSA/tree/main/1545-find-kth-bit-in-nth-binary-string/) | Medium |
-## Simulation
-| Problem Name | Difficulty |
-| ------- | ------- |
-| [0054-spiral-matrix](https://github.com/laxmi-narayan-87/DSA/tree/main/Python3/Medium/0054-spiral-matrix/) | Medium |
-| [1545-find-kth-bit-in-nth-binary-string](https://github.com/laxmi-narayan-87/DSA/tree/main/1545-find-kth-bit-in-nth-binary-string/) | Medium |
-| [2149-rearrange-array-elements-by-sign](https://github.com/laxmi-narayan-87/DSA/tree/main/Python3/Medium/2149-rearrange-array-elements-by-sign/) | Medium |
-| [2946-matrix-similarity-after-cyclic-shifts](https://github.com/laxmi-narayan-87/DSA/tree/main/Python3/Easy/2946-matrix-similarity-after-cyclic-shifts/) | Easy |
-| [3354-make-array-elements-equal-to-zero](https://github.com/laxmi-narayan-87/DSA/tree/main/Python3/Easy/3354-make-array-elements-equal-to-zero/) | Easy |
-## Database
-| Problem Name | Difficulty |
-| ------- | ------- |
-| [0197-rising-temperature](https://github.com/laxmi-narayan-87/DSA/tree/main/MySQL/Easy/0197-rising-temperature/) | Easy |
-| [0570-managers-with-at-least-5-direct-reports](https://github.com/laxmi-narayan-87/DSA/tree/main/MySQL/Medium/0570-managers-with-at-least-5-direct-reports/) | Medium |
-| [0577-employee-bonus](https://github.com/laxmi-narayan-87/DSA/tree/main/MySQL/Easy/0577-employee-bonus/) | Easy |
-| [0584-find-customer-referee](https://github.com/laxmi-narayan-87/DSA/tree/main/MySQL/Easy/0584-find-customer-referee/) | Easy |
-| [0595-big-countries](https://github.com/laxmi-narayan-87/DSA/tree/main/MySQL/Easy/0595-big-countries/) | Easy |
-| [0620-not-boring-movies](https://github.com/laxmi-narayan-87/DSA/tree/main/MySQL/Easy/0620-not-boring-movies/) | Easy |
-| [1068-product-sales-analysis-i](https://github.com/laxmi-narayan-87/DSA/tree/main/MySQL/Easy/1068-product-sales-analysis-i/) | Easy |
-| [1148-article-views-i](https://github.com/laxmi-narayan-87/DSA/tree/main/MySQL/Easy/1148-article-views-i/) | Easy |
-| [1251-average-selling-price](https://github.com/laxmi-narayan-87/DSA/tree/main/MySQL/Easy/1251-average-selling-price/) | Easy |
-| [1280-students-and-examinations](https://github.com/laxmi-narayan-87/DSA/tree/main/MySQL/Easy/1280-students-and-examinations/) | Easy |
-| [1378-replace-employee-id-with-the-unique-identifier](https://github.com/laxmi-narayan-87/DSA/tree/main/MySQL/Easy/1378-replace-employee-id-with-the-unique-identifier/) | Easy |
-| [1581-customer-who-visited-but-did-not-make-any-transactions](https://github.com/laxmi-narayan-87/DSA/tree/main/MySQL/Easy/1581-customer-who-visited-but-did-not-make-any-transactions/) | Easy |
-| [1661-average-time-of-process-per-machine](https://github.com/laxmi-narayan-87/DSA/tree/main/MySQL/Easy/1661-average-time-of-process-per-machine/) | Easy |
-| [1683-invalid-tweets](https://github.com/laxmi-narayan-87/DSA/tree/main/MySQL/Easy/1683-invalid-tweets/) | Easy |
-| [1757-recyclable-and-low-fat-products](https://github.com/laxmi-narayan-87/DSA/tree/main/MySQL/Easy/1757-recyclable-and-low-fat-products/) | Easy |
-| [1934-confirmation-rate](https://github.com/laxmi-narayan-87/DSA/tree/main/MySQL/Medium/1934-confirmation-rate/) | Medium |
-## Matrix
-| Problem Name | Difficulty |
-| ------- | ------- |
-| [0037-sudoku-solver](https://github.com/laxmi-narayan-87/DSA/tree/main/Python3/Hard/0037-sudoku-solver/) | Hard |
-| [0048-rotate-image](https://github.com/laxmi-narayan-87/DSA/tree/main/Python3/Medium/0048-rotate-image/) | Medium |
-| [0054-spiral-matrix](https://github.com/laxmi-narayan-87/DSA/tree/main/Python3/Medium/0054-spiral-matrix/) | Medium |
-| [0073-set-matrix-zeroes](https://github.com/laxmi-narayan-87/DSA/tree/main/Python3/Medium/0073-set-matrix-zeroes/) | Medium |
-| [0074-search-a-2d-matrix](https://github.com/laxmi-narayan-87/DSA/tree/main/Python3/Medium/0074-search-a-2d-matrix/) | Medium |
-| [1582-special-positions-in-a-binary-matrix](https://github.com/laxmi-narayan-87/DSA/tree/main/Python3/Easy/1582-special-positions-in-a-binary-matrix/) | Easy |
-| [1886-determine-whether-matrix-can-be-obtained-by-rotation](https://github.com/laxmi-narayan-87/DSA/tree/main/Python3/Easy/1886-determine-whether-matrix-can-be-obtained-by-rotation/) | Easy |
-| [2906-construct-product-matrix](https://github.com/laxmi-narayan-87/DSA/tree/main/Python3/Medium/2906-construct-product-matrix/) | Medium |
-| [2946-matrix-similarity-after-cyclic-shifts](https://github.com/laxmi-narayan-87/DSA/tree/main/Python3/Easy/2946-matrix-similarity-after-cyclic-shifts/) | Easy |
-| [2965-find-missing-and-repeated-values](https://github.com/laxmi-narayan-87/DSA/tree/main/Python3/Easy/2965-find-missing-and-repeated-values/) | Easy |
-| [3546-equal-sum-grid-partition-i](https://github.com/laxmi-narayan-87/DSA/tree/main/Python3/Medium/3546-equal-sum-grid-partition-i/) | Medium |
-| [3548-equal-sum-grid-partition-ii](https://github.com/laxmi-narayan-87/DSA/tree/main/Python3/Hard/3548-equal-sum-grid-partition-ii/) | Hard |
-## Hash Table
-| Problem Name | Difficulty |
-| ------- | ------- |
-| [0001-two-sum](https://github.com/laxmi-narayan-87/DSA/tree/main/Python3/Easy/0001-two-sum/) | Easy |
-| [0003-longest-substring-without-repeating-characters](https://github.com/laxmi-narayan-87/DSA/tree/main/Python3/Medium/0003-longest-substring-without-repeating-characters/) | Medium |
-| [0037-sudoku-solver](https://github.com/laxmi-narayan-87/DSA/tree/main/Python3/Hard/0037-sudoku-solver/) | Hard |
-| [0073-set-matrix-zeroes](https://github.com/laxmi-narayan-87/DSA/tree/main/Python3/Medium/0073-set-matrix-zeroes/) | Medium |
-| [0128-longest-consecutive-sequence](https://github.com/laxmi-narayan-87/DSA/tree/main/Python3/Medium/0128-longest-consecutive-sequence/) | Medium |
-| [0138-copy-list-with-random-pointer](https://github.com/laxmi-narayan-87/DSA/tree/main/Python3/Medium/0138-copy-list-with-random-pointer/) | Medium |
-| [0141-linked-list-cycle](https://github.com/laxmi-narayan-87/DSA/tree/main/C++/Easy/0141-linked-list-cycle/) | Easy |
-| [0142-linked-list-cycle-ii](https://github.com/laxmi-narayan-87/DSA/tree/main/Python3/Medium/0142-linked-list-cycle-ii/) | Medium |
-| [0160-intersection-of-two-linked-lists](https://github.com/laxmi-narayan-87/DSA/tree/main/Python3/Easy/0160-intersection-of-two-linked-lists/) | Easy |
-| [0560-subarray-sum-equals-k](https://github.com/laxmi-narayan-87/DSA/tree/main/C++/Medium/0560-subarray-sum-equals-k/) | Medium |
-| [0567-permutation-in-string](https://github.com/laxmi-narayan-87/DSA/tree/main/Python3/Medium/0567-permutation-in-string/) | Medium |
-| [1980-find-unique-binary-string](https://github.com/laxmi-narayan-87/DSA/tree/main/Python3/Medium/1980-find-unique-binary-string/) | Medium |
-| [2965-find-missing-and-repeated-values](https://github.com/laxmi-narayan-87/DSA/tree/main/Python3/Easy/2965-find-missing-and-repeated-values/) | Easy |
-| [3548-equal-sum-grid-partition-ii](https://github.com/laxmi-narayan-87/DSA/tree/main/Python3/Hard/3548-equal-sum-grid-partition-ii/) | Hard |
-## Backtracking
-| Problem Name | Difficulty |
-| ------- | ------- |
-| [0037-sudoku-solver](https://github.com/laxmi-narayan-87/DSA/tree/main/Python3/Hard/0037-sudoku-solver/) | Hard |
-| [0039-combination-sum](https://github.com/laxmi-narayan-87/DSA/tree/main/Python3/Medium/0039-combination-sum/) | Medium |
-| [0040-combination-sum-ii](https://github.com/laxmi-narayan-87/DSA/tree/main/Python3/Medium/0040-combination-sum-ii/) | Medium |
-| [0051-n-queens](https://github.com/laxmi-narayan-87/DSA/tree/main/Python3/Hard/0051-n-queens/) | Hard |
-| [0090-subsets-ii](https://github.com/laxmi-narayan-87/DSA/tree/main/Python3/Medium/0090-subsets-ii/) | Medium |
-| [1415-the-k-th-lexicographical-string-of-all-happy-strings-of-length-n](https://github.com/laxmi-narayan-87/DSA/tree/main/Python3/Medium/1415-the-k-th-lexicographical-string-of-all-happy-strings-of-length-n/) | Medium |
-| [1980-find-unique-binary-string](https://github.com/laxmi-narayan-87/DSA/tree/main/Python3/Medium/1980-find-unique-binary-string/) | Medium |
-## Prefix Sum
-| Problem Name | Difficulty |
-| ------- | ------- |
-| [0560-subarray-sum-equals-k](https://github.com/laxmi-narayan-87/DSA/tree/main/C++/Medium/0560-subarray-sum-equals-k/) | Medium |
-| [2906-construct-product-matrix](https://github.com/laxmi-narayan-87/DSA/tree/main/Python3/Medium/2906-construct-product-matrix/) | Medium |
-| [3354-make-array-elements-equal-to-zero](https://github.com/laxmi-narayan-87/DSA/tree/main/Python3/Easy/3354-make-array-elements-equal-to-zero/) | Easy |
-| [3546-equal-sum-grid-partition-i](https://github.com/laxmi-narayan-87/DSA/tree/main/Python3/Medium/3546-equal-sum-grid-partition-i/) | Medium |
-| [3548-equal-sum-grid-partition-ii](https://github.com/laxmi-narayan-87/DSA/tree/main/Python3/Hard/3548-equal-sum-grid-partition-ii/) | Hard |
-## Bit Manipulation
-| Problem Name | Difficulty |
-| ------- | ------- |
-| [0090-subsets-ii](https://github.com/laxmi-narayan-87/DSA/tree/main/Python3/Medium/0090-subsets-ii/) | Medium |
-| [0287-find-the-duplicate-number](https://github.com/laxmi-narayan-87/DSA/tree/main/Python3/Medium/0287-find-the-duplicate-number/) | Medium |
-| [1009-complement-of-base-10-integer](https://github.com/laxmi-narayan-87/DSA/tree/main/Python3/Easy/1009-complement-of-base-10-integer/) | Easy |
-| [1018-binary-prefix-divisible-by-5](https://github.com/laxmi-narayan-87/DSA/tree/main/Python3/Easy/1018-binary-prefix-divisible-by-5/) | Easy |
-## Math
-| Problem Name | Difficulty |
-| ------- | ------- |
-| [0002-add-two-numbers](https://github.com/laxmi-narayan-87/DSA/tree/main/Python3/Medium/0002-add-two-numbers/) | Medium |
-| [0048-rotate-image](https://github.com/laxmi-narayan-87/DSA/tree/main/Python3/Medium/0048-rotate-image/) | Medium |
-| [0050-powx-n](https://github.com/laxmi-narayan-87/DSA/tree/main/Python3/Medium/0050-powx-n/) | Medium |
-| [0060-permutation-sequence](https://github.com/laxmi-narayan-87/DSA/tree/main/Python3/Hard/0060-permutation-sequence/) | Hard |
-| [0367-valid-perfect-square](https://github.com/laxmi-narayan-87/DSA/tree/main/Python3/Easy/0367-valid-perfect-square/) | Easy |
-| [0445-add-two-numbers-ii](https://github.com/laxmi-narayan-87/DSA/tree/main/Python3/Medium/0445-add-two-numbers-ii/) | Medium |
-| [1622-fancy-sequence](https://github.com/laxmi-narayan-87/DSA/tree/main/Python3/Hard/1622-fancy-sequence/) | Hard |
-| [2525-categorize-box-according-to-criteria](https://github.com/laxmi-narayan-87/DSA/tree/main/Python3/Easy/2525-categorize-box-according-to-criteria/) | Easy |
-| [2946-matrix-similarity-after-cyclic-shifts](https://github.com/laxmi-narayan-87/DSA/tree/main/Python3/Easy/2946-matrix-similarity-after-cyclic-shifts/) | Easy |
-| [2965-find-missing-and-repeated-values](https://github.com/laxmi-narayan-87/DSA/tree/main/Python3/Easy/2965-find-missing-and-repeated-values/) | Easy |
-## Design
-| Problem Name | Difficulty |
-| ------- | ------- |
-| [0703-kth-largest-element-in-a-stream](https://github.com/laxmi-narayan-87/DSA/tree/main/Python3/Easy/0703-kth-largest-element-in-a-stream/) | Easy |
-| [1622-fancy-sequence](https://github.com/laxmi-narayan-87/DSA/tree/main/Python3/Hard/1622-fancy-sequence/) | Hard |
-## Segment Tree
-| Problem Name | Difficulty |
-| ------- | ------- |
-| [1622-fancy-sequence](https://github.com/laxmi-narayan-87/DSA/tree/main/Python3/Hard/1622-fancy-sequence/) | Hard |
-## Two Pointers
-| Problem Name | Difficulty |
-| ------- | ------- |
-| [0019-remove-nth-node-from-end-of-list](https://github.com/laxmi-narayan-87/DSA/tree/main/Python3/Medium/0019-remove-nth-node-from-end-of-list/) | Medium |
-| [0026-remove-duplicates-from-sorted-array](https://github.com/laxmi-narayan-87/DSA/tree/main/Python3/Easy/0026-remove-duplicates-from-sorted-array/) | Easy |
-| [0031-next-permutation](https://github.com/laxmi-narayan-87/DSA/tree/main/Python3/Medium/0031-next-permutation/) | Medium |
-| [0061-rotate-list](https://github.com/laxmi-narayan-87/DSA/tree/main/Python3/Medium/0061-rotate-list/) | Medium |
-| [0141-linked-list-cycle](https://github.com/laxmi-narayan-87/DSA/tree/main/C++/Easy/0141-linked-list-cycle/) | Easy |
-| [0142-linked-list-cycle-ii](https://github.com/laxmi-narayan-87/DSA/tree/main/Python3/Medium/0142-linked-list-cycle-ii/) | Medium |
-| [0160-intersection-of-two-linked-lists](https://github.com/laxmi-narayan-87/DSA/tree/main/Python3/Easy/0160-intersection-of-two-linked-lists/) | Easy |
-| [0234-palindrome-linked-list](https://github.com/laxmi-narayan-87/DSA/tree/main/Python3/Easy/0234-palindrome-linked-list/) | Easy |
-| [0287-find-the-duplicate-number](https://github.com/laxmi-narayan-87/DSA/tree/main/Python3/Medium/0287-find-the-duplicate-number/) | Medium |
-| [0567-permutation-in-string](https://github.com/laxmi-narayan-87/DSA/tree/main/Python3/Medium/0567-permutation-in-string/) | Medium |
-| [0876-middle-of-the-linked-list](https://github.com/laxmi-narayan-87/DSA/tree/main/Python3/Easy/0876-middle-of-the-linked-list/) | Easy |
-| [2149-rearrange-array-elements-by-sign](https://github.com/laxmi-narayan-87/DSA/tree/main/Python3/Medium/2149-rearrange-array-elements-by-sign/) | Medium |
-| [3722-lexicographically-smallest-string-after-reverse](https://github.com/laxmi-narayan-87/DSA/tree/main/Python3/Medium/3722-lexicographically-smallest-string-after-reverse/) | Medium |
-## Binary Search
-| Problem Name | Difficulty |
-| ------- | ------- |
-| [0033-search-in-rotated-sorted-array](https://github.com/laxmi-narayan-87/DSA/tree/main/Python3/Medium/0033-search-in-rotated-sorted-array/) | Medium |
-| [0074-search-a-2d-matrix](https://github.com/laxmi-narayan-87/DSA/tree/main/Python3/Medium/0074-search-a-2d-matrix/) | Medium |
-| [0287-find-the-duplicate-number](https://github.com/laxmi-narayan-87/DSA/tree/main/Python3/Medium/0287-find-the-duplicate-number/) | Medium |
-| [0367-valid-perfect-square](https://github.com/laxmi-narayan-87/DSA/tree/main/Python3/Easy/0367-valid-perfect-square/) | Easy |
-| [0540-single-element-in-a-sorted-array](https://github.com/laxmi-narayan-87/DSA/tree/main/Python3/Medium/0540-single-element-in-a-sorted-array/) | Medium |
-| [3722-lexicographically-smallest-string-after-reverse](https://github.com/laxmi-narayan-87/DSA/tree/main/Python3/Medium/3722-lexicographically-smallest-string-after-reverse/) | Medium |
-## Enumeration
-| Problem Name | Difficulty |
-| ------- | ------- |
-| [3546-equal-sum-grid-partition-i](https://github.com/laxmi-narayan-87/DSA/tree/main/Python3/Medium/3546-equal-sum-grid-partition-i/) | Medium |
-| [3548-equal-sum-grid-partition-ii](https://github.com/laxmi-narayan-87/DSA/tree/main/Python3/Hard/3548-equal-sum-grid-partition-ii/) | Hard |
-| [3722-lexicographically-smallest-string-after-reverse](https://github.com/laxmi-narayan-87/DSA/tree/main/Python3/Medium/3722-lexicographically-smallest-string-after-reverse/) | Medium |
-## Linked List
-| Problem Name | Difficulty |
-| ------- | ------- |
-| [0002-add-two-numbers](https://github.com/laxmi-narayan-87/DSA/tree/main/Python3/Medium/0002-add-two-numbers/) | Medium |
-| [0019-remove-nth-node-from-end-of-list](https://github.com/laxmi-narayan-87/DSA/tree/main/Python3/Medium/0019-remove-nth-node-from-end-of-list/) | Medium |
-| [0025-reverse-nodes-in-k-group](https://github.com/laxmi-narayan-87/DSA/tree/main/Python3/Hard/0025-reverse-nodes-in-k-group/) | Hard |
-| [0061-rotate-list](https://github.com/laxmi-narayan-87/DSA/tree/main/Python3/Medium/0061-rotate-list/) | Medium |
-| [0138-copy-list-with-random-pointer](https://github.com/laxmi-narayan-87/DSA/tree/main/Python3/Medium/0138-copy-list-with-random-pointer/) | Medium |
-| [0141-linked-list-cycle](https://github.com/laxmi-narayan-87/DSA/tree/main/C++/Easy/0141-linked-list-cycle/) | Easy |
-| [0142-linked-list-cycle-ii](https://github.com/laxmi-narayan-87/DSA/tree/main/Python3/Medium/0142-linked-list-cycle-ii/) | Medium |
-| [0160-intersection-of-two-linked-lists](https://github.com/laxmi-narayan-87/DSA/tree/main/Python3/Easy/0160-intersection-of-two-linked-lists/) | Easy |
-| [0206-reverse-linked-list](https://github.com/laxmi-narayan-87/DSA/tree/main/Python3/Easy/0206-reverse-linked-list/) | Easy |
-| [0234-palindrome-linked-list](https://github.com/laxmi-narayan-87/DSA/tree/main/Python3/Easy/0234-palindrome-linked-list/) | Easy |
-| [0237-delete-node-in-a-linked-list](https://github.com/laxmi-narayan-87/DSA/tree/main/Python3/Medium/0237-delete-node-in-a-linked-list/) | Medium |
-| [0445-add-two-numbers-ii](https://github.com/laxmi-narayan-87/DSA/tree/main/Python3/Medium/0445-add-two-numbers-ii/) | Medium |
-| [0876-middle-of-the-linked-list](https://github.com/laxmi-narayan-87/DSA/tree/main/Python3/Easy/0876-middle-of-the-linked-list/) | Easy |
-## Stack
-| Problem Name | Difficulty |
-| ------- | ------- |
-| [0234-palindrome-linked-list](https://github.com/laxmi-narayan-87/DSA/tree/main/Python3/Easy/0234-palindrome-linked-list/) | Easy |
-| [0445-add-two-numbers-ii](https://github.com/laxmi-narayan-87/DSA/tree/main/Python3/Medium/0445-add-two-numbers-ii/) | Medium |
-## Union-Find
-| Problem Name | Difficulty |
-| ------- | ------- |
-| [0128-longest-consecutive-sequence](https://github.com/laxmi-narayan-87/DSA/tree/main/Python3/Medium/0128-longest-consecutive-sequence/) | Medium |
-## Sliding Window
-| Problem Name | Difficulty |
-| ------- | ------- |
-| [0003-longest-substring-without-repeating-characters](https://github.com/laxmi-narayan-87/DSA/tree/main/Python3/Medium/0003-longest-substring-without-repeating-characters/) | Medium |
-| [0567-permutation-in-string](https://github.com/laxmi-narayan-87/DSA/tree/main/Python3/Medium/0567-permutation-in-string/) | Medium |
-## Tree
-| Problem Name | Difficulty |
-| ------- | ------- |
-| [0703-kth-largest-element-in-a-stream](https://github.com/laxmi-narayan-87/DSA/tree/main/Python3/Easy/0703-kth-largest-element-in-a-stream/) | Easy |
-## Binary Search Tree
-| Problem Name | Difficulty |
-| ------- | ------- |
-| [0703-kth-largest-element-in-a-stream](https://github.com/laxmi-narayan-87/DSA/tree/main/Python3/Easy/0703-kth-largest-element-in-a-stream/) | Easy |
-## Heap (Priority Queue)
-| Problem Name | Difficulty |
-| ------- | ------- |
-| [0703-kth-largest-element-in-a-stream](https://github.com/laxmi-narayan-87/DSA/tree/main/Python3/Easy/0703-kth-largest-element-in-a-stream/) | Easy |
-## Binary Tree
-| Problem Name | Difficulty |
-| ------- | ------- |
-| [0703-kth-largest-element-in-a-stream](https://github.com/laxmi-narayan-87/DSA/tree/main/Python3/Easy/0703-kth-largest-element-in-a-stream/) | Easy |
-## Data Stream
-| Problem Name | Difficulty |
-| ------- | ------- |
-| [0703-kth-largest-element-in-a-stream](https://github.com/laxmi-narayan-87/DSA/tree/main/Python3/Easy/0703-kth-largest-element-in-a-stream/) | Easy |
-<!---LeetCode Topics End-->
+MIT

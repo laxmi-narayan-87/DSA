@@ -30,6 +30,17 @@ We welcome various types of contributions:
 - Include time and space complexity analysis
 - Provide multiple test cases
 
+### 4. File Structure
+
+When adding new content, follow this structure:
+```
+<Language>/<Difficulty>/<problem-slug>/
+├── <problem-slug>-<date>-<time>.py  # Solution
+└── README.md                        # Problem description (optional)
+```
+
+Solutions for the same problem using different approaches can be added as separate files (distinguished by date/time in filename).
+
 #### Language-Specific Guidelines
 
 **Python:**
@@ -37,32 +48,14 @@ We welcome various types of contributions:
 - Use meaningful variable names
 - Include docstrings for functions and classes
 
-**Java:**
-- Follow Oracle's Java Code Conventions
-- Use camelCase for variables and methods
-- Include JavaDoc comments
-
 **C++:**
 - Follow Google C++ Style Guide
 - Use descriptive variable names
 - Include header comments
 
-**JavaScript:**
-- Use modern ES6+ syntax
-- Follow Airbnb JavaScript Style Guide
-- Include JSDoc comments
-
-### 4. File Structure
-
-When adding new content, follow this structure:
-```
-topic/
-├── README.md           # Topic overview and explanation
-├── implementation/     # Core implementations
-├── problems/          # Practice problems
-├── solutions/         # Problem solutions
-└── tests/            # Test cases
-```
+**MySQL:**
+- Use consistent uppercase for SQL keywords
+- Include comments for complex queries
 
 ### 5. Documentation Requirements
 
