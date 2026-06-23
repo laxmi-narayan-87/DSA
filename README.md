@@ -197,9 +197,22 @@ MIT
 ## Heap (Priority Queue)
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0023-merge-k-sorted-lists](https://github.com/laxmi-narayan-87/DSA/tree/main/Python3/Hard/0023-merge-k-sorted-lists/) | Hard |
 | [0295-find-median-from-data-stream](https://github.com/laxmi-narayan-87/DSA/tree/main/Python3/Hard/0295-find-median-from-data-stream/) | Hard |
 ## Data Stream
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0295-find-median-from-data-stream](https://github.com/laxmi-narayan-87/DSA/tree/main/Python3/Hard/0295-find-median-from-data-stream/) | Hard |
+## Linked List
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0023-merge-k-sorted-lists](https://github.com/laxmi-narayan-87/DSA/tree/main/Python3/Hard/0023-merge-k-sorted-lists/) | Hard |
+## Divide and Conquer
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0023-merge-k-sorted-lists](https://github.com/laxmi-narayan-87/DSA/tree/main/Python3/Hard/0023-merge-k-sorted-lists/) | Hard |
+## Merge Sort
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0023-merge-k-sorted-lists](https://github.com/laxmi-narayan-87/DSA/tree/main/Python3/Hard/0023-merge-k-sorted-lists/) | Hard |
 <!---LeetCode Topics End-->
