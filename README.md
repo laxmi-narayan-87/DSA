@@ -189,6 +189,7 @@ MIT
 ## Design
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0146-lru-cache](https://github.com/laxmi-narayan-87/DSA/tree/main/Python3/Medium/0146-lru-cache/) | Medium |
 | [0225-implement-stack-using-queues](https://github.com/laxmi-narayan-87/DSA/tree/main/Python3/Easy/0225-implement-stack-using-queues/) | Easy |
 | [0232-implement-queue-using-stacks](https://github.com/laxmi-narayan-87/DSA/tree/main/Python3/Easy/0232-implement-queue-using-stacks/) | Easy |
 | [0295-find-median-from-data-stream](https://github.com/laxmi-narayan-87/DSA/tree/main/Python3/Hard/0295-find-median-from-data-stream/) | Hard |
@@ -212,6 +213,7 @@ MIT
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0023-merge-k-sorted-lists](https://github.com/laxmi-narayan-87/DSA/tree/main/Python3/Hard/0023-merge-k-sorted-lists/) | Hard |
+| [0146-lru-cache](https://github.com/laxmi-narayan-87/DSA/tree/main/Python3/Medium/0146-lru-cache/) | Medium |
 | [0460-lfu-cache](https://github.com/laxmi-narayan-87/DSA/tree/main/Python3/Hard/0460-lfu-cache/) | Hard |
 ## Divide and Conquer
 | Problem Name | Difficulty |
@@ -230,6 +232,7 @@ MIT
 ## Hash Table
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0146-lru-cache](https://github.com/laxmi-narayan-87/DSA/tree/main/Python3/Medium/0146-lru-cache/) | Medium |
 | [0347-top-k-frequent-elements](https://github.com/laxmi-narayan-87/DSA/tree/main/Python3/Medium/0347-top-k-frequent-elements/) | Medium |
 | [0460-lfu-cache](https://github.com/laxmi-narayan-87/DSA/tree/main/Python3/Hard/0460-lfu-cache/) | Hard |
 | [0496-next-greater-element-i](https://github.com/laxmi-narayan-87/DSA/tree/main/Python3/Easy/0496-next-greater-element-i/) | Easy |
@@ -268,5 +271,6 @@ MIT
 ## Doubly-Linked List
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0146-lru-cache](https://github.com/laxmi-narayan-87/DSA/tree/main/Python3/Medium/0146-lru-cache/) | Medium |
 | [0460-lfu-cache](https://github.com/laxmi-narayan-87/DSA/tree/main/Python3/Hard/0460-lfu-cache/) | Hard |
 <!---LeetCode Topics End-->
