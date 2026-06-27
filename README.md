@@ -204,6 +204,7 @@ MIT
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0023-merge-k-sorted-lists](https://github.com/laxmi-narayan-87/DSA/tree/main/Python3/Hard/0023-merge-k-sorted-lists/) | Hard |
+| [0239-sliding-window-maximum](https://github.com/laxmi-narayan-87/DSA/tree/main/Python/Hard/0239-sliding-window-maximum/) | Hard |
 | [0295-find-median-from-data-stream](https://github.com/laxmi-narayan-87/DSA/tree/main/Python3/Hard/0295-find-median-from-data-stream/) | Hard |
 | [0347-top-k-frequent-elements](https://github.com/laxmi-narayan-87/DSA/tree/main/Python3/Medium/0347-top-k-frequent-elements/) | Medium |
 ## Data Stream
@@ -229,6 +230,7 @@ MIT
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0084-largest-rectangle-in-histogram](https://github.com/laxmi-narayan-87/DSA/tree/main/Python3/Hard/0084-largest-rectangle-in-histogram/) | Hard |
+| [0239-sliding-window-maximum](https://github.com/laxmi-narayan-87/DSA/tree/main/Python/Hard/0239-sliding-window-maximum/) | Hard |
 | [0347-top-k-frequent-elements](https://github.com/laxmi-narayan-87/DSA/tree/main/Python3/Medium/0347-top-k-frequent-elements/) | Medium |
 | [0496-next-greater-element-i](https://github.com/laxmi-narayan-87/DSA/tree/main/Python3/Easy/0496-next-greater-element-i/) | Easy |
 | [0994-rotting-oranges](https://github.com/laxmi-narayan-87/DSA/tree/main/Python3/Medium/0994-rotting-oranges/) | Medium |
@@ -265,6 +267,7 @@ MIT
 | ------- | ------- |
 | [0225-implement-stack-using-queues](https://github.com/laxmi-narayan-87/DSA/tree/main/Python3/Easy/0225-implement-stack-using-queues/) | Easy |
 | [0232-implement-queue-using-stacks](https://github.com/laxmi-narayan-87/DSA/tree/main/Python3/Easy/0232-implement-queue-using-stacks/) | Easy |
+| [0239-sliding-window-maximum](https://github.com/laxmi-narayan-87/DSA/tree/main/Python/Hard/0239-sliding-window-maximum/) | Hard |
 ## String
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -287,4 +290,12 @@ MIT
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0994-rotting-oranges](https://github.com/laxmi-narayan-87/DSA/tree/main/Python3/Medium/0994-rotting-oranges/) | Medium |
+## Sliding Window
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0239-sliding-window-maximum](https://github.com/laxmi-narayan-87/DSA/tree/main/Python/Hard/0239-sliding-window-maximum/) | Hard |
+## Monotonic Queue
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0239-sliding-window-maximum](https://github.com/laxmi-narayan-87/DSA/tree/main/Python/Hard/0239-sliding-window-maximum/) | Hard |
 <!---LeetCode Topics End-->
