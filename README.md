@@ -227,6 +227,7 @@ MIT
 ## Array
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0084-largest-rectangle-in-histogram](https://github.com/laxmi-narayan-87/DSA/tree/main/Python3/Hard/0084-largest-rectangle-in-histogram/) | Hard |
 | [0347-top-k-frequent-elements](https://github.com/laxmi-narayan-87/DSA/tree/main/Python3/Medium/0347-top-k-frequent-elements/) | Medium |
 | [0496-next-greater-element-i](https://github.com/laxmi-narayan-87/DSA/tree/main/Python3/Easy/0496-next-greater-element-i/) | Easy |
 ## Hash Table
@@ -252,6 +253,7 @@ MIT
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0020-valid-parentheses](https://github.com/laxmi-narayan-87/DSA/tree/main/Python3/Easy/0020-valid-parentheses/) | Easy |
+| [0084-largest-rectangle-in-histogram](https://github.com/laxmi-narayan-87/DSA/tree/main/Python3/Hard/0084-largest-rectangle-in-histogram/) | Hard |
 | [0225-implement-stack-using-queues](https://github.com/laxmi-narayan-87/DSA/tree/main/Python3/Easy/0225-implement-stack-using-queues/) | Easy |
 | [0232-implement-queue-using-stacks](https://github.com/laxmi-narayan-87/DSA/tree/main/Python3/Easy/0232-implement-queue-using-stacks/) | Easy |
 | [0496-next-greater-element-i](https://github.com/laxmi-narayan-87/DSA/tree/main/Python3/Easy/0496-next-greater-element-i/) | Easy |
@@ -267,6 +269,7 @@ MIT
 ## Monotonic Stack
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0084-largest-rectangle-in-histogram](https://github.com/laxmi-narayan-87/DSA/tree/main/Python3/Hard/0084-largest-rectangle-in-histogram/) | Hard |
 | [0496-next-greater-element-i](https://github.com/laxmi-narayan-87/DSA/tree/main/Python3/Easy/0496-next-greater-element-i/) | Easy |
 ## Doubly-Linked List
 | Problem Name | Difficulty |
