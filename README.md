@@ -230,6 +230,7 @@ MIT
 | [0084-largest-rectangle-in-histogram](https://github.com/laxmi-narayan-87/DSA/tree/main/Python3/Hard/0084-largest-rectangle-in-histogram/) | Hard |
 | [0347-top-k-frequent-elements](https://github.com/laxmi-narayan-87/DSA/tree/main/Python3/Medium/0347-top-k-frequent-elements/) | Medium |
 | [0496-next-greater-element-i](https://github.com/laxmi-narayan-87/DSA/tree/main/Python3/Easy/0496-next-greater-element-i/) | Easy |
+| [0994-rotting-oranges](https://github.com/laxmi-narayan-87/DSA/tree/main/Python3/Medium/0994-rotting-oranges/) | Medium |
 ## Hash Table
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -276,4 +277,12 @@ MIT
 | ------- | ------- |
 | [0146-lru-cache](https://github.com/laxmi-narayan-87/DSA/tree/main/Python3/Medium/0146-lru-cache/) | Medium |
 | [0460-lfu-cache](https://github.com/laxmi-narayan-87/DSA/tree/main/Python3/Hard/0460-lfu-cache/) | Hard |
+## Breadth-First Search
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0994-rotting-oranges](https://github.com/laxmi-narayan-87/DSA/tree/main/Python3/Medium/0994-rotting-oranges/) | Medium |
+## Matrix
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0994-rotting-oranges](https://github.com/laxmi-narayan-87/DSA/tree/main/Python3/Medium/0994-rotting-oranges/) | Medium |
 <!---LeetCode Topics End-->
