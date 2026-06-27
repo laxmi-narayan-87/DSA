@@ -190,6 +190,7 @@ MIT
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0146-lru-cache](https://github.com/laxmi-narayan-87/DSA/tree/main/Python3/Medium/0146-lru-cache/) | Medium |
+| [0155-min-stack](https://github.com/laxmi-narayan-87/DSA/tree/main/Python3/Medium/0155-min-stack/) | Medium |
 | [0225-implement-stack-using-queues](https://github.com/laxmi-narayan-87/DSA/tree/main/Python3/Easy/0225-implement-stack-using-queues/) | Easy |
 | [0232-implement-queue-using-stacks](https://github.com/laxmi-narayan-87/DSA/tree/main/Python3/Easy/0232-implement-queue-using-stacks/) | Easy |
 | [0295-find-median-from-data-stream](https://github.com/laxmi-narayan-87/DSA/tree/main/Python3/Hard/0295-find-median-from-data-stream/) | Hard |
@@ -255,6 +256,7 @@ MIT
 | ------- | ------- |
 | [0020-valid-parentheses](https://github.com/laxmi-narayan-87/DSA/tree/main/Python3/Easy/0020-valid-parentheses/) | Easy |
 | [0084-largest-rectangle-in-histogram](https://github.com/laxmi-narayan-87/DSA/tree/main/Python3/Hard/0084-largest-rectangle-in-histogram/) | Hard |
+| [0155-min-stack](https://github.com/laxmi-narayan-87/DSA/tree/main/Python3/Medium/0155-min-stack/) | Medium |
 | [0225-implement-stack-using-queues](https://github.com/laxmi-narayan-87/DSA/tree/main/Python3/Easy/0225-implement-stack-using-queues/) | Easy |
 | [0232-implement-queue-using-stacks](https://github.com/laxmi-narayan-87/DSA/tree/main/Python3/Easy/0232-implement-queue-using-stacks/) | Easy |
 | [0496-next-greater-element-i](https://github.com/laxmi-narayan-87/DSA/tree/main/Python3/Easy/0496-next-greater-element-i/) | Easy |
