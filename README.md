@@ -234,6 +234,7 @@ MIT
 | [0347-top-k-frequent-elements](https://github.com/laxmi-narayan-87/DSA/tree/main/Python3/Medium/0347-top-k-frequent-elements/) | Medium |
 | [0496-next-greater-element-i](https://github.com/laxmi-narayan-87/DSA/tree/main/Python3/Easy/0496-next-greater-element-i/) | Easy |
 | [0994-rotting-oranges](https://github.com/laxmi-narayan-87/DSA/tree/main/Python3/Medium/0994-rotting-oranges/) | Medium |
+| [3702-longest-subsequence-with-non-zero-bitwise-xor](https://github.com/laxmi-narayan-87/DSA/tree/main/Python/Medium/3702-longest-subsequence-with-non-zero-bitwise-xor/) | Medium |
 ## Hash Table
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -298,4 +299,8 @@ MIT
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0239-sliding-window-maximum](https://github.com/laxmi-narayan-87/DSA/tree/main/Python/Hard/0239-sliding-window-maximum/) | Hard |
+## Bit Manipulation
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [3702-longest-subsequence-with-non-zero-bitwise-xor](https://github.com/laxmi-narayan-87/DSA/tree/main/Python/Medium/3702-longest-subsequence-with-non-zero-bitwise-xor/) | Medium |
 <!---LeetCode Topics End-->
