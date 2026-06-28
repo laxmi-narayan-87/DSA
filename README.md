@@ -195,6 +195,7 @@ MIT
 | [0232-implement-queue-using-stacks](https://github.com/laxmi-narayan-87/DSA/tree/main/Python3/Easy/0232-implement-queue-using-stacks/) | Easy |
 | [0295-find-median-from-data-stream](https://github.com/laxmi-narayan-87/DSA/tree/main/Python3/Hard/0295-find-median-from-data-stream/) | Hard |
 | [0460-lfu-cache](https://github.com/laxmi-narayan-87/DSA/tree/main/Python3/Hard/0460-lfu-cache/) | Hard |
+| [0901-online-stock-span](https://github.com/laxmi-narayan-87/DSA/tree/main/Python/Medium/0901-online-stock-span/) | Medium |
 ## Sorting
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -211,6 +212,7 @@ MIT
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0295-find-median-from-data-stream](https://github.com/laxmi-narayan-87/DSA/tree/main/Python3/Hard/0295-find-median-from-data-stream/) | Hard |
+| [0901-online-stock-span](https://github.com/laxmi-narayan-87/DSA/tree/main/Python/Medium/0901-online-stock-span/) | Medium |
 ## Linked List
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -263,6 +265,7 @@ MIT
 | [0225-implement-stack-using-queues](https://github.com/laxmi-narayan-87/DSA/tree/main/Python3/Easy/0225-implement-stack-using-queues/) | Easy |
 | [0232-implement-queue-using-stacks](https://github.com/laxmi-narayan-87/DSA/tree/main/Python3/Easy/0232-implement-queue-using-stacks/) | Easy |
 | [0496-next-greater-element-i](https://github.com/laxmi-narayan-87/DSA/tree/main/Python3/Easy/0496-next-greater-element-i/) | Easy |
+| [0901-online-stock-span](https://github.com/laxmi-narayan-87/DSA/tree/main/Python/Medium/0901-online-stock-span/) | Medium |
 ## Queue
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -278,6 +281,7 @@ MIT
 | ------- | ------- |
 | [0084-largest-rectangle-in-histogram](https://github.com/laxmi-narayan-87/DSA/tree/main/Python3/Hard/0084-largest-rectangle-in-histogram/) | Hard |
 | [0496-next-greater-element-i](https://github.com/laxmi-narayan-87/DSA/tree/main/Python3/Easy/0496-next-greater-element-i/) | Easy |
+| [0901-online-stock-span](https://github.com/laxmi-narayan-87/DSA/tree/main/Python/Medium/0901-online-stock-span/) | Medium |
 ## Doubly-Linked List
 | Problem Name | Difficulty |
 | ------- | ------- |
