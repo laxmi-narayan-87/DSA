@@ -185,6 +185,7 @@ MIT
 ## Two Pointers
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0151-reverse-words-in-a-string](https://github.com/laxmi-narayan-87/DSA/tree/main/Python/Medium/0151-reverse-words-in-a-string/) | Medium |
 | [0295-find-median-from-data-stream](https://github.com/laxmi-narayan-87/DSA/tree/main/Python3/Hard/0295-find-median-from-data-stream/) | Hard |
 ## Design
 | Problem Name | Difficulty |
@@ -276,6 +277,7 @@ MIT
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0020-valid-parentheses](https://github.com/laxmi-narayan-87/DSA/tree/main/Python3/Easy/0020-valid-parentheses/) | Easy |
+| [0151-reverse-words-in-a-string](https://github.com/laxmi-narayan-87/DSA/tree/main/Python/Medium/0151-reverse-words-in-a-string/) | Medium |
 ## Monotonic Stack
 | Problem Name | Difficulty |
 | ------- | ------- |
