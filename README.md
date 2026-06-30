@@ -283,6 +283,7 @@ MIT
 | [0014-longest-common-prefix](https://github.com/laxmi-narayan-87/DSA/tree/main/Python3/Easy/0014-longest-common-prefix/) | Easy |
 | [0020-valid-parentheses](https://github.com/laxmi-narayan-87/DSA/tree/main/Python3/Easy/0020-valid-parentheses/) | Easy |
 | [0151-reverse-words-in-a-string](https://github.com/laxmi-narayan-87/DSA/tree/main/Python/Medium/0151-reverse-words-in-a-string/) | Medium |
+| [0686-repeated-string-match](https://github.com/laxmi-narayan-87/DSA/tree/main/Python3/Medium/0686-repeated-string-match/) | Medium |
 ## Monotonic Stack
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -322,4 +323,8 @@ MIT
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0014-longest-common-prefix](https://github.com/laxmi-narayan-87/DSA/tree/main/Python3/Easy/0014-longest-common-prefix/) | Easy |
+## String Matching
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0686-repeated-string-match](https://github.com/laxmi-narayan-87/DSA/tree/main/Python3/Medium/0686-repeated-string-match/) | Medium |
 <!---LeetCode Topics End-->
