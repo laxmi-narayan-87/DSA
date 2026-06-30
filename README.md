@@ -232,6 +232,7 @@ MIT
 ## Array
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0014-longest-common-prefix](https://github.com/laxmi-narayan-87/DSA/tree/main/Python3/Easy/0014-longest-common-prefix/) | Easy |
 | [0084-largest-rectangle-in-histogram](https://github.com/laxmi-narayan-87/DSA/tree/main/Python3/Hard/0084-largest-rectangle-in-histogram/) | Hard |
 | [0239-sliding-window-maximum](https://github.com/laxmi-narayan-87/DSA/tree/main/Python/Hard/0239-sliding-window-maximum/) | Hard |
 | [0347-top-k-frequent-elements](https://github.com/laxmi-narayan-87/DSA/tree/main/Python3/Medium/0347-top-k-frequent-elements/) | Medium |
@@ -279,6 +280,7 @@ MIT
 | ------- | ------- |
 | [0008-string-to-integer-atoi](https://github.com/laxmi-narayan-87/DSA/tree/main/Python3/Medium/0008-string-to-integer-atoi/) | Medium |
 | [0013-roman-to-integer](https://github.com/laxmi-narayan-87/DSA/tree/main/Python3/Easy/0013-roman-to-integer/) | Easy |
+| [0014-longest-common-prefix](https://github.com/laxmi-narayan-87/DSA/tree/main/Python3/Easy/0014-longest-common-prefix/) | Easy |
 | [0020-valid-parentheses](https://github.com/laxmi-narayan-87/DSA/tree/main/Python3/Easy/0020-valid-parentheses/) | Easy |
 | [0151-reverse-words-in-a-string](https://github.com/laxmi-narayan-87/DSA/tree/main/Python/Medium/0151-reverse-words-in-a-string/) | Medium |
 ## Monotonic Stack
@@ -316,4 +318,8 @@ MIT
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0013-roman-to-integer](https://github.com/laxmi-narayan-87/DSA/tree/main/Python3/Easy/0013-roman-to-integer/) | Easy |
+## Trie
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0014-longest-common-prefix](https://github.com/laxmi-narayan-87/DSA/tree/main/Python3/Easy/0014-longest-common-prefix/) | Easy |
 <!---LeetCode Topics End-->
