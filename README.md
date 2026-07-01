@@ -286,6 +286,7 @@ MIT
 | [0028-find-the-index-of-the-first-occurrence-in-a-string](https://github.com/laxmi-narayan-87/DSA/tree/main/Python3/Easy/0028-find-the-index-of-the-first-occurrence-in-a-string/) | Easy |
 | [0151-reverse-words-in-a-string](https://github.com/laxmi-narayan-87/DSA/tree/main/Python/Medium/0151-reverse-words-in-a-string/) | Medium |
 | [0686-repeated-string-match](https://github.com/laxmi-narayan-87/DSA/tree/main/Python3/Medium/0686-repeated-string-match/) | Medium |
+| [1312-minimum-insertion-steps-to-make-a-string-palindrome](https://github.com/laxmi-narayan-87/DSA/tree/main/Python3/Hard/1312-minimum-insertion-steps-to-make-a-string-palindrome/) | Hard |
 ## Monotonic Stack
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -330,4 +331,8 @@ MIT
 | ------- | ------- |
 | [0028-find-the-index-of-the-first-occurrence-in-a-string](https://github.com/laxmi-narayan-87/DSA/tree/main/Python3/Easy/0028-find-the-index-of-the-first-occurrence-in-a-string/) | Easy |
 | [0686-repeated-string-match](https://github.com/laxmi-narayan-87/DSA/tree/main/Python3/Medium/0686-repeated-string-match/) | Medium |
+## Dynamic Programming
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [1312-minimum-insertion-steps-to-make-a-string-palindrome](https://github.com/laxmi-narayan-87/DSA/tree/main/Python3/Hard/1312-minimum-insertion-steps-to-make-a-string-palindrome/) | Hard |
 <!---LeetCode Topics End-->
