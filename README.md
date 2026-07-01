@@ -185,6 +185,7 @@ MIT
 ## Two Pointers
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0028-find-the-index-of-the-first-occurrence-in-a-string](https://github.com/laxmi-narayan-87/DSA/tree/main/Python3/Easy/0028-find-the-index-of-the-first-occurrence-in-a-string/) | Easy |
 | [0151-reverse-words-in-a-string](https://github.com/laxmi-narayan-87/DSA/tree/main/Python/Medium/0151-reverse-words-in-a-string/) | Medium |
 | [0295-find-median-from-data-stream](https://github.com/laxmi-narayan-87/DSA/tree/main/Python3/Hard/0295-find-median-from-data-stream/) | Hard |
 ## Design
@@ -282,6 +283,7 @@ MIT
 | [0013-roman-to-integer](https://github.com/laxmi-narayan-87/DSA/tree/main/Python3/Easy/0013-roman-to-integer/) | Easy |
 | [0014-longest-common-prefix](https://github.com/laxmi-narayan-87/DSA/tree/main/Python3/Easy/0014-longest-common-prefix/) | Easy |
 | [0020-valid-parentheses](https://github.com/laxmi-narayan-87/DSA/tree/main/Python3/Easy/0020-valid-parentheses/) | Easy |
+| [0028-find-the-index-of-the-first-occurrence-in-a-string](https://github.com/laxmi-narayan-87/DSA/tree/main/Python3/Easy/0028-find-the-index-of-the-first-occurrence-in-a-string/) | Easy |
 | [0151-reverse-words-in-a-string](https://github.com/laxmi-narayan-87/DSA/tree/main/Python/Medium/0151-reverse-words-in-a-string/) | Medium |
 | [0686-repeated-string-match](https://github.com/laxmi-narayan-87/DSA/tree/main/Python3/Medium/0686-repeated-string-match/) | Medium |
 ## Monotonic Stack
@@ -326,5 +328,6 @@ MIT
 ## String Matching
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0028-find-the-index-of-the-first-occurrence-in-a-string](https://github.com/laxmi-narayan-87/DSA/tree/main/Python3/Easy/0028-find-the-index-of-the-first-occurrence-in-a-string/) | Easy |
 | [0686-repeated-string-match](https://github.com/laxmi-narayan-87/DSA/tree/main/Python3/Medium/0686-repeated-string-match/) | Medium |
 <!---LeetCode Topics End-->
