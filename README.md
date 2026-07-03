@@ -341,4 +341,16 @@ MIT
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [1312-minimum-insertion-steps-to-make-a-string-palindrome](https://github.com/laxmi-narayan-87/DSA/tree/main/Python3/Hard/1312-minimum-insertion-steps-to-make-a-string-palindrome/) | Hard |
+## Tree
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0687-longest-univalue-path](https://github.com/laxmi-narayan-87/DSA/tree/main/Python3/Medium/0687-longest-univalue-path/) | Medium |
+## Depth-First Search
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0687-longest-univalue-path](https://github.com/laxmi-narayan-87/DSA/tree/main/Python3/Medium/0687-longest-univalue-path/) | Medium |
+## Binary Tree
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0687-longest-univalue-path](https://github.com/laxmi-narayan-87/DSA/tree/main/Python3/Medium/0687-longest-univalue-path/) | Medium |
 <!---LeetCode Topics End-->
