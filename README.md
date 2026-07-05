@@ -296,6 +296,7 @@ MIT
 | [0151-reverse-words-in-a-string](https://github.com/laxmi-narayan-87/DSA/tree/main/Python/Medium/0151-reverse-words-in-a-string/) | Medium |
 | [0165-compare-version-numbers](https://github.com/laxmi-narayan-87/DSA/tree/main/Python3/Medium/0165-compare-version-numbers/) | Medium |
 | [0242-valid-anagram](https://github.com/laxmi-narayan-87/DSA/tree/main/Python3/Easy/0242-valid-anagram/) | Easy |
+| [0257-binary-tree-paths](https://github.com/laxmi-narayan-87/DSA/tree/main/Python3/Easy/0257-binary-tree-paths/) | Easy |
 | [0686-repeated-string-match](https://github.com/laxmi-narayan-87/DSA/tree/main/Python3/Medium/0686-repeated-string-match/) | Medium |
 | [1312-minimum-insertion-steps-to-make-a-string-palindrome](https://github.com/laxmi-narayan-87/DSA/tree/main/Python3/Hard/1312-minimum-insertion-steps-to-make-a-string-palindrome/) | Hard |
 ## Monotonic Stack
@@ -356,6 +357,7 @@ MIT
 | [0144-binary-tree-preorder-traversal](https://github.com/laxmi-narayan-87/DSA/tree/main/Python3/Easy/0144-binary-tree-preorder-traversal/) | Easy |
 | [0145-binary-tree-postorder-traversal](https://github.com/laxmi-narayan-87/DSA/tree/main/Python3/Easy/0145-binary-tree-postorder-traversal/) | Easy |
 | [0199-binary-tree-right-side-view](https://github.com/laxmi-narayan-87/DSA/tree/main/Python3/Medium/0199-binary-tree-right-side-view/) | Medium |
+| [0257-binary-tree-paths](https://github.com/laxmi-narayan-87/DSA/tree/main/Python3/Easy/0257-binary-tree-paths/) | Easy |
 | [0662-maximum-width-of-binary-tree](https://github.com/laxmi-narayan-87/DSA/tree/main/Python3/Medium/0662-maximum-width-of-binary-tree/) | Medium |
 | [0687-longest-univalue-path](https://github.com/laxmi-narayan-87/DSA/tree/main/Python3/Medium/0687-longest-univalue-path/) | Medium |
 | [0987-vertical-order-traversal-of-a-binary-tree](https://github.com/laxmi-narayan-87/DSA/tree/main/Python3/Hard/0987-vertical-order-traversal-of-a-binary-tree/) | Hard |
@@ -366,6 +368,7 @@ MIT
 | [0144-binary-tree-preorder-traversal](https://github.com/laxmi-narayan-87/DSA/tree/main/Python3/Easy/0144-binary-tree-preorder-traversal/) | Easy |
 | [0145-binary-tree-postorder-traversal](https://github.com/laxmi-narayan-87/DSA/tree/main/Python3/Easy/0145-binary-tree-postorder-traversal/) | Easy |
 | [0199-binary-tree-right-side-view](https://github.com/laxmi-narayan-87/DSA/tree/main/Python3/Medium/0199-binary-tree-right-side-view/) | Medium |
+| [0257-binary-tree-paths](https://github.com/laxmi-narayan-87/DSA/tree/main/Python3/Easy/0257-binary-tree-paths/) | Easy |
 | [0662-maximum-width-of-binary-tree](https://github.com/laxmi-narayan-87/DSA/tree/main/Python3/Medium/0662-maximum-width-of-binary-tree/) | Medium |
 | [0687-longest-univalue-path](https://github.com/laxmi-narayan-87/DSA/tree/main/Python3/Medium/0687-longest-univalue-path/) | Medium |
 | [0987-vertical-order-traversal-of-a-binary-tree](https://github.com/laxmi-narayan-87/DSA/tree/main/Python3/Hard/0987-vertical-order-traversal-of-a-binary-tree/) | Hard |
@@ -376,7 +379,12 @@ MIT
 | [0144-binary-tree-preorder-traversal](https://github.com/laxmi-narayan-87/DSA/tree/main/Python3/Easy/0144-binary-tree-preorder-traversal/) | Easy |
 | [0145-binary-tree-postorder-traversal](https://github.com/laxmi-narayan-87/DSA/tree/main/Python3/Easy/0145-binary-tree-postorder-traversal/) | Easy |
 | [0199-binary-tree-right-side-view](https://github.com/laxmi-narayan-87/DSA/tree/main/Python3/Medium/0199-binary-tree-right-side-view/) | Medium |
+| [0257-binary-tree-paths](https://github.com/laxmi-narayan-87/DSA/tree/main/Python3/Easy/0257-binary-tree-paths/) | Easy |
 | [0662-maximum-width-of-binary-tree](https://github.com/laxmi-narayan-87/DSA/tree/main/Python3/Medium/0662-maximum-width-of-binary-tree/) | Medium |
 | [0687-longest-univalue-path](https://github.com/laxmi-narayan-87/DSA/tree/main/Python3/Medium/0687-longest-univalue-path/) | Medium |
 | [0987-vertical-order-traversal-of-a-binary-tree](https://github.com/laxmi-narayan-87/DSA/tree/main/Python3/Hard/0987-vertical-order-traversal-of-a-binary-tree/) | Hard |
+## Backtracking
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0257-binary-tree-paths](https://github.com/laxmi-narayan-87/DSA/tree/main/Python3/Easy/0257-binary-tree-paths/) | Easy |
 <!---LeetCode Topics End-->
