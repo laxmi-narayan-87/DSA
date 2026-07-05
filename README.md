@@ -205,6 +205,7 @@ MIT
 | [0242-valid-anagram](https://github.com/laxmi-narayan-87/DSA/tree/main/Python3/Easy/0242-valid-anagram/) | Easy |
 | [0295-find-median-from-data-stream](https://github.com/laxmi-narayan-87/DSA/tree/main/Python3/Hard/0295-find-median-from-data-stream/) | Hard |
 | [0347-top-k-frequent-elements](https://github.com/laxmi-narayan-87/DSA/tree/main/Python3/Medium/0347-top-k-frequent-elements/) | Medium |
+| [0987-vertical-order-traversal-of-a-binary-tree](https://github.com/laxmi-narayan-87/DSA/tree/main/Python3/Hard/0987-vertical-order-traversal-of-a-binary-tree/) | Hard |
 ## Heap (Priority Queue)
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -251,6 +252,7 @@ MIT
 | [0347-top-k-frequent-elements](https://github.com/laxmi-narayan-87/DSA/tree/main/Python3/Medium/0347-top-k-frequent-elements/) | Medium |
 | [0460-lfu-cache](https://github.com/laxmi-narayan-87/DSA/tree/main/Python3/Hard/0460-lfu-cache/) | Hard |
 | [0496-next-greater-element-i](https://github.com/laxmi-narayan-87/DSA/tree/main/Python3/Easy/0496-next-greater-element-i/) | Easy |
+| [0987-vertical-order-traversal-of-a-binary-tree](https://github.com/laxmi-narayan-87/DSA/tree/main/Python3/Hard/0987-vertical-order-traversal-of-a-binary-tree/) | Hard |
 ## Bucket Sort
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -312,6 +314,7 @@ MIT
 | ------- | ------- |
 | [0199-binary-tree-right-side-view](https://github.com/laxmi-narayan-87/DSA/tree/main/Python3/Medium/0199-binary-tree-right-side-view/) | Medium |
 | [0662-maximum-width-of-binary-tree](https://github.com/laxmi-narayan-87/DSA/tree/main/Python3/Medium/0662-maximum-width-of-binary-tree/) | Medium |
+| [0987-vertical-order-traversal-of-a-binary-tree](https://github.com/laxmi-narayan-87/DSA/tree/main/Python3/Hard/0987-vertical-order-traversal-of-a-binary-tree/) | Hard |
 | [0994-rotting-oranges](https://github.com/laxmi-narayan-87/DSA/tree/main/Python3/Medium/0994-rotting-oranges/) | Medium |
 ## Matrix
 | Problem Name | Difficulty |
@@ -355,6 +358,7 @@ MIT
 | [0199-binary-tree-right-side-view](https://github.com/laxmi-narayan-87/DSA/tree/main/Python3/Medium/0199-binary-tree-right-side-view/) | Medium |
 | [0662-maximum-width-of-binary-tree](https://github.com/laxmi-narayan-87/DSA/tree/main/Python3/Medium/0662-maximum-width-of-binary-tree/) | Medium |
 | [0687-longest-univalue-path](https://github.com/laxmi-narayan-87/DSA/tree/main/Python3/Medium/0687-longest-univalue-path/) | Medium |
+| [0987-vertical-order-traversal-of-a-binary-tree](https://github.com/laxmi-narayan-87/DSA/tree/main/Python3/Hard/0987-vertical-order-traversal-of-a-binary-tree/) | Hard |
 ## Depth-First Search
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -364,6 +368,7 @@ MIT
 | [0199-binary-tree-right-side-view](https://github.com/laxmi-narayan-87/DSA/tree/main/Python3/Medium/0199-binary-tree-right-side-view/) | Medium |
 | [0662-maximum-width-of-binary-tree](https://github.com/laxmi-narayan-87/DSA/tree/main/Python3/Medium/0662-maximum-width-of-binary-tree/) | Medium |
 | [0687-longest-univalue-path](https://github.com/laxmi-narayan-87/DSA/tree/main/Python3/Medium/0687-longest-univalue-path/) | Medium |
+| [0987-vertical-order-traversal-of-a-binary-tree](https://github.com/laxmi-narayan-87/DSA/tree/main/Python3/Hard/0987-vertical-order-traversal-of-a-binary-tree/) | Hard |
 ## Binary Tree
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -373,4 +378,5 @@ MIT
 | [0199-binary-tree-right-side-view](https://github.com/laxmi-narayan-87/DSA/tree/main/Python3/Medium/0199-binary-tree-right-side-view/) | Medium |
 | [0662-maximum-width-of-binary-tree](https://github.com/laxmi-narayan-87/DSA/tree/main/Python3/Medium/0662-maximum-width-of-binary-tree/) | Medium |
 | [0687-longest-univalue-path](https://github.com/laxmi-narayan-87/DSA/tree/main/Python3/Medium/0687-longest-univalue-path/) | Medium |
+| [0987-vertical-order-traversal-of-a-binary-tree](https://github.com/laxmi-narayan-87/DSA/tree/main/Python3/Hard/0987-vertical-order-traversal-of-a-binary-tree/) | Hard |
 <!---LeetCode Topics End-->
