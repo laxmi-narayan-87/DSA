@@ -228,6 +228,7 @@ MIT
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0023-merge-k-sorted-lists](https://github.com/laxmi-narayan-87/DSA/tree/main/Python3/Hard/0023-merge-k-sorted-lists/) | Hard |
+| [0106-construct-binary-tree-from-inorder-and-postorder-traversal](https://github.com/laxmi-narayan-87/DSA/tree/main/Python3/Medium/0106-construct-binary-tree-from-inorder-and-postorder-traversal/) | Medium |
 | [0347-top-k-frequent-elements](https://github.com/laxmi-narayan-87/DSA/tree/main/Python3/Medium/0347-top-k-frequent-elements/) | Medium |
 ## Merge Sort
 | Problem Name | Difficulty |
@@ -238,6 +239,7 @@ MIT
 | ------- | ------- |
 | [0014-longest-common-prefix](https://github.com/laxmi-narayan-87/DSA/tree/main/Python3/Easy/0014-longest-common-prefix/) | Easy |
 | [0084-largest-rectangle-in-histogram](https://github.com/laxmi-narayan-87/DSA/tree/main/Python3/Hard/0084-largest-rectangle-in-histogram/) | Hard |
+| [0106-construct-binary-tree-from-inorder-and-postorder-traversal](https://github.com/laxmi-narayan-87/DSA/tree/main/Python3/Medium/0106-construct-binary-tree-from-inorder-and-postorder-traversal/) | Medium |
 | [0239-sliding-window-maximum](https://github.com/laxmi-narayan-87/DSA/tree/main/Python/Hard/0239-sliding-window-maximum/) | Hard |
 | [0347-top-k-frequent-elements](https://github.com/laxmi-narayan-87/DSA/tree/main/Python3/Medium/0347-top-k-frequent-elements/) | Medium |
 | [0496-next-greater-element-i](https://github.com/laxmi-narayan-87/DSA/tree/main/Python3/Easy/0496-next-greater-element-i/) | Easy |
@@ -247,6 +249,7 @@ MIT
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0013-roman-to-integer](https://github.com/laxmi-narayan-87/DSA/tree/main/Python3/Easy/0013-roman-to-integer/) | Easy |
+| [0106-construct-binary-tree-from-inorder-and-postorder-traversal](https://github.com/laxmi-narayan-87/DSA/tree/main/Python3/Medium/0106-construct-binary-tree-from-inorder-and-postorder-traversal/) | Medium |
 | [0146-lru-cache](https://github.com/laxmi-narayan-87/DSA/tree/main/Python3/Medium/0146-lru-cache/) | Medium |
 | [0242-valid-anagram](https://github.com/laxmi-narayan-87/DSA/tree/main/Python3/Easy/0242-valid-anagram/) | Easy |
 | [0347-top-k-frequent-elements](https://github.com/laxmi-narayan-87/DSA/tree/main/Python3/Medium/0347-top-k-frequent-elements/) | Medium |
@@ -363,6 +366,7 @@ MIT
 | [0102-binary-tree-level-order-traversal](https://github.com/laxmi-narayan-87/DSA/tree/main/Python3/Medium/0102-binary-tree-level-order-traversal/) | Medium |
 | [0103-binary-tree-zigzag-level-order-traversal](https://github.com/laxmi-narayan-87/DSA/tree/main/Python3/Medium/0103-binary-tree-zigzag-level-order-traversal/) | Medium |
 | [0104-maximum-depth-of-binary-tree](https://github.com/laxmi-narayan-87/DSA/tree/main/Python3/Easy/0104-maximum-depth-of-binary-tree/) | Easy |
+| [0106-construct-binary-tree-from-inorder-and-postorder-traversal](https://github.com/laxmi-narayan-87/DSA/tree/main/Python3/Medium/0106-construct-binary-tree-from-inorder-and-postorder-traversal/) | Medium |
 | [0110-balanced-binary-tree](https://github.com/laxmi-narayan-87/DSA/tree/main/Python3/Easy/0110-balanced-binary-tree/) | Easy |
 | [0124-binary-tree-maximum-path-sum](https://github.com/laxmi-narayan-87/DSA/tree/main/Python3/Hard/0124-binary-tree-maximum-path-sum/) | Hard |
 | [0144-binary-tree-preorder-traversal](https://github.com/laxmi-narayan-87/DSA/tree/main/Python3/Easy/0144-binary-tree-preorder-traversal/) | Easy |
@@ -397,6 +401,7 @@ MIT
 | [0102-binary-tree-level-order-traversal](https://github.com/laxmi-narayan-87/DSA/tree/main/Python3/Medium/0102-binary-tree-level-order-traversal/) | Medium |
 | [0103-binary-tree-zigzag-level-order-traversal](https://github.com/laxmi-narayan-87/DSA/tree/main/Python3/Medium/0103-binary-tree-zigzag-level-order-traversal/) | Medium |
 | [0104-maximum-depth-of-binary-tree](https://github.com/laxmi-narayan-87/DSA/tree/main/Python3/Easy/0104-maximum-depth-of-binary-tree/) | Easy |
+| [0106-construct-binary-tree-from-inorder-and-postorder-traversal](https://github.com/laxmi-narayan-87/DSA/tree/main/Python3/Medium/0106-construct-binary-tree-from-inorder-and-postorder-traversal/) | Medium |
 | [0110-balanced-binary-tree](https://github.com/laxmi-narayan-87/DSA/tree/main/Python3/Easy/0110-balanced-binary-tree/) | Easy |
 | [0124-binary-tree-maximum-path-sum](https://github.com/laxmi-narayan-87/DSA/tree/main/Python3/Hard/0124-binary-tree-maximum-path-sum/) | Hard |
 | [0144-binary-tree-preorder-traversal](https://github.com/laxmi-narayan-87/DSA/tree/main/Python3/Easy/0144-binary-tree-preorder-traversal/) | Easy |
