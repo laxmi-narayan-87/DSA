@@ -353,6 +353,7 @@ MIT
 ## Dynamic Programming
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0124-binary-tree-maximum-path-sum](https://github.com/laxmi-narayan-87/DSA/tree/main/Python3/Hard/0124-binary-tree-maximum-path-sum/) | Hard |
 | [1312-minimum-insertion-steps-to-make-a-string-palindrome](https://github.com/laxmi-narayan-87/DSA/tree/main/Python3/Hard/1312-minimum-insertion-steps-to-make-a-string-palindrome/) | Hard |
 ## Tree
 | Problem Name | Difficulty |
@@ -363,6 +364,7 @@ MIT
 | [0103-binary-tree-zigzag-level-order-traversal](https://github.com/laxmi-narayan-87/DSA/tree/main/Python3/Medium/0103-binary-tree-zigzag-level-order-traversal/) | Medium |
 | [0104-maximum-depth-of-binary-tree](https://github.com/laxmi-narayan-87/DSA/tree/main/Python3/Easy/0104-maximum-depth-of-binary-tree/) | Easy |
 | [0110-balanced-binary-tree](https://github.com/laxmi-narayan-87/DSA/tree/main/Python3/Easy/0110-balanced-binary-tree/) | Easy |
+| [0124-binary-tree-maximum-path-sum](https://github.com/laxmi-narayan-87/DSA/tree/main/Python3/Hard/0124-binary-tree-maximum-path-sum/) | Hard |
 | [0144-binary-tree-preorder-traversal](https://github.com/laxmi-narayan-87/DSA/tree/main/Python3/Easy/0144-binary-tree-preorder-traversal/) | Easy |
 | [0145-binary-tree-postorder-traversal](https://github.com/laxmi-narayan-87/DSA/tree/main/Python3/Easy/0145-binary-tree-postorder-traversal/) | Easy |
 | [0199-binary-tree-right-side-view](https://github.com/laxmi-narayan-87/DSA/tree/main/Python3/Medium/0199-binary-tree-right-side-view/) | Medium |
@@ -378,6 +380,7 @@ MIT
 | [0100-same-tree](https://github.com/laxmi-narayan-87/DSA/tree/main/Python3/Easy/0100-same-tree/) | Easy |
 | [0104-maximum-depth-of-binary-tree](https://github.com/laxmi-narayan-87/DSA/tree/main/Python3/Easy/0104-maximum-depth-of-binary-tree/) | Easy |
 | [0110-balanced-binary-tree](https://github.com/laxmi-narayan-87/DSA/tree/main/Python3/Easy/0110-balanced-binary-tree/) | Easy |
+| [0124-binary-tree-maximum-path-sum](https://github.com/laxmi-narayan-87/DSA/tree/main/Python3/Hard/0124-binary-tree-maximum-path-sum/) | Hard |
 | [0144-binary-tree-preorder-traversal](https://github.com/laxmi-narayan-87/DSA/tree/main/Python3/Easy/0144-binary-tree-preorder-traversal/) | Easy |
 | [0145-binary-tree-postorder-traversal](https://github.com/laxmi-narayan-87/DSA/tree/main/Python3/Easy/0145-binary-tree-postorder-traversal/) | Easy |
 | [0199-binary-tree-right-side-view](https://github.com/laxmi-narayan-87/DSA/tree/main/Python3/Medium/0199-binary-tree-right-side-view/) | Medium |
@@ -395,6 +398,7 @@ MIT
 | [0103-binary-tree-zigzag-level-order-traversal](https://github.com/laxmi-narayan-87/DSA/tree/main/Python3/Medium/0103-binary-tree-zigzag-level-order-traversal/) | Medium |
 | [0104-maximum-depth-of-binary-tree](https://github.com/laxmi-narayan-87/DSA/tree/main/Python3/Easy/0104-maximum-depth-of-binary-tree/) | Easy |
 | [0110-balanced-binary-tree](https://github.com/laxmi-narayan-87/DSA/tree/main/Python3/Easy/0110-balanced-binary-tree/) | Easy |
+| [0124-binary-tree-maximum-path-sum](https://github.com/laxmi-narayan-87/DSA/tree/main/Python3/Hard/0124-binary-tree-maximum-path-sum/) | Hard |
 | [0144-binary-tree-preorder-traversal](https://github.com/laxmi-narayan-87/DSA/tree/main/Python3/Easy/0144-binary-tree-preorder-traversal/) | Easy |
 | [0145-binary-tree-postorder-traversal](https://github.com/laxmi-narayan-87/DSA/tree/main/Python3/Easy/0145-binary-tree-postorder-traversal/) | Easy |
 | [0199-binary-tree-right-side-view](https://github.com/laxmi-narayan-87/DSA/tree/main/Python3/Medium/0199-binary-tree-right-side-view/) | Medium |
