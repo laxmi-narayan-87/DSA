@@ -244,6 +244,7 @@ MIT
 | [0239-sliding-window-maximum](https://github.com/laxmi-narayan-87/DSA/tree/main/Python/Hard/0239-sliding-window-maximum/) | Hard |
 | [0347-top-k-frequent-elements](https://github.com/laxmi-narayan-87/DSA/tree/main/Python3/Medium/0347-top-k-frequent-elements/) | Medium |
 | [0496-next-greater-element-i](https://github.com/laxmi-narayan-87/DSA/tree/main/Python3/Easy/0496-next-greater-element-i/) | Easy |
+| [0704-binary-search](https://github.com/laxmi-narayan-87/DSA/tree/main/Python3/Easy/0704-binary-search/) | Easy |
 | [0994-rotting-oranges](https://github.com/laxmi-narayan-87/DSA/tree/main/Python3/Medium/0994-rotting-oranges/) | Medium |
 | [3702-longest-subsequence-with-non-zero-bitwise-xor](https://github.com/laxmi-narayan-87/DSA/tree/main/Python/Medium/3702-longest-subsequence-with-non-zero-bitwise-xor/) | Medium |
 ## Hash Table
@@ -418,4 +419,8 @@ MIT
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0257-binary-tree-paths](https://github.com/laxmi-narayan-87/DSA/tree/main/Python3/Easy/0257-binary-tree-paths/) | Easy |
+## Binary Search
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0704-binary-search](https://github.com/laxmi-narayan-87/DSA/tree/main/Python3/Easy/0704-binary-search/) | Easy |
 <!---LeetCode Topics End-->
