@@ -223,6 +223,7 @@ MIT
 | ------- | ------- |
 | [0023-merge-k-sorted-lists](https://github.com/laxmi-narayan-87/DSA/tree/main/Python3/Hard/0023-merge-k-sorted-lists/) | Hard |
 | [0146-lru-cache](https://github.com/laxmi-narayan-87/DSA/tree/main/Python3/Medium/0146-lru-cache/) | Medium |
+| [0206-reverse-linked-list](https://github.com/laxmi-narayan-87/DSA/tree/main/Python3/Easy/0206-reverse-linked-list/) | Easy |
 | [0460-lfu-cache](https://github.com/laxmi-narayan-87/DSA/tree/main/Python3/Hard/0460-lfu-cache/) | Hard |
 ## Divide and Conquer
 | Problem Name | Difficulty |
@@ -423,4 +424,8 @@ MIT
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0704-binary-search](https://github.com/laxmi-narayan-87/DSA/tree/main/Python3/Easy/0704-binary-search/) | Easy |
+## Recursion
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0206-reverse-linked-list](https://github.com/laxmi-narayan-87/DSA/tree/main/Python3/Easy/0206-reverse-linked-list/) | Easy |
 <!---LeetCode Topics End-->
