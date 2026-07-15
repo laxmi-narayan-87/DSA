@@ -237,6 +237,7 @@ MIT
 ## Array
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0001-two-sum](https://github.com/laxmi-narayan-87/DSA/tree/main/Python3/Easy/0001-two-sum/) | Easy |
 | [0014-longest-common-prefix](https://github.com/laxmi-narayan-87/DSA/tree/main/Python3/Easy/0014-longest-common-prefix/) | Easy |
 | [0084-largest-rectangle-in-histogram](https://github.com/laxmi-narayan-87/DSA/tree/main/Python3/Hard/0084-largest-rectangle-in-histogram/) | Hard |
 | [0106-construct-binary-tree-from-inorder-and-postorder-traversal](https://github.com/laxmi-narayan-87/DSA/tree/main/Python3/Medium/0106-construct-binary-tree-from-inorder-and-postorder-traversal/) | Medium |
@@ -248,6 +249,7 @@ MIT
 ## Hash Table
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0001-two-sum](https://github.com/laxmi-narayan-87/DSA/tree/main/Python3/Easy/0001-two-sum/) | Easy |
 | [0013-roman-to-integer](https://github.com/laxmi-narayan-87/DSA/tree/main/Python3/Easy/0013-roman-to-integer/) | Easy |
 | [0106-construct-binary-tree-from-inorder-and-postorder-traversal](https://github.com/laxmi-narayan-87/DSA/tree/main/Python3/Medium/0106-construct-binary-tree-from-inorder-and-postorder-traversal/) | Medium |
 | [0146-lru-cache](https://github.com/laxmi-narayan-87/DSA/tree/main/Python3/Medium/0146-lru-cache/) | Medium |
