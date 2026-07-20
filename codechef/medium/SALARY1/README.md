@@ -46,7 +46,7 @@ Therefore, his total earnings are $10000 + 3000 = 13000$.
 **Language:** Python  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-07-20T12:39:21.513Z  
+**Submitted:** 2026-07-20T12:41:03.023Z  
 
 ```py
 # cook your dish here
@@ -55,9 +55,14 @@ def earning(s,b,r):
     total = s+b*r
     return total
 
-if __name__=="__main__":
+if __name__=="__main1__":
     s,b,r= map(int,input().split())
     print(earning(s,b,r))
+    
+if __name__=="__main__":
+    s,b,r=map(int,input().split())
+    total=s+b*r
+    print(total)
 ```
 
 ---
