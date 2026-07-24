@@ -58,12 +58,16 @@ FAIL
 **Language:** Python  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-07-24T12:34:36.900Z  
+**Submitted:** 2026-07-24T12:38:56.220Z  
 
 ```py
 # cook your dish here
 def check(n,x,p):
-    
+    marks= 3*x +(-1)*(n-x)
+    if p<=marks:
+        return "PASS"
+    else:
+        return "FAIL"
 
 if __name__=="__main__":
     t=int(input())
