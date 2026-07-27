@@ -47,3 +47,14 @@
 *Last updated: 2026-07-27* · Powered by [**PushMyCode**](https://github.com/PushMyCode-HQ)
 
 </div>
+<!---LeetCode Topics Start-->
+# LeetCode Topics
+## Math
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [3658-gcd-of-odd-and-even-sums](https://github.com/laxmi-narayan-87/DSA/tree/main/Python3/Easy/3658-gcd-of-odd-and-even-sums/) | Easy |
+## Number Theory
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [3658-gcd-of-odd-and-even-sums](https://github.com/laxmi-narayan-87/DSA/tree/main/Python3/Easy/3658-gcd-of-odd-and-even-sums/) | Easy |
+<!---LeetCode Topics End-->
