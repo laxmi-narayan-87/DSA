@@ -4,7 +4,7 @@ if __name__=="__main__":
     a=list(map(int,input().split()))
     b=[]
     c=1
-    for i in range(n):
+    for i in range(1,n):
         if a[i-1]!=a[i]:
             c+=1
     print(c)
