@@ -48,9 +48,9 @@ Hence, `GCD(sumOdd, sumEven) = GCD(25, 30) = 5`.
 ## Solution
 
 **Language:** Python  
-**Runtime:** 0 ms  
-**Memory:** 19.3 MB  
-**Submitted:** 2026-07-27T06:32:08.265Z  
+**Runtime:** 0 ms (beats 100.00%)  
+**Memory:** 19.3 MB (beats 24.71%)  
+**Submitted:** 2026-07-27T06:32:13.201Z  
 
 ```py
 class Solution:
