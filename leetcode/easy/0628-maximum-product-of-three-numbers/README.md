@@ -42,21 +42,18 @@ Output: -6
 ## Solution
 
 **Language:** Python  
-**Runtime:** 23 ms (beats 40.38%)  
-**Memory:** 20.3 MB (beats 78.29%)  
-**Submitted:** 2026-07-26T23:09:05.322Z  
+**Runtime:** 18 ms (beats 67.75%)  
+**Memory:** 20.4 MB (beats 42.30%)  
+**Submitted:** 2026-07-27T06:23:02.958Z  
 
 ```py
 class Solution:
     def maximumProduct(self, nums: List[int]) -> int:
-        nums.sort()
         n=len(nums)
+        nums.sort()
         p1=nums[0]*nums[1]*nums[n-1]
         p2=nums[n-1]*nums[n-2]*nums[n-3]
-        if p1>p2:
-            return p1
-        else:
-            return p2
+        return max(p1,p2)
 ```
 
 ---
