@@ -2,7 +2,7 @@
 
 # 🧠 Coding Solutions
 
-![Total Solved](https://img.shields.io/badge/Total_Solved-56-blue?style=for-the-badge)
+![Total Solved](https://img.shields.io/badge/Total_Solved-57-blue?style=for-the-badge)
 ![Streak](https://img.shields.io/badge/Streak-8_days-orange?style=for-the-badge)
 ![Last Synced](https://img.shields.io/badge/Last_Synced-7--27--2026-green?style=for-the-badge)
 
@@ -16,16 +16,16 @@
 
 | Difficulty | Solved |
 |:---:|:---:|
-| 🟢 Easy | **42** |
+| 🟢 Easy | **43** |
 | 🟡 Medium | **14** |
 | 🔴 Hard | **0** |
-| **Total** | **56** |
+| **Total** | **57** |
 
 ## 🛠️ Languages
 
 | Language | Solutions |
 |:---:|:---:|
-| Python | **56** |
+| Python | **57** |
 
 ## 📂 Repository Structure
 
@@ -47,14 +47,3 @@
 *Last updated: 2026-07-27* · Powered by [**PushMyCode**](https://github.com/PushMyCode-HQ)
 
 </div>
-<!---LeetCode Topics Start-->
-# LeetCode Topics
-## Math
-| Problem Name | Difficulty |
-| ------- | ------- |
-| [3658-gcd-of-odd-and-even-sums](https://github.com/laxmi-narayan-87/DSA/tree/main/Python3/Easy/3658-gcd-of-odd-and-even-sums/) | Easy |
-## Number Theory
-| Problem Name | Difficulty |
-| ------- | ------- |
-| [3658-gcd-of-odd-and-even-sums](https://github.com/laxmi-narayan-87/DSA/tree/main/Python3/Easy/3658-gcd-of-odd-and-even-sums/) | Easy |
-<!---LeetCode Topics End-->
