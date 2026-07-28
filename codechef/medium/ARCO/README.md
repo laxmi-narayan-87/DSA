@@ -65,7 +65,7 @@ Remove one of the `2`s to obtain the array `[1, 2, 2, 1]`. Then remove one of th
 **Language:** Python  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-07-27T13:55:30.943Z  
+**Submitted:** 2026-07-27T13:49:09.047Z  
 
 ```py
 # cook your dish here
@@ -74,7 +74,7 @@ if __name__=="__main__":
     a=list(map(int,input().split()))
     b=[]
     c=1
-    for i in range(1,n):
+    for i in range(n):
         if a[i-1]!=a[i]:
             c+=1
     print(c)
