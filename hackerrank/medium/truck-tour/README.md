@@ -31,7 +31,7 @@ An integer which will be the smallest index of the petrol pump from which we can
 **Language:** Python  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-07-28T10:13:16.318Z  
+**Submitted:** 2026-07-28T10:13:27.140Z  
 
 ```py
 #!/bin/python3
