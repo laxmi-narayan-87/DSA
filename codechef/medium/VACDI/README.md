@@ -76,7 +76,7 @@ Each assigned vaccine has strictly greater strength than the corresponding patie
 **Language:** Python  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-07-28T07:21:58.430Z  
+**Submitted:** 2026-07-28T10:35:07.513Z  
 
 ```py
 # cook your dish here
@@ -86,7 +86,12 @@ if __name__=="__main__":
     p=list(map(int,input().split()))
     v.sort()
     p.sort()
-    if v[n-1]>p[n-1]:
+    flag=True
+    for i in range(n):
+        if v[i]<p[i]:
+            flag=False
+            break
+    if flag:
         print("YES")
     else:
         print("NO")
