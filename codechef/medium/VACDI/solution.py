@@ -7,7 +7,7 @@ if __name__=="__main__":
     p.sort()
     flag=True
     for i in range(n):
-        if v[i]<p[i]:
+        if v[i]<=p[i]:
             flag=False
             break
     if flag:
