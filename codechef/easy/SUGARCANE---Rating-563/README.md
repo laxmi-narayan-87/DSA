@@ -61,7 +61,7 @@ Output
 **Language:** Python  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-07-29T06:35:49.369Z  
+**Submitted:** 2026-07-29T06:38:17.664Z  
 
 ```py
 # cook your dish here
@@ -70,8 +70,9 @@ if __name__=="__main__":
     for _ in range(t):
         n=int(input())
         n=n*50
-        expend=(n//5)+(n//5)+((3*n)//10)
-        print(n-expend)
+        # expend=(n//5)+(n//5)+((3*n)//10)
+        expend=(n*.2)+(n*.2)+(n*.3)
+        print(int(n-expend))
 ```
 
 ---
