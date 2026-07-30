@@ -22,7 +22,7 @@ System.out.print(c);
 **Language:** C++  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-07-30T12:52:35.700Z  
+**Submitted:** 2026-07-30T12:52:44.992Z  
 
 ```cpp
 import java.util.Scanner; 
