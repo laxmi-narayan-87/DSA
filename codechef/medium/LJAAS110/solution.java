@@ -1,12 +1,18 @@
+import java.util.Scanner;
+
 class Codechef
 {
-	public static void main (String[] args) 
+	public static void main (String[] args)
 	{
 		// your code goes here
-		int n=1;
-		while (n<=5){
-		    System.out.println(n*n);
-		    n+=1;
-		}
+		Scanner sc =new Scanner(System.in);
+		int n=sc.nextInt();
+		int fact=1;
+		do{
+		    fact=fact*n;
+		    n-=1;
+		}while(n>0);
+		System.out.println(fact);
+
 	}
 }
