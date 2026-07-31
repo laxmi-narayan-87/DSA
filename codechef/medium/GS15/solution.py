@@ -1,5 +1,6 @@
+# Debug the following code to solve the problem
+
 t = int(input())
 for i in range(t):
-    # take input and output the join using +
-    x=input()
-    print(x*2)
+    N = int(input())
+    print(2*N)
