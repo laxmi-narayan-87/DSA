@@ -67,7 +67,7 @@ $(1, 56)$ is not a $\text{Oneful Pair}$, since $1 + 56 + (1 \cdot 56) = 57 + 56 
 **Language:** Python  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-07-31T04:30:14.699Z  
+**Submitted:** 2026-07-31T04:31:03.214Z  
 
 ```py
 a,b = map(int,input().split())
