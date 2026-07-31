@@ -93,18 +93,35 @@ Chef's current brain speed of $8$ bps is not greater than the threshold of $53$ 
 
 ## Solution
 
-**Language:** Python  
+**Language:** Java  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-07-31T04:23:09.393Z  
+**Submitted:** 2026-07-31T10:10:22.315Z  
 
-```py
-x,y = map(int,input().split())
-# write your code here
-if y>x:
-    print("YES")
-else:
-    print("NO")
+```java
+import java.util.*;
+import java.lang.*;
+import java.io.*;
+
+
+class Codechef
+{
+	public static void main (String[] args)
+	{
+		Scanner sc = new Scanner(System.in);
+		int x = sc.nextInt();
+		int y = sc.nextInt();
+		
+		// write your code here
+		if (y>x){
+		    System.out.println("YES");
+		}
+		else{
+		    System.out.println("NO");
+		}
+	}
+}
+
 ```
 
 ---
