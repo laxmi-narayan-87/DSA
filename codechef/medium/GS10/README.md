@@ -4,87 +4,80 @@
 
 ## Problem
 
-### What are test cases
+### Test cases with multiple lines of input
 
 Listen
 
-In the previous problem - we wrote the program to accept 5 inputs on 5 separate lines.
+In the previous problem, we had t test cases and each test case had 1 line of input.
+However, each test case can have multiple lines of input as well.
+We learned how to take multiple inputs in a single line here.
 
-- What will we do if we expect 100 inputs or test cases?
-- What about 100,000 inputs or test cases?
-
-For taking a lot of test cases as input, we use loops.
-In the last problem, we told you that the number of test cases was 5.
-Usually the number of test cases is the first input you take and then take that input for each test case.
-
-Consider this test case
-
-```
-2
-4
-5
-
-```
-
-Here 2 is the number of test cases. 4 and 5 are the the input for 1st and 2nd test case respectively. A code for taking and printing this test cases will be:
-
-```
-t = int(input())
-for i in range(t):
-    n = int(input())
-    print(n)
-
-# Output
-4
-5
-
-```
-
-- We took the input for 't', the number of test cases in the first line.
-- Then we ran a loop which will go from 0 to '(t-1)', using the range function.
-- For each test case, we input the value in 'n' and printed it.
 ### Task
 
-Write a program in the IDE which does the following
+Lets write a program in the IDE which performs the following
 
-- Accepts the count of test cases - $t$ - as an integer input given in the 1st line. This is followed by $t$ lines - Each line contains an integer $N$
-- For each test cases, prints out the integer $N$ to console on a separate line
+- The 1st line of input is an integer $t$ - the count of test cases
+- Each test case consists of 2 lines of input The 1st line of input has 2 space separated integers - accept them as variables $A$ and $B$ The 2nd line of input has 3 space separated integers - accept them as variables $C$, $D$ and $E$
+- For each test case - output all integers on a single line
 ### Sample 1:
 Input
 Output
 
 ```
 3
-1
-22
-33
+1 2
+3 4 5
+11 22
+33 44 55
+1 23
+456 789 101112
 ```
 
 ```
-1
-22
-33
+1 2 3 4 5
+11 22 33 44 55
+1 23 456 789 101112
 ```
 
 ### Explanation:
 
-Since the count of test cases is 3 -> we accept 3 inputs and print 3 outputs
+2 lines of input in test case 1:
+1 2
+3 4 5
+
+Output 1: 1 2 3 4 5
+
+2 lines of input in test case 2:
+11 22
+33 44 55
+
+Output 2: 11 22 33 44 55
+
+2 lines of input in test case 3:
+1 23
+456 789 101112
+
+Output 3: 1 23 456 789 101112
 
 ## Solution
 
 **Language:** Python  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-07-31T11:18:09.673Z  
+**Submitted:** 2026-07-31T11:20:10.002Z  
 
 ```py
-# accept the count of test cases given in the the 1st line
-t = int(input())
+t = int(input())       
 
-# run a loop to accept 't' inputs
 for i in range(t):     
-    N = int(input())      
-    print(N)
+    # accept 2 integers on the 1st line using map
+    A,B=map(int,input().split())
+    
+    # accept 3 integers on the 2nd line using map
+    C,D,E=map(int,input().split())
+    
+    # output the 5 integers on a single line for each test case
+    print(A, B, C, D, E , end=" ")
 
 ```
 
