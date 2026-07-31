@@ -43,17 +43,35 @@ Output
 
 ## Solution
 
-**Language:** Python  
+**Language:** Java  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-07-31T04:59:51.958Z  
+**Submitted:** 2026-07-31T10:54:49.240Z  
 
-```py
-t = int(input())
-for i in range(0,t):
-    a,b = map(int,input().split())
-    # write your code here
-    print(a+b)
+```java
+import java.util.*;
+import java.lang.*;
+import java.io.*;
+
+
+class Codechef
+{
+	public static void main (String[] args)
+	{
+		Scanner sc = new Scanner(System.in);
+		int t = sc.nextInt();
+		while(t-->0)
+		{
+    		int a = sc.nextInt();
+    		int b = sc.nextInt();
+    		// write your code here
+    		int sum = a+b;
+    		System.out.println(sum);
+		}
+		
+	}
+}
+
 ```
 
 ---
