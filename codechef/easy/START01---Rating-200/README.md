@@ -52,27 +52,15 @@ The input is 15. So the output is also 15.
 
 ## Solution
 
-**Language:** Java  
+**Language:** Python  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-07-30T12:51:16.676Z  
+**Submitted:** 2026-07-31T03:50:10.042Z  
 
-```java
-import java.util.Scanner; 
-class Codechef
-{
-	public static void main (String[] args)
-	{
-	    // Do not print anything here before taking input
-	    Scanner sc = new Scanner(System.in);
-		int n = sc.nextInt();
-		
-		// Print the value of n
-		System.out.println(n);
-		
-	}
-}
-
+```py
+# cook your dish here
+n=int(input())
+print(n)
 ```
 
 ---
