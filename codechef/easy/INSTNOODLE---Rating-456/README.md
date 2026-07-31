@@ -60,29 +60,15 @@ Each person orders one packet, so the maximum number of customers that can be se
 
 ## Solution
 
-**Language:** Java  
+**Language:** Python  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-07-30T13:18:48.681Z  
+**Submitted:** 2026-07-31T03:53:31.639Z  
 
-```java
-import java.util.*;
-import java.lang.*;
-import java.io.*;
-
-class Codechef
-{
-	public static void main (String[] args) throws java.lang.Exception
-	{
-		// your code goes here
-		Scanner sc= new Scanner(System.in);
-		int x = sc.nextInt();
-		int y= sc.nextInt();
-		int serve= x*y;
-		System.out.println(serve);
-	}
-}
-
+```py
+# cook your dish here
+x,y=map(int,input().split())
+print(x*y)
 ```
 
 ---
