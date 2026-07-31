@@ -1,7 +1,9 @@
 # cook your dish here
-n=int(input())
-fact=1
-while n>0:
-    fact=fact*n
-    n-=1
-print(fact)
+s=str(input())
+nv=0
+i=0
+while i<len(s):
+    if s[i] in "aeiou":
+        nv+=1
+    i+=1
+print(nv)
