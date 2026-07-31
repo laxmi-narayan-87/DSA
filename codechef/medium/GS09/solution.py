@@ -1,12 +1,7 @@
-# Update the '_' in the code below
+# accept the count of test cases given in the the 1st line
+t = int(input())
 
-A = int(input())
-B = int(input())
-C = int(input())
-D = int(input())
-E = int(input())
-print(A)
-print(B)
-print(C)
-print(D)
-print(E)
+# run a loop to accept 't' inputs
+for i in range(t):     
+    N = int(input())      
+    print(N)
