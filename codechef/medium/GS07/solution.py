@@ -1,4 +1,6 @@
-# Replace the underscores with the correct value
+# Update the '_' in the code below
 
-A, B, C = map(int, input().split())
-print(A, B, C)
+A, B = map(int, input().split())
+C, D, E = map(int, input().split())
+F, G, H, I = map(int,input().split())
+print(A, B, C, D, E, F, G, H, I)
