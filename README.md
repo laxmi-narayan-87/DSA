@@ -50,3 +50,18 @@
 *Last updated: 2026-08-04* · Powered by [**PushMyCode**](https://github.com/PushMyCode-HQ)
 
 </div>
+<!---LeetCode Topics Start-->
+# LeetCode Topics
+## Array
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [3731-find-missing-elements](https://github.com/laxmi-narayan-87/DSA/tree/main/Python3/Easy/3731-find-missing-elements/) | Easy |
+## Hash Table
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [3731-find-missing-elements](https://github.com/laxmi-narayan-87/DSA/tree/main/Python3/Easy/3731-find-missing-elements/) | Easy |
+## Sorting
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [3731-find-missing-elements](https://github.com/laxmi-narayan-87/DSA/tree/main/Python3/Easy/3731-find-missing-elements/) | Easy |
+<!---LeetCode Topics End-->
