@@ -2,7 +2,7 @@
 
 # 🧠 Coding Solutions
 
-![Total Solved](https://img.shields.io/badge/Total_Solved-215-blue?style=for-the-badge)
+![Total Solved](https://img.shields.io/badge/Total_Solved-216-blue?style=for-the-badge)
 ![Streak](https://img.shields.io/badge/Streak-16_days-orange?style=for-the-badge)
 ![Last Synced](https://img.shields.io/badge/Last_Synced-8--4--2026-green?style=for-the-badge)
 
@@ -16,16 +16,16 @@
 
 | Difficulty | Solved |
 |:---:|:---:|
-| 🟢 Easy | **105** |
+| 🟢 Easy | **106** |
 | 🟡 Medium | **110** |
 | 🔴 Hard | **0** |
-| **Total** | **215** |
+| **Total** | **216** |
 
 ## 🛠️ Languages
 
 | Language | Solutions |
 |:---:|:---:|
-| Python | **164** |
+| Python | **165** |
 | C++ | **26** |
 | Java | **24** |
 | default | **1** |
@@ -50,18 +50,3 @@
 *Last updated: 2026-08-04* · Powered by [**PushMyCode**](https://github.com/PushMyCode-HQ)
 
 </div>
-<!---LeetCode Topics Start-->
-# LeetCode Topics
-## Array
-| Problem Name | Difficulty |
-| ------- | ------- |
-| [3731-find-missing-elements](https://github.com/laxmi-narayan-87/DSA/tree/main/Python3/Easy/3731-find-missing-elements/) | Easy |
-## Hash Table
-| Problem Name | Difficulty |
-| ------- | ------- |
-| [3731-find-missing-elements](https://github.com/laxmi-narayan-87/DSA/tree/main/Python3/Easy/3731-find-missing-elements/) | Easy |
-## Sorting
-| Problem Name | Difficulty |
-| ------- | ------- |
-| [3731-find-missing-elements](https://github.com/laxmi-narayan-87/DSA/tree/main/Python3/Easy/3731-find-missing-elements/) | Easy |
-<!---LeetCode Topics End-->
