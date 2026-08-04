@@ -62,7 +62,7 @@ Each of the $n - 1$ subsequent lines contains two space-separated integers $u$ a
 **Language:** Python  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-08-04T11:01:41.162Z  
+**Submitted:** 2026-08-04T11:01:44.936Z  
 
 ```py
 #!/bin/python3
