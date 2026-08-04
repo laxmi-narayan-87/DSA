@@ -50,3 +50,30 @@
 *Last updated: 2026-08-04* · Powered by [**PushMyCode**](https://github.com/PushMyCode-HQ)
 
 </div>
+<!---LeetCode Topics Start-->
+# LeetCode Topics
+## Array
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0877-stone-game](https://github.com/laxmi-narayan-87/DSA/tree/main/Python3/Medium/0877-stone-game/) | Medium |
+## Math
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0877-stone-game](https://github.com/laxmi-narayan-87/DSA/tree/main/Python3/Medium/0877-stone-game/) | Medium |
+## Dynamic Programming
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0877-stone-game](https://github.com/laxmi-narayan-87/DSA/tree/main/Python3/Medium/0877-stone-game/) | Medium |
+## Minimax
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0877-stone-game](https://github.com/laxmi-narayan-87/DSA/tree/main/Python3/Medium/0877-stone-game/) | Medium |
+## Game Theory
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0877-stone-game](https://github.com/laxmi-narayan-87/DSA/tree/main/Python3/Medium/0877-stone-game/) | Medium |
+## Zero-Sum Game
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0877-stone-game](https://github.com/laxmi-narayan-87/DSA/tree/main/Python3/Medium/0877-stone-game/) | Medium |
+<!---LeetCode Topics End-->
