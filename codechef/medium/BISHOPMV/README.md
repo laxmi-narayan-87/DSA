@@ -59,7 +59,7 @@ Output
 **Language:** Python  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-08-05T16:06:49.974Z  
+**Submitted:** 2026-08-05T16:07:55.236Z  
 
 ```py
 # cook your dish here
@@ -67,13 +67,13 @@ if __name__=="__main__":
     t=int(input())
     for _ in range(t):
         x1,y1,x2,y2=map(int,input().split())
-        if (x1==y1) and (x2==y2):
-            print(0)
         if abs(x1-y1)==abs(x2-y2):
             print(1)
         else:
             if(x1+y1)%2 != (x2+y2)%2:
                 print("-1")
+            elif (x1==y1) and (x2==y2):
+                print(0)
             else:
                 print(2)
 ```
