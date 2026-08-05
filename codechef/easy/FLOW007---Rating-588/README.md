@@ -43,15 +43,11 @@ Output
 **Language:** Python  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-08-05T05:06:45.949Z  
+**Submitted:** 2026-08-05T05:04:37.063Z  
 
 ```py
 # cook your dish here
-if __name__=="__main__":
-    t=int(input())
-    for _ in range(t):
-        n=input()
-        print(int(n[::-1]))
+
 ```
 
 ---
