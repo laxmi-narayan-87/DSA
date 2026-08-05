@@ -43,20 +43,15 @@ Output
 **Language:** Python  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-08-05T05:04:32.877Z  
+**Submitted:** 2026-08-05T05:06:45.949Z  
 
 ```py
 # cook your dish here
 if __name__=="__main__":
     t=int(input())
     for _ in range(t):
-        n=int(input())
-        rev=0
-        while n>0:
-            ig=n%10
-            rev=rev*10+ig
-            n//=10
-        print(rev)
+        n=input()
+        print(int(n[::-1]))
 ```
 
 ---
