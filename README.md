@@ -2,9 +2,9 @@
 
 # 🧠 Coding Solutions
 
-![Total Solved](https://img.shields.io/badge/Total_Solved-216-blue?style=for-the-badge)
-![Streak](https://img.shields.io/badge/Streak-16_days-orange?style=for-the-badge)
-![Last Synced](https://img.shields.io/badge/Last_Synced-8--4--2026-green?style=for-the-badge)
+![Total Solved](https://img.shields.io/badge/Total_Solved-218-blue?style=for-the-badge)
+![Streak](https://img.shields.io/badge/Streak-17_days-orange?style=for-the-badge)
+![Last Synced](https://img.shields.io/badge/Last_Synced-8--5--2026-green?style=for-the-badge)
 
 > 🚀 Auto-synced by [**PushMyCode**](https://github.com/PushMyCode-HQ) — solve it, forget it, it's on GitHub.
 
@@ -16,16 +16,16 @@
 
 | Difficulty | Solved |
 |:---:|:---:|
-| 🟢 Easy | **106** |
-| 🟡 Medium | **110** |
+| 🟢 Easy | **107** |
+| 🟡 Medium | **111** |
 | 🔴 Hard | **0** |
-| **Total** | **216** |
+| **Total** | **218** |
 
 ## 🛠️ Languages
 
 | Language | Solutions |
 |:---:|:---:|
-| Python | **165** |
+| Python | **167** |
 | C++ | **26** |
 | Java | **24** |
 | default | **1** |
@@ -47,33 +47,6 @@
 
 <div align="center">
 
-*Last updated: 2026-08-04* · Powered by [**PushMyCode**](https://github.com/PushMyCode-HQ)
+*Last updated: 2026-08-05* · Powered by [**PushMyCode**](https://github.com/PushMyCode-HQ)
 
 </div>
-<!---LeetCode Topics Start-->
-# LeetCode Topics
-## Array
-| Problem Name | Difficulty |
-| ------- | ------- |
-| [0877-stone-game](https://github.com/laxmi-narayan-87/DSA/tree/main/Python3/Medium/0877-stone-game/) | Medium |
-## Math
-| Problem Name | Difficulty |
-| ------- | ------- |
-| [0877-stone-game](https://github.com/laxmi-narayan-87/DSA/tree/main/Python3/Medium/0877-stone-game/) | Medium |
-## Dynamic Programming
-| Problem Name | Difficulty |
-| ------- | ------- |
-| [0877-stone-game](https://github.com/laxmi-narayan-87/DSA/tree/main/Python3/Medium/0877-stone-game/) | Medium |
-## Minimax
-| Problem Name | Difficulty |
-| ------- | ------- |
-| [0877-stone-game](https://github.com/laxmi-narayan-87/DSA/tree/main/Python3/Medium/0877-stone-game/) | Medium |
-## Game Theory
-| Problem Name | Difficulty |
-| ------- | ------- |
-| [0877-stone-game](https://github.com/laxmi-narayan-87/DSA/tree/main/Python3/Medium/0877-stone-game/) | Medium |
-## Zero-Sum Game
-| Problem Name | Difficulty |
-| ------- | ------- |
-| [0877-stone-game](https://github.com/laxmi-narayan-87/DSA/tree/main/Python3/Medium/0877-stone-game/) | Medium |
-<!---LeetCode Topics End-->
