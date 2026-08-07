@@ -65,7 +65,7 @@ DRAGON
 **Language:** Python  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-08-07T07:06:09.922Z  
+**Submitted:** 2026-08-07T07:07:01.256Z  
 
 ```py
 # # cook your dish here
@@ -99,8 +99,8 @@ if __name__=="__main__":
     for _ in range(t):
         d1,d2,d3=map(int,input().split())
         s1,s2,s3=map(int,input().split())
-        dragon=[d1+d2+d3,d1,d2]
-        sloth=[s1+s2+s3,s1,s2]
+        dragon=(d1+d2+d3,d1,d2)
+        sloth=(s1+s2+s3,s1,s2)
         if dragon>sloth:
             print("DRAGON")
         elif dragon<sloth:
