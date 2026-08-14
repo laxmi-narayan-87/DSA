@@ -50,3 +50,10 @@
 *Last updated: 2026-08-13* · Powered by [**PushMyCode**](https://github.com/PushMyCode-HQ)
 
 </div>
+<!---LeetCode Topics Start-->
+# LeetCode Topics
+## Database
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0176-second-highest-salary](https://github.com/laxmi-narayan-87/DSA/tree/main/MySQL/Medium/0176-second-highest-salary/) | Medium |
+<!---LeetCode Topics End-->
