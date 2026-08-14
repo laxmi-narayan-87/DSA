@@ -69,13 +69,13 @@ Output:
 ## Solution
 
 **Language:** SQL  
-**Runtime:** 320 ms (beats 29.01%)  
+**Runtime:** 315 ms (beats 32.53%)  
 **Memory:** 0B (beats 100.00%)  
-**Submitted:** 2026-08-14T13:09:16.054Z  
+**Submitted:** 2026-08-14T13:24:58.578Z  
 
 ```sql
 # Write your MySQL query statement below
-select max(salary) as SecondHighestSalary from employee where salary<(select max(salary) from employee);
+select max(salary) as SecondHighestSalary from employee where salary not in (select max(salary) from employee);
 ```
 
 ---
