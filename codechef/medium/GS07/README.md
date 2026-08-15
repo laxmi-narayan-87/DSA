@@ -50,7 +50,7 @@ Output
 **Language:** Python  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-08-15T18:19:21.620Z  
+**Submitted:** 2026-08-15T18:19:26.390Z  
 
 ```py
 # Update the '_' in the code below
