@@ -39,7 +39,7 @@ Abcd
 **Language:** Python  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-07-31T11:07:57.313Z  
+**Submitted:** 2026-08-15T18:18:47.994Z  
 
 ```py
 # Replace the _ (underscores) in the code below
