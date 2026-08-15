@@ -4,22 +4,41 @@
 
 ## Problem
 
-_Description not available._
+### Input mirror
+
+Now let's write a simple program - the  **Input mirror**. Your program needs to do the following
+
+- Accept an integer input from the console and store it in the variable $N$
+- Accept a string input from the console and store it in the variable $S$
+- Output the integer first and then string on the same line
+
+Solve the problem in the IDE and then click on click on  **Submit**  to proceed.
+
+### Sample 1:
+Input
+Output
+
+```
+5
+abcde
+```
+
+```
+5 abcde
+```
 
 ## Solution
 
 **Language:** Python  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-08-15T18:19:36.335Z  
+**Submitted:** 2026-08-15T18:19:42.636Z  
 
 ```py
-# Update the '_' in the code below
-
-A, B = input().split()
-C, D, E = input().split()
-F, G, H, I = input().split()
-print(A, B, C, D, E, F, G, H, I)
+# cook your dish here
+n=int(input())
+s=input()
+print(n," ",s)
 ```
 
 ---
