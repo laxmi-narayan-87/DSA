@@ -59,7 +59,7 @@ Since the count of test cases is 5 -> we accept 5 inputs and print 5 outputs
 **Language:** Python  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-07-31T11:17:39.489Z  
+**Submitted:** 2026-08-15T18:21:52.619Z  
 
 ```py
 # Update the '_' in the code below
