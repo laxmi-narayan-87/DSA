@@ -55,7 +55,7 @@ The input is 15. So the output is also 15.
 **Language:** Python  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-07-31T03:50:10.042Z  
+**Submitted:** 2026-08-16T17:02:30.554Z  
 
 ```py
 # cook your dish here
