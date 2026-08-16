@@ -52,15 +52,14 @@ The input is 15. So the output is also 15.
 
 ## Solution
 
-**Language:** Python  
+**Language:** C++  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-08-16T17:02:30.554Z  
+**Submitted:** 2026-08-16T17:02:55.880Z  
 
-```py
+```cpp
 # cook your dish here
-n=int(input())
-print(n)
+print(int(input()))
 ```
 
 ---
