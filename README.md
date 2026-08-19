@@ -51,3 +51,26 @@
 *Last updated: 2026-08-18* · Powered by [**PushMyCode**](https://github.com/PushMyCode-HQ)
 
 </div>
+<!---LeetCode Topics Start-->
+# LeetCode Topics
+## Array
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0075-sort-colors](https://github.com/laxmi-narayan-87/DSA/tree/main/Python3/Medium/0075-sort-colors/) | Medium |
+## Two Pointers
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0075-sort-colors](https://github.com/laxmi-narayan-87/DSA/tree/main/Python3/Medium/0075-sort-colors/) | Medium |
+## Sorting
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0075-sort-colors](https://github.com/laxmi-narayan-87/DSA/tree/main/Python3/Medium/0075-sort-colors/) | Medium |
+## Quicksort
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0075-sort-colors](https://github.com/laxmi-narayan-87/DSA/tree/main/Python3/Medium/0075-sort-colors/) | Medium |
+## Bubble Sort
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0075-sort-colors](https://github.com/laxmi-narayan-87/DSA/tree/main/Python3/Medium/0075-sort-colors/) | Medium |
+<!---LeetCode Topics End-->
