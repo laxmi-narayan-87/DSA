@@ -3,19 +3,14 @@ class Solution:
         """
         Do not return anything, modify nums in-place instead.
         """
-        n=len(nums)
-        cat0,cat1,cat2 =0,0,0
-        for i in range(n):
-            if nums[i]==0:
-                cat0+=1
-            elif nums[i]==1:
-                cat1+=1
-            else:
-                cat2+=1
-        for i in range(cat0):
-            nums[i]=0
-        for i in range(cat0,cat0+cat1):
-            nums[i]=1
-        for i in range(cat0+cat1,n):
-            nums[i]=2
-        return
+        cat0=nums.count(0)
+        cat1=nums.count(1)
+        cat2=nums.count(2)
+        for i in range(len(nums)):
+            if i<cat0:
+                nums[i]=0
+            elif cat0<=i<cat0+cat1:
+                nums[i]=1
+            elif i>=(cat0+cat1):
+                nums[i]=2
+        return nums
