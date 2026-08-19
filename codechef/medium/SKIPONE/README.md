@@ -59,11 +59,22 @@ Output
 **Language:** Python  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-08-19T16:25:18.444Z  
+**Submitted:** 2026-08-19T16:29:26.754Z  
 
 ```py
 # cook your dish here
-
+if __name__=="__main__":
+    t=int(input())
+    for _ in range(t):
+        n,k=map(int,input().split())
+        a=list(map(int,input().split()))
+        total=cost=ans=0
+        for i in range(n):
+            total+=a[i]
+            cost=max(cost,a[i])
+            if total-cost<=k:
+                ans=i+1
+        print(ans)
 ```
 
 ---
