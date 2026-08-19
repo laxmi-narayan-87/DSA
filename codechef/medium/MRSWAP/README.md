@@ -56,7 +56,7 @@ Output
 **Language:** Python  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-08-19T16:06:40.109Z  
+**Submitted:** 2026-08-19T16:08:59.175Z  
 
 ```py
 # cook your dish here
@@ -66,8 +66,8 @@ if __name__=="__main__":
         n=int(input())
         a=list(map(int,input().split()))
         maxsum=0
-        for i in range(2*n+1):
-            maxsum+= max(a[i],a[2*n-i])
+        for i in range(n):
+            maxsum+= max(a[i],a[2*n-i-1])
         print(maxsum)
 ```
 
