@@ -47,9 +47,9 @@ The array has one each of 0, 1, and 2, arranged in-place in the order 0, 1, 2.
 ## Solution
 
 **Language:** Python  
-**Runtime:** 0 ms (beats 100.00%)  
-**Memory:** 19.4 MB (beats 22.67%)  
-**Submitted:** 2026-08-19T09:19:02.379Z  
+**Runtime:** 3 ms (beats 11.18%)  
+**Memory:** 19.2 MB (beats 62.22%)  
+**Submitted:** 2026-08-19T09:26:12.327Z  
 
 ```py
 class Solution:
@@ -57,22 +57,17 @@ class Solution:
         """
         Do not return anything, modify nums in-place instead.
         """
-        n=len(nums)
-        cat0,cat1,cat2 =0,0,0
-        for i in range(n):
-            if nums[i]==0:
-                cat0+=1
-            elif nums[i]==1:
-                cat1+=1
-            else:
-                cat2+=1
-        for i in range(cat0):
-            nums[i]=0
-        for i in range(cat0,cat0+cat1):
-            nums[i]=1
-        for i in range(cat0+cat1,n):
-            nums[i]=2
-        return
+        cat0=nums.count(0)
+        cat1=nums.count(1)
+        cat2=nums.count(2)
+        for i in range(len(nums)):
+            if i<cat0:
+                nums[i]=0
+            elif cat0<=i<cat0+cat1:
+                nums[i]=1
+            elif i>=(cat0+cat1):
+                nums[i]=2
+        return nums
 ```
 
 ---
