@@ -2,7 +2,7 @@
 
 # 🧠 Coding Solutions
 
-![Total Solved](https://img.shields.io/badge/Total_Solved-297-blue?style=for-the-badge)
+![Total Solved](https://img.shields.io/badge/Total_Solved-298-blue?style=for-the-badge)
 ![Streak](https://img.shields.io/badge/Streak-8_days-orange?style=for-the-badge)
 ![Last Synced](https://img.shields.io/badge/Last_Synced-8--19--2026-green?style=for-the-badge)
 
@@ -17,15 +17,15 @@
 | Difficulty | Solved |
 |:---:|:---:|
 | 🟢 Easy | **148** |
-| 🟡 Medium | **149** |
+| 🟡 Medium | **150** |
 | 🔴 Hard | **0** |
-| **Total** | **297** |
+| **Total** | **298** |
 
 ## 🛠️ Languages
 
 | Language | Solutions |
 |:---:|:---:|
-| Python | **239** |
+| Python | **240** |
 | C++ | **31** |
 | Java | **24** |
 | SQL | **2** |
@@ -51,26 +51,3 @@
 *Last updated: 2026-08-19* · Powered by [**PushMyCode**](https://github.com/PushMyCode-HQ)
 
 </div>
-<!---LeetCode Topics Start-->
-# LeetCode Topics
-## Array
-| Problem Name | Difficulty |
-| ------- | ------- |
-| [0075-sort-colors](https://github.com/laxmi-narayan-87/DSA/tree/main/Python3/Medium/0075-sort-colors/) | Medium |
-## Two Pointers
-| Problem Name | Difficulty |
-| ------- | ------- |
-| [0075-sort-colors](https://github.com/laxmi-narayan-87/DSA/tree/main/Python3/Medium/0075-sort-colors/) | Medium |
-## Sorting
-| Problem Name | Difficulty |
-| ------- | ------- |
-| [0075-sort-colors](https://github.com/laxmi-narayan-87/DSA/tree/main/Python3/Medium/0075-sort-colors/) | Medium |
-## Quicksort
-| Problem Name | Difficulty |
-| ------- | ------- |
-| [0075-sort-colors](https://github.com/laxmi-narayan-87/DSA/tree/main/Python3/Medium/0075-sort-colors/) | Medium |
-## Bubble Sort
-| Problem Name | Difficulty |
-| ------- | ------- |
-| [0075-sort-colors](https://github.com/laxmi-narayan-87/DSA/tree/main/Python3/Medium/0075-sort-colors/) | Medium |
-<!---LeetCode Topics End-->
