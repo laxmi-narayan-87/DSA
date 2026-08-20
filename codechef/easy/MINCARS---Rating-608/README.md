@@ -54,7 +54,7 @@ Output
 **Language:** Python  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-08-20T04:46:40.679Z  
+**Submitted:** 2026-08-20T04:47:42.436Z  
 
 ```py
 # cook your dish here
@@ -63,7 +63,11 @@ if __name__=="__main__":
     t=int(input())
     for _ in range(t):
         n=int(input())
-        print(math.ceil(n/4))
+        # print(math.ceil(n/4))
+        if n%4==0:
+            print(n//4)
+        else:
+            print((n//4)+1)
 ```
 
 ---
