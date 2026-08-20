@@ -2,8 +2,8 @@
 if __name__=="__main__":
     t=int(input())
     for _ in range(t):
-        n=int(input())
-        if n%4==0:
-            print("GOOD")
+        x,a,b= map(int,input().split())
+        if x<=(a+2*b):
+            print("QUALIFY")
         else:
-            print("NOT GOOD")
+            print("NOTQUALIFY")
