@@ -5,7 +5,7 @@ if __name__=="__main__":
         n,x,y=map(int,input().split())
         if y==0:
             print("YES")
-        elif(y%x==0):
+        elif(y%x==0) and ((n*x)>=y):
             print("YES")
         else:
             print("NO")
