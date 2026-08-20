@@ -58,18 +58,18 @@ Qualify
 **Language:** Python  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-08-20T04:36:35.608Z  
+**Submitted:** 2026-08-20T04:39:39.672Z  
 
 ```py
 # cook your dish here
 if __name__=="__main__":
     t=int(input())
     for _ in range(t):
-        n=int(input())
-        if n%4==0:
-            print("GOOD")
+        x,a,b= map(int,input().split())
+        if x<=(a+2*b):
+            print("QUALIFY")
         else:
-            print("NOT GOOD")
+            print("NOTQUALIFY")
 ```
 
 ---
