@@ -65,7 +65,7 @@ NO
 **Language:** Python  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-08-20T04:58:27.671Z  
+**Submitted:** 2026-08-20T05:09:45.070Z  
 
 ```py
 # cook your dish here
@@ -75,7 +75,7 @@ if __name__=="__main__":
         n,x,y=map(int,input().split())
         if y==0:
             print("YES")
-        elif(y%x==0):
+        elif(y%x==0) and ((n*x)>=y):
             print("YES")
         else:
             print("NO")
