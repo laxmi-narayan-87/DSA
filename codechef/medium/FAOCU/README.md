@@ -74,13 +74,24 @@ Therefore, all those substrings are anagrams of `xyz`.
 **Language:** Python  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-08-24T15:44:25.436Z  
+**Submitted:** 2026-08-24T15:49:11.428Z  
 
 ```py
 # cook your dish here
 if __name__=="__main__":
     s=input()
     p=input()
+    k=len(p)
+    tar=sorted(p)
+    res=[]
+    for i in range(len(s)-k+1):
+        ran=s[i:i+k]
+        if sorted(ran)==tar:
+            res.append(i)
+    if len(res):
+        print(*res)
+    else:
+        print("-1")
 ```
 
 ---
