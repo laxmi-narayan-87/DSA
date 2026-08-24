@@ -74,7 +74,7 @@ Therefore, all those substrings are anagrams of `xyz`.
 **Language:** Python  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-08-24T15:49:11.428Z  
+**Submitted:** 2026-08-24T15:47:30.413Z  
 
 ```py
 # cook your dish here
@@ -88,10 +88,7 @@ if __name__=="__main__":
         ran=s[i:i+k]
         if sorted(ran)==tar:
             res.append(i)
-    if len(res):
-        print(*res)
-    else:
-        print("-1")
+    print(*res)
 ```
 
 ---
