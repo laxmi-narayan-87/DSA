@@ -71,14 +71,14 @@ Therefore, the number of valid ways is  **2**.
 **Language:** Python  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-08-24T16:15:12.040Z  
+**Submitted:** 2026-08-24T16:15:33.328Z  
 
 ```py
 # cook your dish here
 if __name__=="__main__":
     a=input()
     b=input()
-    print("2")
+    print("1")
 ```
 
 ---
