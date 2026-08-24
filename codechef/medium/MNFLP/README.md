@@ -59,7 +59,7 @@ For the third test case, its sum cannot be made `0`. Therefore, the answer is `-
 **Language:** Python  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-08-24T14:49:36.091Z  
+**Submitted:** 2026-08-24T14:54:48.528Z  
 
 ```py
 # cook your dish here
@@ -72,10 +72,7 @@ if __name__=="__main__":
             print("-1")
         else:
             s=sum(a)
-            if s>=0 and s%2==0:
-                print(s//2)
-                else:
-                    print("-1")
+            print(abs(s//2))
 ```
 
 ---
