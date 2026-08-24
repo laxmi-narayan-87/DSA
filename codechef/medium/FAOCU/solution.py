@@ -9,7 +9,4 @@ if __name__=="__main__":
         ran=s[i:i+k]
         if sorted(ran)==tar:
             res.append(i)
-    if len(res):
-        print(*res)
-    else:
-        print("-1")
+    print(*res)
