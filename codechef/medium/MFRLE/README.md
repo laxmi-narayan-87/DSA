@@ -67,12 +67,12 @@ Since `x` comes first alphabetically, the answer is `x`.
 **Language:** Python  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-08-24T15:19:39.322Z  
+**Submitted:** 2026-08-24T15:24:34.216Z  
 
 ```py
 # cook your dish here
 if __name__=="__main__":
-    s=input()
+    s=input().lower()
     freq={}
     for x in s:
         if x.isalpha():
@@ -82,7 +82,7 @@ if __name__=="__main__":
                 freq[x]+=1
     # max_x=max(freq,key=freq.get)
     max_freq=max(freq.values())
-    max_x=min(x for x in freq if freq[x]==max_freq )
+    max_x=min(x for x in freq if freq[x]==max_freq)
     print(max_x)
 ```
 
