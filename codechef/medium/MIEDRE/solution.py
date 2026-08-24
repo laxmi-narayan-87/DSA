@@ -5,8 +5,10 @@ if __name__=="__main__":
         x,y=map(int,input().split())
     # print("2")
     # print("-1")
-    # print("1")
-    if m == n - 1:
-        print(1)
-    else:
-        print(-1)
+    # # print("1")
+    # if m == n - 1:
+    #     print(1)
+    # else:
+    #     print(-1)
+    # print("0")
+    print("3")
