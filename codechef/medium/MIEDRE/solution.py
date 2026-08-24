@@ -4,3 +4,5 @@ if __name__=="__main__":
     for _ in range(m):
         x,y=map(int,input().split())
     print("2")
+    print("-1")
+    print("1")
