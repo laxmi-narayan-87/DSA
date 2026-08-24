@@ -67,7 +67,7 @@ Since `x` comes first alphabetically, the answer is `x`.
 **Language:** Python  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-08-24T15:14:50.453Z  
+**Submitted:** 2026-08-24T15:19:39.322Z  
 
 ```py
 # cook your dish here
@@ -80,7 +80,9 @@ if __name__=="__main__":
                 freq[x]=1
             else:
                 freq[x]+=1
-    max_x=max(freq,key=freq.get)
+    # max_x=max(freq,key=freq.get)
+    max_freq=max(freq.values())
+    max_x=min(x for x in freq if freq[x]==max_freq )
     print(max_x)
 ```
 
