@@ -8,7 +8,4 @@ if __name__=="__main__":
             print("-1")
         else:
             s=sum(a)
-            if s>=0 and s%2==0:
-                print(s//2)
-                else:
-                    print("-1")
+            print(abs(s//2))
