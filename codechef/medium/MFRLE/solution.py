@@ -8,5 +8,7 @@ if __name__=="__main__":
                 freq[x]=1
             else:
                 freq[x]+=1
-    max_x=max(freq,key=freq.get)
+    # max_x=max(freq,key=freq.get)
+    max_freq=max(freq.values())
+    max_x=min(x for x in freq if freq[x]==max_freq )
     print(max_x)
