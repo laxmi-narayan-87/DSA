@@ -4,8 +4,11 @@ if __name__=="__main__":
     for _ in range(t):
         n=int(input())
         a=list(map(int,input().split()))
-        s=sum(a)
-        if s>=0 and s%2==0:
-            print(s//2)
-        else:
+        if n%2!=0:
             print("-1")
+        else:
+            s=sum(a)
+            if s>=0 and s%2==0:
+                print(s//2)
+            else:
+                print("-1")
