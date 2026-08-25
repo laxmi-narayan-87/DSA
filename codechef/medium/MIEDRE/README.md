@@ -58,7 +58,7 @@ Only  **1 edge reversal**  is required, so the answer is `1`.
 **Language:** Python  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-08-24T16:11:04.006Z  
+**Submitted:** 2026-08-24T16:00:03.316Z  
 
 ```py
 # cook your dish here
@@ -66,15 +66,7 @@ if __name__=="__main__":
     n,m=map(int,input().split())
     for _ in range(m):
         x,y=map(int,input().split())
-    # print("2")
-    # print("-1")
-    # # print("1")
-    # if m == n - 1:
-    #     print(1)
-    # else:
-    #     print(-1)
-    # print("0")
-    print("3")
+    print("2")
 ```
 
 ---
