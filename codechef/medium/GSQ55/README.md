@@ -4,35 +4,26 @@
 
 ## Problem
 
-### Practice - Alter Table and Insert Data
+### Practice - Update Single Record
 
 Listen
 
-Existing table - 'customer' with column headers and 0 rows.
-
-```
-┌────┬───────────────┬─────┬──────────┐
-│ Id │     Name      │ Age │ Address  │
-└────┴───────────────┴─────┴──────────┘
-
-```
-
-### Task
-
 Write a query which does the following
 
-- Take the table given above and add an additional column 'email' to the table 'customer'.
-- Consider the table 'customer' to be empty and insert the below data
-- Output all the entires in the table.
-### Expected output
+- Update the age to 52 for the customer with customer id 3.
+- Output all the entires of the table.
+- Original table has the following rows
 
 ```
-┌────┬───────────────┬─────┬──────────┬──────────────┐
-│ Id │     Name      │ Age │ Address  │    email     │
-├────┼───────────────┼─────┼──────────┼──────────────┤
-│ 1  │ John Smith    │ 25  │ Main St  │ john@ex.com  │
-│ 2  │ Sarah Johnson │ 30  │ Broadway │ sarah@ex.com │
-└────┴───────────────┴─────┴──────────┴──────────────┘
+┌────┬───────────────┬─────┬──────────────┬───────────────────────────┐
+│ Id │     Name      │ Age │   Address    │           email           │
+├────┼───────────────┼─────┼──────────────┼───────────────────────────┤
+│ 1  │ John Smith    │ 25  │ 123 Main St  │ john@example.com          │
+│ 2  │ Sarah Johnson │ 30  │ 456 Broadway │ sarah@example.com         │
+│ 3  │ Michael Brown │ 45  │ 789 5th Ave  │ michael.brown@example.com │
+│ 4  │ Jessica Davis │ 28  │ 321 Elm St   │ jessica.davis@example.com │
+│ 5  │ David Lee     │ 35  │ 555 Park Ave │ David@example.com         │
+└────┴───────────────┴─────┴──────────────┴───────────────────────────┘
 
 ```
 
@@ -41,24 +32,17 @@ Write a query which does the following
 **Language:** SQL  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-08-25T07:05:47.935Z  
+**Submitted:** 2026-08-25T07:07:24.812Z  
 
 ```sql
-/* Write a query to add an additional column 'email' to the table 'customer'.
-Consider the table 'customer' to have Id, Name, Age, Address as existing columns*/
+/* Write a query which does the following
+- Update the age to 52 for the customer with customer id 3.
+- Output all the entires of the table. */
 
--- Alter the existing table to add the column 'email'
-ALTER TABLE customer
-ADD COLUMN email TEXT;
+UPDATE customer
+SET Age=52 
+WHERE Id=3;
 
-
-
--- Insert into 'customer' all the values for the corresponding columns
-INSERT INTO customer(Id, Name, Age, Address,email)
-VALUES(1, 'John Smith', 25, 'Main St','john@ex.com'),
-(2, 'Sarah Johnson', 30,'Broadway','sarah@ex.com');
-
--- Output the entire table to the console
 SELECT * FROM customer;
 ```
 
