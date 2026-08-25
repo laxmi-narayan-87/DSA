@@ -1,4 +1,6 @@
-/* Write a query to identify flights that originate out of Mumbai */
+/* Write a query to do the following
+- Output all entries from the table
+- Where passenger_name between 'A' and 'D' */
 
-SELECT* FROM Flights
-WHERE origin='Mumbai';
+SELECT * FROM Flights 
+WHERE passenger_name BETWEEN 'A' AND 'D';
