@@ -1,2 +1,4 @@
-/* Write a query to find the unique origin locations */
-SELECT DISTINCT Origin FROM Flights;
+/* Write a query which does the following
+- Fetch the entry specifically from 2 columns - 'Passenger_name' and 'Gender' */
+
+SELECT Passenger_name, Gender FROM Flights;
