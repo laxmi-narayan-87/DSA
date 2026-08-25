@@ -4,38 +4,47 @@
 
 ## Problem
 
-### Debug this query
+### Practice - Delete From
 
 Listen
 
-The Query written in the console is trying to insert data to the table employee.
- **Debug this query**  to run the problem successfully.
+You are given a table -  **employee**  (mentioned below).
 
-- Don’t worry about the actual values as long as you get the query to run.
+Write a query which does the following
 
-Your database is named 'employee' and has the following columns
+- Delete the row where the department is Client.
+- Output the entire table.
+- Original table has the following rows
 
-- Id PRIMARY KEY(INT)
-- Name (TEXT),
-- Age (INT),
-- Address UNIQUE (TEXT)
+```
+┌─────────────┬────────────────┬────────────┐
+│ Employee_id │ Employee_Name  │ Department │
+├─────────────┼────────────────┼────────────┤
+│ 1           │ Kayla Thompson │ Sales      │
+│ 2           │ Ethan Chen     │ Operations │
+│ 3           │ Julia Lee      │ Client     │
+│ 4           │ Marcus Garcia  │ Product    │
+└─────────────┴────────────────┴────────────┘
+
+```
 
 ## Solution
 
 **Language:** SQL  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-08-25T06:57:19.184Z  
+**Submitted:** 2026-08-25T06:55:54.030Z  
 
 ```sql
-/* Debug this query to run the problem successfully. 
-- Don’t worry about the actual values as long as you get the query to run. */
+/* Write a query which does the following
+- Delete the row where the department is Client.
+- Output the entire table.
+*/
 
-INSERT INTO employee (Id,Name,Age,Address)
-VALUES  (1, 'John Smith', 25,  '123 Main St'),
-        (2, 'Sarah Johnson', 30,'456 Broadway'),
-        (3, 'Michael Brown', 45,  '123 Main Str'),
-        (4, 'Jessica Davis', 28,  '321 Elm St');
+DELETE FROM employee 
+WHERE Department='Client';
+
+SELECT * FROM employee;
 ```
 
 ---
