@@ -1,9 +1,5 @@
-/* Write a query to create a table 'employee', with columns employee_id, employee_Name and Department. 
-Update the blanks below to solve this problem */
+/* Write a query to insert the below mentioned employee details to the table 'employee' */
 
-CREATE TABLE employee
-(
-    Employee_id int , /* Integer Data type assigned to the variable */
-    Employee_Name   text, /* TEXT Data type assigned to the variable */
-    Department  text/* TEXT Data type assigned to the variable */
-);
+INSERT INTO employee(employee_id,employee_name, department)
+VALUES(4, 'Marcus Garcia', 'Product'),
+(5, 'Samantha Park' , 'Hr');
