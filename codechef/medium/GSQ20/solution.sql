@@ -1,6 +1,7 @@
-/* Write a query to do the following
-- Output all entries from the table
-- Where passenger_name between 'A' and 'D' */
+/* Write a query that does the following
+- Where the origin of the flight is 'New York'
+- Output the passenger_name and gender */
 
-SELECT * FROM Flights 
-WHERE passenger_name BETWEEN 'A' AND 'D';
+SELECT passenger_name, gender 
+FROM Flights 
+WHERE origin='New York';
