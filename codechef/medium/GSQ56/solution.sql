@@ -1,8 +1,9 @@
-/*Write a query which does the following
-- Delete the entire row of the customer with customer id 1.
-- Output the entire table once the above action is performed. */
+/* Write a query which does the following
+- Update the age to 52 for the customer with customer id 3.
+- Output all the entires of the table. */
 
-DELETE FROM customer 
-WHERE Id=1;
+UPDATE customer
+SET Age=52 
+WHERE Id=3;
 
 SELECT * FROM customer;
