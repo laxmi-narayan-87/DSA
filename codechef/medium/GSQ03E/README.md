@@ -4,42 +4,51 @@
 
 ## Problem
 
-### Primary Key
+### Inserting Data into a Table
 
 Listen
 
-## Primary Key
+Rows are added to a table using the  **INSERT INTO**  statement. Below is an example query to add the details of 'Abel George' to the existing table named `student`:
 
-A  **Primary Key**  is a column (or a set of columns) in a database table that uniquely identifies each row. It enforces  **uniqueness**  and  **non-nullability**, meaning no two rows can have the same primary key value, and it cannot be NULL.
+```
+INSERT INTO student (student_id, student_name, contact_number)
+VALUES (34, 'Abel George', 910023432);
 
-## Other Terms:
-### Unique
-- Ensures that all values in a column are distinct.
-- Unlike a primary key, a column with a UNIQUE constraint can have NULL values (unless explicitly marked as NOT NULL). title VARCHAR(255) UNIQUE
-### Not Null
-- Prevents a column from having NULL values.
-- Ensures that every row must have a valid (non-null) value for the specified column. id INT NOT NULL
-### Default
-- Assigns a default value to a column when no value is provided during an INSERT operation.
-- Example: age INT DEFAULT 18
-### Auto Increment
-- Automatically generates a unique sequential value for a column (usually for primary keys).
-- Commonly used with INTEGER primary keys.
-- Example: CREATE TABLE users (id INT AUTO_INCREMENT PRIMARY KEY,);
-### Points to remember
-- No two rows can have the same primary key—it must be unique.
-- A primary key cannot contain null values (it can't be empty).
-- Each table can have only one primary key.
-### Here's a quick question for you: If you were making a table of movies, what would be a good primary key?
+```
+
+- The INSERT INTO clause is used to add one or more rows to a table.
+- student is the name of the table where the row will be added.
+- (student_id, student_name, contact_number) specifies the columns into which the data will be inserted.
+- VALUES is used to define the data being inserted.
+- (34, 'Abel George', 910023432) represents the values to be inserted: 34: An integer to be added to the student_id column. 'Abel George': A text value to be added to the student_name column. Text values must always be enclosed in single quotes. 910023432: A number to be added to the contact_number column.
+
+ **Multiple rows can be inserted in a single query by separating each set of values with a comma `','`.**  For example
+
+```
+INSERT INTO student (student_id, student_name, contact_number)
+VALUES (34, 'Abel George', 910023432),
+       (34, 'George Abel', 123456789);
+
+```
+
+### Task
+
+Write a query to insert the following employee details into the `employee` table.
+ **Note - both rows need to be inserted together by separating each set of values.** 
+
+- Employee 1: employee_id: 4 employee_name: 'Marcus Garcia' department: 'Product'
+- Employee 2: employee_id: 5 employee_name: 'Samantha Park' department: 'Hr'
+
+Code the solution in the IDE.
 
 ## Solution
 
-**Language:** C++  
+**Language:** SQL  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-08-25T06:17:50.965Z  
+**Submitted:** 2026-08-25T06:16:30.184Z  
 
-```cpp
+```sql
 /* Write a query to insert the below mentioned employee details to the table 'employee' */
 
 INSERT INTO employee(employee_id,employee_name, department)
