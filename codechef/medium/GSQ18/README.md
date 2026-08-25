@@ -4,27 +4,59 @@
 
 ## Problem
 
-### DISTINCT
+### SELECT Query
 
 Listen
 
-In the  **Flights**  table, what all 'Origins' exist? The following query should give us the result.
+As you saw in the problem earlier, the  **Flights**  table had the following information in columns
+
+- Passenger_id with datatype INT
+- Passenger_name with datatype VARCHAR
+- Gender with datatype VARCHAR
+- Origin with datatype VARCHAR
+- Destination with datatype VARCHAR
+
+To view data entries in specific columns of a table, the following syntax is used
 
 ```
-     Select Origin 
-     from Flights;
+    select column_1, column_2
+    from Flights;
 
 ```
 
-However, if we want to find the  **unique**  origin locations, we will use the  **DISTINCT**  syntax in the following format.
+To view  **ALL**  rows of a table, the following syntax is used
 
 ```
-     Select Distinct Origin 
-     from Flights;
+    select *
+    from Flights;
 
 ```
 
-Write the above query in the IDE to get the  **unique**  origin locations.
+### Task
+
+Write a query which does the following
+
+- Let us fetch the entry specifically from 2 columns - 'Passenger_name' and 'Gender'.
+
+```
+Expected output
+┌────────────────┬────────┐
+│ Passenger_name │ Gender │
+├────────────────┼────────┤
+│ Jackson        │ Male   │
+│ Riya           │ Female │
+│ Roy            │ Male   │
+│ Anthony        │ Male   │
+│ Salim          │ Male   │
+│ Dia            │ Female │
+│ Jackson        │ Male   │
+│ Dia            │ Female │
+│ Riya           │ Female │
+│ Betty          │ Female │
+└────────────────┴────────┘
+
+```
+
 Code it out in the IDE.
 
 ## Solution
@@ -32,11 +64,13 @@ Code it out in the IDE.
 **Language:** SQL  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-08-25T07:12:50.169Z  
+**Submitted:** 2026-08-25T07:11:55.547Z  
 
 ```sql
-/* Write a query to find the unique origin locations */
-SELECT DISTINCT Origin FROM Flights;
+/* Write a query which does the following
+- Fetch the entry specifically from 2 columns - 'Passenger_name' and 'Gender' */
+
+SELECT Passenger_name, Gender FROM Flights;
 ```
 
 ---
