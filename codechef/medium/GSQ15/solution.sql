@@ -1,8 +1,9 @@
-/* Debug this query to run the problem successfully. 
-- Don’t worry about the actual values as long as you get the query to run. */
+/* Write a query which does the following
+- Delete the row where the department is Client.
+- Output the entire table.
+*/
 
-INSERT INTO employee (Id,Name,Age,Address)
-VALUES  (1, 'John Smith', 25,  '123 Main St'),
-        (2, 'Sarah Johnson', 30,'456 Broadway'),
-        (3, 'Michael Brown', 45,  '123 Main Str'),
-        (4, 'Jessica Davis', 28,  '321 Elm St');
+DELETE FROM employee 
+WHERE Department='Client';
+
+SELECT * FROM employee;
