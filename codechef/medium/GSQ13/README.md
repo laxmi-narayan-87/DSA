@@ -4,59 +4,54 @@
 
 ## Problem
 
-### Delete From
+### Constraints
 
 Listen
 
-The  **DELETE FROM**  statement is used to remove one or multiple rows from a table.
-You can use the statement when you want to delete existing records.
+ **Constraints**  provide details about the usage of a column and are applied after specifying the column's data type.
+They enable the database to reject any inserted data that violates a particular constraint.
+The following statement is used to impose constraints on the "student" table.
 
-Below is the query to delete all rows in the student table with student_id - 08 (table added below for reference).
-
-```
-DELETE FROM  student
-WHERE student_id = 08;
+Below is the query to create a table student with a set of constraints.
 
 ```
+     CREATE TABLE  student(
+     student_id INTEGER PRIMARY KEY,
+     student_Name TEXT UNIQUE,
+     department TEXT NOT NULL CHECK (department IN ('CSE', 'ECE', 'EEE'))); 
 
+```
+
+- PRIMARY KEY can be utilized to uniquely identify a row in a table. When attempting to insert a row with the same value as an existing row in the table, a constraint violation will occur, preventing the insertion of the new row.
+- UNIQUE columns contain distinct values for each row, similar to "PRIMARY KEY" columns, but unlike primary key columns, a table can have multiple unique columns..
+- NOT NULL columns must have a value assigned to them. When attempting to insert a row without providing a value for a "NOT NULL" column, a constraint violation will occur, preventing the insertion of the new row.
+- CHECK constraint is used to enforce specific conditions on column values in a table. It ensures that only valid data that meets the defined condition can be inserted or updated in the column. If a value violates the condition, the database rejects the operation. Example: department TEXT CHECK (department IN ('CSE', 'ECE', 'EEE')) This ensures that the department column can only contain the values 'CSE', 'ECE', or 'EEE'. Any attempt to insert or update a value outside this list will result in an error.
 ### Task
 
-Write a query which does the following
+Write a query to create a table employee with the mentioned constraints on the columns :
 
-- Delete all rows in the employee table whose Department is 'Hr'.
-- Output all the entires of the table
-- Original table has the following rows
-
-```
-┌─────────────┬────────────────┬────────────┐
-│ Employee_id │ Employee_Name  │ Department │
-├─────────────┼────────────────┼────────────┤
-│ 1           │ Kayla Thompson │ Sales      │
-│ 2           │ Ethan Chen     │ Operations │
-│ 3           │ Julia Lee      │ Hr         │
-│ 4           │ Marcus Garcia  │ Product    │
-└─────────────┴────────────────┴────────────┘
-
-```
-
-Code it out in the IDE.
+- employee_id - INTEGER PRIMARY KEY,
+- employee_Name - TEXT UNIQUE,
+- department - TEXT NOT NULL CHECK (department IN ('Sales', 'Finance', 'Operations'))
 
 ## Solution
 
 **Language:** SQL  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-08-25T06:49:54.852Z  
+**Submitted:** 2026-08-25T06:53:19.172Z  
 
 ```sql
-/* Write a query which does the following
-- Delete all rows in the employee table whose Department is 'Hr'.
-- Output all the entires of the table. */
+/* Write a query to create a table employee with the mentioned constraints on the columns : 
+employee_id - PRIMARY KEY, 
+employee_Name -UNIQUE, 
+department -NOT NULL CHECK (department IN ('Sales', 'Finance', 'Operations')) */
 
-DELETE FROM employee
-WHERE Department='Hr';
-
-SELECT * FROM employee;
+CREATE TABLE employee(
+employee_id INT PRIMARY KEY,
+employee_name TEXT UNIQUE,
+department TEXT NOT NULL CHECK (department IN ('Sales', 'Finance', 'Operations'))
+);
 ```
 
 ---
