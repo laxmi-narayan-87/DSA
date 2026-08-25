@@ -4,51 +4,56 @@
 
 ## Problem
 
-### Create table
+### Inserting Data into a Table
 
 Listen
 
-Using a  **CREATE TABLE**  statement in SQL enables the creation of a new table in the database.
-This statement can be used whenever a new table needs to be created, starting with a blank slate.
-The example statement below demonstrates the creation of a new table called  **student**.
+Rows are added to a table using the  **INSERT INTO**  statement. Below is an example query to add the details of 'Abel George' to the existing table named `student`:
 
 ```
-    CREATE TABLE student (
-       Student_id INT,
-       Student_Name  TEXT,
-       Department  TEXT
-   ); 
+INSERT INTO student (student_id, student_name, contact_number)
+VALUES (34, 'Abel George', 910023432);
 
 ```
 
-The above query will create an empty table 'student' as mentioned below:
+- The INSERT INTO clause is used to add one or more rows to a table.
+- student is the name of the table where the row will be added.
+- (student_id, student_name, contact_number) specifies the columns into which the data will be inserted.
+- VALUES is used to define the data being inserted.
+- (34, 'Abel George', 910023432) represents the values to be inserted: 34: An integer to be added to the student_id column. 'Abel George': A text value to be added to the student_name column. Text values must always be enclosed in single quotes. 910023432: A number to be added to the contact_number column.
 
- **Student_id** 	 **Student_Name** 	 **Department** 
-		
-		
+ **Multiple rows can be inserted in a single query by separating each set of values with a comma `','`.**  For example
+
+```
+INSERT INTO student (student_id, student_name, contact_number)
+VALUES (34, 'Abel George', 910023432),
+       (34, 'George Abel', 123456789);
+
+```
+
 ### Task
 
-Let us now try and build the table that we saw earlier, starting from scratch.
-Write a query to create a table 'employee', with columns employee_id, employee_Name and Department.
-Code it out in the IDE.
+Write a query to insert the following employee details into the `employee` table.
+ **Note - both rows need to be inserted together by separating each set of values.** 
+
+- Employee 1: employee_id: 4 employee_name: 'Marcus Garcia' department: 'Product'
+- Employee 2: employee_id: 5 employee_name: 'Samantha Park' department: 'Hr'
+
+Code the solution in the IDE.
 
 ## Solution
 
 **Language:** SQL  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-08-25T06:12:12.026Z  
+**Submitted:** 2026-08-25T06:16:27.458Z  
 
 ```sql
-/* Write a query to create a table 'employee', with columns employee_id, employee_Name and Department. 
-Update the blanks below to solve this problem */
+/* Write a query to insert the below mentioned employee details to the table 'employee' */
 
-CREATE TABLE employee
-(
-    Employee_id int , /* Integer Data type assigned to the variable */
-    Employee_Name   text, /* TEXT Data type assigned to the variable */
-    Department  text/* TEXT Data type assigned to the variable */
-);
+INSERT INTO employee(employee_id,employee_name, department)
+VALUES(4, 'Marcus Garcia', 'Product'),
+(5, 'Samantha Park' , 'Hr');
 ```
 
 ---
