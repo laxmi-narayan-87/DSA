@@ -1,6 +1,7 @@
-/* Write a query to add a column 'Designation' to the table and set 'Null' as the default value. Output the entire table.*/
+/*Write a query to set the Department as 'HR', for the employee with employee_id 2 to the existing table employee. */
 
-ALTER TABLE Employee
-ADD COLUMN Designation TEXT default Null;
+update employee 
+set department= 'HR'
+where employee_id=2;
 
 select * from employee;
