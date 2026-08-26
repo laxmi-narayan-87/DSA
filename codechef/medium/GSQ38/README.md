@@ -4,42 +4,45 @@
 
 ## Problem
 
-### COUNT()
+### MAX() and MIN()
 
 Listen
 
-Using the COUNT() function is the most efficient method for determining the number of rows in a table.
-This function accepts the name of a column as a parameter and calculates the total count of non-empty values in that column.
+The MAX() and MIN() functions retrieve the maximum and minimum values from a column, correspondingly.
 
-Below is the query to count the rows of the table 'customer'.
+Below is the query to find the highest and lowest age of the customers from the table customer
 
 ```
-SELECT COUNT(*)
+SELECT MAX(Age)
 FROM customer;
 
 ```
 
-However, some rows of a column can be NULL values.
-The query below will provide the count of rows of the table 'customer' for a specified column 'column_1' ignoring the null values.
-
 ```
-SELECT COUNT((column_1))
+SELECT MIN(Age)
 FROM customer;
 
 ```
 
 ### Task
 
-Write a query to count the rows of the table EMPLOYEE.
-Rename the column header as 'Count'.
-Code it out in the IDE.
+Write a query to find the highest and lowest 'Hourly_pay' of the employees from the table 'employee'.
+
+- Rename the column header for highest pay as 'max_pay'
+- Rename the column header for lowest pay as 'min_pay'
 
 ```
-┌──────────┐
-│ Count    │
-├──────────┤
-│ 5        │
-└──────────┘
+Expected output
+┌─────────┐
+│ max_pay │
+├─────────┤
+│ 55      │
+└─────────┘
+┌─────────┐
+│ min_pay │
+├─────────┤
+│ 28      │
+└─────────┘
 
 ```
 
@@ -48,12 +51,13 @@ Code it out in the IDE.
 **Language:** SQL  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-08-26T06:50:33.784Z  
+**Submitted:** 2026-08-26T06:54:30.168Z  
 
 ```sql
-/* Write a query to count the rows of the table EMPLOYEE.*/
+/*Write a query to find the highest and lowest 'Hourly_pay' of the employees from the table 'employee'*/
 
-SELECT COUNT(*) as Count FROM EMPLOYEE;
+SELECT MAX(Hourly_pay) as max_pay FROM employee;
+SELECT MIN(Hourly_pay) as min_pay FROM employee;
 ```
 
 ---
