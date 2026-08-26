@@ -4,56 +4,23 @@
 
 ## Problem
 
-### COUNT()
-
-Listen
-
-Using the COUNT() function is the most efficient method for determining the number of rows in a table.
-This function accepts the name of a column as a parameter and calculates the total count of non-empty values in that column.
-
-Below is the query to count the rows of the table 'customer'.
-
-```
-SELECT COUNT(*)
-FROM customer;
-
-```
-
-However, some rows of a column can be NULL values.
-The query below will provide the count of rows of the table 'customer' for a specified column 'column_1' ignoring the null values.
-
-```
-SELECT COUNT((column_1))
-FROM customer;
-
-```
-
-### Task
-
-Write a query to count the rows of the table EMPLOYEE.
-Rename the column header as 'Count'.
-Code it out in the IDE.
-
-```
-┌──────────┐
-│ Count    │
-├──────────┤
-│ 5        │
-└──────────┘
-
-```
+_Description not available._
 
 ## Solution
 
 **Language:** SQL  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-08-26T06:50:29.623Z  
+**Submitted:** 2026-08-26T06:49:16.831Z  
 
 ```sql
-/* Write a query to count the rows of the table EMPLOYEE.*/
+/* Write a query to output all from the following columns in the table 'employee'
+- Rename employee_id as 'Serial'
+- Rename employee_name as 'Name'
+- Rename department as 'Dept' */
 
-SELECT COUNT(*) as Count FROM EMPLOYEE;
+SELECT employee_id as Serial, employee_name as Name, department as Dept
+FROM employee;
 ```
 
 ---
