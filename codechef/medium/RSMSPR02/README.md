@@ -4,77 +4,139 @@
 
 ## Problem
 
-### Task-1 Design the Database Schema- Tables & Fields
+### Task-2 Populate the tables with data
 
 Listen
 
-### Create and Define the tables with proper constraints:
+### Step 1:
 
- ***Note: Use the exact table and field names mentioned here. Ensure that each field's datatype and constraints are defined exactly as specified.** *
+Insert the following data into the tables exactly as given below:
+ ***Note: Use the exact table names, field names & data as mentioned below.** *
 
-There should be 3 tables in this database.
+### Step 2:
 
-- Products - Stores information about items sold in the retail store.
-- Customers - Stores customer details, ensuring unique emails and phone numbers.
-- Orders - Tracks purchases, linking customers to their orders.
+After inserting the data, also write the queries for retrieving the  **first 3 records**  from the three tables.
 
- **CREATE the tables with the following fields and constraints:** 
+### Expected output
 
-### Products
- **Field** 	 **Datatype** 	 **Constraint** 
-product_id	INTEGER	PRIMARY KEY
-name	TEXT	NOT NULL
-category	TEXT	CHECK (category IN ('Electronics', 'Clothing', 'Grocery', 'Furniture'))
-price	REAL	NOT NULL CHECK (price > 0)
-stock_quantity	INTEGER	CHECK (stock_quantity >= 0)
+```
+┌─────────────┬─────────────┬──────────────────────┬────────────┬─────────────┐
+│ customer_id │    name     │        email         │   phone    │   address   │
+├─────────────┼─────────────┼──────────────────────┼────────────┼─────────────┤
+│ 1           │ John Doe    │ john.doe@email.com   │ 9876543210 │ 123 Main St │
+│ 2           │ Jane Smith  │ jane.smith@email.com │ 9823456789 │ 45 Elm St   │
+│ 3           │ Alice Brown │ alice.b@email.com    │ 9988776655 │ 78 Pine Ave │
+└─────────────┴─────────────┴──────────────────────┴────────────┴─────────────┘
+┌────────────┬────────────────────┬─────────────┬────────┬────────────────┐
+│ product_id │        name        │  category   │ price  │ stock_quantity │
+├────────────┼────────────────────┼─────────────┼────────┼────────────────┤
+│ 101        │ Apple iPhone 15    │ Electronics │ 999.99 │ 10             │
+│ 102        │ Samsung Galaxy S23 │ Electronics │ 899.99 │ 15             │
+│ 103        │ Leather Jacket     │ Clothing    │ 149.99 │ 25             │
+└────────────┴────────────────────┴─────────────┴────────┴────────────────┘
+┌──────────┬─────────────┬────────────┬──────────────┬─────────────────┐
+│ order_id │ customer_id │ order_date │ total_amount │ Remarks_if_any  │
+├──────────┼─────────────┼────────────┼──────────────┼─────────────────┤
+│ 1001     │ 1           │ 2024-01-15 │ 999.99       │ No Remarks      │
+│ 1002     │ 2           │ 2024-01-16 │ 299.98       │ Delivered       │
+│ 1003     │ 3           │ 2024-01-17 │ 129.99       │ Payment Pending │
+└──────────┴─────────────┴────────────┴──────────────┴─────────────────┘
+
+```
+
 ### Customers
- **Field** 	 **Datatype** 	 **Constraint** 
-customer_id	INTEGER	PRIMARY KEY
-name	TEXT	NOT NULL
-email	TEXT	UNIQUE NOT NULL
-phone	TEXT	UNIQUE NOT NULL
-address	TEXT	DEFAULT 'Not Provided'
+ **customer_id** 	 **name** 	 **email** 	 **phone** 	 **address** 
+1	John Doe	john.doe@email.com	9876543210	123 Main St
+2	Jane Smith	jane.smith@email.com	9823456789	45 Elm St
+3	Alice Brown	alice.b@email.com	9988776655	78 Pine Ave
+4	Bob Johnson	bob.j@email.com	9765432109	90 Oak Lane
+5	Charlie Lee	charlie.l@email.com	9234567890	Not Provided
+6	David White	david.w@email.com	9678991234	12 Maple St
+7	Emily Clark	emily.c@email.com	9345678901	Not Provided
+8	Frank Harris	frank.h@email.com	9763214785	56 Birch Road
+9	Grace Kelly	grace.k@email.com	9456123870	32 Cedar Ave
+10	Henry Adams	henry.a@email.com	9312465789	22 Walnut Lane
+### Products
+ **product_id** 	 **name** 	 **category** 	 **price** 	 **stock_quantity** 
+101	Apple iPhone 15	Electronics	999.99	10
+102	Samsung Galaxy S23	Electronics	899.99	15
+103	Leather Jacket	Clothing	149.99	25
+104	HP Laptop	Electronics	799.99	8
+105	Wooden Dining Table	Furniture	499.99	5
+106	Nike Running Shoes	Clothing	129.99	20
+107	LED TV 55"	Electronics	699.99	12
+108	Rice 10kg	Grocery	25.99	50
+109	Sofa Set (3+1+1)	Furniture	999.99	4
+110	Organic Honey 500ml	Grocery	15.99	30
 ### Orders
- **Field** 	 **Datatype** 	 **Constraint** 
-order_id	INTEGER	PRIMARY KEY
-customer_id	INTEGER	NOT NULL
-order_date	DATE	DEFAULT CURRENT_DATE
-total_amount	REAL	CHECK (total_amount > 0)
-Remarks_if_any	TEXT	DEFAULT 'No Remarks'
+ **order_id** 	 **customer_id** 	 **order_date** 	 **total_amount** 	 **Remarks_if_any** 
+1001	1	15-01-2024	999.99	No Remarks
+1002	2	16-01-2024	299.98	Delivered
+1003	3	17-01-2024	129.99	Payment Pending
+1004	4	18-01-2024	899.99	No Remarks
+1005	5	19-01-2024	799.99	Cancelled
+1006	6	20-01-2024	499.99	Delivered
+1007	7	21-01-2024	129.99	No Remarks
+1008	8	22-01-2024	699.99	Refund Issued
+1009	9	23-01-2024	25.99	No Remarks
+1010	10	24-01-2024	15.99	Delivered
 
 ## Solution
 
 **Language:** SQL  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-08-26T13:17:17.276Z  
+**Submitted:** 2026-08-26T13:24:18.749Z  
 
 ```sql
-/* Update the '_' in the code below */
+/*Update the code below */
+--Queries for inserting data into the three tables
+--At the end, add the query to show the first 3 rows of Customers, Products and Orders tables
 
-CREATE TABLE Products (
-    product_id INT PRIMARY KEY,
-    name TEXT NOT NULL,
-    category TEXT CHECK (category IN ('Electronics', 'Clothing', 'Grocery', 'Furniture')),
-    price REAL NOT NULL CHECK(price > 0),
-    stock_quantity INT CHECK (stock_quantity >=0)
-);
+INSERT INTO Customers (customer_id, name, email, phone, address) 
+VALUES
+(1, 'John Doe', 'john.doe@email.com', '9876543210', '123 Main St'),
+(2, 'Jane Smith', 'jane.smith@email.com', '9823456789', '45 Elm St'),
+(3, 'Alice Brown', 'alice.b@email.com', '9988776655', '78 Pine Ave'),
+(4, 'Bob Johnson', 'bob.j@email.com', '9765432109', '90 Oak Lane'),
+(5, 'Charlie Lee', 'charlie.l@email.com', '9234567890', 'Not Provided'),
+(6, 'David White', 'david.w@email.com', '9678991234', '12 Maple St'),
+(7, 'Emily Clark', 'emily.c@email.com', '9345678901', 'Not Provided'),
+(8, 'Frank Harris', 'frank.h@email.com', '9763214785', '56 Birch Road'),
+(9, 'Grace Kelly', 'grace.k@email.com','9456123870','32 Cedar Ave'),
+(10, 'Henry Adams', 'henry.a@email.com', '9312465789', '22 Walnut Lane');
 
-CREATE TABLE Customers (
-    customer_id INTEGER PRIMARY KEY,
-    name TEXT NOT NULL,
-    email TEXT UNIQUE NOT NULL,
-    phone TEXT UNIQUE NOT NULL,
-    address TEXT DEFAULT 'Not Provided'
-);
+INSERT INTO Products (product_id, name, category, price, stock_quantity) 
+VALUES
+(101, 'Apple iPhone 15', 'Electronics', 999.99, 10),
+(102, 'Samsung Galaxy S23', 'Electronics', 899.99, 15),
+(103, 'Leather Jacket', 'Clothing', 149.99, 25),
+(104, 'HP Laptop', 'Electronics', 799.99, 8),
+(105, 'Wooden Dining Table', 'Furniture', 499.99, 5),
+(106, 'Nike Running Shoes', 'Clothing', 129.99, 20),
+(107, 'LED TV 55"', 'Electronics', 699.99, 12),
+(108, 'Rice 10kg', 'Grocery', 25.99, 50),
+(109, 'Sofa Set (3+1+1)', 'Furniture', 999.99, 4),
+(110, 'Organic Honey 500ml', 'Grocery', 15.99, 30);
 
-CREATE TABLE Orders (
-    order_id INTEGER PRIMARY KEY,
-    customer_id INTEGER NOT NULL,
-    order_date DATE DEFAULT CURRENT_DATE,
-    total_amount REAL CHECK (total_amount > 0),
-    Remarks_if_any TEXT DEFAULT 'No Remarks'
-);
+INSERT INTO Orders (order_id, customer_id, order_date, total_amount, Remarks_if_any) 
+VALUES
+(1001, 1, '2024-01-15', 999.99, 'No Remarks'),
+(1002, 2, '2024-01-16', 299.98, 'Delivered'),
+(1003, 3, '2024-01-17', 129.99, 'Payment Pending'),
+(1004, 4, '2024-01-18', 899.99, 'No Remarks'),
+(1005, 5, '2024-01-19', 799.99, 'Cancelled'),
+(1006, 6, '2024-01-20', 499.99, 'Delivered'),
+(1007, 7, '2024-01-21', 129.99, 'No Remarks'),
+(1008, 8, '2024-01-22', 699.99, 'Refund Issued'),
+(1009, 9, '2024-01-23', 25.99, 'No Remarks'),
+(1010, 10, '2024-01-24', 15.99, 'Delivered');
+
+--Queries for retrieving the first 3 records from the three tables
+
+SELECT * FROM Customers LIMIT 3;
+SELECT * FROM Products LIMIT 3;
+SELECT * FROM Orders LIMIT 3;
 
 ```
 
