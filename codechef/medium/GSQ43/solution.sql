@@ -1,3 +1,3 @@
-/* Write a query to find the sum of the Payout from the table EMPLOYEE. */
+/* Write a query to find the Average of the column 'Payout' from the table 'employee'. */
 
-SELECT SUM(Payout) as total_payout FROM EMPLOYEE;
+SELECT AVG(Payout) as avg_payout FROM employee;
