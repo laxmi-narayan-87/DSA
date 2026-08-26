@@ -4,7 +4,7 @@
 
 ## Problem
 
-### Task-3 Data Retrieval Using Queries
+### Task-3B Data Retrieval Using Queries
 
 Listen
 
@@ -12,19 +12,16 @@ Write queries for the following data retrieval operations based on the tables th
 
 ### Task
 
-Fetch all  **distinct**  product categories.
+Get orders of customers who have spent more than ₹900.
 
 ### Expected output
 
 ```
-┌─────────────┐
-│  category   │
-├─────────────┤
-│ Electronics │
-│ Clothing    │
-│ Furniture   │
-│ Grocery     │
-└─────────────┘
+┌──────────┬─────────────┬────────────┬──────────────┬────────────────┐
+│ order_id │ customer_id │ order_date │ total_amount │ Remarks_if_any │
+├──────────┼─────────────┼────────────┼──────────────┼────────────────┤
+│ 1001     │ 1           │ 2024-01-15 │ 999.99       │ No Remarks     │
+└──────────┴─────────────┴────────────┴──────────────┴────────────────┘
 
 ```
 
@@ -61,12 +58,13 @@ Fetch all  **distinct**  product categories.
 **Language:** SQL  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-08-26T13:25:40.963Z  
+**Submitted:** 2026-08-26T13:26:49.484Z  
 
 ```sql
 /* Update your query below*/
 
-SELECT DISTINCT category  FROM Products;
+SELECT * FROM Orders 
+WHERE total_amount>900;
 ```
 
 ---
