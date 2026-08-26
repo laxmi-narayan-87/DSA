@@ -4,19 +4,48 @@
 
 ## Problem
 
-_Description not available._
+### AVG()
+
+Listen
+
+The AVG() function is used to calculate the  **Average**  of values within a specific column.
+It takes the column name as argument and outputs the resulting average.
+
+Below is the query to find the Average Age from the table customer.
+
+```
+SELECT AVG(Age)
+FROM customer;
+
+```
+
+### Task
+
+Write a query to find the Average of the column 'Payout' from the table 'employee'.
+Rename the column header as 'avg_payout'.
+Code it out in the IDE.
+
+```
+Expected output
+┌─────────────┐
+│ avg_payout  │
+├─────────────┤
+│ 15.5339     │
+└─────────────┘
+
+```
 
 ## Solution
 
 **Language:** SQL  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-08-26T12:14:36.591Z  
+**Submitted:** 2026-08-26T12:15:28.556Z  
 
 ```sql
-/* Write a query to find the sum of the Payout from the table EMPLOYEE. */
+/* Write a query to find the Average of the column 'Payout' from the table 'employee'. */
 
-SELECT SUM(Payout) as total_payout FROM EMPLOYEE;
+SELECT AVG(Payout) as avg_payout FROM employee;
 ```
 
 ---
