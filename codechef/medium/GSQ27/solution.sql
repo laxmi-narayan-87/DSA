@@ -1,8 +1,8 @@
-/* write a query with the following conditions
-- Destination city end in 'o' AND
-- Origin city starts with 'M' 
+/* Debug this query to meet the following conditons
+- Passenger gender - Female AND
+- Flight destination - Delhi
 */
 
-SELECT * FROM Flights
-WHERE Destination like '%o'
-AND Origin like 'M%';
+select * from flights
+where gender like '%female%'
+and destination like '%Delhi%';
