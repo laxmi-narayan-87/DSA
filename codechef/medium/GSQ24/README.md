@@ -4,37 +4,36 @@
 
 ## Problem
 
-### AND
+### OR
 
 Listen
 
-The  **AND**  clause is used along with  **WHERE**  to filter the table based on 2 separate conditions.
+The  **OR**  clause is used along with  **WHERE**  to filter the table which meets any one of the given multiple conditions.
 
-Check the following example -  **AND**  combines the two conditions.
+Check the following syntax -  **OR**  combines the two conditions.
 
 ```
 select * from Flights
 where origin = 'Mumbai'
-and passenger_id BETWEEN 10001 AND 10007;
+or origin = 'New York';
 
 ```
 
-Any query containing  **AND**  will return a result  **ONLY**  if all conditions are  **TRUE**.
+Any query containing  **OR**  will return a result if  **ANY**  of the conditions is  **TRUE**.
 
 ### Task
 
-Now - write a query that returns the rows which meet the following conditions
-
-- Gender - Female
-- Destination - Cairo
+Now - write a query that returns the rows which meet the following conditions - Either Origin is Mumbai or the Destination is Mumbai
 
 ```
-Expected Output
 ┌──────────────┬────────────────┬────────┬──────────┬─────────────┐
 │ Passenger_id │ Passenger_name │ Gender │  Origin  │ Destination │
 ├──────────────┼────────────────┼────────┼──────────┼─────────────┤
-│ 10006        │ Dia            │ Female │ New York │ Cairo       │
-│ 10010        │ Betty          │ Female │ Beijing  │ Cairo       │
+│ 10001        │ Jackson        │ Male   │ Mumbai   │ New York    │
+│ 10002        │ Riya           │ Female │ Mumbai   │ Delhi       │
+│ 10004        │ Anthony        │ Male   │ Mumbai   │ Cairo       │
+│ 10008        │ Dia            │ Female │ Beijing  │ Mumbai      │
+│ 10009        │ Riya           │ Female │ Damascus │ Mumbai      │
 └──────────────┴────────────────┴────────┴──────────┴─────────────┘
 
 ```
@@ -44,16 +43,14 @@ Expected Output
 **Language:** SQL  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-08-26T06:21:15.923Z  
+**Submitted:** 2026-08-26T06:27:28.909Z  
 
 ```sql
-/* write a query below that returns the rows which meet the following conditions
-- Gender - Female
-- Destination - Cairo */
+/*write a query that returns the rows which meet the following conditions
+- Either Origin is Mumbai or the Destination is Mumbai */
 
-select * from Flights
-where Gender = 'Female' 
-and destination = 'Cairo';
+SELECT * FROM Flights 
+WHERE Origin='Mumbai' or Destination='Mumbai';
 ```
 
 ---
