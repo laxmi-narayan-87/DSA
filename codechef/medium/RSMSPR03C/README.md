@@ -59,13 +59,12 @@ Find the 2 most expensive products from the Products table.
 **Language:** SQL  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-08-26T13:32:02.356Z  
+**Submitted:** 2026-08-26T13:32:17.003Z  
 
 ```sql
 /* Update your query here */
 
 SELECT * FROM Products
--- GROUP BY price
 ORDER BY price DESC
 LIMIT 2;
 ```
