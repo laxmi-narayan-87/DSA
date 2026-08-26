@@ -1,3 +1,4 @@
 /* Update your query below*/
 
-SELECT DISTINCT category  FROM Products;
+SELECT * FROM Orders 
+WHERE total_amount>900;
