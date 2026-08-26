@@ -1,16 +1,4 @@
-/*Write 3 separate queries to output the entries for the following
-- Count the number of employees in the department 'Sales'.
-- Maximum Hourly pay for the department 'Operations'.
-- Minimum Hourly pay for the department 'Operations'.
+/* Write a query to output the following:
+- Round the column **Payout** to 2 decimal places. */
 
-Output the counts on separate lines */
-
-
-SELECT COUNT(*) as count_sales FROM employee 
-WHERE department='Sales';
-
-SELECT MAX(Hourly_Pay) as ops_max_pay FROM employee 
-WHERE department = 'Operations';
-
-SELECT MIN(Hourly_Pay) as ops_min_pay FROM employee
-WHERE department='Operations';
+SELECT ROUND(Payout,2) as Payout FROM employee;
