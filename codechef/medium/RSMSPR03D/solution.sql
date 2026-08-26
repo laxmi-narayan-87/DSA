@@ -1,4 +1,5 @@
-/* Update your query here*/
+/* Update your query here */
 
-SELECT * FROM Customers
-WHERE address LIKE 'Not Provided';
+SELECT * FROM Products
+ORDER BY price DESC
+LIMIT 2;
