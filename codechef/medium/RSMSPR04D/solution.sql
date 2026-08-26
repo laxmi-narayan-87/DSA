@@ -1,8 +1,9 @@
 /* Update your query here*/
 
-UPDATE Products
-SET stock_quantity =0
-WHERE stock_quantity=10;
+ALTER TABLE Customers
+ADD COLUMN new_address
+DEFAULT 'Unknown';
 
-SELECT * FROM Products 
-WHERE stock_quantity=0;
+SELECT name,address,new_address
+FROM Customers
+LIMIT 1;
