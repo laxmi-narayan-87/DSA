@@ -4,26 +4,33 @@
 
 ## Problem
 
-### Problem-Group By & Having
+### Debug this code
 
 Listen
 
-Given a table  **employee**  which contains details of different employees, including their Department and their Payout, write an SQL query that performs the following:
+The Query written in the console is trying to do the following
 
-- Calculate the average payout for each department.
-- Only include departments where the total payout is greater than 40.
-- Rename the column displaying the average payout as avg_payout.
-- Display the results sorted by the department.
+- Find the average age of the employees
+- The department of the employees (using the group by function)
+- specifically for departments which have more than three employees.
+
+ **Debug this query**  to get the correct output.
+
+Your database is named 'employee' and has the following columns
+
+- Id (INT)
+- Name (VARCHAR),
+- Age (INT),
+- Department (VARCHAR)
+### Expected output
 
 ```
-Expected output
-┌────────────┬──────────────────┐
-│ Department │   avg_payout     │
-├────────────┼──────────────────┤
-│ Hr         │ 23.9886666666667 │
-│ Operations │ 11.227           │
-│ Sales      │ 20.34625         │
-└────────────┴──────────────────┘
+┌────────────┬─────────┐
+│ Department │ avg_age │
+├────────────┼─────────┤
+│ Operations │ 23.0    │
+│ Sales      │ 20.5    │
+└────────────┴─────────┘
 
 ```
 
@@ -32,18 +39,15 @@ Expected output
 **Language:** SQL  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-08-26T12:50:47.451Z  
+**Submitted:** 2026-08-26T12:58:47.699Z  
 
 ```sql
-/* Write a query to output the following
-- Department and average payout on a single line
-- Where total payout of the department is more than 40. */
+/* Debug the below query */
 
-
-SELECT Department, AVG(payout) as avg_payout
+SELECT  Department,Avg(Age) as 'avg_age'
 FROM employee
 GROUP BY Department
-HAVING SUM(payout)>40;
+HAVING Count(*) > 3;
 ```
 
 ---
