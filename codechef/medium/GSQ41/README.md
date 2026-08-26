@@ -4,32 +4,45 @@
 
 ## Problem
 
-_Description not available._
+### Problem-ROUND()
+
+Listen
+
+Write a query to output the following from the  **employee**  table:
+
+- Round the column Payout to 2 decimal places. Rename the column header as 'payout'
+
+```
+Expected output
+┌────────┐
+│ payout │
+├────────┤
+│ 22.66  │
+│ 6.55   │
+│ 25.18  │
+│ 0.71   │
+│ 24.0   │
+│ 5.48   │
+│ 18.56  │
+│ 13.65  │
+│ 18.73  │
+│ 19.82  │
+└────────┘
+
+```
 
 ## Solution
 
 **Language:** SQL  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-08-26T07:02:24.471Z  
+**Submitted:** 2026-08-26T07:04:59.512Z  
 
 ```sql
-/*Write 3 separate queries to output the entries for the following
-- Count the number of employees in the department 'Sales'.
-- Maximum Hourly pay for the department 'Operations'.
-- Minimum Hourly pay for the department 'Operations'.
+/* Write a query to output the following:
+- Round the column **Payout** to 2 decimal places. */
 
-Output the counts on separate lines */
-
-
-SELECT COUNT(*) as count_sales FROM employee 
-WHERE department='Sales';
-
-SELECT MAX(Hourly_Pay) as ops_max_pay FROM employee 
-WHERE department = 'Operations';
-
-SELECT MIN(Hourly_Pay) as ops_min_pay FROM employee
-WHERE department='Operations';
+SELECT ROUND(Payout,2) as Payout FROM employee;
 ```
 
 ---
