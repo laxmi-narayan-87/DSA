@@ -1,9 +1,9 @@
 /* Update your query here*/
 
-UPDATE Products
-SET price=price+(0.1*price)
-WHERE category= 'Electronics';
+ALTER TABLE Orders
+ADD COLUMN discount
+default 0.0;
 
-SELECT name,price,stock_quantity FROM products
-WHERE category='Electronics'
+SELECT order_id, total_amount, discount
+FROM Orders
 LIMIT 1;
