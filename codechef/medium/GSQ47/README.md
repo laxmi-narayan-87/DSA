@@ -4,42 +4,26 @@
 
 ## Problem
 
-### Having
+### Problem-Group By & Having
 
 Listen
 
-In the previous problem we saw how to use GROUP BY statement.
-SQL also gives you an option to filter out which groups should be added and which are to be removed.
-For this purpose we use  **Having**  statement.
-Let us try to find to out the average Age across Division which has more than 50 students.
+Given a table  **employee**  which contains details of different employees, including their Department and their Payout, write an SQL query that performs the following:
 
-Below is the query to find out the average Age across Division which has more than 50 students from the table student.
-
-```
-SELECT Division,
-AVG(Age),
-COUNT(*)
-FROM student
-GROUP BY Division
-HAVING COUNT(*) > 50;
-
-```
-
-### Task
-
-Write a query to find out the average of column 'Payout' across 'Department' which has more than 3 employees from the table 'employee'.
-The output table should have the name of the department and their respective average pay.
-Rename the column header for the 2nd column as 'avg_payout'.
-Code it out in the IDE.
+- Calculate the average payout for each department.
+- Only include departments where the total payout is greater than 40.
+- Rename the column displaying the average payout as avg_payout.
+- Display the results sorted by the department.
 
 ```
 Expected output
-┌────────────┬─────────────┐
-│ Department │ avg_payout  │
-├────────────┼─────────────┤
-│ Operations │ 11.227      │
-│ Sales      │ 20.34625    │
-└────────────┴─────────────┘
+┌────────────┬──────────────────┐
+│ Department │   avg_payout     │
+├────────────┼──────────────────┤
+│ Hr         │ 23.9886666666667 │
+│ Operations │ 11.227           │
+│ Sales      │ 20.34625         │
+└────────────┴──────────────────┘
 
 ```
 
@@ -48,16 +32,18 @@ Expected output
 **Language:** SQL  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-08-26T12:48:18.215Z  
+**Submitted:** 2026-08-26T12:50:37.081Z  
 
 ```sql
- /* Write a query to find out the average Payout across department which has more than 3 employees from the table employee.
-The output table should have the name of the department and their respective average pay. */
+/* Write a query to output the following
+- Department and average payout on a single line
+- Where total payout of the department is more than 40. */
 
-SELECT Department, AVG(Payout) as avg_payout
+
+SELECT Department, AVG(payout) as avg_payout
 FROM employee
 GROUP BY Department
-HAVING COUNT(*)>3;
+HAVING SUM(payout)>40;
 ```
 
 ---
