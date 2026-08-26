@@ -1,9 +1,5 @@
-/* Write a query to output the following on separate lines
-- Total Payout for the Product department.
-- Average Payout for Operations department. */
+ /* Write a query to find the Average of the column 'Payout' across 'Department' from the table 'employee'. The output table should have the average payout of each department.*/
 
-SELECT SUM(Payout) as product_total_pay FROM employee
-WHERE department='Product';
-
-SELECT AVG(Payout) as ops_avg_pay FROM employee
-WHERE department='Operations';
+SELECT Department, AVG(payout) as avg_payout 
+FROM employee 
+GROUP BY Department;
