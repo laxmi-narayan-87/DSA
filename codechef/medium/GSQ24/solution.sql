@@ -1,7 +1,5 @@
-/* write a query below that returns the rows which meet the following conditions
-- Gender - Female
-- Destination - Cairo */
+/*write a query that returns the rows which meet the following conditions
+- Either Origin is Mumbai or the Destination is Mumbai */
 
-select * from Flights
-where Gender = 'Female' 
-and destination = 'Cairo';
+SELECT * FROM Flights 
+WHERE Origin='Mumbai' or Destination='Mumbai';
