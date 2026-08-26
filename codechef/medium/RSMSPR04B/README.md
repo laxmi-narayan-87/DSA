@@ -4,7 +4,7 @@
 
 ## Problem
 
-### Task-4A Data Modification (Update and Alter)
+### Task-4B Data Modification (Update and Alter)
 
 Listen
 
@@ -12,17 +12,18 @@ Write queries for the following data modification operations based on the tables
 
 ### Task
 
-Increase the prices of all products in the 'Electronics' category by 10%.
-Then, retrieve the name, price, and stock quantity of the first Electronics product from the Products table.
+Add a new column "discount" to the Orders table.
+Set its default value to 0.
+Then, retrieve the order_id, total_amount and discount of the first order from the Orders table.
 
 ### Expected output
 
 ```
-┌─────────────────┬──────────┬────────────────┐
-│      name       │  price   │ stock_quantity │
-├─────────────────┼──────────┼────────────────┤
-│ Apple iPhone 15 │ 1099.989 │ 10             │
-└─────────────────┴──────────┴────────────────┘
+┌──────────┬──────────────┬──────────┐
+│ order_id │ total_amount │ discount │
+├──────────┼──────────────┼──────────┤
+│ 1001     │ 999.99       │ 0.0      │
+└──────────┴──────────────┴──────────┘
 
 ```
 
@@ -59,17 +60,17 @@ Then, retrieve the name, price, and stock quantity of the first Electronics prod
 **Language:** SQL  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-08-26T13:38:04.842Z  
+**Submitted:** 2026-08-26T13:40:20.683Z  
 
 ```sql
 /* Update your query here*/
 
-UPDATE Products
-SET price=price+(0.1*price)
-WHERE category= 'Electronics';
+ALTER TABLE Orders
+ADD COLUMN discount
+default 0.0;
 
-SELECT name,price,stock_quantity FROM products
-WHERE category='Electronics'
+SELECT order_id, total_amount, discount
+FROM Orders
 LIMIT 1;
 ```
 
