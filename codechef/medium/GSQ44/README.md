@@ -4,33 +4,29 @@
 
 ## Problem
 
-### AVG()
+### Problem - SUM() and AVG()
 
 Listen
 
-The AVG() function is used to calculate the  **Average**  of values within a specific column.
-It takes the column name as argument and outputs the resulting average.
+Write a query to output the following on separate lines from the table 'employee'
 
-Below is the query to find the Average Age from the table customer.
+- Total Payout for the Product department. Rename the column header as 'product_total_pay'
+- Average Payout for Operations department. Rename the column header as 'ops_avg_pay'
 
-```
-SELECT AVG(Age)
-FROM customer;
-
-```
-
-### Task
-
-Write a query to find the Average of the column 'Payout' from the table 'employee'.
-Rename the column header as 'avg_payout'.
-Code it out in the IDE.
+employee table has following columns:
+| **Employee_id**  |  **Employee_Name**  |  **Department**  |  **Payout**  |
 
 ```
 Expected output
+┌───────────────────┐
+│ product_total_pay │
+├───────────────────┤
+│ 20.528            │
+└───────────────────┘
 ┌─────────────┐
-│ avg_payout  │
+│ ops_avg_pay │
 ├─────────────┤
-│ 15.5339     │
+│ 12.41975    │
 └─────────────┘
 
 ```
@@ -40,12 +36,18 @@ Expected output
 **Language:** SQL  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-08-26T12:15:30.898Z  
+**Submitted:** 2026-08-26T12:17:41.263Z  
 
 ```sql
-/* Write a query to find the Average of the column 'Payout' from the table 'employee'. */
+/* Write a query to output the following on separate lines
+- Total Payout for the Product department.
+- Average Payout for Operations department. */
 
-SELECT AVG(Payout) as avg_payout FROM employee;
+SELECT SUM(Payout) as product_total_pay FROM employee
+WHERE department='Product';
+
+SELECT AVG(Payout) as ops_avg_pay FROM employee
+WHERE department='Operations';
 ```
 
 ---
