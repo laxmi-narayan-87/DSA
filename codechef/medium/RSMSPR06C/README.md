@@ -4,7 +4,7 @@
 
 ## Problem
 
-### Task-6B Aggregations & Grouping
+### Task-6C Aggregations & Grouping
 
 Listen
 
@@ -12,16 +12,22 @@ Write queries for the following Aggregations & Grouping operations based on the 
 
 ### Task
 
-Find the average spending per customer and display it with the header avg_spending_per_customer.
+Find the number of orders placed per month and display them with the headers order_month and total_orders.
+To aggregate orders placed per month - you can use the following
+
+```
+SELECT strftime('%Y-%m', order_date) AS order_month
+
+```
 
 ### Expected output
 
 ```
-┌───────────────────────────┐
-│ avg_spending_per_customer │
-├───────────────────────────┤
-│ 599.99                    │
-└───────────────────────────┘
+┌─────────────┬──────────────┐
+│ order_month │ total_orders │
+├─────────────┼──────────────┤
+│ 2024-01     │ 10           │
+└─────────────┴──────────────┘
 
 ```
 
@@ -58,13 +64,16 @@ Find the average spending per customer and display it with the header avg_spendi
 **Language:** SQL  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-08-27T04:39:06.418Z  
+**Submitted:** 2026-08-27T04:46:25.554Z  
 
 ```sql
-/* Update your query here*/
+ROLLBACK TO S1;
 
-SELECT AVG(total_amount) as avg_spending_per_customer
-FROM Orders;
+/* Update your query below this line*/
+
+SELECT strftime('%Y-%m', order_date) as order_month, COUNT(total_amount) as total_orders
+FROM Orders
+GROUP by Order_month;
 ```
 
 ---
