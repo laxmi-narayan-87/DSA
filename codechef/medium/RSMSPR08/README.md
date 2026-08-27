@@ -4,78 +4,94 @@
 
 ## Problem
 
-### Task-7C Working with NULL values
+### Task-8 Date Functions
 
 Listen
 
-Write queries for the following operations that deal with NULL values based on the tables that we created and the data that we inserted.
+### Write queries for the following operations that deal with Date Functions based on the tables that we created and the data that we inserted.
+#### Query 1:
 
-### Task
+Find the `order_id`, `customer_id`, and `order_date` of all orders placed in  **January 2024**.
+ **Expected output:** 
 
-Update the Orders table by setting the Remarks_if_any field to NULL wherever it currently has the value "No Remarks".
-After the update, retrieve the order_id and Remarks_if_any for all orders where Remarks_if_any is NULL.
+ **order_id** 	 **customer_id** 	 **order_date** 
+1001	1	2024-01-15
+1002	2	2024-01-16
+1003	3	2024-01-17
+1004	4	2024-01-18
+1005	5	2024-01-19
+1006	6	2024-01-20
+1007	7	2024-01-21
+1008	8	2024-01-22
+1009	9	2024-01-23
+1010	10	2024-01-24
+#### Query 2:
 
-**Hint: The `=` operator may not work for NULL.
-Use an appropriate condition to check for NULL values.**
+Find the  **most recent order date**  and display it with the header `'most_recent_order'`.
+ **Expected output:** 
 
-### Expected output
+ **most_recent_order** 
+2024-01-24
+#### Query 3:
 
-```
-┌──────────┬────────────────┐
-│ order_id │ Remarks_if_any │
-├──────────┼────────────────┤
-│ 1001     │ NULL           │
-│ 1004     │ NULL           │
-│ 1007     │ NULL           │
-│ 1009     │ NULL           │
-└──────────┴────────────────┘
+Count the number of orders placed each day  **between 2024-01-15 and 2024-01-17**. Display them with the headers `'order_date'` and `'order_count'`.
+ **Expected output:** 
 
-```
+ **order_date** 	 **order_count** 
+2024-01-15	1
+2024-01-16	1
+2024-01-17	1
+#### Query 4:
 
-### Tables
-- Customers
+Find the number of days between the  **earliest and latest order dates**  in the Orders table and display it with the header `'days_between'`.  *(Hint: Use the `JULIANDAY()` function to calculate the difference between dates.)* 
+ **Expected output:** 
 
-```
-┌─────────────┬─────────────┬──────────────────────┬────────────┬─────────────┐
-│ customer_id │    name     │        email         │   phone    │   address   │
-└─────────────┼─────────────┼──────────────────────┼────────────┼─────────────┘
+ **days_between** 
+9
+#### Query 5:
 
-```
+Retrieve the `order_id`, `customer_id`, `order_date`, and `total_amount` of all orders that were placed in the  **5 days before 2024-01-24**  (i.e., from  **2024-01-19 to 2024-01-23**)  *(Hint: Consider using the `DATE()` function to calculate the date range dynamically.)* 
+ **Expected output:** 
 
-- Products
-
-```
-┌────────────┬────────────────────┬─────────────┬────────┬────────────────┐
-│ product_id │        name        │  category   │ price  │ stock_quantity │
-└────────────┴────────────────────┴─────────────┴────────┴────────────────┘
-
-```
-
-- Orders
-
-```
-┌──────────┬─────────────┬────────────┬──────────────┬─────────────────┐
-│ order_id │ customer_id │ order_date │ total_amount │ Remarks_if_any  │
-└──────────┴─────────────┴────────────┴──────────────┴─────────────────┘
-
-```
+ **order_id** 	 **customer_id** 	 **order_date** 	 **total_amount** 
+1005	5	2024-01-19	799.99
+1006	6	2024-01-20	499.99
+1007	7	2024-01-21	129.99
+1008	8	2024-01-22	699.99
+1009	9	2024-01-23	NULL
 
 ## Solution
 
 **Language:** SQL  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-08-27T05:04:17.224Z  
+**Submitted:** 2026-08-27T05:21:14.559Z  
 
 ```sql
-/* Update your query here*/
+/* Write all the 5 queries here and RUN/SUBMIT them all at once*/
 
-UPDATE Orders 
-SET Remarks_if_any = 'NULL'
-WHERE Remarks_if_any='No Remarks';
+SELECT order_id,customer_id,order_date
+FROM Orders 
+WHERE order_date BETWEEN '2024-01-01' AND '2024-01-31';
 
-SELECT order_id,Remarks_if_any
-FROM Orders WHERE Remarks_if_any= 'NULL';
+SELECT max(order_date) as most_recent_order
+FROM Orders;
+
+SELECT order_date, COUNT(*) as order_count 
+FROM Orders
+WHERE order_date BETWEEN '2024-01-15' AND '2024-01-17'
+GROUP BY order_date;
+
+
+SELECT JULIANDAY(MAX(order_date)) - JULIANDAY(MIN(order_date)) as days_between
+FROM Orders;
+
+
+
+SELECT order_id,customer_id,order_date, total_amount
+FROM Orders 
+WHERE order_date BETWEEN DATE('2024-01-24', '-5 days')
+                     AND DATE('2024-01-24', '-1 day');
 ```
 
 ---
