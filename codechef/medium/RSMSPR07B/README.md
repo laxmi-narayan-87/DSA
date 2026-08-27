@@ -62,7 +62,7 @@ Then, retrieve all details about that customer from the Customers table.
 **Language:** SQL  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-08-27T04:58:58.907Z  
+**Submitted:** 2026-08-27T05:00:21.830Z  
 
 ```sql
 UPDATE Customers
