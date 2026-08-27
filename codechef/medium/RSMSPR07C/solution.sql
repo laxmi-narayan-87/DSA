@@ -1,13 +1,8 @@
-UPDATE Customers
-SET new_address = NULL
-WHERE new_address = 'Unknown';
+/* Update your query here*/
 
-/* Update your query below this line*/
+UPDATE Orders 
+SET Remarks_if_any = 'NULL'
+WHERE Remarks_if_any='No Remarks';
 
-UPDATE Customers
-SET new_address="23 Walnut Lane"
-WHERE customer_id=10
-AND name='Henry Adams'
-AND new_address IS NULL;
-
-SELECT * FROM Customers WHERE customer_id=10;
+SELECT order_id,Remarks_if_any
+FROM Orders WHERE Remarks_if_any= 'NULL';
