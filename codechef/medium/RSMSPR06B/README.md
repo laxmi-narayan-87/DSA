@@ -4,27 +4,24 @@
 
 ## Problem
 
-### Task-6A Aggregations & Grouping
+### Task-6B Aggregations & Grouping
 
 Listen
 
 Write queries for the following Aggregations & Grouping operations based on the tables that we created and the data that we inserted.
 
-🤔Remember, we deleted many records in the previous module. But let's say we want to perform the queries here before the deletion.
-💡Fortunately, SAVEPOINT comes to our rescue here. Let's rollback the database to SAVEPOINT S1 and restore the previous state.
-
 ### Task
 
-Find the total revenue generated and display it with the header total_revenue.
+Find the average spending per customer and display it with the header avg_spending_per_customer.
 
 ### Expected output
 
 ```
-┌───────────────┐
-│ total_revenue │
-├───────────────┤
-│ 4501.89       │
-└───────────────┘
+┌───────────────────────────┐
+│ avg_spending_per_customer │
+├───────────────────────────┤
+│ 599.99                    │
+└───────────────────────────┘
 
 ```
 
@@ -61,14 +58,13 @@ Find the total revenue generated and display it with the header total_revenue.
 **Language:** SQL  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-08-27T04:37:56.752Z  
+**Submitted:** 2026-08-27T04:39:05.305Z  
 
 ```sql
-ROLLBACK TO S1;
+/* Update your query here*/
 
-/* Update your query below this line*/
-
-SELECT SUM(total_amount) as total_revenue FROM Orders;
+SELECT AVG(total_amount) as avg_spending_per_customer
+FROM Orders;
 ```
 
 ---
