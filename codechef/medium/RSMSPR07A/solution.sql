@@ -1,7 +1,9 @@
-ROLLBACK TO S1;
+/* Update your query here*/
 
-/* Update your query below this line*/
+UPDATE Customers
+SET new_address="NULL"
+WHERE new_Address="Unknown";
 
-SELECT name, MAX(price) as price
-FROM Products; 
--- WHERE MAX
+SELECT customer_id,name,new_address
+FROm Customers
+LIMIT 3;
