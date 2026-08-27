@@ -1,9 +1,11 @@
-/* Update your query here*/
+UPDATE Customers
+SET new_address = NULL
+WHERE new_address = 'Unknown';
+
+/* Update your query below this line*/
 
 UPDATE Customers
-SET new_address="NULL"
-WHERE new_Address="Unknown";
+SET new_address="23 Walnut Lane"
+WHERE customer_id=10;
 
-SELECT customer_id,name,new_address
-FROm Customers
-LIMIT 3;
+SELECT * FROM Customers WHERE customer_id=10;
