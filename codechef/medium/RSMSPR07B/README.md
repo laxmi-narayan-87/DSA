@@ -62,7 +62,7 @@ Then, retrieve all details about that customer from the Customers table.
 **Language:** SQL  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-08-27T05:00:56.354Z  
+**Submitted:** 2026-08-27T04:59:09.571Z  
 
 ```sql
 UPDATE Customers
@@ -73,9 +73,7 @@ WHERE new_address = 'Unknown';
 
 UPDATE Customers
 SET new_address="23 Walnut Lane"
-WHERE customer_id=10
-AND name='Henry Adams'
-AND new_address IS NULL;
+WHERE customer_id=10;
 
 SELECT * FROM Customers WHERE customer_id=10;
 ```
