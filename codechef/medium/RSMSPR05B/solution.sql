@@ -2,10 +2,10 @@ BEGIN TRANSACTION;
 SAVEPOINT S1;
 --Savepoint created incase any changes to the the database beyond this point has to be undone in the future.
 
-/* Update your query below this line*/
+/* Update your query here*/
 
-DELETE FROM Products 
-WHERE stock_quantity=0;
+DELETE FROM Orders 
+WHERE order_date <'2024-01-20';
 
-SELECT product_id, name, stock_quantity
-FROM Products;
+SELECT order_id, customer_id, order_date, total_amount
+FROM Orders;
