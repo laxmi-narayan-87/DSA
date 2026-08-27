@@ -1,5 +1,4 @@
-ROLLBACK TO S1;
+/* Update your query here*/
 
-/* Update your query below this line*/
-
-SELECT SUM(total_amount) as total_revenue FROM Orders;
+SELECT AVG(total_amount) as avg_spending_per_customer
+FROM Orders;
