@@ -4,24 +4,28 @@
 
 ## Problem
 
-### Task-6D Aggregations & Grouping
+### Task-7A Working with NULL values
 
 Listen
 
-Write queries for the following Aggregations & Grouping operations based on the tables that we created and the data that we inserted.
+Write queries for the following operations that deal with NULL values based on the tables that we created and the data that we inserted.
 
 ### Task
 
-Find the highest-priced product along with its name.
+Update the Customers table to replace all occurrences of "Unknown" in the new_address column with NULL.
+Ensure that no records are deleted, only modified.
+Then, retrieve the customer_id, name and new_address of the first 3 customers from the Customer table.
 
 ### Expected output
 
 ```
-┌─────────────────┬──────────┐
-│      name       │  price   │
-├─────────────────┼──────────┤
-│ Apple iPhone 15 │ 1099.989 │
-└─────────────────┴──────────┘
+┌─────────────┬─────────────┬─────────────┐
+│ customer_id │    name     │ new_address │
+├─────────────┼─────────────┼─────────────┤
+│ 1           │ John Doe    │ NULL        │
+│ 2           │ Jane Smith  │ NULL        │
+│ 3           │ Alice Brown │ NULL        │
+└─────────────┴─────────────┴─────────────┘
 
 ```
 
@@ -29,9 +33,9 @@ Find the highest-priced product along with its name.
 - Customers
 
 ```
-┌─────────────┬─────────────┬──────────────────────┬────────────┬─────────────┐
-│ customer_id │    name     │        email         │   phone    │   address   │
-└─────────────┼─────────────┼──────────────────────┼────────────┼─────────────┘
+┌─────────────┬─────────────┬──────────────────────┬────────────┬─────────────┬──────────────┐
+│ customer_id │    name     │        email         │   phone    │   address   │ new_address  │
+├─────────────┼─────────────┼──────────────────────┼────────────┼─────────────┼──────────────┤
 
 ```
 
@@ -58,17 +62,18 @@ Find the highest-priced product along with its name.
 **Language:** SQL  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-08-27T04:48:16.771Z  
+**Submitted:** 2026-08-27T04:56:00.030Z  
 
 ```sql
-ROLLBACK TO S1;
+/* Update your query here*/
 
-/* Update your query below this line*/
+UPDATE Customers
+SET new_address="NULL"
+WHERE new_Address="Unknown";
 
-SELECT name, MAX(price) as price
-FROM Products; 
--- WHERE MAX
-
+SELECT customer_id,name,new_address
+FROm Customers
+LIMIT 3;
 ```
 
 ---
