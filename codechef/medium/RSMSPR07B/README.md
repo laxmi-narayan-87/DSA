@@ -4,28 +4,28 @@
 
 ## Problem
 
-### Task-7A Working with NULL values
+### Task-7B Working with NULL values
 
 Listen
 
 Write queries for the following operations that deal with NULL values based on the tables that we created and the data that we inserted.
 
+ **Note:**  In the previous problem - we replaced all occurrences of "Unknown" in the new_address column with NULL. Using this updated table - perform the following.
+
 ### Task
 
-Update the Customers table to replace all occurrences of "Unknown" in the new_address column with NULL.
-Ensure that no records are deleted, only modified.
-Then, retrieve the customer_id, name and new_address of the first 3 customers from the Customer table.
+Check if the customer with customer_id = 10 and name = 'Henry Adams' has NULL in the new_address column.
+If it is NULL, update it to  **"23 Walnut Lane"**.
+Then, retrieve all details about that customer from the Customers table.
 
 ### Expected output
 
 ```
-┌─────────────┬─────────────┬─────────────┐
-│ customer_id │    name     │ new_address │
-├─────────────┼─────────────┼─────────────┤
-│ 1           │ John Doe    │ NULL        │
-│ 2           │ Jane Smith  │ NULL        │
-│ 3           │ Alice Brown │ NULL        │
-└─────────────┴─────────────┴─────────────┘
+┌─────────────┬─────────────┬───────────────────┬────────────┬────────────────┬────────────────┐
+│ customer_id │    name     │       email       │   phone    │    address     │  new_address   │
+├─────────────┼─────────────┼───────────────────┼────────────┼────────────────┼────────────────┤
+│ 10          │ Henry Adams │ henry.a@email.com │ 9312465789 │ 22 Walnut Lane │ 23 Walnut Lane │
+└─────────────┴─────────────┴───────────────────┴────────────┴────────────────┴────────────────┘
 
 ```
 
@@ -33,9 +33,9 @@ Then, retrieve the customer_id, name and new_address of the first 3 customers fr
 - Customers
 
 ```
-┌─────────────┬─────────────┬──────────────────────┬────────────┬─────────────┬──────────────┐
-│ customer_id │    name     │        email         │   phone    │   address   │ new_address  │
-├─────────────┼─────────────┼──────────────────────┼────────────┼─────────────┼──────────────┤
+┌─────────────┬─────────────┬──────────────────────┬────────────┬─────────────┐
+│ customer_id │    name     │        email         │   phone    │   address   │
+└─────────────┼─────────────┼──────────────────────┼────────────┼─────────────┘
 
 ```
 
@@ -62,18 +62,20 @@ Then, retrieve the customer_id, name and new_address of the first 3 customers fr
 **Language:** SQL  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-08-27T04:56:03.683Z  
+**Submitted:** 2026-08-27T04:58:58.907Z  
 
 ```sql
-/* Update your query here*/
+UPDATE Customers
+SET new_address = NULL
+WHERE new_address = 'Unknown';
+
+/* Update your query below this line*/
 
 UPDATE Customers
-SET new_address="NULL"
-WHERE new_Address="Unknown";
+SET new_address="23 Walnut Lane"
+WHERE customer_id=10;
 
-SELECT customer_id,name,new_address
-FROm Customers
-LIMIT 3;
+SELECT * FROM Customers WHERE customer_id=10;
 ```
 
 ---
