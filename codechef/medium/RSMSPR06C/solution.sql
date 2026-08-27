@@ -1,4 +1,7 @@
-/* Update your query here*/
+ROLLBACK TO S1;
 
-SELECT AVG(total_amount) as avg_spending_per_customer
-FROM Orders;
+/* Update your query below this line*/
+
+SELECT strftime('%Y-%m', order_date) as order_month, COUNT(total_amount) as total_orders
+FROM Orders
+GROUP by Order_month;
