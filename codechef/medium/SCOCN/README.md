@@ -118,7 +118,7 @@ Therefore, the output is `1`.
 **Language:** Python  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-08-31T13:51:35.026Z  
+**Submitted:** 2026-08-31T13:52:11.360Z  
 
 ```py
 # cook your dish here
@@ -128,7 +128,7 @@ if __name__=="__main__":
     x=int(input())
     c=0
     for i in range(len(a)):
-        if i==x:
+        if a[i]==x:
             c+=1
             if c==2:
                 inde=i
