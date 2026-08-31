@@ -4,52 +4,42 @@
 
 ## Problem
 
-### Right Joins
+### Full Outer Joins
 
-We've seen how `LEFT JOIN` keeps all rows from the left table, filling in `NULL`s where there's no match in the right table. `RIGHT JOIN` does the opposite.
+Now that we've explored `LEFT JOIN` and `RIGHT JOIN`, let's look at a join that combines both: the  **FULL OUTER JOIN**. A `FULL OUTER JOIN` (sometimes just called `FULL JOIN`) returns  *all*  rows from  *both*  tables.
 
-A  **RIGHT JOIN**  keeps all rows from the  *right*  table (the second table listed in the `JOIN` clause) and includes matching rows from the  *left*  table (the first table listed).
+Here's a breakdown of how `FULL OUTER JOIN` works:
 
-If a row in the right table doesn't have a corresponding match in the left table:
+- Matching Rows: If a row in one table has a matching row in the other table (based on the ON clause), the join combines those rows into a single row in the result.
+- Unmatched Rows in Left Table: If a row in the left table does not have a match in the right table, the join includes that row. The columns from the right table will be filled with NULL values.
+- Unmatched Rows in Right Table: If a row in the right table does not have a match in the left table, the join also includes that row. The columns from the left table will be filled with NULL values.
 
-- All columns from the right table will be included.
-- Columns from the left table will be filled with NULL values.
+In short, a `FULL OUTER JOIN` guarantees that every row from  *both*  tables appears in the result set, with `NULL`s used to fill in missing values where there's no match. It's a combination of `LEFT JOIN` and `RIGHT JOIN`. It doesn't omit any rows from the tables that are being joined.
 
-Essentially, `RIGHT JOIN` ensures every row from the second (right) table appears in the result, regardless of whether a match exists in the first (left) table.
-
-Here's the general structure:
+Here's the general syntax:
 
 ```
 SELECT *
-FROM customer
-RIGHT JOIN order
-ON customer.cust_id = order.cust_id;
+FROM table1
+FULL OUTER JOIN table2
+ON table1.column = table2.column;
 
 ```
 
 ### Task
 
-Write the queries to do the following:
+Write a query to do the following:
 
-- JOIN the tables 'student' and 'course' using 'Course_id' to match both the tables and output the joined table.
-- RIGHT JOIN the tables 'student' and 'course' using 'Course_id' to match both the tables and output the joined table.
+- FULL OUTER JOIN the student and course tables using 'Course_id' to match the tables. Output the joined table.
 
- **Expected outputs** 
- ***After JOIN** *
+Expected output
 
 St_id	St_Name	Department	Course_id	Course_id	Course_Name	Credits	Prof_id
 1001	John Smith	Computer Science	CS101	CS101	Introduction to Computer Science	3	2001
 1002	Emily Brown	History	HIS102	HIS102	World History II	3	2004
 1003	David Lee	Mathematics	MAT202	MAT202	Linear Algebra	2	2002
 1004	Sarah Johnson	English	ENG201	ENG201	Advanced Writing	4	2003
-
- ***After RIGHT JOIN** *
-
-St_id	St_Name	Department	Course_id	Course_id	Course_Name	Credits	Prof_id
-1001	John Smith	Computer Science	CS101	CS101	Introduction to Computer Science	3	2001
-1002	Emily Brown	History	HIS102	HIS102	World History II	3	2004
-1003	David Lee	Mathematics	MAT202	MAT202	Linear Algebra	2	2002
-1004	Sarah Johnson	English	ENG201	ENG201	Advanced Writing	4	2003
+1005	Michael Chen	Biology	BIO103	NULL	NULL	NULL	NULL
 NULL	NULL	NULL	NULL	BIO104	Principles of Bio-technology	4	2006
 
 ## Solution
@@ -57,18 +47,15 @@ NULL	NULL	NULL	NULL	BIO104	Principles of Bio-technology	4	2006
 **Language:** SQL  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-08-31T05:36:40.953Z  
+**Submitted:** 2026-08-31T05:37:16.141Z  
 
 ```sql
-/* Write the queries to do the following:
- - JOIN the tables 'student' and 'course' using 'Course_id' to match both the tables and output the joined table.
- - RIGHT JOIN the tables 'student' and 'course' using 'Course_id' to match both the tables and output the joined table. */
+-- Write a query to do the following:
+
+-- FULL OUTER JOIN the 'student' and 'course' tables using 'Course_id' to match the tables. Output the joined table.
+
  
- 
- 
- SELECT * FROM student s JOIN course c on s.Course_id=c.Course_id;
- 
- SELECT * FROM student s RIGHT JOIN course c on s.Course_id=c.Course_id;
+ SELECT * FROM student s FULL OUTER JOIN course c on s.Course_id=c.Course_id;
 ```
 
 ---
