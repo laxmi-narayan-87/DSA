@@ -5,7 +5,7 @@ if __name__=="__main__":
     x=int(input())
     c=0
     for i in range(len(a)):
-        if i==x:
+        if a[i]==x:
             c+=1
             if c==2:
                 inde=i
