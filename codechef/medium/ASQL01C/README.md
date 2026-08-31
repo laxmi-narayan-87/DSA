@@ -4,58 +4,105 @@
 
 ## Problem
 
-### Full Outer Joins
+### Self Joins
 
-Now that we've explored `LEFT JOIN` and `RIGHT JOIN`, let's look at a join that combines both: the  **FULL OUTER JOIN**. A `FULL OUTER JOIN` (sometimes just called `FULL JOIN`) returns  *all*  rows from  *both*  tables.
+Sometimes, you need to join a table to  *itself*. This is called a  **self join**. It's not a distinct type of `JOIN` like `INNER`, `LEFT`, `RIGHT`, or `FULL`; rather, it's a technique where you use any of those join types, but the left and right tables are the  *same*  table. You treat the table as if it were two separate tables, typically using aliases to distinguish them.
 
-Here's a breakdown of how `FULL OUTER JOIN` works:
+Self joins are crucial when you need to compare rows within the same table or when you have hierarchical data within a single table. Think of situations like:
 
-- Matching Rows: If a row in one table has a matching row in the other table (based on the ON clause), the join combines those rows into a single row in the result.
-- Unmatched Rows in Left Table: If a row in the left table does not have a match in the right table, the join includes that row. The columns from the right table will be filled with NULL values.
-- Unmatched Rows in Right Table: If a row in the right table does not have a match in the left table, the join also includes that row. The columns from the left table will be filled with NULL values.
+- Employee-Manager Relationships: A single employees table might have an employee_id column and a manager_id column (which also references employee_id). To find each employee's manager, you'd join the table to itself.
+- Finding Pairs: You might want to find pairs of employees who live in the same city.
+- Parts List Consider a scenario in mechanical industry where a self-join helps retrieve hierarchical relationships in a Bill of Materials (BOM) by linking components to their parent assemblies within the same table.
 
-In short, a `FULL OUTER JOIN` guarantees that every row from  *both*  tables appears in the result set, with `NULL`s used to fill in missing values where there's no match. It's a combination of `LEFT JOIN` and `RIGHT JOIN`. It doesn't omit any rows from the tables that are being joined.
-
-Here's the general syntax:
+Here's the general idea, using aliases (`a` and `b` in this case):
 
 ```
-SELECT *
-FROM table1
-FULL OUTER JOIN table2
-ON table1.column = table2.column;
+SELECT
+    e1.employee_name AS Employee,
+    e2.employee_name AS Manager
+FROM
+    employees AS e1  -- Alias for employee
+INNER JOIN
+    employees AS e2  -- Alias for manager
+ON
+    e1.manager_id = e2.employee_id;
 
 ```
+
+### Key Points:
+
+1. **Table Aliases:**  You must use table aliases (like a and b above) to differentiate between the "two" instances of the same table. Without aliases, the database wouldn't know which instance you're referring to.
+
+2. **Join Condition:**  The ON clause is critical. It defines how rows within the same table are related. This is where you specify the relationship you're investigating (e.g., a.manager_id = b.employee_id). The Join Condition cannot have same name on both sides of comparison, that will include all the entries in the table.
+
+3. **Join Types:**  Although its mostly used with the INNER JOIN, any of the previously dicussed joins could also be used in SELF JOIN.
 
 ### Task
 
-Write a query to do the following:
+We have a `student` table that also stores the `Course_id` of a student's  *favorite*  course. Our task has two parts related to using a SELF JOIN:
 
-- FULL OUTER JOIN the student and course tables using 'Course_id' to match the tables. Output the joined table.
+- Find pairs of students that belong to the same department.
+- Identify students who have chosen the same Course_id as their favorite. Display the St_id, St_Name, and Course_id and order it in increasing Course_id.
 
-Expected output
+ **Expected Output:** 
 
-St_id	St_Name	Department	Course_id	Course_id	Course_Name	Credits	Prof_id
-1001	John Smith	Computer Science	CS101	CS101	Introduction to Computer Science	3	2001
-1002	Emily Brown	History	HIS102	HIS102	World History II	3	2004
-1003	David Lee	Mathematics	MAT202	MAT202	Linear Algebra	2	2002
-1004	Sarah Johnson	English	ENG201	ENG201	Advanced Writing	4	2003
-1005	Michael Chen	Biology	BIO103	NULL	NULL	NULL	NULL
-NULL	NULL	NULL	NULL	BIO104	Principles of Bio-technology	4	2006
+```
+Part 1
+
+┌───────┬─────────────────┬─────────────┬───────┬─────────────────┬─────────────┐
+│ St_id │     St_Name     │ Department  │ St_id │     St_Name     │ Department  │
+├───────┼─────────────────┼─────────────┼───────┼─────────────────┼─────────────┤
+│ 1003  │ David Lee       │ Mathematics │ 1006  │ Light Yagami    │ Mathematics │
+│ 1004  │ Sarah Johnson   │ English     │ 1008  │ Patrick Bateman │ English     │
+│ 1005  │ Michael Chen    │ Biology     │ 1007  │ Jordan          │ Biology     │
+│ 1006  │ Light Yagami    │ Mathematics │ 1003  │ David Lee       │ Mathematics │
+│ 1007  │ Jordan          │ Biology     │ 1005  │ Michael Chen    │ Biology     │
+│ 1008  │ Patrick Bateman │ English     │ 1004  │ Sarah Johnson   │ English     │
+└───────┴─────────────────┴─────────────┴───────┴─────────────────┴─────────────┘
+Part 2
+┌───────┬─────────────────┬───────────┐
+│ St_id │     St_Name     │ Course_id │
+├───────┼─────────────────┼───────────┤
+│ 1005  │ Michael Chen    │ BIO103    │
+│ 1007  │ Jordan          │ BIO103    │
+│ 1004  │ Sarah Johnson   │ ENG201    │
+│ 1008  │ Patrick Bateman │ ENG201    │
+│ 1003  │ David Lee       │ MAT202    │
+│ 1006  │ Light Yagami    │ MAT202    │
+└───────┴─────────────────┴───────────┘
+
+```
 
 ## Solution
 
 **Language:** SQL  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-08-31T05:37:17.690Z  
+**Submitted:** 2026-08-31T06:59:30.671Z  
 
 ```sql
--- Write a query to do the following:
+-- We have a student table that also stores the Course_id of a student's favorite course. Our task has two parts related to using a SELF JOIN:
 
--- FULL OUTER JOIN the 'student' and 'course' tables using 'Course_id' to match the tables. Output the joined table.
+--     Find pairs of students that belong to the same department.
+--     Identify students who have chosen the same Course_id as their favorite. Display the St_id, St_Name, and Course_id and order it in increasing Course_id.
 
- 
- SELECT * FROM student s FULL OUTER JOIN course c on s.Course_id=c.Course_id;
+SELECT
+    s1.St_id,s1.St_Name,s1.Department,s2.St_id,s2.St_Name,s2.Department
+FROM student AS s1
+INNER JOIN student AS s2
+    ON s1.Department = s2.Department
+   AND s1.St_id <> s2.St_id
+ORDER BY s1.St_id;
+
+SELECT
+    s1.St_id,
+    s1.St_Name,
+    s1.Course_id
+FROM student AS s1
+INNER JOIN student AS s2
+    ON s1.Course_id = s2.Course_id
+   AND s1.St_id <> s2.St_id
+ORDER BY s1.Course_id, s1.St_id;
 ```
 
 ---
