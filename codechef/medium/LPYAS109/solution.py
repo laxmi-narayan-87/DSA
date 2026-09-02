@@ -1,6 +1,6 @@
 num = int(input())
 # Update your code below this line
-n=int(1)
-while n<=num:
-    print(n*n, end= " ")
-    n+=1
+i=1
+while i<=num:
+    print(i*i, end=" ")
+    i+=1
