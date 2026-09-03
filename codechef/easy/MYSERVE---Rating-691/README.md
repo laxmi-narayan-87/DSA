@@ -4,67 +4,83 @@
 
 ## Problem
 
-### Valentine is Coming
+### It is My Serve
 
-Valentine's Day is approaching and thus Chef wants to buy some chocolates for someone special.
+Alice and Bob are playing a game of table tennis where irrespective of the point scored, every player makes $2$ consecutive serves before the service changes. Alice makes the first serve of the match. Therefore the first $2$ serves will be made by Alice, then the next $2$ serves will be made by Bob and so on.
 
-Chef has a total of $X$ rupees and one chocolate costs $Y$ rupees. What is the  **maximum**  number of chocolates Chef can buy?
+Let's consider the following example match for more clarity:
+
+- Alice makes the $1^{st}$ serve.
+- Let us assume, Bob wins this point. (Score is $0$ for Alice and $1$ for Bob)
+- Alice makes the $2^{nd}$ serve.
+- Let us assume, Alice wins this point. (Score is $1$ for Alice and $1$ for Bob)
+- Bob makes the $3^{rd}$ serve.
+- Let us assume, Alice wins this point. (Score is $2$ for Alice and $1$ for Bob)
+- Bob makes the $4^{th}$ serve.
+- Let us assume, Alice wins this point. (Score is $3$ for Alice and $1$ for Bob)
+- Alice makes the $5^{th}$ serve.
+- And the game continues $\ldots$
+
+After the score reaches $P$ and $Q$ for Alice and Bob respectively, both the players forgot whose serve it is. Help them determine whose service it is.
 
 ### Input Format
-- First line will contain $T$, the number of test cases. Then the test cases follow.
-- Each test case contains a single line of input, two integers $X, Y$ - the amount Chef has and the cost of one chocolate respectively.
+- The first line contains a single integer $T$ — the number of test cases. Then the test cases follow.
+- The first line of each test case contains two integers $P$ and $Q$ — the score of Alice and Bob respectively.
 ### Output Format
 
-For each test case, output the  **maximum**  number of chocolates Chef can buy.
+For each test case, determine which player's (`Alice` or `Bob`) serve it is.
+
+You may print each character of `Alice` and `Bob` in uppercase or lowercase (for example, `Bob`, `BOB`, `boB` will be considered identical).
 
 ### Constraints
-- $1 \leq T \leq 1000$
-- $1 \leq X,Y \leq 100$
+- $1 \leq T \leq 200$
+- $0 \le P, Q \le 10$
 ### Sample 1:
 Input
 Output
 
 ```
 4
-5 10
-16 5
-35 7
-100 1
+0 0
+0 2
+2 2
+4 7
 
 ```
 
 ```
-0
-3
-5
-100
+Alice
+Bob
+Alice
+Bob
 
 ```
 
 ### Explanation:
-
- **Test case-1:**  Chef has $5$ rupees but the cost of one chocolate is $10$ rupees. Therefore Chef can not buy any chocolates.
-
- **Test case-2:**  Chef has $16$ rupees and the cost of one chocolate is $5$ rupees. Therefore Chef can buy at max $3$ chocolates since buying $4$ chocolates would cost $20$ rupees.
-
- **Test case-3:**  Chef has $35$ rupees and the cost of one chocolate is $7$ rupees. Therefore Chef can buy at max $5$ chocolates for $35$ rupees.
-
- **Test case-4:**  Chef has $100$ rupees and the cost of one chocolate is $1$ rupee. Therefore Chef can buy at max $100$ chocolates for $100$ rupees.
+- Test Case 1: Since no points have been scored yet, this is the first serve of the match. Alice makes the $1^{st}$ serve of the match.
+- Test Case 2: Two points have been scored yet. Thus, it is the third serve of the match. Bob makes the $3^{rd}$ serve of the match.
+- Test Case 3: Four points have been scored yet. Thus, it is the fifth serve of the match. Alice makes the $5^{th}$ serve of the match.
+- Test Case 4: Eleven points have been scored yet. Thus, it is the twelfth serve of the match. Bob makes the $12^{th}$ serve of the match.
 
 ## Solution
 
 **Language:** Python  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-09-03T13:17:32.158Z  
+**Submitted:** 2026-09-03T13:50:20.923Z  
 
 ```py
 # cook your dish here
 if __name__=="__main__":
     t=int(input())
     for _ in range(t):
-        x,y=map(int,input().split())
-        print(x//y)
+        p,q=map(int,input().split())
+        n=p+q+1
+        r=n%4
+        if r==1 or r==2:
+            print("Alice")
+        else:
+            print("Bob")
 ```
 
 ---
