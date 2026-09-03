@@ -76,7 +76,7 @@ So, the total time = 60 + 8 + 60 + 8 + 20 = 156 minutes.
 **Language:** Python  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-09-03T13:00:42.954Z  
+**Submitted:** 2026-09-03T13:01:44.172Z  
 
 ```py
 # cook your dish here
@@ -84,10 +84,7 @@ if __name__=="__main__":
     t=int(input())
     for _ in range(t):
         x,y,z=map(int,input().split())
-        m=x//3
-        if (x%3==0):
-            m=m-1
-        total_time= (x*y)+(m*z)
+        total_time= (x*y)+(((x-1)//3)*z)
         print(total_time)
 ```
 
