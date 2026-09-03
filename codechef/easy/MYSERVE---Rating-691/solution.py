@@ -2,5 +2,10 @@
 if __name__=="__main__":
     t=int(input())
     for _ in range(t):
-        x,y=map(int,input().split())
-        print(x//y)
+        p,q=map(int,input().split())
+        n=p+q+1
+        r=n%4
+        if r==1 or r==2:
+            print("Alice")
+        else:
+            print("Bob")
