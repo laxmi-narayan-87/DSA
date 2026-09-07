@@ -83,7 +83,7 @@ Therefore, the required sum is `0`.
 **Language:** Python  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-09-07T13:50:26.619Z  
+**Submitted:** 2026-09-07T13:50:49.314Z  
 
 ```py
 # cook your dish here
