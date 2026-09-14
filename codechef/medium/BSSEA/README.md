@@ -66,7 +66,7 @@ Seats $3$ and $7$ are both $2$ units away from the center. Choose seat $3$ becau
 **Language:** Python  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-09-14T13:48:56.719Z  
+**Submitted:** 2026-09-14T13:54:30.746Z  
 
 ```py
 # cook your dish here
@@ -76,7 +76,7 @@ if __name__=="__main__":
     avg=(a[0]+a[-1])/2
     close=a[0]
     for x in a:
-        if abs(x-avg)<abs(close-avg):
+        if (abs(x-avg)<abs(close-avg)) or (abs(x-avg)==abs(close-avg) and x<close):
             close=x
     print(close)
 ```
