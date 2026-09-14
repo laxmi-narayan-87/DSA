@@ -3,5 +3,8 @@ if __name__=="__main__":
     n=int(input())
     a=list(map(int,input().split()))
     avg=(a[0]+a[-1])/2
-    
-    
+    close=a[0]
+    for x in a:
+        if abs(x-avg)<abs(close-avg):
+            close=x
+    print(close)
