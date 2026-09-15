@@ -5,6 +5,6 @@ if __name__=="__main__":
     avg=(a[0]+a[-1])/2
     close=a[0]
     for x in a:
-        if (abs(x-avg)<abs(close-avg)) or (abs(x-avg)==abs(close-avg) and x<close):
+        if abs(x-avg)<abs(close-avg):
             close=x
     print(close)
