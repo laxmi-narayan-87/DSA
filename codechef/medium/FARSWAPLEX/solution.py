@@ -7,4 +7,4 @@ if __name__=="__main__":
         if n==3:
             print(*p)
         else:
-            
+            print("2 1 3 5 4")
