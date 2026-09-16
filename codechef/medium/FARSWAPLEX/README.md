@@ -56,7 +56,7 @@ Output
 **Language:** Python  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-09-16T16:07:30.828Z  
+**Submitted:** 2026-09-16T16:06:10.635Z  
 
 ```py
 # cook your dish here
@@ -65,10 +65,7 @@ if __name__=="__main__":
     for _ in range(t):
         n=int(input())
         p=list(map(int,input().split()))
-        if n==3:
-            print(*p)
-        else:
-            print("2 1 3 5 4")
+        print(*p)
 ```
 
 ---
