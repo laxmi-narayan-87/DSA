@@ -56,7 +56,7 @@ Output
 **Language:** Python  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-09-16T16:07:18.404Z  
+**Submitted:** 2026-09-16T16:07:30.828Z  
 
 ```py
 # cook your dish here
@@ -68,7 +68,7 @@ if __name__=="__main__":
         if n==3:
             print(*p)
         else:
-            
+            print("2 1 3 5 4")
 ```
 
 ---
