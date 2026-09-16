@@ -4,4 +4,7 @@ if __name__=="__main__":
     for _ in range(t):
         n=int(input())
         p=list(map(int,input().split()))
-        print(*p)
+        if n==3:
+            print(*p)
+        else:
+            
