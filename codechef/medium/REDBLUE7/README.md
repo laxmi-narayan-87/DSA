@@ -56,7 +56,7 @@ Output
 **Language:** Python  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-09-16T15:57:40.349Z  
+**Submitted:** 2026-09-16T15:58:55.251Z  
 
 ```py
 # cook your dish here
@@ -65,12 +65,13 @@ if __name__=="__main__":
     for _ in range(t):
         n=int(input())
         a=list(map(int,input().split()))
-        # a.sort()
+        a.sort()
+        s=sum(a)
         sr=0
         maxvalue=0
         for k in range(1,n//2+1):
             sr+=a[n-k]
-            value=sr*(n-2*k)+n*k
+            value=sr*(n-2*k)+s*k
             maxvalue=max(value,maxvalue)
         print(maxvalue)
 ```
