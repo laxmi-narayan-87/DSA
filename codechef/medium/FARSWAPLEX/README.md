@@ -56,7 +56,7 @@ Output
 **Language:** Python  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-09-16T16:18:25.392Z  
+**Submitted:** 2026-09-16T16:19:06.164Z  
 
 ```py
 # cook your dish here
@@ -65,10 +65,6 @@ if __name__=="__main__":
     for _ in range(t):
         n=int(input())
         p=list(map(int,input().split()))
-        # if n<=3:
-        #     print(*p)
-        # else:
-        #     print("2 1 3 5 4")
         change=True
         while change:
             change=False
