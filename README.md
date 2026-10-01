@@ -51,3 +51,18 @@
 *Last updated: 2026-09-17* · Powered by [**PushMyCode**](https://github.com/PushMyCode-HQ)
 
 </div>
+<!---LeetCode Topics Start-->
+# LeetCode Topics
+## String
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0020-valid-parentheses](https://github.com/laxmi-narayan-87/DSA/tree/main/Python3/Easy/0020-valid-parentheses/) | Easy |
+## Stack
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0020-valid-parentheses](https://github.com/laxmi-narayan-87/DSA/tree/main/Python3/Easy/0020-valid-parentheses/) | Easy |
+## Bracket Sequences
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0020-valid-parentheses](https://github.com/laxmi-narayan-87/DSA/tree/main/Python3/Easy/0020-valid-parentheses/) | Easy |
+<!---LeetCode Topics End-->
