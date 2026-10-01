@@ -65,4 +65,16 @@
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0020-valid-parentheses](https://github.com/laxmi-narayan-87/DSA/tree/main/Python3/Easy/0020-valid-parentheses/) | Easy |
+## Array
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0011-container-with-most-water](https://github.com/laxmi-narayan-87/DSA/tree/main/Python3/Medium/0011-container-with-most-water/) | Medium |
+## Two Pointers
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0011-container-with-most-water](https://github.com/laxmi-narayan-87/DSA/tree/main/Python3/Medium/0011-container-with-most-water/) | Medium |
+## Greedy
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0011-container-with-most-water](https://github.com/laxmi-narayan-87/DSA/tree/main/Python3/Medium/0011-container-with-most-water/) | Medium |
 <!---LeetCode Topics End-->
