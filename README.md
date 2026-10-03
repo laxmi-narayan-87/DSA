@@ -51,3 +51,22 @@
 *Last updated: 2026-10-02* · Powered by [**PushMyCode**](https://github.com/PushMyCode-HQ)
 
 </div>
+<!---LeetCode Topics Start-->
+# LeetCode Topics
+## String
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0032-longest-valid-parentheses](https://github.com/laxmi-narayan-87/DSA/tree/main/Python3/Hard/0032-longest-valid-parentheses/) | Hard |
+## Dynamic Programming
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0032-longest-valid-parentheses](https://github.com/laxmi-narayan-87/DSA/tree/main/Python3/Hard/0032-longest-valid-parentheses/) | Hard |
+## Stack
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0032-longest-valid-parentheses](https://github.com/laxmi-narayan-87/DSA/tree/main/Python3/Hard/0032-longest-valid-parentheses/) | Hard |
+## Bracket Sequences
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0032-longest-valid-parentheses](https://github.com/laxmi-narayan-87/DSA/tree/main/Python3/Hard/0032-longest-valid-parentheses/) | Hard |
+<!---LeetCode Topics End-->
