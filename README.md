@@ -51,3 +51,26 @@
 *Last updated: 2026-10-04* · Powered by [**PushMyCode**](https://github.com/PushMyCode-HQ)
 
 </div>
+<!---LeetCode Topics Start-->
+# LeetCode Topics
+## String
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0678-valid-parenthesis-string](https://github.com/laxmi-narayan-87/DSA/tree/main/Python3/Medium/0678-valid-parenthesis-string/) | Medium |
+## Dynamic Programming
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0678-valid-parenthesis-string](https://github.com/laxmi-narayan-87/DSA/tree/main/Python3/Medium/0678-valid-parenthesis-string/) | Medium |
+## Stack
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0678-valid-parenthesis-string](https://github.com/laxmi-narayan-87/DSA/tree/main/Python3/Medium/0678-valid-parenthesis-string/) | Medium |
+## Greedy
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0678-valid-parenthesis-string](https://github.com/laxmi-narayan-87/DSA/tree/main/Python3/Medium/0678-valid-parenthesis-string/) | Medium |
+## Bracket Sequences
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0678-valid-parenthesis-string](https://github.com/laxmi-narayan-87/DSA/tree/main/Python3/Medium/0678-valid-parenthesis-string/) | Medium |
+<!---LeetCode Topics End-->
