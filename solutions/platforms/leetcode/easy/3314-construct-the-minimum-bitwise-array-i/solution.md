@@ -6,7 +6,7 @@ You are given an array `nums` consisting of `n` **prime integers**.  You need to
 
 **Problem Link:** [LeetCode 3314 - Construct the Minimum Bitwise Array I](https://leetcode.com/problems/construct-the-minimum-bitwise-array-i/)
 
-**Related:** [January 2026 Daily Problem](https://github.com/laxmi-narayan-87/DSA/blob/main/problems/2026/Leetcode%20Daily%20Problem%20/Question/20-January-2026.md)
+**Related:** [January 2026 Daily Problem](README.md)
 
 ---
 

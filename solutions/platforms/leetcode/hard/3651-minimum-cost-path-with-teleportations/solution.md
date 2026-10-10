@@ -6,7 +6,7 @@ Find the minimum cost to reach the bottom-right cell from top-left in an `m x n`
 
 **Problem Link:** [LeetCode 3651 - Minimum Cost Path with Teleportations](https://leetcode.com/problems/minimum-cost-path-with-teleportations/)
 
-**Related:** [January 2026 Daily Problem](https://github.com/laxmi-narayan-87/DSA/blob/main/problems/2026/Leetcode%20Daily%20Problem%20/Question/28-January-2026.md)
+**Related:** [January 2026 Daily Problem](README.md)
 
 ---
 

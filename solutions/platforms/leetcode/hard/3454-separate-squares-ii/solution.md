@@ -8,7 +8,7 @@ You are given a 2D integer array `squares`. Each `squares[i] = [xi, yi, li]` rep
 
 **Problem Link:** [LeetCode 3454 - Separate Squares II](https://leetcode.com/problems/separate-squares-ii/)
 
-**Related:** [January 2026 Daily Problem](https://github.com/laxmi-narayan-87/DSA/blob/main/problems/2026/Leetcode%20Daily%20Problem%20/Question/14-January-2026.md)
+**Related:** [January 2026 Daily Problem](README.md)
 
 ---
 

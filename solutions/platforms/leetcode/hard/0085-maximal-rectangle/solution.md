@@ -6,7 +6,7 @@ Given a `rows x cols` binary matrix filled with `0`'s and `1`'s, find the **larg
 
 **Problem Link:** [LeetCode 85 - Maximal Rectangle](https://leetcode.com/problems/maximal-rectangle/)
 
-**Related:** [January 2026 Daily Problem](https://github.com/laxmi-narayan-87/DSA/blob/main/problems/2026/Leetcode%20Daily%20Problem%20/Question/11-January-2026.md)
+**Related:** [January 2026 Daily Problem](README.md)
 
 ---
 

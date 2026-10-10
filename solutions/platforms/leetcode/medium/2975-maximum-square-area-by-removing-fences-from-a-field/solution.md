@@ -8,7 +8,7 @@ Since the answer may be large, return it **modulo `10^9 + 7`**.
 
 **Problem Link:** [LeetCode 2975 - Maximum Square Area by Removing Fences From a Field](https://leetcode.com/problems/maximum-square-area-by-removing-fences-from-a-field/)
 
-**Related:** [January 2026 Daily Problem](https://github.com/laxmi-narayan-87/DSA/blob/main/problems/2026/Leetcode%20Daily%20Problem%20/Question/16-January-2026.md)
+**Related:** [January 2026 Daily Problem](README.md)
 
 ---
 

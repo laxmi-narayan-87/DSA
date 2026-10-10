@@ -6,7 +6,7 @@ Given an array `nums`, you can perform the following operation any number of tim
 
 **Problem Link:** [LeetCode 3507 - Minimum Pair Removal to Sort Array I](https://leetcode.com/problems/minimum-pair-removal-to-sort-array-i/)
 
-**Related:** [January 2026 Daily Problem](https://github.com/laxmi-narayan-87/DSA/blob/main/problems/2026/Leetcode%20Daily%20Problem%20/Question/22-January-2026.md)
+**Related:** [January 2026 Daily Problem](README.md)
 
 ---
 

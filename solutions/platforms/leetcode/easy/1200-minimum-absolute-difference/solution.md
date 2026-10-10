@@ -12,7 +12,7 @@ Return a list of pairs in **ascending order** (with respect to pairs), each pair
 
 **Problem Link:** [LeetCode 1200 - Minimum Absolute Difference](https://leetcode.com/problems/minimum-absolute-difference/)
 
-**Related:** [January 2026 Daily Problem](https://github.com/laxmi-narayan-87/DSA/blob/main/problems/2026/Leetcode%20Daily%20Problem%20/Question/26-January-2026.md)
+**Related:** [January 2026 Daily Problem](README.md)
 
 ---
 

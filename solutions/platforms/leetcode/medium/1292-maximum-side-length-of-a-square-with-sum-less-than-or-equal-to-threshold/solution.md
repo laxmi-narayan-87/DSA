@@ -6,7 +6,7 @@ Given a `m x n` matrix `mat` and an integer `threshold`, return the **maximum si
 
 **Problem Link:** [LeetCode 1292 - Maximum Side Length of a Square with Sum Less than or Equal to Threshold](https://leetcode.com/problems/maximum-side-length-of-a-square-with-sum-less-than-or-equal-to-threshold/)
 
-**Related:** [January 2026 Daily Problem](https://github.com/laxmi-narayan-87/DSA/blob/main/problems/2026/Leetcode%20Daily%20Problem%20/Question/19-January-2026.md)
+**Related:** [January 2026 Daily Problem](README.md)
 
 ---
 

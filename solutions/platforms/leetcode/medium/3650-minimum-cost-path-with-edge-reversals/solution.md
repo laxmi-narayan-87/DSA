@@ -6,7 +6,7 @@ Find the minimum cost to travel from node `0` to node `n - 1` in a directed weig
 
 **Problem Link:** [LeetCode 3650 - Minimum Cost Path with Edge Reversals](https://leetcode.com/problems/minimum-cost-path-with-edge-reversals/)
 
-**Related:** [January 2026 Daily Problem](https://github.com/laxmi-narayan-87/DSA/blob/main/problems/2026/Leetcode%20Daily%20Problem%20/Question/27-January-2026.md)
+**Related:** [January 2026 Daily Problem](README.md)
 
 ---
 

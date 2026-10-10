@@ -13,7 +13,7 @@ An array is said to be non-decreasing if each element is greater than or equal t
 
 **Problem Link:** [LeetCode 3510 - Minimum Pair Removal to Sort Array II](https://leetcode.com/problems/minimum-pair-removal-to-sort-array-ii/)
 
-**Related:** [January 2026 Daily Problem](https://github.com/laxmi-narayan-87/DSA/blob/main/problems/2026/Leetcode%20Daily%20Problem%20/Question/23-January-2026.md)
+**Related:** [January 2026 Daily Problem](README.md)
 
 ---
 

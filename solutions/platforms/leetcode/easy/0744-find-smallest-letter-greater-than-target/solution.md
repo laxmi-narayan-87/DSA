@@ -6,7 +6,7 @@ Return the smallest character in sorted array `letters` that is lexicographicall
 
 **Problem Link:** [LeetCode 744 - Find Smallest Letter Greater Than Target](https://leetcode.com/problems/find-smallest-letter-greater-than-target/)
 
-**Related:** [January 2026 Daily Problem](https://github.com/laxmi-narayan-87/DSA/blob/main/problems/2026/Leetcode%20Daily%20Problem%20/Question/31-January-2026.md)
+**Related:** [January 2026 Daily Problem](README.md)
 
 ---
 

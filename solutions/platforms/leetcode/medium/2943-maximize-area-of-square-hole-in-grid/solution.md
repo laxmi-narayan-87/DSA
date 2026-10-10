@@ -6,7 +6,7 @@ You are given two integers, `n` and `m`, and two integer arrays, `hBars` and `vB
 
 **Problem Link:** [LeetCode 2943 - Maximize Area of Square Hole in Grid](https://leetcode.com/problems/maximize-area-of-square-hole-in-grid/)
 
-**Related:** [January 2026 Daily Problem](https://github.com/laxmi-narayan-87/DSA/blob/main/problems/2026/Leetcode%20Daily%20Problem%20/Question/15-January-2026.md)
+**Related:** [January 2026 Daily Problem](README.md)
 
 ---
 

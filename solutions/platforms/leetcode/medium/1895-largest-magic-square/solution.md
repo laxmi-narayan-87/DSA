@@ -6,7 +6,7 @@ A `k x k` **magic square** is a `k x k` grid filled with integers such that ever
 
 **Problem Link:** [LeetCode 1895 - Largest Magic Square](https://leetcode.com/problems/largest-magic-square/)
 
-**Related:** [January 2026 Daily Problem](https://github.com/laxmi-narayan-87/DSA/blob/main/problems/2026/Leetcode%20Daily%20Problem%20/Question/18-January-2026.md)
+**Related:** [January 2026 Daily Problem](README.md)
 
 ---
 

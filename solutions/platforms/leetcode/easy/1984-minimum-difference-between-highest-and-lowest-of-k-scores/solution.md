@@ -6,7 +6,7 @@ Given a 0-indexed integer array nums and an integer k, pick k students' scores t
 
 **Problem Link:** [LeetCode 1984 - Minimum Difference Between Highest and Lowest of K Scores](https://leetcode.com/problems/minimum-difference-between-highest-and-lowest-of-k-scores/)
 
-**Related:** [January 2026 Daily Problem](https://github.com/laxmi-narayan-87/DSA/blob/main/problems/2026/Leetcode%20Daily%20Problem%20/Question/25-January-2026.md)
+**Related:** [January 2026 Daily Problem](README.md)
 
 ---
 

@@ -6,7 +6,7 @@ There exist `n` rectangles in a 2D plane with edges parallel to the x and y axis
 
 **Problem Link:** [LeetCode 3047 - Find the Largest Area of Square Inside Two Rectangles](https://leetcode.com/problems/find-the-largest-area-of-square-inside-two-rectangles/)
 
-**Related:** [January 2026 Daily Problem](https://github.com/laxmi-narayan-87/DSA/blob/main/problems/2026/Leetcode%20Daily%20Problem%20/Question/17-January-2026.md)
+**Related:** [January 2026 Daily Problem](README.md)
 
 ---
 

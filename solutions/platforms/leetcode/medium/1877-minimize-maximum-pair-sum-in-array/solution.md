@@ -13,7 +13,7 @@ Return the minimized maximum pair sum after optimally pairing up the elements.
 
 **Problem Link:** [LeetCode 1877 - Minimize Maximum Pair Sum in Array](https://leetcode.com/problems/minimize-maximum-pair-sum-in-array/)
 
-**Related:** [January 2026 Daily Problem](https://github.com/laxmi-narayan-87/DSA/blob/main/problems/2026/Leetcode%20Daily%20Problem%20/Question/24-January-2026.md)
+**Related:** [January 2026 Daily Problem](README.md)
 
 ---
 

@@ -6,7 +6,7 @@ Return true if array `nums` can be divided into three consecutive segments: stri
 
 **Problem Link:** [LeetCode 3637 - Trionic Array I](https://leetcode.com/problems/trionic-array-i/)
 
-**Related:** [February 2026 Daily Problem](https://github.com/laxmi-narayan-87/DSA/blob/main/problems/2026/February%20/Leetcode%20Daily%20Problems/Question/03-February-2026.md)
+**Related:** [February 2026 Daily Problem](README.md)
 
 ---
 
