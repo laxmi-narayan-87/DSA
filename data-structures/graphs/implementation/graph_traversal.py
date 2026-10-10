@@ -1,12 +1,12 @@
 """Adjacency-list graph and iterative BFS/DFS traversals."""
 
 from collections import deque
-from typing import Hashable, Iterable, TypeVar
+from typing import Generic, Hashable, TypeVar
 
 V = TypeVar("V", bound=Hashable)
 
 
-class Graph:
+class Graph(Generic[V]):
     def __init__(self, directed: bool = False) -> None:
         self.directed = directed
         self.adjacency: dict[Hashable, list[Hashable]] = {}
