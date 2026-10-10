@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>DSA - LeetCode Solutions</title>
+<title>DSA Practice Archive | Laxmi Narayan</title>
 <style>
   :root {
     --easy: #00b8a3;
@@ -46,6 +46,16 @@
     transition: .2s;
   }
   .header .links a:hover { background: #1f2937; border-color: #58a6ff; }
+  .archive-nav { margin: 24px 0 30px; }
+  .archive-nav h2 { font-size: 1rem; margin-bottom: 10px; }
+  .archive-nav p { color: var(--muted); font-size: .9rem; margin-bottom: 12px; }
+  .archive-links { display: flex; gap: 10px; flex-wrap: wrap; }
+  .archive-links a { color: var(--text); background: var(--card); border: 1px solid var(--border); border-radius: 8px; padding: 10px 14px; text-decoration: none; font-size: .88rem; transition: .15s; }
+  .archive-links a:hover { border-color: #58a6ff; color: #58a6ff; }
+  .repo-facts { display: grid; grid-template-columns: repeat(auto-fit, minmax(135px, 1fr)); gap: 10px; margin: 0 0 28px; }
+  .repo-fact { background: var(--card); border: 1px solid var(--border); border-radius: 8px; padding: 12px 14px; }
+  .repo-fact strong { display: block; font-size: 1.25rem; color: #58a6ff; }
+  .repo-fact span { display: block; color: var(--muted); font-size: .8rem; }
 
   /* Stats */
   .stats {
@@ -192,15 +202,39 @@
 <div class="container">
 
 <div class="header">
-  <h1><span>DSA</span> LeetCode Solutions</h1>
-  <p>115 problems · 135 solutions · Python · C++ · MySQL</p>
+  <h1><span>DSA</span> Practice Archive</h1>
+  <p>Explore indexed coding problems, language solutions, algorithms, and data structures.</p>
   <div class="links">
     <a href="https://github.com/laxmi-narayan-87/DSA" target="_blank">GitHub Repo</a>
     <a href="./algorithms/">Algorithms</a>
     <a href="./data-structures/">Data Structures</a>
     <a href="./problems/2026/">Daily Notes</a>
+    <a href="https://github.com/laxmi-narayan-87/DSA/blob/main/README.md" target="_blank" rel="noopener noreferrer">Repository Guide</a>
   </div>
 </div>
+
+<section class="archive-nav" aria-labelledby="archive-title">
+  <h2 id="archive-title">Browse the reorganized solution archives</h2>
+  <p>Platform submissions and language-focused examples now live under <code>solutions/</code>. The problem browser below keeps its existing paths.</p>
+  <div class="archive-links">
+    <a href="https://github.com/laxmi-narayan-87/DSA/tree/main/solutions/platforms/leetcode" target="_blank" rel="noopener noreferrer">LeetCode archive ↗</a>
+    <a href="https://github.com/laxmi-narayan-87/DSA/tree/main/solutions/platforms/codechef" target="_blank" rel="noopener noreferrer">CodeChef archive ↗</a>
+    <a href="https://github.com/laxmi-narayan-87/DSA/tree/main/solutions/platforms/hackerrank" target="_blank" rel="noopener noreferrer">HackerRank archive ↗</a>
+    <a href="https://github.com/laxmi-narayan-87/DSA/tree/main/solutions/platforms/geeksforgeeks" target="_blank" rel="noopener noreferrer">GeeksforGeeks archive ↗</a>
+    <a href="https://github.com/laxmi-narayan-87/DSA/tree/main/solutions/languages/python3" target="_blank" rel="noopener noreferrer">Python 3 examples ↗</a>
+    <a href="https://github.com/laxmi-narayan-87/DSA/tree/main/solutions/languages/mysql" target="_blank" rel="noopener noreferrer">MySQL examples ↗</a>
+  </div>
+</section>
+
+<section class="repo-facts" aria-label="Repository file counts as of October 10, 2026">
+  <div class="repo-fact"><strong>1,226</strong><span>Tracked files</span></div>
+  <div class="repo-fact"><strong>636</strong><span>Markdown files</span></div>
+  <div class="repo-fact"><strong>434</strong><span>Python files</span></div>
+  <div class="repo-fact"><strong>102</strong><span>SQL files</span></div>
+  <div class="repo-fact"><strong>29</strong><span>C++ files</span></div>
+  <div class="repo-fact"><strong>18</strong><span>Java files</span></div>
+  <p style="grid-column:1/-1;color:var(--muted);font-size:.78rem">Repository file counts · October 10, 2026. The problem browser below shows only its indexed problem list.</p>
+</section>
 
 <div class="stats" id="stats"></div>
 
@@ -282,8 +316,8 @@ function renderStats() {
     <div class="stat-card easy"><span class="num">${c.Easy}</span><div class="label">Easy</div></div>
     <div class="stat-card medium"><span class="num">${c.Medium}</span><div class="label">Medium</div></div>
     <div class="stat-card hard"><span class="num">${c.Hard}</span><div class="label">Hard</div></div>
-    <div class="stat-card total"><span class="num">${c.unique}</span><div class="label">Unique Problems</div></div>
-    <div class="stat-card"><span class="num">135</span><div class="label">Solution Files</div></div>
+    <div class="stat-card total"><span class="num">${c.unique}</span><div class="label">Indexed Problem Entries</div></div>
+    <div class="stat-card"><span class="num">135</span><div class="label">Indexed Solution Entries</div></div>
   `;
 }
 
