@@ -34,22 +34,20 @@ The current repository tree contains **1,226 tracked files**. These counts descr
 ```text
 DSA/
 ├── solutions/
-│   ├── platforms/
-│   │   ├── codechef/       # Platform submissions
-│   │   ├── geeksforgeeks/  # GeeksforGeeks submissions
-│   │   ├── hackerrank/     # HackerRank submissions
-│   │   └── leetcode/       # LeetCode submissions
-│   └── languages/
-│       ├── mysql/          # SQL-focused archive
-│       └── python/         # Combined Python and Python 3 archive
-├── algorithms/             # Algorithm explanations and examples
-├── data-structures/        # Data-structure notes and implementations
-├── problems/               # Daily notes and browser-linked problem content
-├── docs/                   # Structure, migration, and solution documentation
-├── CONTRIBUTING.md         # Contribution guidelines
+│   ├── platforms/       # Platform submissions, grouped by platform
+│   └── languages/       # Language-focused archives
+├── algorithms/          # Algorithm explanations and examples
+├── data-structures/
+│   ├── arrays/
+│   ├── linked-lists/    # Linked list theory, code, examples, practice
+│   ├── trees/           # Traversals, BSTs, balanced-tree notes
+│   └── graphs/          # Representations, BFS/DFS, graph algorithms
+├── problems/            # Daily notes and browser-linked problem content
+├── docs/                # Structure, migration, and solution documentation
+├── CONTRIBUTING.md
 ├── LICENSE
 ├── README.md
-└── index.html              # Existing static problem browser
+└── index.html           # Existing static problem browser
 ```
 
 ## 🧭 Where to find things
@@ -58,11 +56,14 @@ DSA/
 |---|---|
 | LeetCode solutions | [`solutions/platforms/leetcode/`](solutions/platforms/leetcode/) |
 | CodeChef submissions | [`solutions/platforms/codechef/`](solutions/platforms/codechef/) |
-| HackerRank solutions | [`solutions/platforms/hackerrank/`](solutions/platforms/hackerrank/) |
+| HackerRank submissions | [`solutions/platforms/hackerrank/`](solutions/platforms/hackerrank/) |
 | GeeksforGeeks submissions | [`solutions/platforms/geeksforgeeks/`](solutions/platforms/geeksforgeeks/) |
 | Python and SQL archives | [`solutions/languages/`](solutions/languages/) |
 | Algorithm guides | [`algorithms/`](algorithms/) |
-| Data-structure notes | [`data-structures/`](data-structures/) |
+| Array notes | [`data-structures/arrays/`](data-structures/arrays/) |
+| Linked list guide and implementation | [`data-structures/linked-lists/`](data-structures/linked-lists/) |
+| Tree guide and existing deep-dive notes | [`data-structures/trees/`](data-structures/trees/) |
+| Graph guide and traversal implementation | [`data-structures/graphs/`](data-structures/graphs/) |
 | Daily problem notes | [`problems/`](problems/) |
 | Repository conventions | [`docs/REPOSITORY_STRUCTURE.md`](docs/REPOSITORY_STRUCTURE.md) |
 | Adding or updating solutions | [`CONTRIBUTING.md`](CONTRIBUTING.md) |
@@ -71,16 +72,17 @@ DSA/
 
 - Organize platform-specific submissions under `solutions/platforms/<platform>/`.
 - Keep language-focused archives under `solutions/languages/<language>/`.
-- Use clear, lowercase directory names and kebab-case slugs for new problem folders.
+- Use clear, lowercase directory names and kebab-case slugs for new topic folders.
+- Keep reusable explanations and reference implementations in `algorithms/` and `data-structures/`.
 - Include an original explanation and time/space complexity where appropriate.
 - Preserve meaningful alternative approaches and historical submissions; do not remove duplicates without checking their content and references.
-- Keep the language-focused MySQL archive under `solutions/languages/mysql/`; platform-specific copies remain under `solutions/platforms/leetcode/`.
+- Keep platform-based and language-based copies separate when the same problem exists in both.
 
 ## 🌐 Problem browser
 
 Open [`index.html`](index.html) in the repository or visit the [GitHub Pages site](https://laxmi-narayan-87.github.io/DSA/) if GitHub Pages is enabled for this repository.
 
-The browser's LeetCode links use the platform-based archive. Language-based SQL solutions are consolidated under `solutions/languages/mysql/`; older `problems/MySQL/` copies have been merged there.
+The browser's LeetCode links use the platform-based archive. Language-focused SQL solutions live in `solutions/languages/mysql/`; the former `problems/MySQL/` copies have been merged there.
 
 ---
 

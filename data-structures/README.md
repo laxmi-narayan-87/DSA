@@ -1,63 +1,49 @@
 # Data Structures
 
-This directory contains implementations and explanations of fundamental data structures used in computer science and software development.
-
-## Overview
-
-Data structures are ways of organizing and storing data so that it can be accessed and modified efficiently. Different data structures are suitable for different kinds of applications, and some are highly specialized for specific tasks.
+This directory holds reusable data-structure explanations, complexity notes, implementation examples, and practice-topic indexes. Platform-specific submissions remain in `solutions/platforms/`; language archives remain in `solutions/languages/`.
 
 ## Categories
 
-### Linear Data Structures
-Data structures where elements are arranged in a sequential order.
+### Linear structures
 
-- **[Arrays](./arrays/)** - Collection of elements stored at contiguous memory locations
-- **[Linked Lists](./linked-lists/)** - Linear collection of elements where each element points to the next
-- **[Stacks](./stacks/)** - Last In First Out (LIFO) data structure
-- **[Queues](./queues/)** - First In First Out (FIFO) data structure
+- **[Arrays](arrays/README.md)** — indexed contiguous collections; random access is O(1).
+- **[Linked Lists](linked-lists/README.md)** — nodes connected by references; useful for pointer and two-pointer patterns.
+- **Stacks** — LIFO collections used in parsing, DFS, and monotonic-stack problems.
+- **Queues** — FIFO collections used in BFS and scheduling.
 
-### Non-Linear Data Structures
-Data structures where elements are not arranged in sequential order.
+### Non-linear structures
 
-- **[Trees](./trees/)** - Hierarchical data structure with root and child nodes
-- **[Graphs](./graphs/)** - Collection of vertices connected by edges
-- **[Heaps](./heaps/)** - Complete binary tree with heap property
-- **[Hash Tables](./hash-tables/)** - Data structure that maps keys to values
+- **[Trees](trees/README.md)** — hierarchical structures, traversals, search trees, and balanced trees.
+- **[Graphs](graphs/README.md)** — vertices and edges, traversal, connectivity, shortest paths, and spanning trees.
+- **Heaps** — priority-oriented complete trees.
+- **Hash Tables** — key-value lookup using hashing.
 
-## Learning Path
+## Recommended learning order
 
-1. **Start with Arrays**: Foundation for understanding memory and indexing
-2. **Move to Linked Lists**: Introduction to pointers and dynamic memory
-3. **Learn Stacks and Queues**: Essential for algorithm implementations
-4. **Explore Trees**: Understand hierarchical relationships
-5. **Study Graphs**: Complex relationships and connections
-6. **Master Advanced Structures**: Heaps, hash tables, and specialized structures
+1. Arrays and basic complexity analysis
+2. Linked lists, pointers, and two-pointer techniques
+3. Stacks and queues
+4. Trees and recursive/iterative traversals
+5. Graphs and BFS/DFS
+6. Heaps, hash tables, and advanced structures
 
-## Implementation Guidelines
+## Folder conventions
 
-Each data structure folder contains:
-- `README.md` - Detailed explanation and theory
-- `implementation/` - Code implementations in various languages
-- `problems/` - Related practice problems
-- `examples/` - Usage examples and applications
+Each topic folder uses the same layout where appropriate:
 
-## Complexity Analysis
+- `README.md` — theory, operation/algorithm complexity, patterns, and links.
+- `implementation/` — small runnable reference implementations.
+- `problems/README.md` — curated practice topics, not duplicate submissions.
+- `examples/README.md` — walkthroughs and edge cases.
+- `notes/` — focused deep dives for specialized variants.
 
-Understanding the time and space complexity of operations is crucial:
+## Complexity reminder
 
-| Data Structure | Access | Search | Insertion | Deletion | Space |
-|---------------|--------|--------|-----------|----------|-------|
-| Array         | O(1)   | O(n)   | O(n)      | O(n)     | O(n)  |
-| Linked List   | O(n)   | O(n)   | O(1)      | O(1)     | O(n)  |
-| Stack         | O(n)   | O(n)   | O(1)      | O(1)     | O(n)  |
-| Queue         | O(n)   | O(n)   | O(1)      | O(1)     | O(n)  |
-| Binary Tree   | O(n)   | O(n)   | O(n)      | O(n)     | O(n)  |
-| Hash Table    | N/A    | O(1)*  | O(1)*     | O(1)*    | O(n)  |
+Complexity depends on the exact representation and operation. State assumptions (for example, whether a linked list maintains a tail, whether a tree is balanced, and whether a graph uses an adjacency list) instead of presenting a single complexity as universal.
 
-*Average case, worst case may vary
+## Related sections
 
-## Resources
-
-- **Books**: "Data Structures and Algorithm Analysis" by Mark Allen Weiss
-- **Online**: GeeksforGeeks Data Structures Tutorial
-- **Practice**: LeetCode Data Structure problems
+- [Algorithm guides](../algorithms/README.md)
+- [Platform submissions](../solutions/platforms/)
+- [Language archives](../solutions/languages/)
+- [Repository structure](../docs/REPOSITORY_STRUCTURE.md)
