@@ -15,17 +15,17 @@
 
 ## 📊 Repository snapshot
 
-The current repository tree contains **1,238 tracked files**. These counts describe files in the repository, not the number of unique problems solved.
+The current repository tree contains **1,241 tracked files**. These counts describe files in the repository, not the number of unique problems solved.
 
 | File type | Count |
 |---|---:|
-| Markdown (`.md`) | 645 |
-| Python (`.py`) | 437 |
+| Markdown (`.md`) | 647 |
+| Python (`.py`) | 438 |
 | SQL (`.sql`) | 102 |
 | C++ (`.cpp`) | 29 |
 | Java (`.java`) | 18 |
 | Other files | 7 |
-| **Total** | **1,238** |
+| **Total** | **1,241** |
 
 *Counts reflect the repository tree checked on October 10, 2026, and will change as new files are added.*
 
