@@ -1,92 +1,72 @@
 # Contributing to DSA Repository
 
-Thank you for your interest in contributing to our Data Structures and Algorithms repository! This guide will help you get started.
+Thank you for contributing to this Data Structures and Algorithms repository.
 
-## How to Contribute
+## How to contribute
 
-### 1. Types of Contributions
+1. Fork the repository and clone your fork.
+2. Create a focused branch for your change.
+3. Follow the directory conventions below.
+4. Test your implementation and review the diff.
+5. Submit a pull request with a clear description.
 
-We welcome various types of contributions:
-- **Algorithm implementations** in different programming languages
-- **Problem solutions** with detailed explanations
-- **Documentation improvements** and tutorials
-- **Bug fixes** and code optimizations
-- **Test cases** and edge case coverage
+## Types of contributions
 
-### 2. Getting Started
+- Algorithm implementations in different languages
+- Problem solutions with original explanations
+- Documentation and tutorials
+- Bug fixes, optimizations, and meaningful edge-case tests
 
-1. Fork the repository to your GitHub account
-2. Clone your forked repository locally
-3. Create a new branch for your contribution
-4. Make your changes following our guidelines
-5. Test your implementation thoroughly
-6. Submit a pull request
+## Repository layout
 
-### 3. Code Style Guidelines
-
-#### General Principles
-- Write clean, readable, and well-commented code
-- Follow the naming conventions of the respective programming language
-- Include time and space complexity analysis
-- Provide multiple test cases
-
-### 4. File Structure
-
-When adding new content, follow this structure:
-```
-<Language>/<Difficulty>/<problem-slug>/
-├── <problem-slug>-<date>-<time>.py  # Solution
-└── README.md                        # Problem description (optional)
+```text
+solutions/
+  platforms/
+    <platform>/
+      <difficulty>/<problem-slug>/
+  languages/
+    <language>/
+      <difficulty>/<problem-slug>/
+algorithms/
+data-structures/
+problems/        # browser-backed paths; do not move casually
+docs/
+index.html       # existing browser; keep its sections and behavior intact
 ```
 
-Solutions for the same problem using different approaches can be added as separate files (distinguished by date/time in filename).
+### Where to add a solution
 
-#### Language-Specific Guidelines
+- Use `solutions/platforms/<platform>/` for submissions tied to a platform, such as LeetCode, CodeChef, HackerRank, or GeeksforGeeks.
+- Use `solutions/languages/<language>/` for standalone language-focused examples and curated practice archives.
+- Use lowercase directory names and kebab-case problem slugs. Preserve a platform problem ID when available, for example `0020-valid-parentheses`.
+- Prefer stable filenames such as `solution.py`, `solution.cpp`, or `solution.sql` for new entries. Keep historical timestamped filenames when maintaining legacy submissions.
+- Do not create a second top-level folder for a platform or language already represented under `solutions/`.
 
-**Python:**
-- Follow PEP 8 style guide
-- Use meaningful variable names
-- Include docstrings for functions and classes
+## Code and documentation standards
 
-**C++:**
-- Follow Google C++ Style Guide
-- Use descriptive variable names
-- Include header comments
+- Write readable, idiomatic code with meaningful names.
+- Explain the core idea in your own words.
+- State time and space complexity.
+- Include relevant edge cases and sample inputs/outputs where useful.
+- Avoid copying full problem statements unnecessarily.
+- Keep alternatives only when they add learning value; label the preferred approach.
 
-**MySQL:**
-- Use consistent uppercase for SQL keywords
-- Include comments for complex queries
+Language notes:
+- **Python:** follow PEP 8 and use clear function/class names.
+- **C++:** use consistent formatting, descriptive identifiers, and appropriate standard-library types.
+- **SQL:** use consistent formatting and explain non-obvious query logic.
 
-### 5. Documentation Requirements
+## Compatibility and safety
 
-Each implementation should include:
-- **Algorithm explanation** in plain English
-- **Time complexity** analysis
-- **Space complexity** analysis
-- **Use cases** and applications
-- **Example usage** with sample input/output
+- Do not move, rename, or delete anything under `problems/` without first checking every browser reference.
+- Do not edit or redesign `index.html` as part of a folder-only change.
+- Do not mass-delete duplicate-looking files. Compare content and references first; some duplicates may be intentional historical submissions.
+- Keep changes scoped and validate links affected by the change.
 
-### 6. Pull Request Process
+## Review checklist
 
-1. Ensure your code passes all existing tests
-2. Add tests for any new functionality
-3. Update the README.md if needed
-4. Write a clear pull request description
-5. Link any relevant issues
-
-### 7. Code Review Process
-
-All submissions go through code review. Reviewers will check for:
-- Code correctness and efficiency
-- Adherence to style guidelines
-- Quality of documentation
-- Test coverage
-
-## Questions?
-
-If you have questions about contributing, please:
-- Check existing issues and discussions
-- Create a new issue for clarification
-- Reach out to maintainers
-
-Thank you for helping make this repository better for everyone!
+- [ ] Correct solution and complexity analysis
+- [ ] Relevant edge cases considered
+- [ ] File is in the appropriate directory
+- [ ] Internal links and images still resolve
+- [ ] No unrelated browser/UI changes

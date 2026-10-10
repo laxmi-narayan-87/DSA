@@ -1,37 +1,37 @@
-# Structure Migration Plan
+# Structure Migration Record
 
-## Scope of this change
+## Completed: top-level archive consolidation
 
-This change introduces repository structure documentation only. The existing `index.html` and all current paths used by the browser are intentionally untouched.
+The following archives were moved into the `solutions/` namespace, preserving their internal directory layout and file contents:
 
-## Current issues
+| Previous path | New path |
+|---|---|
+| `codechef/` | `solutions/platforms/codechef/` |
+| `gfg/` | `solutions/platforms/geeksforgeeks/` |
+| `hackerrank/` | `solutions/platforms/hackerrank/` |
+| `leetcode/` | `solutions/platforms/leetcode/` |
+| `MySQL/` | `solutions/languages/mysql/` |
+| `Python/` | `solutions/languages/python/` |
+| `Python3/` | `solutions/languages/python3/` |
 
-- Several solution archives overlap (`Python3/`, `Python/`, `leetcode/`, and `problems/`).
-- Some identical solution contents appear in more than one path.
-- The contribution guide and actual folder layout have drifted.
-- Browser data and directory paths are coupled, so moving files can create broken links.
+## Explicitly preserved
 
-## Safe migration sequence
+- `index.html` was not modified.
+- Every path under `problems/` was preserved because the existing browser links directly to these paths.
+- `algorithms/` and `data-structures/` remain at the repository root; their browser links are unchanged.
+- Source and Markdown files were moved as tree entries, without rewriting their contents.
+- Historical duplicates and alternative solutions were retained.
 
-1. Inventory all source files by problem ID, language, platform, and content hash.
-2. Mark one canonical solution for each problem/language; classify exact duplicates and alternate approaches separately.
-3. Add tests or syntax checks for the files selected as canonical.
-4. Build a generated manifest and validate all existing browser links against the current paths.
-5. Move a small, reviewed batch to the canonical `solutions/` layout while retaining compatibility paths until consumers no longer depend on them.
-6. Run the inventory, duplicate report, and link validation again.
-7. Remove a legacy copy only after references are updated and the change has been reviewed.
+## Follow-up audit
 
-## Explicit exclusions
+This migration consolidates the top-level layout; it does not claim that duplicate solutions have been deduplicated or that every historical README count is synchronized.
 
-- Do not edit `index.html` or redesign its sections in this migration.
-- Do not change problem-browser behavior as part of folder organization.
-- Do not mass-delete identical files: identical contents can be intentional exports or platform-compatible copies.
-- Do not rewrite historical solutions merely to normalize formatting.
+Recommended next checks:
 
-## Completion criteria for a future file migration
+1. Scan Markdown links and embedded images for references that point outside their moved subtree.
+2. Inventory solutions by platform, problem ID, language, and content hash.
+3. Identify exact duplicates separately from distinct approaches.
+4. Add syntax checks/tests for selected canonical solutions before any deduplication.
+5. Validate the static browser against the unchanged `problems/` paths.
 
-- No source files lost.
-- Every migrated problem has a canonical location and provenance.
-- Existing browser links remain valid.
-- Duplicate files are classified, not blindly removed.
-- The final tree and changed-file list are reviewed before merging.
+Do not delete legacy or duplicate-looking solutions without checking provenance and references.
