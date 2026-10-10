@@ -46,9 +46,10 @@ Run the regression tests from the repository root:
 python -m unittest discover -s data-structures/arrays/tests -v
 ```
 
-## Practice roadmap
+## Examples and practice
 
-See [problems/README.md](problems/README.md) for practice topics grouped by technique. Keep platform submissions in `solutions/platforms/` and language-focused archives in `solutions/languages/`; this folder contains reusable knowledge rather than copied submissions.
+- [Examples and edge-case walkthroughs](examples/README.md)
+- [Practice roadmap](problems/README.md) grouped by technique. Keep platform submissions in `solutions/platforms/` and language-focused archives in `solutions/languages/`; this folder contains reusable knowledge rather than copied submissions.
 
 ## Edge cases to check
 
