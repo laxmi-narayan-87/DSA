@@ -266,7 +266,7 @@ const DIFFICULTY_CLASS = { Easy: 'easy', Medium: 'medium', Hard: 'hard' };
 let currentDiff = 'all';
 
 function titleFromSlug(slug) {
-  return slug.replace(/^\\d+-/, '').split('-').map(word => {
+  return slug.replace(/^\d+-/, '').split('-').map(word => {
     const lower = word.toLowerCase();
     const known = { '3sum': '3Sum', '2d': '2D', 'sql': 'SQL', 'powx': 'Powx', 'kth': 'Kth', 'nth': 'Nth', 'lcp': 'LCP', 'ii': 'II', 'iii': 'III', 'iv': 'IV', 'i': 'I' };
     return known[lower] || (word.charAt(0).toUpperCase() + word.slice(1));
@@ -283,7 +283,7 @@ function getProblems() {
           bySlug.set(slug, {
             slug,
             title: titleFromSlug(slug),
-            id: (slug.match(/^\\d+/) || [''])[0],
+            id: (slug.match(/^\d+/) || [''])[0],
             difficulty,
             href: './problems/' + encodeURIComponent(folder).replace(/%2B/gi, '+') + '/' + difficulty + '/' + slug + '/'
           });
