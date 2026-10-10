@@ -12,14 +12,15 @@ The following archives were moved into the `solutions/` namespace, preserving th
 | `leetcode/` | `solutions/platforms/leetcode/` |
 | `MySQL/` | `solutions/languages/mysql/` |
 | `Python/` | `solutions/languages/python/` |
-| `Python3/` | `solutions/languages/python3/` |
+| `Python3/` | `solutions/languages/python/` (merged with Python archive) |
 
 ## Explicitly preserved
 
-- `index.html` was not modified.
+- The initial migration preserved `index.html`; the problem browser was subsequently updated to use the consolidated Python archive.
 - Every path under `problems/` was preserved because the existing browser links directly to these paths.
 - `algorithms/` and `data-structures/` remain at the repository root; their browser links are unchanged.
 - Source and Markdown files were moved as tree entries, without rewriting their contents.
+- The separate `solutions/languages/python3/` directory was merged into `solutions/languages/python/`; all 103 files from the Python 3 archive were retained.
 - Historical duplicates and alternative solutions were retained.
 
 ## Follow-up audit
