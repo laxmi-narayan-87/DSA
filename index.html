@@ -332,7 +332,7 @@ function getTopics(problem) {
   const text = (problem.title + ' ' + problem.slug).toLowerCase();
   const topics = [];
   const add = (topic, pattern) => { if (pattern.test(text)) topics.push(topic); };
-  add('SQL & Databases', /sql|database|salary|employees|customers|orders|views|sales|machine|department|product|data/);
+  add('SQL & Databases', /sql|database|salary|employees|customers|orders|views|sales|department|average.?selling.?price|average.?time.?of.?process.?per.?machine|article.?views|select.?data|big.?countries|students.?and.?examinations|confirmation.?rate/);
   add('Linked Lists', /linked.?list|add-two-numbers|merge-two-sorted-lists|reverse-nodes|swap-nodes/);
   add('Trees', /tree|binary.?search.?tree|bst|inorder|preorder|postorder|level.?order|zigzag|vertical.?order|path.?sum|diameter/);
   add('Graphs', /graph|island|islands|course.?schedule|province|network|shortest.?path|beautiful.?path|connected.?component|word.?ladder|rotting.?orange/);
@@ -350,7 +350,7 @@ function getTopics(problem) {
   add('Greedy', /greedy|jump.?game|assign.?cookies|candy|gas.?station|lemonade|best.?time.?to.?buy|activity.?selection/);
   add('Arrays & Matrices', /array|matrix|matrices|spiral|rotate|transpose|prefix|product.?except|maximum.?subarray|rain.?water|temperature|stock|subarray|increasing.?subarrays|set.?matrix|select.?data|special.?positions/);
   add('Strings', /string|substring|character|text|word|vowel|atoi|anagram|sherlock|bigger.?is.?greater/);
-  add('Recursion', /recursion|recursive|factorial|fibonacci|tree|tower.?of.?hanoi/);
+  add('Recursion', /recursion|recursive|factorial|fibonacci|tower.?of.?hanoi/);
   add('Simulation', /simulate|simulation|water.?bottles|robot|game|rating|temp|sharing|bath|seatnumber|transform|waterfilling/);
   return [...new Set(topics)].length ? [...new Set(topics)] : ['Other'];
 }
