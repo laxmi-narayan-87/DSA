@@ -294,7 +294,7 @@ function render() {
         <span class="badge ${DIFFICULTY_CLASS[difficulty]}">${items.length}</span>
       </div>
       <ul class="problem-list open">${items.map(problem =>
-        `<li><a href="${problem.href}" target="_blank" rel="noopener noreferrer" aria-label="${problem.title}, ${difficulty}, ${problem.platform}">
+        `<li><a href="https://github.com/laxmi-narayan-87/DSA/tree/main/${problem.href.replace(/^\.\//, '').replace(/\/$/, '')}" target="_blank" rel="noopener noreferrer" aria-label="${problem.title}, ${difficulty}, ${problem.platform}">
           <span class="problem-title">${problem.id ? `<span class="problem-id">#${problem.id}</span>` : ''}${problem.title}</span>
           <span class="platform-tag">${problem.platform}</span>
         </a></li>`
@@ -309,9 +309,6 @@ function toggleCategory(header) {
   header.setAttribute('aria-expanded', header.classList.contains('open') ? 'true' : 'false');
   header.nextElementSibling.classList.toggle('open');
 }
-
-renderStats();
-render();
 
 renderStats();
 render();
