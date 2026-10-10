@@ -34,4 +34,4 @@ Output: 1.16667
 
 ## Solution
 
-See the matching implementation in [13-January-2026.md](../Solution/13-January-2026.md).
+See the matching implementation in [13-January-2026.md](../Solution%20/13-January-2026.md).
