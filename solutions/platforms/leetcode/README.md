@@ -1,15 +1,19 @@
 # LeetCode Solutions
 
-LeetCode problems are consolidated here, grouped by difficulty and then by problem.
+LeetCode problems are organized by difficulty and problem ID. Platform-specific solutions live here; language-focused copies remain separately under `solutions/languages/`.
 
 ```text
 solutions/platforms/leetcode/
-├── easy/<problem-slug>/
-├── medium/<problem-slug>/
-└── hard/<problem-slug>/
+├── easy/<problem-id>-<problem-slug>/
+├── medium/<problem-id>-<problem-slug>/
+└── hard/<problem-id>-<problem-slug>/
 ```
 
-Problem READMEs and code solutions live in each problem folder. Explanations migrated from the former `problems/leetcode/` archive are retained under that problem's `notes/` folder.
+Each problem folder contains its original statement in `README.md` and solution explanation in `solution.md`. Existing code solutions and migrated notes remain in their current folders.
+
+## 2026 daily problem archive
+
+The complete January–February 2026 archive (35 statements and 35 solutions) has been moved into the matching difficulty folders. Use the [2026 migration index](../../../problems/2026/README.md) to browse all 35 entries by date, title, and difficulty.
 
 ## Migrated notes
 
@@ -29,5 +33,3 @@ Problem READMEs and code solutions live in each problem folder. Explanations mig
 | [Largest Perimeter Triangle](./easy/0976-largest-perimeter-triangle/) | Easy | [Leetcode-976.md](./easy/0976-largest-perimeter-triangle/notes/Leetcode-976.md) |
 | [Binary Search Tree to Greater Sum Tree](./medium/1038-binary-search-tree-to-greater-sum-tree/) | Medium | [leetcode-1038.md](./medium/1038-binary-search-tree-to-greater-sum-tree/notes/leetcode-1038.md) |
 | [Replace Non-Coprime Numbers in Array](./hard/2197-replace-non-coprime-numbers-in-array/) | Hard | [leetcode-2197.md](./hard/2197-replace-non-coprime-numbers-in-array/notes/leetcode-2197.md) |
-
-Language-specific copies remain under `solutions/languages/`; this platform archive is intentionally maintained separately.
