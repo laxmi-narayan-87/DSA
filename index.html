@@ -117,26 +117,11 @@
   .filter-btns button.medium-active { border-color: var(--medium); color: var(--medium); }
   .filter-btns button.hard-active { border-color: var(--hard); color: var(--hard); }
 
-  /* Language tabs */
-  .lang-tabs {
-    display: flex;
-    gap: 4px;
-    margin-bottom: 20px;
-    border-bottom: 1px solid var(--border);
-  }
-  .lang-tabs button {
-    padding: 10px 24px;
-    background: none;
-    border: none;
-    border-bottom: 2px solid transparent;
-    color: var(--muted);
-    cursor: pointer;
-    font-size: .95rem;
-    font-weight: 600;
-    transition: .15s;
-  }
-  .lang-tabs button:hover { color: var(--text); }
-  .lang-tabs button.active { color: #58a6ff; border-bottom-color: #58a6ff; }
+  .results-meta { color: var(--muted); font-size: .88rem; margin: 0 0 14px; }
+  .problem-list li a { display: flex; align-items: center; justify-content: space-between; gap: 12px; }
+  .problem-title { min-width: 0; }
+  .problem-id { color: var(--muted); font-size: .78rem; margin-right: 8px; font-variant-numeric: tabular-nums; }
+  .problem-list li a::after { content: "↗"; color: var(--muted); font-size: .8rem; flex-shrink: 0; }
 
   /* Category section */
   .category { margin-bottom: 24px; }
@@ -194,7 +179,6 @@
   @media (max-width: 600px) {
     .header h1 { font-size: 1.5rem; }
     .stats { grid-template-columns: repeat(2, 1fr); }
-    .lang-tabs button { padding: 8px 14px; font-size: .85rem; }
   }
 </style>
 </head>
@@ -248,7 +232,7 @@
   </div>
 </div>
 
-<div class="lang-tabs" id="langTabs"></div>
+<div class="results-meta" id="resultsMeta" aria-live="polite"></div>
 <div id="content"></div>
 
 </div>
@@ -276,96 +260,106 @@ const DATA = {
   }
 };
 
-const LANG_MAP = { Python3: 'Python3', Cpp: 'C++', MySQL: 'MySQL' };
-const SLUG_MAP = { Python3: 'Python3', Cpp: 'C++', MySQL: 'MySQL' };
+const DIFFICULTIES = ['Easy', 'Medium', 'Hard'];
+const DIFFICULTY_CLASS = { Easy: 'easy', Medium: 'medium', Hard: 'hard' };
 
-let currentLang = 'Python3';
 let currentDiff = 'all';
-let searchQuery = '';
 
-function setDifficulty(d) {
-  currentDiff = d;
-  document.querySelectorAll('.filter-btns button').forEach(b => b.classList.remove('active'));
-  document.getElementById('f-' + d).classList.add('active');
-  render();
+function titleFromSlug(slug) {
+  return slug.replace(/^\\d+-/, '').split('-').map(word => {
+    const lower = word.toLowerCase();
+    const known = { '3sum': '3Sum', '2d': '2D', 'sql': 'SQL', 'powx': 'Powx', 'kth': 'Kth', 'nth': 'Nth', 'lcp': 'LCP', 'ii': 'II', 'iii': 'III', 'iv': 'IV', 'i': 'I' };
+    return known[lower] || (word.charAt(0).toUpperCase() + word.slice(1));
+  }).join(' ');
 }
 
-function switchLang(lang) {
-  currentLang = lang;
-  document.querySelectorAll('.lang-tabs button').forEach(b => b.classList.remove('active'));
-  document.getElementById('tab-' + lang).classList.add('active');
+function getProblems() {
+  const bySlug = new Map();
+  for (const [lang, groups] of Object.entries(DATA)) {
+    for (const difficulty of DIFFICULTIES) {
+      for (const slug of (groups[difficulty] || [])) {
+        if (!bySlug.has(slug)) {
+          const folder = lang === 'Cpp' ? 'C++' : lang;
+          bySlug.set(slug, {
+            slug,
+            title: titleFromSlug(slug),
+            id: (slug.match(/^\\d+/) || [''])[0],
+            difficulty,
+            href: './problems/' + encodeURIComponent(folder).replace(/%2B/gi, '+') + '/' + difficulty + '/' + slug + '/'
+          });
+        }
+      }
+    }
+  }
+  return [...bySlug.values()].sort((a, b) =>
+    DIFFICULTIES.indexOf(a.difficulty) - DIFFICULTIES.indexOf(b.difficulty) ||
+    a.title.localeCompare(b.title)
+  );
+}
+
+const PROBLEMS = getProblems();
+
+function setDifficulty(difficulty) {
+  currentDiff = difficulty;
+  document.querySelectorAll('.filter-btns button').forEach(button => button.classList.remove('active'));
+  document.getElementById('f-' + difficulty).classList.add('active');
   render();
 }
 
 function countProblems() {
-  const c = { Easy: 0, Medium: 0, Hard: 0, files: 0, unique: 0 };
-  for (const lang of Object.keys(DATA)) {
-    for (const diff of ['Easy','Medium','Hard']) {
-      c[diff] += (DATA[lang][diff] || []).length;
-      c.unique += (DATA[lang][diff] || []).length;
-    }
-  }
-  c.files = 135;
-  return c;
+  const counts = { Easy: 0, Medium: 0, Hard: 0 };
+  PROBLEMS.forEach(problem => counts[problem.difficulty]++);
+  return { ...counts, unique: PROBLEMS.length };
 }
 
 function renderStats() {
-  const c = countProblems();
-  const el = document.getElementById('stats');
-  el.innerHTML = `
-    <div class="stat-card easy"><span class="num">${c.Easy}</span><div class="label">Easy</div></div>
-    <div class="stat-card medium"><span class="num">${c.Medium}</span><div class="label">Medium</div></div>
-    <div class="stat-card hard"><span class="num">${c.Hard}</span><div class="label">Hard</div></div>
-    <div class="stat-card total"><span class="num">${c.unique}</span><div class="label">Indexed Problem Entries</div></div>
-    <div class="stat-card"><span class="num">135</span><div class="label">Indexed Solution Entries</div></div>
+  const counts = countProblems();
+  document.getElementById('stats').innerHTML = `
+    <div class="stat-card easy"><span class="num">${counts.Easy}</span><div class="label">Easy problems</div></div>
+    <div class="stat-card medium"><span class="num">${counts.Medium}</span><div class="label">Medium problems</div></div>
+    <div class="stat-card hard"><span class="num">${counts.Hard}</span><div class="label">Hard problems</div></div>
+    <div class="stat-card total"><span class="num">${counts.unique}</span><div class="label">Unique indexed problems</div></div>
   `;
 }
 
-function renderTabs() {
-  const el = document.getElementById('langTabs');
-  el.innerHTML = Object.keys(DATA).map(l =>
-    `<button id="tab-${l}" class="${l === currentLang ? 'active' : ''}" onclick="switchLang('${l}')">${LANG_MAP[l]}</button>`
-  ).join('');
+function render() {
+  const query = document.getElementById('search').value.toLowerCase().trim();
+  const filtered = PROBLEMS.filter(problem =>
+    (currentDiff === 'all' || problem.difficulty.toLowerCase() === currentDiff) &&
+    (!query || problem.title.toLowerCase().includes(query) || problem.slug.includes(query) || problem.id.includes(query))
+  );
+  document.getElementById('resultsMeta').textContent =
+    'Showing ' + filtered.length + ' of ' + PROBLEMS.length + ' unique problems · grouped by difficulty · alphabetical within each group';
+
+  const content = document.getElementById('content');
+  let html = '';
+  for (const difficulty of DIFFICULTIES) {
+    const problems = filtered.filter(problem => problem.difficulty === difficulty);
+    if (!problems.length) continue;
+    html += `<section class="category">
+      <div class="category-header open" role="button" tabindex="0" aria-expanded="true"
+        onclick="toggleCategory(this)" onkeydown="if(event.key==='Enter'||event.key===' '){event.preventDefault();toggleCategory(this)}">
+        <span class="arrow" aria-hidden="true">&#9654;</span>
+        <strong>${difficulty}</strong>
+        <span class="badge ${DIFFICULTY_CLASS[difficulty]}">${problems.length}</span>
+      </div>
+      <ul class="problem-list open">${problems.map(problem =>
+        `<li><a href="${problem.href}" aria-label="${problem.title}, ${difficulty}">
+          <span class="problem-title">${problem.id ? `<span class="problem-id">#${problem.id}</span>` : ''}${problem.title}</span>
+        </a></li>`
+      ).join('')}</ul>
+    </section>`;
+  }
+  content.innerHTML = html || '<div class="empty-state">No problems match your search.</div>';
 }
 
-function render() {
-  searchQuery = document.getElementById('search').value.toLowerCase().trim();
-  const langData = DATA[currentLang];
-  const el = document.getElementById('content');
-  const diffs = ['Easy','Medium','Hard'];
-  let hasAny = false;
-  let html = '';
-
-  for (const diff of diffs) {
-    const problems = langData[diff] || [];
-    let filtered = problems;
-    if (currentDiff !== 'all') filtered = problems;
-    if (searchQuery) filtered = filtered.filter(p => p.includes(searchQuery));
-    if (currentDiff !== 'all' && currentDiff !== diff.toLowerCase()) filtered = [];
-
-    if (filtered.length === 0 && currentDiff === 'all' && !searchQuery) filtered = problems;
-
-    const visible = filtered.length > 0;
-    if (visible) hasAny = true;
-
-    html += `<div class="category">
-      <div class="category-header open" onclick="this.classList.toggle('open'); this.nextElementSibling.classList.toggle('open')">
-        <span class="arrow">&#9654;</span>
-        <strong>${diff}</strong>
-        <span class="badge ${diff.toLowerCase()}">${problems.length}</span>
-        ${searchQuery || currentDiff !== 'all' ? `<span style="color:var(--muted);font-size:.8rem;margin-left:8px">${filtered.length} shown</span>` : ''}
-      </div>
-      <ul class="problem-list open">${filtered.map(p =>
-        `<li><a href="./problems/${SLUG_MAP[currentLang]}/${diff}/${p}/" target="_blank">${p}</a></li>`
-      ).join('')}</ul>
-    </div>`;
-  }
-
-  el.innerHTML = hasAny ? html : '<div class="empty-state">No problems match your search.</div>';
+function toggleCategory(header) {
+  header.classList.toggle('open');
+  header.setAttribute('aria-expanded', header.classList.contains('open') ? 'true' : 'false');
+  header.nextElementSibling.classList.toggle('open');
 }
 
 renderStats();
-renderTabs();
 render();
 </script>
 </body>
