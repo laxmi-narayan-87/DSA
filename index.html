@@ -206,7 +206,11 @@
   .problem-list.open { display: block; }
   .problem-list li { }
   .problem-list li a {
-    display: block;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 8px;
     padding: 8px 16px 8px 28px;
     color: var(--text);
     text-decoration: none;
@@ -320,7 +324,7 @@ const PROBLEMS = [{"title":"3Sum","id":"0015","difficulty":"Medium","platform":"
 let currentDiff = 'all';
 
 function getRating(problem) {
-  const match = problem.title.match(/\\bRating\\s+(\\d+)\\b/i);
+  const match = problem.title.match(/\bRating\s+(\d+)\b/i);
   return match ? Number(match[1]) : null;
 }
 
