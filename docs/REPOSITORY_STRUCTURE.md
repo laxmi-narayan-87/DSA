@@ -1,6 +1,6 @@
 # Repository Structure
 
-The repository separates platform submissions, language-focused archives, reusable algorithm/data-structure references, and the static problem browser.
+The repository separates platform submissions, language-focused archives, reusable algorithm/data-structure references, and the static problem browser. The 2026 LeetCode daily archive is organized under `solutions/platforms/leetcode/` by difficulty and problem ID; `problems/2026/README.md` remains as a dated migration index.
 
 ## Current layout
 
@@ -34,7 +34,7 @@ The platform and language folders were moved under `solutions/` while retaining 
 |---|---|---|
 | `solutions/platforms/` | Platform-specific submissions | Keep each platform grouped under one directory |
 | `solutions/languages/` | Language-focused archives and standalone examples | Use lowercase language directory names |
-| `problems/` | Pages/data consumed by the existing static browser | Compatibility-sensitive; preserve existing paths |
+| `problems/` | Static-browser content and archive indexes | Preserve browser-consumed paths; use platform folders for new or migrated LeetCode problem content |
 | `algorithms/` | Reusable algorithm implementations and explanations | Organize by algorithm family |
 | `data-structures/` | Data-structure implementations and explanations | Organize by structure using lowercase directory names |
 | `data-structures/linked-lists/` | Linked-list theory, implementation, examples, and practice topics | Keep reusable references here; platform submissions stay in the platform archive |
@@ -60,6 +60,6 @@ For data-structure topic folders, use this structure when applicable:
 3. Use lowercase directory names and kebab-case slugs for new folders.
 4. Keep a preferred solution clear; retain alternatives only when they add learning value.
 5. Do not delete historical submissions as part of structural changes.
-6. Preserve existing `problems/` paths and do not redesign `index.html` during repository organization.
+6. Preserve paths consumed by the existing static browser and do not redesign `index.html` during repository organization; daily LeetCode statements and solutions belong under `solutions/platforms/leetcode/`.
 7. Check relative Markdown links and image references when changing paths.
 8. Treat duplicate detection and deduplication as a separate audited phase; identical content alone is not enough to justify deletion.
