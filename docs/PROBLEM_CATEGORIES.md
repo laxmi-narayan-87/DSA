@@ -131,4 +131,4 @@ Complex problems requiring deep understanding:
 
 ## Language-specific archives
 
-The former `problems/C++/` archive has been migrated to [solutions/languages/cpp/](../solutions/languages/cpp/). Platform-specific LeetCode folders remain separate under `solutions/platforms/leetcode/`; the language archive retains its own copies of statements and C++ source files.
+C++ submissions are organized under [solutions/languages/cpp/](../solutions/languages/cpp/). Platform-specific LeetCode folders remain separate under `solutions/platforms/leetcode/`; language archives retain their own copies where applicable.

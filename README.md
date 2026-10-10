@@ -42,7 +42,6 @@ DSA/
 │   ├── linked-lists/    # Linked list theory, code, examples, practice
 │   ├── trees/           # Traversals, BSTs, balanced-tree notes
 │   └── graphs/          # Representations, BFS/DFS, graph algorithms
-├── problems/            # Daily notes and browser-linked problem content
 ├── docs/                # Structure, migration, and solution documentation
 ├── CONTRIBUTING.md
 ├── LICENSE
@@ -58,13 +57,13 @@ DSA/
 | CodeChef submissions | [`solutions/platforms/codechef/`](solutions/platforms/codechef/) |
 | HackerRank submissions | [`solutions/platforms/hackerrank/`](solutions/platforms/hackerrank/) |
 | GeeksforGeeks submissions | [`solutions/platforms/geeksforgeeks/`](solutions/platforms/geeksforgeeks/) |
-| Python and SQL archives | [`solutions/languages/`](solutions/languages/) |
+| Language archives (C++, Python, SQL) | [`solutions/languages/`](solutions/languages/) |
 | Algorithm guides | [`algorithms/`](algorithms/) |
 | Array notes | [`data-structures/arrays/`](data-structures/arrays/) |
 | Linked list guide and implementation | [`data-structures/linked-lists/`](data-structures/linked-lists/) |
 | Tree guide and existing deep-dive notes | [`data-structures/trees/`](data-structures/trees/) |
 | Graph guide and traversal implementation | [`data-structures/graphs/`](data-structures/graphs/) |
-| Daily problem notes | [`problems/`](problems/) |
+| 2026 LeetCode daily index | [`solutions/platforms/leetcode/2026-daily-index.md`](solutions/platforms/leetcode/2026-daily-index.md) |
 | Repository conventions | [`docs/REPOSITORY_STRUCTURE.md`](docs/REPOSITORY_STRUCTURE.md) |
 | Adding or updating solutions | [`CONTRIBUTING.md`](CONTRIBUTING.md) |
 
@@ -82,7 +81,7 @@ DSA/
 
 Open [`index.html`](index.html) in the repository or visit the [GitHub Pages site](https://laxmi-narayan-87.github.io/DSA/) if GitHub Pages is enabled for this repository.
 
-The browser's LeetCode links use the platform-based archive. Language-focused SQL solutions live in `solutions/languages/mysql/`; the former `problems/MySQL/` copies have been merged there.
+The browser's LeetCode links use the platform-based archive. The 2026 daily index and problem-category practice roadmap now live under `solutions/platforms/leetcode/` and `docs/`, respectively.
 
 ---
 

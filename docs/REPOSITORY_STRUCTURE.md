@@ -1,6 +1,6 @@
 # Repository Structure
 
-The repository separates platform submissions, language-focused archives, reusable algorithm/data-structure references, and the static problem browser. The 2026 LeetCode daily archive is organized under `solutions/platforms/leetcode/` by difficulty and problem ID; `problems/2026/README.md` remains as a dated migration index.
+The repository separates platform submissions, language-focused archives, reusable algorithm/data-structure references, and the static problem browser. The 2026 LeetCode daily archive is organized under `solutions/platforms/leetcode/` by difficulty and problem ID. Its dated index is `solutions/platforms/leetcode/2026-daily-index.md`; the problem-category practice roadmap is `docs/PROBLEM_CATEGORIES.md`.
 
 ## Current layout
 
@@ -22,7 +22,6 @@ data-structures/
   trees/
     notes/
   graphs/
-problems/
 docs/
 index.html
 ```
@@ -35,7 +34,6 @@ The platform and language folders were moved under `solutions/` while retaining 
 |---|---|---|
 | `solutions/platforms/` | Platform-specific submissions | Keep each platform grouped under one directory |
 | `solutions/languages/` | Language-focused archives and standalone examples | Use lowercase language directory names |
-| `problems/` | Static-browser content and archive indexes | Preserve browser-consumed paths; use platform folders for new or migrated LeetCode problem content |
 | `algorithms/` | Reusable algorithm implementations and explanations | Organize by algorithm family |
 | `data-structures/` | Data-structure implementations and explanations | Organize by structure using lowercase directory names |
 | `data-structures/linked-lists/` | Linked-list theory, implementation, examples, and practice topics | Keep reusable references here; platform submissions stay in the platform archive |
@@ -50,7 +48,7 @@ For data-structure topic folders, use this structure when applicable:
 
 - `README.md` — concepts, trade-offs, complexity, and links to other notes.
 - `implementation/` — small runnable reference implementations.
-- `problems/README.md` — practice roadmap; do not copy platform submissions here.
+- `docs/PROBLEM_CATEGORIES.md` — general practice roadmap; platform submissions remain in `solutions/platforms/`.
 - `examples/README.md` — traces and edge cases.
 - `notes/` — focused deep dives for specialized variants.
 
@@ -61,6 +59,6 @@ For data-structure topic folders, use this structure when applicable:
 3. Use lowercase directory names and kebab-case slugs for new folders.
 4. Keep a preferred solution clear; retain alternatives only when they add learning value.
 5. Do not delete historical submissions as part of structural changes.
-6. Preserve paths consumed by the existing static browser and do not redesign `index.html` during repository organization; daily LeetCode statements and solutions belong under `solutions/platforms/leetcode/`.
+6. Preserve the existing static browser behavior and only update links when their targets move; daily LeetCode statements, solutions, and the dated index belong under `solutions/platforms/leetcode/`.
 7. Check relative Markdown links and image references when changing paths.
 8. Treat duplicate detection and deduplication as a separate audited phase; identical content alone is not enough to justify deletion.

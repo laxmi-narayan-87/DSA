@@ -13,7 +13,7 @@ Each problem folder contains its original statement in `README.md` and solution 
 
 ## 2026 daily problem archive
 
-The complete January–February 2026 archive (35 statements and 35 solutions) has been moved into the matching difficulty folders. Use the [2026 migration index](../../../problems/2026/README.md) to browse all 35 entries by date, title, and difficulty.
+The complete January–February 2026 archive (35 statements and 35 solutions) has been moved into the matching difficulty folders. Use the [2026 migration index](../2026-daily-index.md) to browse all 35 entries by date, title, and difficulty.
 
 ## Migrated notes
 
