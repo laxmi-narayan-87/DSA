@@ -17,10 +17,12 @@ The following archives were moved into the `solutions/` namespace, preserving th
 ## Explicitly preserved
 
 - The initial migration preserved `index.html`; the problem browser was subsequently updated to use the consolidated Python archive.
-- Every path under `problems/` was preserved because the existing browser links directly to these paths.
+- The legacy `problems/Python3/` archive was moved into `solutions/languages/python/`; the browser links were updated to the new locations.
+- Other paths under `problems/` remain unchanged.
 - `algorithms/` and `data-structures/` remain at the repository root; their browser links are unchanged.
 - Source and Markdown files were moved as tree entries, without rewriting their contents.
-- The separate `solutions/languages/python3/` directory was merged into `solutions/languages/python/`; all 103 files from the Python 3 archive were retained.
+- The separate `solutions/languages/python3/` directory was merged into `solutions/languages/python/`; all 103 files from that archive were retained.
+- The legacy `problems/Python3/` archive was also consolidated into `solutions/languages/python/`; all 205 files were retained without path collisions.
 - Historical duplicates and alternative solutions were retained.
 
 ## Follow-up audit
@@ -33,6 +35,6 @@ Recommended next checks:
 2. Inventory solutions by platform, problem ID, language, and content hash.
 3. Identify exact duplicates separately from distinct approaches.
 4. Add syntax checks/tests for selected canonical solutions before any deduplication.
-5. Validate the static browser against the unchanged `problems/` paths.
+5. Validate the static browser against the consolidated `solutions/languages/python/` paths and remaining `problems/` paths.
 
 Do not delete legacy or duplicate-looking solutions without checking provenance and references.
