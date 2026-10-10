@@ -4,25 +4,25 @@ This directory stores the 2026 daily LeetCode problem statements and solutions. 
 
 ## Archive status
 
-| Month | Problem statements | Solutions | Notes |
+| Month | Problem statements | Solutions | Status |
 |---|---:|---:|---|
-| January | 31 | 31 | One statement was incorrectly named `13-January-2025.md`; its content is for LeetCode 3453 (Separate Squares I), and the matching 2026 entry is the January 13 item. |
-| February | 4 | 3 | The February 4 statement has no matching solution file in this archive yet. |
-| **Total files represented** | **35** | **34** | Counts are files, not unique problem titles. |
+| January | 31 | 31 | Complete; January 13 filename corrected to 2026. |
+| February | 4 | 4 | Complete for the statements currently in this archive. |
+| **Total** | **35** | **35** | Counts are files, not unique problem titles. |
 
 ## January 2026
 
 - [Question statements](Leetcode%20Daily%20Problem%20/Question/)
 - [Solutions](Leetcode%20Daily%20Problem%20/Solution/)
 
-Question and solution files are named `DD-January-2026.md`. Check that the date and problem title match before adding or editing an entry.
+Question and solution files use the `DD-January-2026.md` naming pattern. Confirm the date and problem title match when adding or editing a file.
 
 ## February 2026
 
 - [Question statements](February%20/Leetcode%20Daily%20Problems/Question/)
 - [Solutions](February%20/Leetcode%20Daily%20Problems/Solution%20/)
 
-Question and solution files are named `DD-February-2026.md`. The current archive contains statements for February 1–4 and solutions for February 1–3; add the missing February 4 solution when it is available.
+Question and solution files use the `DD-February-2026.md` naming pattern. The February 4 solution for **3640. Trionic Array II** is now included.
 
 ## File naming and maintenance rules
 
@@ -30,5 +30,4 @@ Question and solution files are named `DD-February-2026.md`. The current archive
 2. Keep each day's statement and solution aligned by date and problem title.
 3. Do not count a question as solved just because a statement file exists.
 4. When adding a daily problem, update this index and keep statement/solution links relative to this directory.
-5. Avoid trailing spaces in new folder and file names. Existing legacy paths are linked as they currently exist to avoid breaking links.
-
+5. Avoid trailing spaces in new folder and file names. Existing legacy paths are linked as they currently exist to avoid breaking existing links.
