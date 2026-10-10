@@ -128,3 +128,7 @@ Complex problems requiring deep understanding:
 - **Discussion Forums**: Reddit r/leetcode, LeetCode discussions
 - **Video Solutions**: YouTube channels like NeetCode, Tech With Tim
 - **Books**: "Cracking the Coding Interview", "Elements of Programming Interviews"
+
+## Language-specific archives
+
+The former `problems/C++/` archive has been migrated to [solutions/languages/cpp/](../solutions/languages/cpp/). Platform-specific LeetCode folders remain separate under `solutions/platforms/leetcode/`; the language archive retains its own copies of statements and C++ source files.

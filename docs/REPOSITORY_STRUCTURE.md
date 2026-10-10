@@ -12,6 +12,7 @@ solutions/
     hackerrank/
     leetcode/
   languages/
+    cpp/
     mysql/
     python/
 algorithms/
@@ -26,7 +27,7 @@ docs/
 index.html
 ```
 
-The platform and language folders were moved under `solutions/` while retaining their internal paths and file contents. `gfg/` was renamed to `geeksforgeeks/`; MySQL lives under `solutions/languages/mysql/`. The Python and Python 3 archives are combined under `solutions/languages/python/`. Existing tree deep dives are retained under `data-structures/trees/notes/`.
+The platform and language folders were moved under `solutions/` while retaining their internal paths and file contents. `gfg/` was renamed to `geeksforgeeks/`; MySQL lives under `solutions/languages/mysql/`. The Python and Python 3 archives are combined under `solutions/languages/python/`. The C++ archive is consolidated under `solutions/languages/cpp/`, preserving each statement and timestamped source file. Existing tree deep dives are retained under `data-structures/trees/notes/`.
 
 ## Directory responsibilities
 
