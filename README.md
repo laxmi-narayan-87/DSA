@@ -4,7 +4,7 @@
 
 **A collection of coding solutions, platform submissions, algorithm notes, and data-structure references.**
 
-[![Python](https://img.shields.io/badge/Python-solutions-3776AB?logo=python&logoColor=white)](solutions/languages/python3/)
+[![Python](https://img.shields.io/badge/Python-solutions-3776AB?logo=python&logoColor=white)](solutions/languages/python/)
 [![C++](https://img.shields.io/badge/C%2B%2B-solutions-00599C?logo=cplusplus&logoColor=white)](solutions/platforms/codechef/)
 [![SQL](https://img.shields.io/badge/SQL-solutions-4479A1?logo=mysql&logoColor=white)](solutions/languages/mysql/)
 [![License](https://img.shields.io/badge/License-see%20LICENSE-blue)](LICENSE)
@@ -41,8 +41,7 @@ DSA/
 │   │   └── leetcode/       # LeetCode submissions
 │   └── languages/
 │       ├── mysql/          # SQL-focused archive
-│       ├── python/         # Python archive
-│       └── python3/        # Python 3 archive
+│       └── python/         # Combined Python and Python 3 archive
 ├── algorithms/             # Algorithm explanations and examples
 ├── data-structures/        # Data-structure notes and implementations
 ├── problems/               # Daily notes and browser-linked problem content
