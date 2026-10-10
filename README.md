@@ -74,13 +74,13 @@ DSA/
 - Use clear, lowercase directory names and kebab-case slugs for new problem folders.
 - Include an original explanation and time/space complexity where appropriate.
 - Preserve meaningful alternative approaches and historical submissions; do not remove duplicates without checking their content and references.
-- Treat `problems/` paths as compatibility-sensitive because the existing browser links to them.
+- Keep the language-focused MySQL archive under `solutions/languages/mysql/`; platform-specific copies remain under `solutions/platforms/leetcode/`.
 
 ## 🌐 Problem browser
 
 Open [`index.html`](index.html) in the repository or visit the [GitHub Pages site](https://laxmi-narayan-87.github.io/DSA/) if GitHub Pages is enabled for this repository.
 
-The existing browser sections and the paths under `problems/` were intentionally left unchanged during the directory consolidation.
+The browser's LeetCode links use the platform-based archive. Language-based SQL solutions are consolidated under `solutions/languages/mysql/`; older `problems/MySQL/` copies have been merged there.
 
 ---
 
