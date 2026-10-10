@@ -14,7 +14,6 @@ solutions/
   languages/
     mysql/
     python/
-    python3/
 algorithms/
 data-structures/
 problems/
@@ -22,7 +21,7 @@ docs/
 index.html
 ```
 
-The platform and language folders were moved under `solutions/` while retaining their internal paths and file contents. `gfg/` was renamed to `geeksforgeeks/`; `MySQL/`, `Python/`, and `Python3/` now live under `solutions/languages/`.
+The platform and language folders were moved under `solutions/` while retaining their internal paths and file contents. `gfg/` was renamed to `geeksforgeeks/`; `MySQL/` lives under `solutions/languages/mysql/`. The `Python/` and `Python3/` archives are combined under `solutions/languages/python/`.
 
 ## Directory responsibilities
 
@@ -34,7 +33,7 @@ The platform and language folders were moved under `solutions/` while retaining 
 | `algorithms/` | Reusable algorithm implementations and explanations | Organize by algorithm family |
 | `data-structures/` | Data-structure implementations and explanations | Organize by data structure |
 | `docs/` | Repository conventions, templates, migration notes | Documentation only |
-| `index.html` | Existing static problem browser | Keep its sections and behavior unchanged |
+| `index.html` | Static problem browser | Keep the difficulty-based browser behavior and problem links intact |
 
 ## Rules for future changes
 
