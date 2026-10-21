@@ -51,3 +51,18 @@
 *Last updated: 2026-10-18* · Powered by [**PushMyCode**](https://github.com/PushMyCode-HQ)
 
 </div>
+<!---LeetCode Topics Start-->
+# LeetCode Topics
+## Math
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0070-climbing-stairs](https://github.com/laxmi-narayan-87/DSA/tree/main/Python3/Easy/0070-climbing-stairs/) | Easy |
+## Dynamic Programming
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0070-climbing-stairs](https://github.com/laxmi-narayan-87/DSA/tree/main/Python3/Easy/0070-climbing-stairs/) | Easy |
+## Memoization
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0070-climbing-stairs](https://github.com/laxmi-narayan-87/DSA/tree/main/Python3/Easy/0070-climbing-stairs/) | Easy |
+<!---LeetCode Topics End-->
