@@ -69,19 +69,19 @@ The optimal path is `0 → 3` with total cost = `costs[3] + (3 - 0)2 = 3 + 9 = 1
 ## Solution
 
 **Language:** Python  
-**Runtime:** 666 ms (beats 43.91%)  
-**Memory:** 33.3 MB (beats 89.80%)  
-**Submitted:** 2026-10-21T09:37:55.863Z  
+**Runtime:** 646 ms (beats 46.46%)  
+**Memory:** 33.5 MB (beats 53.89%)  
+**Submitted:** 2026-10-22T08:27:47.182Z  
 
 ```py
 class Solution:
     def climbStairs(self, n: int, costs: List[int]) -> int:
-        dp = [float('inf')] * (n + 1)
+        dp=[float('inf')]*(n+1)
         dp[0]=0
         for i in range(1,n+1):
             for j in range(max(0,i-3),i):
                 jump=i-j
-                dp[i]=min(dp[i], dp[j]+jump*jump +costs[i-1])
+                dp[i]=min(dp[i], dp[j]+jump*jump+costs[i-1])
         return dp[n]
 ```
 
