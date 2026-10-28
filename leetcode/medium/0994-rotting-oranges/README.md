@@ -54,9 +54,9 @@ Explanation: Since there are already no fresh oranges at minute 0, the answer is
 ## Solution
 
 **Language:** Python  
-**Runtime:** 0 ms  
-**Memory:** 19.3 MB  
-**Submitted:** 2026-10-28T06:58:50.678Z  
+**Runtime:** 5 ms (beats 22.56%)  
+**Memory:** 19.2 MB (beats 74.49%)  
+**Submitted:** 2026-10-28T06:58:55.404Z  
 
 ```py
 class Solution:
