@@ -2,7 +2,7 @@
 
 # 🧠 Coding Solutions
 
-![Total Solved](https://img.shields.io/badge/Total_Solved-614-blue?style=for-the-badge)
+![Total Solved](https://img.shields.io/badge/Total_Solved-615-blue?style=for-the-badge)
 ![Streak](https://img.shields.io/badge/Streak-2_days-orange?style=for-the-badge)
 ![Last Synced](https://img.shields.io/badge/Last_Synced-10--29--2026-green?style=for-the-badge)
 
@@ -17,15 +17,15 @@
 | Difficulty | Solved |
 |:---:|:---:|
 | 🟢 Easy | **206** |
-| 🟡 Medium | **406** |
+| 🟡 Medium | **407** |
 | 🔴 Hard | **2** |
-| **Total** | **614** |
+| **Total** | **615** |
 
 ## 🛠️ Languages
 
 | Language | Solutions |
 |:---:|:---:|
-| Python | **423** |
+| Python | **424** |
 | SQL | **129** |
 | C++ | **36** |
 | Java | **24** |
@@ -51,26 +51,3 @@
 *Last updated: 2026-10-29* · Powered by [**PushMyCode**](https://github.com/PushMyCode-HQ)
 
 </div>
-<!---LeetCode Topics Start-->
-# LeetCode Topics
-## Depth-First Search
-| Problem Name | Difficulty |
-| ------- | ------- |
-| [0207-course-schedule](https://github.com/laxmi-narayan-87/DSA/tree/main/Python3/Medium/0207-course-schedule/) | Medium |
-## Breadth-First Search
-| Problem Name | Difficulty |
-| ------- | ------- |
-| [0207-course-schedule](https://github.com/laxmi-narayan-87/DSA/tree/main/Python3/Medium/0207-course-schedule/) | Medium |
-## Graph Theory
-| Problem Name | Difficulty |
-| ------- | ------- |
-| [0207-course-schedule](https://github.com/laxmi-narayan-87/DSA/tree/main/Python3/Medium/0207-course-schedule/) | Medium |
-## Topological Sort
-| Problem Name | Difficulty |
-| ------- | ------- |
-| [0207-course-schedule](https://github.com/laxmi-narayan-87/DSA/tree/main/Python3/Medium/0207-course-schedule/) | Medium |
-## Directed Acyclic Graph
-| Problem Name | Difficulty |
-| ------- | ------- |
-| [0207-course-schedule](https://github.com/laxmi-narayan-87/DSA/tree/main/Python3/Medium/0207-course-schedule/) | Medium |
-<!---LeetCode Topics End-->
