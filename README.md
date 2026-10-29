@@ -51,3 +51,26 @@
 *Last updated: 2026-10-28* · Powered by [**PushMyCode**](https://github.com/PushMyCode-HQ)
 
 </div>
+<!---LeetCode Topics Start-->
+# LeetCode Topics
+## Depth-First Search
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0207-course-schedule](https://github.com/laxmi-narayan-87/DSA/tree/main/Python3/Medium/0207-course-schedule/) | Medium |
+## Breadth-First Search
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0207-course-schedule](https://github.com/laxmi-narayan-87/DSA/tree/main/Python3/Medium/0207-course-schedule/) | Medium |
+## Graph Theory
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0207-course-schedule](https://github.com/laxmi-narayan-87/DSA/tree/main/Python3/Medium/0207-course-schedule/) | Medium |
+## Topological Sort
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0207-course-schedule](https://github.com/laxmi-narayan-87/DSA/tree/main/Python3/Medium/0207-course-schedule/) | Medium |
+## Directed Acyclic Graph
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0207-course-schedule](https://github.com/laxmi-narayan-87/DSA/tree/main/Python3/Medium/0207-course-schedule/) | Medium |
+<!---LeetCode Topics End-->
