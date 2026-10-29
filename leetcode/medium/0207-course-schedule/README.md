@@ -45,34 +45,45 @@ To take course 1 you should have finished course 0, and to take course 0 you sho
 ## Solution
 
 **Language:** Python  
-**Runtime:** 6 ms (beats 49.16%)  
-**Memory:** 21.3 MB (beats 18.75%)  
-**Submitted:** 2026-10-29T06:47:18.150Z  
+**Runtime:** 3 ms (beats 87.08%)  
+**Memory:** 21.3 MB (beats 24.70%)  
+**Submitted:** 2026-10-29T07:18:19.319Z  
 
 ```py
+
 class Solution:
     def canFinish(self, numCourses: int, prerequisites: list[list[int]]) -> bool:
-        graph=[[] for _ in range(numCourses)]
+        graph = [[] for _ in range(numCourses)]
+
         for u, v in prerequisites:
             graph[v].append(u)
-        visited=set()
-        path=set()
+
+        visited = set()
+        path = set()
+
         def dfs(u):
             if u in path:
                 return False
+
             if u in visited:
                 return True
+
             path.add(u)
+
             for neigh in graph[u]:
                 if not dfs(neigh):
                     return False
+
             path.remove(u)
             visited.add(u)
             return True
+
         for u in range(numCourses):
             if not dfs(u):
                 return False
+
         return True
+
 ```
 
 ---
