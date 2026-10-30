@@ -56,13 +56,19 @@
 ## Math
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0013-roman-to-integer](https://github.com/laxmi-narayan-87/DSA/tree/main/Python3/Easy/0013-roman-to-integer/) | Easy |
 | [0412-fizz-buzz](https://github.com/laxmi-narayan-87/DSA/tree/main/Python3/Easy/0412-fizz-buzz/) | Easy |
 ## String
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0013-roman-to-integer](https://github.com/laxmi-narayan-87/DSA/tree/main/Python3/Easy/0013-roman-to-integer/) | Easy |
 | [0412-fizz-buzz](https://github.com/laxmi-narayan-87/DSA/tree/main/Python3/Easy/0412-fizz-buzz/) | Easy |
 ## Simulation
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0412-fizz-buzz](https://github.com/laxmi-narayan-87/DSA/tree/main/Python3/Easy/0412-fizz-buzz/) | Easy |
+## Hash Table
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0013-roman-to-integer](https://github.com/laxmi-narayan-87/DSA/tree/main/Python3/Easy/0013-roman-to-integer/) | Easy |
 <!---LeetCode Topics End-->
