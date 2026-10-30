@@ -51,3 +51,18 @@
 *Last updated: 2026-10-29* · Powered by [**PushMyCode**](https://github.com/PushMyCode-HQ)
 
 </div>
+<!---LeetCode Topics Start-->
+# LeetCode Topics
+## Math
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0412-fizz-buzz](https://github.com/laxmi-narayan-87/DSA/tree/main/Python3/Easy/0412-fizz-buzz/) | Easy |
+## String
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0412-fizz-buzz](https://github.com/laxmi-narayan-87/DSA/tree/main/Python3/Easy/0412-fizz-buzz/) | Easy |
+## Simulation
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0412-fizz-buzz](https://github.com/laxmi-narayan-87/DSA/tree/main/Python3/Easy/0412-fizz-buzz/) | Easy |
+<!---LeetCode Topics End-->
